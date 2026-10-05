@@ -143,7 +143,18 @@ def main():
                 break
             start = time.time()
             try:
-                run = item.run(llm=llm, **row)
+                while True:
+                    try:
+                        run = item.run(llm=llm, **row)
+                        break
+                    except openai.RateLimitError as e:
+                        m = re.search(r"per day.*?try again in ([\dhms.]+)", str(e), re.S)
+                        if not m:
+                            raise
+                        wait = _seconds(m.group(1)) + 5
+                        print(f"  daily token limit reached; waiting {wait / 60:.1f} min", flush=True)
+                        time.sleep(wait)
+                        start = time.time()
                 res = run.result if isinstance(run.result, dict) else None
                 if res is None:
                     raise RuntimeError(getattr(run, "error_message", "task failed"))
