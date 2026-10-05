@@ -1,0 +1,7 @@
+{
+  "title": "PageTwins: one-defect landing page pairs",
+  "subtitle": "120 synthetic landing pages: clean pages, one-defect twins and controls",
+  "id": "KAGGLE_USERNAME/pagetwins",
+  "licenses": [{"name": "CC-BY-4.0"}],
+  "keywords": ["computer vision", "nlp", "web", "benchmark"]
+}

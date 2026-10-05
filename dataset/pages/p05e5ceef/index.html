@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Driftwool · The merino travel hoodie</title><style>:root{--primary:#1F2937;--primary-ink:#FFFFFF;--accent:#ECE9E2;--bg:#FFFFFF;--hero-bg:#F4F2ED;--surface:#F7F6F2;--text:#1C1B19;--muted:#5E5A52;--border:#E4E0D7;--band-bg:#2B2A27;--band-ink:#F4F2ED;--font-head:"Palatino Linotype", Palatino, Georgia, serif;--font-body:"Segoe UI", system-ui, sans-serif;--radius:6px;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-body);color:var(--text);background:var(--bg);font-size:16px;line-height:1.55;position:relative}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 40px}
+.nav{background:var(--hero-bg);border-bottom:1px solid var(--border)}
+.nav .wrap{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--font-head);font-weight:700;font-size:20px;letter-spacing:-.01em}
+.nav-links{display:flex;gap:30px;font-size:15px;color:var(--muted)}
+.nav-actions{display:flex;align-items:center;gap:20px;font-size:15px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:calc(var(--radius) * .7);font-weight:600;font-size:16px;padding:14px 24px;border:1.5px solid transparent;white-space:nowrap;line-height:1.2;font-family:var(--font-body)}
+.btn-primary{background:var(--primary);color:var(--primary-ink);box-shadow:0 8px 20px -10px var(--primary)}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--border)}
+.btn-sm{padding:9px 16px;font-size:14px;box-shadow:none}
+.hero{background:var(--hero-bg);padding:72px 0 70px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.tpl-app .hero-grid{grid-template-columns:1.2fr .8fr}
+.tpl-product .hero-grid{grid-template-columns:1fr 1fr}
+.tpl-centered .hero-copy{text-align:center;max-width:840px;margin:0 auto}
+.tpl-centered .hero-visual{margin:50px auto 0;max-width:880px}
+.eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--primary);background:var(--accent);padding:6px 12px;border-radius:999px;margin-bottom:22px}
+.headline{font-family:var(--font-head);font-size:54px;line-height:1.08;letter-spacing:-.02em;font-weight:800;color:var(--text);margin-bottom:20px}
+.tpl-centered .headline{font-size:58px;max-width:780px;margin-left:auto;margin-right:auto}
+.subhead{font-size:19px;line-height:1.6;color:var(--muted);margin-bottom:30px;max-width:560px}
+.tpl-centered .subhead{margin-left:auto;margin-right:auto;max-width:660px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.tpl-centered .hero-ctas{justify-content:center}
+.hero-note{font-size:14px;color:var(--muted)}
+.price-line{display:flex;align-items:baseline;gap:12px;margin-bottom:24px}
+.price-line strong{font-size:34px;font-family:var(--font-head);letter-spacing:-.01em}
+.price-line span{color:var(--muted);font-size:15px}
+.hero-visual img{display:block;width:100%;height:auto;border-radius:var(--radius)}
+.tpl-app .hero-visual img{max-width:400px;margin-left:auto}
+.proof{padding:30px 0;border-bottom:1px solid var(--border);background:var(--bg)}
+.proof .wrap{display:flex;align-items:center;justify-content:center;gap:34px;flex-wrap:wrap}
+.proof-label{font-size:14.5px;color:var(--muted);font-weight:600}
+.logos{display:flex;gap:34px}
+.logos span{font-family:var(--font-head);font-weight:700;font-size:18px;color:var(--muted);opacity:.8;letter-spacing:-.01em}
+.stars{color:#F59E0B;font-size:19px;letter-spacing:3px}
+section.block{padding:64px 0}
+.section-title{font-family:var(--font-head);font-size:34px;line-height:1.2;letter-spacing:-.015em;font-weight:700;text-align:center;margin-bottom:38px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
+.icon{width:40px;height:40px;border-radius:10px;background:var(--accent);color:var(--primary);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-weight:800;font-size:17px}
+.card h3{font-size:18px;margin-bottom:8px;font-family:var(--font-head)}
+.card p{color:var(--muted);font-size:15.5px}
+.testimonial{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.testimonial blockquote{max-width:780px;margin:0 auto;text-align:center;font-family:var(--font-head);font-size:25px;line-height:1.45;font-weight:500}
+.person{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:24px;text-align:left}
+.avatar{width:46px;height:46px;border-radius:50%;background:var(--primary);color:var(--primary-ink);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
+.person strong{display:block;font-size:15px}
+.person span{font-size:14px;color:var(--muted)}
+.tiers{display:grid;gap:22px;justify-content:center}
+.tiers.n2{grid-template-columns:repeat(2,350px)}
+.tiers.n3{grid-template-columns:repeat(3,1fr)}
+.tier{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:30px;position:relative;display:flex;flex-direction:column}
+.tier.popular{border:2px solid var(--primary)}
+.badge{position:absolute;top:-13px;left:28px;background:var(--primary);color:var(--primary-ink);font-size:12px;font-weight:700;padding:4px 11px;border-radius:999px}
+.tier h3{font-size:17px;margin-bottom:10px}
+.price{font-family:var(--font-head);font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.price small{font-size:15px;color:var(--muted);font-weight:500;font-family:var(--font-body);letter-spacing:0;margin-left:6px}
+.tier ul{list-style:none;margin:20px 0 24px;display:grid;gap:10px;font-size:15px;color:var(--muted)}
+.tier li::before{content:"\2713";color:var(--primary);font-weight:800;margin-right:10px}
+.tier .btn{margin-top:auto}
+.pricing-note{text-align:center;color:var(--muted);font-size:14px;margin-top:26px}
+.faq{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 40px;max-width:980px;margin:44px auto 0;padding-top:36px;border-top:1px solid var(--border)}
+.faq dt{font-weight:700;margin-bottom:6px;font-size:16px}
+.faq dd{color:var(--muted);font-size:15.5px}
+.band{background:var(--band-bg);color:var(--band-ink);padding:60px 0;text-align:center}
+.band h2{font-family:var(--font-head);font-size:34px;letter-spacing:-.015em;margin-bottom:24px}
+.band .btn-primary{box-shadow:none}
+.band-ctas{display:flex;gap:12px;justify-content:center}
+.footer{padding:28px 0;font-size:14px;color:var(--muted);background:var(--bg)}
+.footer .wrap{display:flex;justify-content:space-between;align-items:center}
+.footer nav{display:flex;gap:22px}
+.popup-layer{position:absolute;top:0;left:0;right:0;height:800px;background:rgba(10,15,30,.68);display:flex;align-items:center;justify-content:center;z-index:100}
+.popup{background:#fff;color:#111827;width:540px;border-radius:18px;padding:42px 46px;text-align:center;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.popup h3{font-size:27px;line-height:1.25;margin-bottom:10px;font-family:var(--font-head)}
+.popup p{color:#4B5563;margin-bottom:22px;font-size:16px}
+.popup form{display:flex;gap:10px}
+.popup input{flex:1;padding:13px 14px;border:1px solid #D1D5DB;border-radius:10px;font-size:15px;font-family:var(--font-body)}
+.popup .btn{box-shadow:none}
+.popup .close{position:absolute;top:12px;right:18px;font-size:26px;line-height:1;color:#9CA3AF;background:none;border:0}
+.popup .dismiss{display:inline-block;margin-top:16px;font-size:14px;color:#6B7280;text-decoration:underline}
+</style></head><body class="tpl-product"><header class="nav"><div class="wrap"><a href="#" class="logo"><svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#1F2937"/><path d="M5 16 Q9.5 9 14 16 T23 16" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg><span>Driftwool</span></a><nav class="nav-links"><a href="#">Shop</a><a href="#">Fabric</a><a href="#">Reviews</a></nav><div class="nav-actions"><a href="#" class="login">Log in</a><a href="#" class="btn btn-primary btn-sm" data-cta="primary">Shop the hoodie</a></div></div></header><main><section class="hero"><div class="wrap"><div class="hero-grid"><div class="hero-visual"><img src="hero.svg" alt="Driftwool travel hoodie in charcoal with its packing pouch" width="520" height="520"></div><div class="hero-copy"><span class="eyebrow">The Driftwool Travel Hoodie</span><h1 class="headline" style="height:1.6em;overflow:hidden;">One merino hoodie for every flight, hike and long weekend</h1><p class="subhead">Soft 17.5-micron merino that stays fresh for days, packs into its own pocket, and looks sharp enough for dinner.</p><div class="price-line"><strong>$98</strong><span>in 6 colors, sizes XS to XXL</span></div><div class="hero-ctas"><a href="#" class="btn btn-primary" data-cta="primary">Add to cart</a><a href="#" class="btn btn-ghost">Find my size</a></div><p class="hero-note">Free returns within 60 days · Ships in 2 business days</p></div></div></div></section><section class="proof"><div class="wrap"><span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p class="proof-label">Rated 4.7 out of 5 by 1,900 travelers</p></div></section><section class="block" id="features"><div class="wrap"><h2 class="section-title">Made for living out of a backpack</h2><div class="grid3"><div class="card"><div class="icon" aria-hidden="true">1</div><h3>Odor-resistant merino</h3><p>Wear it three days in a row. Merino resists odor naturally, so you can pack less.</p></div><div class="card"><div class="icon" aria-hidden="true">2</div><h3>Packs into its own pocket</h3><p>Folds into the chest pocket to the size of a water bottle. It doubles as a travel pillow.</p></div><div class="card"><div class="icon" aria-hidden="true">3</div><h3>Warm, never sweaty</h3><p>Merino regulates temperature, so you stay warm on a cold plane and cool on a sunny trail.</p></div></div></div></section><section class="block testimonial"><div class="wrap"><blockquote>"I wore it across four countries in two weeks and it still looked and smelled fresh. It is the first thing I pack now."</blockquote><div class="person"><div class="avatar" aria-hidden="true">TR</div><div><strong>Tomas Rivera</strong><span>Verified buyer</span></div></div></div></section><section class="block" id="pricing"><div class="wrap"><h2 class="section-title">Pick your bundle</h2><div class="tiers n2"><div class="tier"><h3>One hoodie</h3><div class="price">$98</div><ul><li>Any color and size</li><li>Free 60-day returns</li><li>Packing pouch included</li></ul><a href="#" class="btn btn-ghost" data-cta="primary">Add to cart</a></div><div class="tier popular"><span class="badge">Most popular</span><h3>Two hoodies</h3><div class="price">$176<small>for two</small></div><ul><li>Mix colors and sizes</li><li>Free 60-day returns</li><li>Best value bundle</li></ul><a href="#" class="btn btn-primary" data-cta="primary">Add both to cart</a></div></div><dl class="faq"><div><dt>What is your return policy?</dt><dd>Return any unworn hoodie within 60 days for a full refund. Return shipping is free.</dd></div><div><dt>How does it fit?</dt><dd>True to size with a relaxed cut. Size up if you like layering.</dd></div></dl></div></section><section class="band"><div class="wrap"><h2>Pack lighter on your next trip</h2><div class="band-ctas"><a href="#" class="btn btn-primary" data-cta="primary">Add to cart</a></div></div></section></main><footer class="footer"><div class="wrap"><span>&copy; 2026 Driftwool Apparel · Designed in Vancouver, Canada</span><nav><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></nav></div></footer></body></html>

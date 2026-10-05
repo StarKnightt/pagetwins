@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.run.json
+*.task.json
+.env
+.env.*
+kaggle.json
+results/smoke/
+results/logs/
+results/kaggle_raw/
+.kbench_cache*/

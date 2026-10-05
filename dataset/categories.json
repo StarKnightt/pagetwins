@@ -1,0 +1,24 @@
+{
+ "defects": {
+  "missing_cta": "There is no button or link to sign up, buy or start.",
+  "hidden_price": "The page never says what the paid product or plans cost.",
+  "contradiction": "Two parts of the page make claims that cannot both be true.",
+  "vague_headline": "The main headline does not say what the product is or does.",
+  "typos": "Misspelled words in prominent text such as the headline.",
+  "placeholder_text": "Leftover template text such as 'Lorem ipsum' or '{{name}}' is visible.",
+  "low_contrast": "Important text is very hard to read against its background.",
+  "broken_image": "An image failed to load and shows an empty box or broken-image icon.",
+  "blocking_popup": "A popup or overlay covers the main content when the page opens.",
+  "cut_off_text": "Text is cut off or hidden by another element, so it cannot be fully read."
+ },
+ "text_visible": [
+  "blocking_popup",
+  "contradiction",
+  "hidden_price",
+  "missing_cta",
+  "placeholder_text",
+  "typos",
+  "vague_headline"
+ ],
+ "version": "1.0"
+}

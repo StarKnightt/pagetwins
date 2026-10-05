@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tallyhawk · Invoicing for freelancers</title><style>:root{--primary:#4F46E5;--primary-ink:#FFFFFF;--accent:#EEF2FF;--bg:#FFFFFF;--hero-bg:#FFFFFF;--surface:#F7F8FC;--text:#0F172A;--muted:#4B5567;--border:#E3E6EF;--band-bg:#1E1B4B;--band-ink:#FFFFFF;--font-head:"Segoe UI", system-ui, sans-serif;--font-body:"Segoe UI", system-ui, sans-serif;--radius:14px;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-body);color:var(--text);background:var(--bg);font-size:16px;line-height:1.55;position:relative}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 40px}
+.nav{background:var(--hero-bg);border-bottom:1px solid var(--border)}
+.nav .wrap{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--font-head);font-weight:700;font-size:20px;letter-spacing:-.01em}
+.nav-links{display:flex;gap:30px;font-size:15px;color:var(--muted)}
+.nav-actions{display:flex;align-items:center;gap:20px;font-size:15px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:calc(var(--radius) * .7);font-weight:600;font-size:16px;padding:14px 24px;border:1.5px solid transparent;white-space:nowrap;line-height:1.2;font-family:var(--font-body)}
+.btn-primary{background:var(--primary);color:var(--primary-ink);box-shadow:0 8px 20px -10px var(--primary)}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--border)}
+.btn-sm{padding:9px 16px;font-size:14px;box-shadow:none}
+.hero{background:var(--hero-bg);padding:72px 0 70px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.tpl-app .hero-grid{grid-template-columns:1.2fr .8fr}
+.tpl-product .hero-grid{grid-template-columns:1fr 1fr}
+.tpl-centered .hero-copy{text-align:center;max-width:840px;margin:0 auto}
+.tpl-centered .hero-visual{margin:50px auto 0;max-width:880px}
+.eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--primary);background:var(--accent);padding:6px 12px;border-radius:999px;margin-bottom:22px}
+.headline{font-family:var(--font-head);font-size:54px;line-height:1.08;letter-spacing:-.02em;font-weight:800;color:var(--text);margin-bottom:20px}
+.tpl-centered .headline{font-size:58px;max-width:780px;margin-left:auto;margin-right:auto}
+.subhead{font-size:19px;line-height:1.6;color:var(--muted);margin-bottom:30px;max-width:560px}
+.tpl-centered .subhead{margin-left:auto;margin-right:auto;max-width:660px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.tpl-centered .hero-ctas{justify-content:center}
+.hero-note{font-size:14px;color:var(--muted)}
+.price-line{display:flex;align-items:baseline;gap:12px;margin-bottom:24px}
+.price-line strong{font-size:34px;font-family:var(--font-head);letter-spacing:-.01em}
+.price-line span{color:var(--muted);font-size:15px}
+.hero-visual img{display:block;width:100%;height:auto;border-radius:var(--radius)}
+.tpl-app .hero-visual img{max-width:400px;margin-left:auto}
+.proof{padding:30px 0;border-bottom:1px solid var(--border);background:var(--bg)}
+.proof .wrap{display:flex;align-items:center;justify-content:center;gap:34px;flex-wrap:wrap}
+.proof-label{font-size:14.5px;color:var(--muted);font-weight:600}
+.logos{display:flex;gap:34px}
+.logos span{font-family:var(--font-head);font-weight:700;font-size:18px;color:var(--muted);opacity:.8;letter-spacing:-.01em}
+.stars{color:#F59E0B;font-size:19px;letter-spacing:3px}
+section.block{padding:64px 0}
+.section-title{font-family:var(--font-head);font-size:34px;line-height:1.2;letter-spacing:-.015em;font-weight:700;text-align:center;margin-bottom:38px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
+.icon{width:40px;height:40px;border-radius:10px;background:var(--accent);color:var(--primary);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-weight:800;font-size:17px}
+.card h3{font-size:18px;margin-bottom:8px;font-family:var(--font-head)}
+.card p{color:var(--muted);font-size:15.5px}
+.testimonial{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.testimonial blockquote{max-width:780px;margin:0 auto;text-align:center;font-family:var(--font-head);font-size:25px;line-height:1.45;font-weight:500}
+.person{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:24px;text-align:left}
+.avatar{width:46px;height:46px;border-radius:50%;background:var(--primary);color:var(--primary-ink);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
+.person strong{display:block;font-size:15px}
+.person span{font-size:14px;color:var(--muted)}
+.tiers{display:grid;gap:22px;justify-content:center}
+.tiers.n2{grid-template-columns:repeat(2,350px)}
+.tiers.n3{grid-template-columns:repeat(3,1fr)}
+.tier{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:30px;position:relative;display:flex;flex-direction:column}
+.tier.popular{border:2px solid var(--primary)}
+.badge{position:absolute;top:-13px;left:28px;background:var(--primary);color:var(--primary-ink);font-size:12px;font-weight:700;padding:4px 11px;border-radius:999px}
+.tier h3{font-size:17px;margin-bottom:10px}
+.price{font-family:var(--font-head);font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.price small{font-size:15px;color:var(--muted);font-weight:500;font-family:var(--font-body);letter-spacing:0;margin-left:6px}
+.tier ul{list-style:none;margin:20px 0 24px;display:grid;gap:10px;font-size:15px;color:var(--muted)}
+.tier li::before{content:"\2713";color:var(--primary);font-weight:800;margin-right:10px}
+.tier .btn{margin-top:auto}
+.pricing-note{text-align:center;color:var(--muted);font-size:14px;margin-top:26px}
+.faq{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 40px;max-width:980px;margin:44px auto 0;padding-top:36px;border-top:1px solid var(--border)}
+.faq dt{font-weight:700;margin-bottom:6px;font-size:16px}
+.faq dd{color:var(--muted);font-size:15.5px}
+.band{background:var(--band-bg);color:var(--band-ink);padding:60px 0;text-align:center}
+.band h2{font-family:var(--font-head);font-size:34px;letter-spacing:-.015em;margin-bottom:24px}
+.band .btn-primary{box-shadow:none}
+.band-ctas{display:flex;gap:12px;justify-content:center}
+.footer{padding:28px 0;font-size:14px;color:var(--muted);background:var(--bg)}
+.footer .wrap{display:flex;justify-content:space-between;align-items:center}
+.footer nav{display:flex;gap:22px}
+.popup-layer{position:absolute;top:0;left:0;right:0;height:800px;background:rgba(10,15,30,.68);display:flex;align-items:center;justify-content:center;z-index:100}
+.popup{background:#fff;color:#111827;width:540px;border-radius:18px;padding:42px 46px;text-align:center;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.popup h3{font-size:27px;line-height:1.25;margin-bottom:10px;font-family:var(--font-head)}
+.popup p{color:#4B5563;margin-bottom:22px;font-size:16px}
+.popup form{display:flex;gap:10px}
+.popup input{flex:1;padding:13px 14px;border:1px solid #D1D5DB;border-radius:10px;font-size:15px;font-family:var(--font-body)}
+.popup .btn{box-shadow:none}
+.popup .close{position:absolute;top:12px;right:18px;font-size:26px;line-height:1;color:#9CA3AF;background:none;border:0}
+.popup .dismiss{display:inline-block;margin-top:16px;font-size:14px;color:#6B7280;text-decoration:underline}
+</style></head><body class="tpl-split"><header class="nav"><div class="wrap"><a href="#" class="logo"><svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#4F46E5"/><path d="M3 17 L14 6 L25 17 L19 15 L14 20 L9 15 Z" fill="#FFFFFF"/></svg><span>Tallyhawk</span></a><nav class="nav-links"><a href="#">Features</a><a href="#">Pricing</a><a href="#">Customers</a></nav><div class="nav-actions"><a href="#" class="login">Log in</a><a href="#" class="btn btn-primary btn-sm" data-cta="primary">Start free</a></div></div></header><main><section class="hero"><div class="wrap"><div class="hero-grid"><div class="hero-copy"><span class="eyebrow">Invoicing for freelancers and small studios</span><h1 class="headline">Welcome to the future of getting things done</h1><p class="subhead">Tallyhawk turns your tracked hours into a clean invoice in one click, sends polite reminders for you, and lets clients pay by card or bank transfer.</p><div class="hero-ctas"><a href="#" class="btn btn-primary" data-cta="primary">Start free trial</a><a href="#" class="btn btn-ghost">See how it works</a></div><p class="hero-note">Free for up to 3 clients · No credit card needed</p></div><div class="hero-visual"><img src="hero.svg" alt="Tallyhawk dashboard showing paid and overdue invoices" width="540" height="420"></div></div></div></section><section class="proof"><div class="wrap"><p class="proof-label">Trusted by 2,000+ freelancers and studios</p><div class="logos"><span>Kestrel &amp; Co</span><span>Bluefern Studio</span><span>Halcyon</span><span>Orbitline</span><span>Marrow Works</span></div></div></section><section class="block" id="features"><div class="wrap"><h2 class="section-title">Everything between job done and money in</h2><div class="grid3"><div class="card"><div class="icon" aria-hidden="true">1</div><h3>One-click invoices</h3><p>Pull tracked hours and expenses into a branded invoice. Edit any line before it goes out.</p></div><div class="card"><div class="icon" aria-hidden="true">2</div><h3>Reminders that sound like you</h3><p>Tallyhawk nudges late clients on a schedule you set, in your own words, so you never have to chase.</p></div><div class="card"><div class="icon" aria-hidden="true">3</div><h3>Get paid your way</h3><p>Clients pay by card or bank transfer straight from the invoice. Money lands in 2 business days.</p></div></div></div></section><section class="block testimonial"><div class="wrap"><blockquote>"I used to spend Friday afternoons chasing payments. Now the reminders go out on their own and most clients pay within a week."</blockquote><div class="person"><div class="avatar" aria-hidden="true">PR</div><div><strong>Priya Raman</strong><span>Brand designer, Raman Studio</span></div></div></div></section><section class="block" id="pricing"><div class="wrap"><h2 class="section-title">Simple pricing that grows with you</h2><div class="tiers n3"><div class="tier"><h3>Free</h3><div class="price">$0<small>/month</small></div><ul><li>Up to 3 clients</li><li>Unlimited invoices</li><li>Card payments</li></ul><a href="#" class="btn btn-ghost" data-cta="primary">Start free</a></div><div class="tier popular"><span class="badge">Most popular</span><h3>Pro</h3><div class="price">$12<small>/month</small></div><ul><li>Unlimited clients</li><li>Automatic reminders</li><li>Custom branding</li></ul><a href="#" class="btn btn-primary" data-cta="primary">Start free trial</a></div><div class="tier"><h3>Studio</h3><div class="price">$29<small>/month</small></div><ul><li>Up to 5 team members</li><li>Shared client list</li><li>Priority support</li></ul><a href="#" class="btn btn-ghost" data-cta="primary">Start free trial</a></div></div><p class="pricing-note">Prices in USD. Card payments carry a standard processing fee.</p><dl class="faq"><div><dt>Is there a free plan?</dt><dd>Yes. The Free plan covers up to 3 clients with no time limit.</dd></div><div><dt>Can I cancel anytime?</dt><dd>Yes. Cancel from your settings and you will not be charged again.</dd></div></dl></div></section><section class="band"><div class="wrap"><h2>Spend Friday on work, not on chasing invoices</h2><div class="band-ctas"><a href="#" class="btn btn-primary" data-cta="primary">Start free trial</a></div></div></section></main><footer class="footer"><div class="wrap"><span>&copy; 2026 Tallyhawk Inc. · Made in Portland, Oregon</span><nav><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></nav></div></footer></body></html>

@@ -1,0 +1,2149 @@
+{
+ "p1efc40b7": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "pd36dc7d2": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2406
+ },
+ "pecc9be34": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0"
+  ],
+  "page_height": 2505
+ },
+ "p0d450028": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "pc7c159fe": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Welcome to the future of getting things done",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "pc82582f2": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoces that get paid in days, not montsh",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "p5d4b672c": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": true,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2529
+ },
+ "p2874ab01": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "pf08edc68": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "pd2b936e6": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": true,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "pff5f9f69": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2435
+ },
+ "pc34ef015": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Send invoices that get paid in days, not months",
+  "h1_lines": 3,
+  "h1_contrast": 17.85,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$12",
+   "$29"
+  ],
+  "page_height": 2505
+ },
+ "p9810d579": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "p12e14132": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2406
+ },
+ "p4190037a": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [],
+  "page_height": 2505
+ },
+ "pcbf9c1cc": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "pe3ba35c3": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Work smarter, not harder",
+  "h1_lines": 2,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2446
+ },
+ "p363ddf68": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Biuld next week's staf rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "pd615770a": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": true,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2503
+ },
+ "pf311fec4": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "p25875516": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "p7c86f774": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": true,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "p971e3764": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2435
+ },
+ "pcc8a3d69": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Build next week's staff rota in 10 minutes",
+  "h1_lines": 3,
+  "h1_contrast": 15.92,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$29",
+   "$59"
+  ],
+  "page_height": 2505
+ },
+ "p61dbc346": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "pfb084bcc": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2776
+ },
+ "p05b1bb20": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0"
+  ],
+  "page_height": 2875
+ },
+ "pc9b12812": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p330c95aa": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "The platform for what's next",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p22069e09": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Serach a week of logs in under a secnod",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p9bc912ad": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": true,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p1642de09": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "ped3fc0e9": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p95c4bced": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": true,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p0ed2fa34": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2842
+ },
+ "p70fa2b57": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Search a week of logs in under a second",
+  "h1_lines": 2,
+  "h1_contrast": 15.95,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$49",
+   "$199"
+  ],
+  "page_height": 2875
+ },
+ "p7d9d32d0": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "pc8a28a4a": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2836
+ },
+ "p2d1aa34d": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0"
+  ],
+  "page_height": 2935
+ },
+ "pc36ea2bf": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "p95873658": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Solutions that move your business forward",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "pa94fea72": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheeper shiping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "p5b3a0432": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": true,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2959
+ },
+ "p2180db28": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 1.24,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "pfb412dd7": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "pbd9d8082": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": true,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "p50a9d296": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2902
+ },
+ "p05027629": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Print a cheaper shipping label in three clicks",
+  "h1_lines": 2,
+  "h1_contrast": 16.44,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$25"
+  ],
+  "page_height": 2935
+ },
+ "p7da21266": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "pe466db25": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2426
+ },
+ "pa381570a": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$50",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2568
+ },
+ "pdf9402f9": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "p595e01d7": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Elevate your everyday",
+  "h1_lines": 2,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2524
+ },
+ "p4d87e542": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strenght cold brew at home, in ten secconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "p259f9877": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": true,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "pd0fb7ebc": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "p823538fa": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "p3ac82f57": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": true,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "p5f7715df": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2524
+ },
+ "p1086b1db": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Cafe-strength cold brew at home, in ten seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.39,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$24",
+   "$50",
+   "$24",
+   "$20.40",
+   "$50",
+   "$5.95"
+  ],
+  "page_height": 2529
+ },
+ "pb96036a3": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2529
+ },
+ "p9f9728ee": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2430
+ },
+ "p7be62d2d": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [],
+  "page_height": 2568
+ },
+ "p7dd2c989": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2529
+ },
+ "p959ea250": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Quality you can feel",
+  "h1_lines": 1,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2524
+ },
+ "paa3116fe": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for evrey flight, hike and long weekned",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2529
+ },
+ "p3c1178c8": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": true,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2553
+ },
+ "pb7a1d6b1": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2529
+ },
+ "p4284a059": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2529
+ },
+ "p7f33511f": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": true,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2529
+ },
+ "p05e5ceef": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2524
+ },
+ "p4e64ee27": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "One merino hoodie for every flight, hike and long weekend",
+  "h1_lines": 3,
+  "h1_contrast": 15.38,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$98",
+   "$98",
+   "$176"
+  ],
+  "page_height": 2559
+ },
+ "p994f1ce4": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p73bb5fdf": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2445
+ },
+ "pd52fe1ff": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0"
+  ],
+  "page_height": 2587
+ },
+ "pdf30bed1": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "pf0219ac8": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Simplify your life",
+  "h1_lines": 1,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p5b32e88c": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money togther without the awkard talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p112ef1b7": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": true,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2541
+ },
+ "p65b02870": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p8312a2bf": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p5d98e560": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": true,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p87ce44ac": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p64ee5e03": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Plan your money together without the awkward talks",
+  "h1_lines": 3,
+  "h1_contrast": 16.99,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$4.99",
+   "$0",
+   "$4.99"
+  ],
+  "page_height": 2543
+ },
+ "p444ebfe1": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p81231c55": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2469
+ },
+ "p08548dae": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0"
+  ],
+  "page_height": 2567
+ },
+ "pe619649f": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p6391dc37": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Your journey starts here",
+  "h1_lines": 1,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p4ea1e0b1": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water evry plant you onw",
+  "h1_lines": 2,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p5c7018a8": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": true,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "pd9b6e422": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p36419d39": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p6fffc67d": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": true,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p938c90a5": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p2fea4fa2": {
+  "primary_cta_count": 7,
+  "hero_cta_covered": false,
+  "h1_text": "Know exactly when to water every plant you own",
+  "h1_lines": 3,
+  "h1_contrast": 15.28,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$0",
+   "$2.99"
+  ],
+  "page_height": 2567
+ },
+ "p93ee185d": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "p6a8d077a": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2730
+ },
+ "p4a7f4ba0": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [],
+  "page_height": 2872
+ },
+ "p31293c96": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "p9ce3ede1": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Unlock your potential",
+  "h1_lines": 1,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2766
+ },
+ "pbf5e1eaa": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Lern to draw what you see in six weks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "pb0be2b5f": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": true,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2852
+ },
+ "p5d5f4086": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 1.24,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "p777019f0": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "p83e3eb2d": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": true,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "p46feddad": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2796
+ },
+ "pbc99bd5a": {
+  "primary_cta_count": 5,
+  "hero_cta_covered": false,
+  "h1_text": "Learn to draw what you see in six weeks",
+  "h1_lines": 2,
+  "h1_contrast": 16.68,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$149",
+   "$249"
+  ],
+  "page_height": 2828
+ },
+ "p1b81c2aa": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ },
+ "pea0155d8": {
+  "primary_cta_count": 0,
+  "hero_cta_covered": null,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2384
+ },
+ "p9e09027c": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$25"
+  ],
+  "page_height": 2527
+ },
+ "p58c4e6b4": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ },
+ "p54fca757": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "Experience the difference",
+  "h1_lines": 2,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2424
+ },
+ "pc4374e32": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotles home, booked in 60 secnods",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ },
+ "pc4e970ec": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": true,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ },
+ "p5e4475c0": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 1.25,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ },
+ "p72938c8b": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": false,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ },
+ "pee4182c0": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": true,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": true,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25",
+   "$20",
+   "$20"
+  ],
+  "page_height": 2483
+ },
+ "p53fad4ae": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": true,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2413
+ },
+ "p6572462c": {
+  "primary_cta_count": 6,
+  "hero_cta_covered": false,
+  "h1_text": "A spotless home, booked in 60 seconds",
+  "h1_lines": 3,
+  "h1_contrast": 15.98,
+  "h1_clipped": false,
+  "hero_image_loaded": true,
+  "popup_visible": false,
+  "has_lorem": false,
+  "has_template_var": false,
+  "dollar_amounts": [
+   "$89",
+   "$89",
+   "$129",
+   "$169",
+   "$25"
+  ],
+  "page_height": 2483
+ }
+}

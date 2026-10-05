@@ -1,0 +1,69 @@
+Page title: Logpine · Log search for small engineering teams
+
+[link] Logpine
+[link] Product
+[link] Pricing
+[link] Docs
+[link] Log in
+[button] Start for free
+
+LOG SEARCH FOR TEAMS OF 2 TO 50 ENGINEERS
+[h1] The platform for what's next
+Logpine collects logs from your servers and containers, indexes every field, and alerts you in Slack when error rates jump.
+[button] Start for free
+[button] Read the docs
+Free up to 1 GB of logs per day · Setup takes 5 minutes
+[image] alt="Logpine search results showing error logs grouped by service"
+
+Engineering teams at 1,400 companies ship with Logpine
+Quarry Labs
+Tidewater
+Fernstack
+Pilotgrid
+Oakum
+
+[h2] Built for the 2 a.m. incident
+[h3] Sub-second search
+Query a week of logs with plain filters like service:api level:error. Results appear as you type.
+[h3] Alerts that matter
+Set a threshold once. Logpine posts to Slack when errors spike, with the matching lines attached.
+[h3] Works with your stack
+Ship logs from Docker, Kubernetes, systemd or any app that writes to stdout. No agents to babysit.
+
+"We cut the time to find the cause of an outage from forty minutes to about five. The Slack alerts alone paid for it."
+Dana Okafor
+Lead engineer, Fernstack
+
+[h2] Pay for what you ingest
+[h3] Free
+$0/month
+1 GB per day
+3-day retention
+Community support
+[button] Start for free
+Most popular
+[h3] Team
+$49/month
+20 GB per day
+30-day retention
+Slack alerts
+[button] Start free trial
+[h3] Business
+$199/month
+100 GB per day
+90-day retention
+SSO and audit log
+[button] Start free trial
+Extra ingestion is billed per GB at the end of each month.
+What happens if I go over 1 GB on the Free plan?
+We keep your logs and pause new ingestion until the next day.
+Can I store logs in the EU?
+Yes. Pick the US or EU region when you create your workspace.
+
+[h2] Make your next incident a short one
+[button] Start for free
+
+© 2026 Logpine, Inc. · Remote-first since 2021
+[link] Privacy
+[link] Terms
+[link] Contact

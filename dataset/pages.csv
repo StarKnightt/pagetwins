@@ -1,0 +1,121 @@
+page_id,base_id,brand,template,product_type,role,category,screenshot,first_screen,html,text,width,height
+p1efc40b7,B01,Tallyhawk,split,SaaS,clean,none,pages/p1efc40b7/screenshot.png,pages/p1efc40b7/first_screen.png,pages/p1efc40b7/index.html,pages/p1efc40b7/page.txt,1280,2505
+pd36dc7d2,B01,Tallyhawk,split,SaaS,twin,missing_cta,pages/pd36dc7d2/screenshot.png,pages/pd36dc7d2/first_screen.png,pages/pd36dc7d2/index.html,pages/pd36dc7d2/page.txt,1280,2406
+pecc9be34,B01,Tallyhawk,split,SaaS,twin,hidden_price,pages/pecc9be34/screenshot.png,pages/pecc9be34/first_screen.png,pages/pecc9be34/index.html,pages/pecc9be34/page.txt,1280,2505
+p0d450028,B01,Tallyhawk,split,SaaS,twin,contradiction,pages/p0d450028/screenshot.png,pages/p0d450028/first_screen.png,pages/p0d450028/index.html,pages/p0d450028/page.txt,1280,2505
+pc7c159fe,B01,Tallyhawk,split,SaaS,twin,vague_headline,pages/pc7c159fe/screenshot.png,pages/pc7c159fe/first_screen.png,pages/pc7c159fe/index.html,pages/pc7c159fe/page.txt,1280,2505
+pc82582f2,B01,Tallyhawk,split,SaaS,twin,typos,pages/pc82582f2/screenshot.png,pages/pc82582f2/first_screen.png,pages/pc82582f2/index.html,pages/pc82582f2/page.txt,1280,2505
+p5d4b672c,B01,Tallyhawk,split,SaaS,twin,placeholder_text,pages/p5d4b672c/screenshot.png,pages/p5d4b672c/first_screen.png,pages/p5d4b672c/index.html,pages/p5d4b672c/page.txt,1280,2529
+p2874ab01,B01,Tallyhawk,split,SaaS,twin,low_contrast,pages/p2874ab01/screenshot.png,pages/p2874ab01/first_screen.png,pages/p2874ab01/index.html,pages/p2874ab01/page.txt,1280,2505
+pf08edc68,B01,Tallyhawk,split,SaaS,twin,broken_image,pages/pf08edc68/screenshot.png,pages/pf08edc68/first_screen.png,pages/pf08edc68/index.html,pages/pf08edc68/page.txt,1280,2505
+pd2b936e6,B01,Tallyhawk,split,SaaS,twin,blocking_popup,pages/pd2b936e6/screenshot.png,pages/pd2b936e6/first_screen.png,pages/pd2b936e6/index.html,pages/pd2b936e6/page.txt,1280,2505
+pff5f9f69,B01,Tallyhawk,split,SaaS,twin,cut_off_text,pages/pff5f9f69/screenshot.png,pages/pff5f9f69/first_screen.png,pages/pff5f9f69/index.html,pages/pff5f9f69/page.txt,1280,2435
+pc34ef015,B01,Tallyhawk,split,SaaS,variant,harmless,pages/pc34ef015/screenshot.png,pages/pc34ef015/first_screen.png,pages/pc34ef015/index.html,pages/pc34ef015/page.txt,1280,2505
+p9810d579,B02,Shiftwell,split,SaaS,clean,none,pages/p9810d579/screenshot.png,pages/p9810d579/first_screen.png,pages/p9810d579/index.html,pages/p9810d579/page.txt,1280,2505
+p12e14132,B02,Shiftwell,split,SaaS,twin,missing_cta,pages/p12e14132/screenshot.png,pages/p12e14132/first_screen.png,pages/p12e14132/index.html,pages/p12e14132/page.txt,1280,2406
+p4190037a,B02,Shiftwell,split,SaaS,twin,hidden_price,pages/p4190037a/screenshot.png,pages/p4190037a/first_screen.png,pages/p4190037a/index.html,pages/p4190037a/page.txt,1280,2505
+pcbf9c1cc,B02,Shiftwell,split,SaaS,twin,contradiction,pages/pcbf9c1cc/screenshot.png,pages/pcbf9c1cc/first_screen.png,pages/pcbf9c1cc/index.html,pages/pcbf9c1cc/page.txt,1280,2505
+pe3ba35c3,B02,Shiftwell,split,SaaS,twin,vague_headline,pages/pe3ba35c3/screenshot.png,pages/pe3ba35c3/first_screen.png,pages/pe3ba35c3/index.html,pages/pe3ba35c3/page.txt,1280,2446
+p363ddf68,B02,Shiftwell,split,SaaS,twin,typos,pages/p363ddf68/screenshot.png,pages/p363ddf68/first_screen.png,pages/p363ddf68/index.html,pages/p363ddf68/page.txt,1280,2505
+pd615770a,B02,Shiftwell,split,SaaS,twin,placeholder_text,pages/pd615770a/screenshot.png,pages/pd615770a/first_screen.png,pages/pd615770a/index.html,pages/pd615770a/page.txt,1280,2503
+pf311fec4,B02,Shiftwell,split,SaaS,twin,low_contrast,pages/pf311fec4/screenshot.png,pages/pf311fec4/first_screen.png,pages/pf311fec4/index.html,pages/pf311fec4/page.txt,1280,2505
+p25875516,B02,Shiftwell,split,SaaS,twin,broken_image,pages/p25875516/screenshot.png,pages/p25875516/first_screen.png,pages/p25875516/index.html,pages/p25875516/page.txt,1280,2505
+p7c86f774,B02,Shiftwell,split,SaaS,twin,blocking_popup,pages/p7c86f774/screenshot.png,pages/p7c86f774/first_screen.png,pages/p7c86f774/index.html,pages/p7c86f774/page.txt,1280,2505
+p971e3764,B02,Shiftwell,split,SaaS,twin,cut_off_text,pages/p971e3764/screenshot.png,pages/p971e3764/first_screen.png,pages/p971e3764/index.html,pages/p971e3764/page.txt,1280,2435
+pcc8a3d69,B02,Shiftwell,split,SaaS,variant,harmless,pages/pcc8a3d69/screenshot.png,pages/pcc8a3d69/first_screen.png,pages/pcc8a3d69/index.html,pages/pcc8a3d69/page.txt,1280,2505
+p61dbc346,B03,Logpine,centered,Developer tool,clean,none,pages/p61dbc346/screenshot.png,pages/p61dbc346/first_screen.png,pages/p61dbc346/index.html,pages/p61dbc346/page.txt,1280,2875
+pfb084bcc,B03,Logpine,centered,Developer tool,twin,missing_cta,pages/pfb084bcc/screenshot.png,pages/pfb084bcc/first_screen.png,pages/pfb084bcc/index.html,pages/pfb084bcc/page.txt,1280,2776
+p05b1bb20,B03,Logpine,centered,Developer tool,twin,hidden_price,pages/p05b1bb20/screenshot.png,pages/p05b1bb20/first_screen.png,pages/p05b1bb20/index.html,pages/p05b1bb20/page.txt,1280,2875
+pc9b12812,B03,Logpine,centered,Developer tool,twin,contradiction,pages/pc9b12812/screenshot.png,pages/pc9b12812/first_screen.png,pages/pc9b12812/index.html,pages/pc9b12812/page.txt,1280,2875
+p330c95aa,B03,Logpine,centered,Developer tool,twin,vague_headline,pages/p330c95aa/screenshot.png,pages/p330c95aa/first_screen.png,pages/p330c95aa/index.html,pages/p330c95aa/page.txt,1280,2875
+p22069e09,B03,Logpine,centered,Developer tool,twin,typos,pages/p22069e09/screenshot.png,pages/p22069e09/first_screen.png,pages/p22069e09/index.html,pages/p22069e09/page.txt,1280,2875
+p9bc912ad,B03,Logpine,centered,Developer tool,twin,placeholder_text,pages/p9bc912ad/screenshot.png,pages/p9bc912ad/first_screen.png,pages/p9bc912ad/index.html,pages/p9bc912ad/page.txt,1280,2875
+p1642de09,B03,Logpine,centered,Developer tool,twin,low_contrast,pages/p1642de09/screenshot.png,pages/p1642de09/first_screen.png,pages/p1642de09/index.html,pages/p1642de09/page.txt,1280,2875
+ped3fc0e9,B03,Logpine,centered,Developer tool,twin,broken_image,pages/ped3fc0e9/screenshot.png,pages/ped3fc0e9/first_screen.png,pages/ped3fc0e9/index.html,pages/ped3fc0e9/page.txt,1280,2875
+p95c4bced,B03,Logpine,centered,Developer tool,twin,blocking_popup,pages/p95c4bced/screenshot.png,pages/p95c4bced/first_screen.png,pages/p95c4bced/index.html,pages/p95c4bced/page.txt,1280,2875
+p0ed2fa34,B03,Logpine,centered,Developer tool,twin,cut_off_text,pages/p0ed2fa34/screenshot.png,pages/p0ed2fa34/first_screen.png,pages/p0ed2fa34/index.html,pages/p0ed2fa34/page.txt,1280,2842
+p70fa2b57,B03,Logpine,centered,Developer tool,variant,harmless,pages/p70fa2b57/screenshot.png,pages/p70fa2b57/first_screen.png,pages/p70fa2b57/index.html,pages/p70fa2b57/page.txt,1280,2875
+p7d9d32d0,B04,Parcelpath,centered,Ecommerce tool,clean,none,pages/p7d9d32d0/screenshot.png,pages/p7d9d32d0/first_screen.png,pages/p7d9d32d0/index.html,pages/p7d9d32d0/page.txt,1280,2935
+pc8a28a4a,B04,Parcelpath,centered,Ecommerce tool,twin,missing_cta,pages/pc8a28a4a/screenshot.png,pages/pc8a28a4a/first_screen.png,pages/pc8a28a4a/index.html,pages/pc8a28a4a/page.txt,1280,2836
+p2d1aa34d,B04,Parcelpath,centered,Ecommerce tool,twin,hidden_price,pages/p2d1aa34d/screenshot.png,pages/p2d1aa34d/first_screen.png,pages/p2d1aa34d/index.html,pages/p2d1aa34d/page.txt,1280,2935
+pc36ea2bf,B04,Parcelpath,centered,Ecommerce tool,twin,contradiction,pages/pc36ea2bf/screenshot.png,pages/pc36ea2bf/first_screen.png,pages/pc36ea2bf/index.html,pages/pc36ea2bf/page.txt,1280,2935
+p95873658,B04,Parcelpath,centered,Ecommerce tool,twin,vague_headline,pages/p95873658/screenshot.png,pages/p95873658/first_screen.png,pages/p95873658/index.html,pages/p95873658/page.txt,1280,2935
+pa94fea72,B04,Parcelpath,centered,Ecommerce tool,twin,typos,pages/pa94fea72/screenshot.png,pages/pa94fea72/first_screen.png,pages/pa94fea72/index.html,pages/pa94fea72/page.txt,1280,2935
+p5b3a0432,B04,Parcelpath,centered,Ecommerce tool,twin,placeholder_text,pages/p5b3a0432/screenshot.png,pages/p5b3a0432/first_screen.png,pages/p5b3a0432/index.html,pages/p5b3a0432/page.txt,1280,2959
+p2180db28,B04,Parcelpath,centered,Ecommerce tool,twin,low_contrast,pages/p2180db28/screenshot.png,pages/p2180db28/first_screen.png,pages/p2180db28/index.html,pages/p2180db28/page.txt,1280,2935
+pfb412dd7,B04,Parcelpath,centered,Ecommerce tool,twin,broken_image,pages/pfb412dd7/screenshot.png,pages/pfb412dd7/first_screen.png,pages/pfb412dd7/index.html,pages/pfb412dd7/page.txt,1280,2935
+pbd9d8082,B04,Parcelpath,centered,Ecommerce tool,twin,blocking_popup,pages/pbd9d8082/screenshot.png,pages/pbd9d8082/first_screen.png,pages/pbd9d8082/index.html,pages/pbd9d8082/page.txt,1280,2935
+p50a9d296,B04,Parcelpath,centered,Ecommerce tool,twin,cut_off_text,pages/p50a9d296/screenshot.png,pages/p50a9d296/first_screen.png,pages/p50a9d296/index.html,pages/p50a9d296/page.txt,1280,2902
+p05027629,B04,Parcelpath,centered,Ecommerce tool,variant,harmless,pages/p05027629/screenshot.png,pages/p05027629/first_screen.png,pages/p05027629/index.html,pages/p05027629/page.txt,1280,2935
+p7da21266,B05,Northbrew,product,Consumer product,clean,none,pages/p7da21266/screenshot.png,pages/p7da21266/first_screen.png,pages/p7da21266/index.html,pages/p7da21266/page.txt,1280,2529
+pe466db25,B05,Northbrew,product,Consumer product,twin,missing_cta,pages/pe466db25/screenshot.png,pages/pe466db25/first_screen.png,pages/pe466db25/index.html,pages/pe466db25/page.txt,1280,2426
+pa381570a,B05,Northbrew,product,Consumer product,twin,hidden_price,pages/pa381570a/screenshot.png,pages/pa381570a/first_screen.png,pages/pa381570a/index.html,pages/pa381570a/page.txt,1280,2568
+pdf9402f9,B05,Northbrew,product,Consumer product,twin,contradiction,pages/pdf9402f9/screenshot.png,pages/pdf9402f9/first_screen.png,pages/pdf9402f9/index.html,pages/pdf9402f9/page.txt,1280,2529
+p595e01d7,B05,Northbrew,product,Consumer product,twin,vague_headline,pages/p595e01d7/screenshot.png,pages/p595e01d7/first_screen.png,pages/p595e01d7/index.html,pages/p595e01d7/page.txt,1280,2524
+p4d87e542,B05,Northbrew,product,Consumer product,twin,typos,pages/p4d87e542/screenshot.png,pages/p4d87e542/first_screen.png,pages/p4d87e542/index.html,pages/p4d87e542/page.txt,1280,2529
+p259f9877,B05,Northbrew,product,Consumer product,twin,placeholder_text,pages/p259f9877/screenshot.png,pages/p259f9877/first_screen.png,pages/p259f9877/index.html,pages/p259f9877/page.txt,1280,2529
+pd0fb7ebc,B05,Northbrew,product,Consumer product,twin,low_contrast,pages/pd0fb7ebc/screenshot.png,pages/pd0fb7ebc/first_screen.png,pages/pd0fb7ebc/index.html,pages/pd0fb7ebc/page.txt,1280,2529
+p823538fa,B05,Northbrew,product,Consumer product,twin,broken_image,pages/p823538fa/screenshot.png,pages/p823538fa/first_screen.png,pages/p823538fa/index.html,pages/p823538fa/page.txt,1280,2529
+p3ac82f57,B05,Northbrew,product,Consumer product,twin,blocking_popup,pages/p3ac82f57/screenshot.png,pages/p3ac82f57/first_screen.png,pages/p3ac82f57/index.html,pages/p3ac82f57/page.txt,1280,2529
+p5f7715df,B05,Northbrew,product,Consumer product,twin,cut_off_text,pages/p5f7715df/screenshot.png,pages/p5f7715df/first_screen.png,pages/p5f7715df/index.html,pages/p5f7715df/page.txt,1280,2524
+p1086b1db,B05,Northbrew,product,Consumer product,variant,harmless,pages/p1086b1db/screenshot.png,pages/p1086b1db/first_screen.png,pages/p1086b1db/index.html,pages/p1086b1db/page.txt,1280,2529
+pb96036a3,B06,Driftwool,product,Consumer product,clean,none,pages/pb96036a3/screenshot.png,pages/pb96036a3/first_screen.png,pages/pb96036a3/index.html,pages/pb96036a3/page.txt,1280,2529
+p9f9728ee,B06,Driftwool,product,Consumer product,twin,missing_cta,pages/p9f9728ee/screenshot.png,pages/p9f9728ee/first_screen.png,pages/p9f9728ee/index.html,pages/p9f9728ee/page.txt,1280,2430
+p7be62d2d,B06,Driftwool,product,Consumer product,twin,hidden_price,pages/p7be62d2d/screenshot.png,pages/p7be62d2d/first_screen.png,pages/p7be62d2d/index.html,pages/p7be62d2d/page.txt,1280,2568
+p7dd2c989,B06,Driftwool,product,Consumer product,twin,contradiction,pages/p7dd2c989/screenshot.png,pages/p7dd2c989/first_screen.png,pages/p7dd2c989/index.html,pages/p7dd2c989/page.txt,1280,2529
+p959ea250,B06,Driftwool,product,Consumer product,twin,vague_headline,pages/p959ea250/screenshot.png,pages/p959ea250/first_screen.png,pages/p959ea250/index.html,pages/p959ea250/page.txt,1280,2524
+paa3116fe,B06,Driftwool,product,Consumer product,twin,typos,pages/paa3116fe/screenshot.png,pages/paa3116fe/first_screen.png,pages/paa3116fe/index.html,pages/paa3116fe/page.txt,1280,2529
+p3c1178c8,B06,Driftwool,product,Consumer product,twin,placeholder_text,pages/p3c1178c8/screenshot.png,pages/p3c1178c8/first_screen.png,pages/p3c1178c8/index.html,pages/p3c1178c8/page.txt,1280,2553
+pb7a1d6b1,B06,Driftwool,product,Consumer product,twin,low_contrast,pages/pb7a1d6b1/screenshot.png,pages/pb7a1d6b1/first_screen.png,pages/pb7a1d6b1/index.html,pages/pb7a1d6b1/page.txt,1280,2529
+p4284a059,B06,Driftwool,product,Consumer product,twin,broken_image,pages/p4284a059/screenshot.png,pages/p4284a059/first_screen.png,pages/p4284a059/index.html,pages/p4284a059/page.txt,1280,2529
+p7f33511f,B06,Driftwool,product,Consumer product,twin,blocking_popup,pages/p7f33511f/screenshot.png,pages/p7f33511f/first_screen.png,pages/p7f33511f/index.html,pages/p7f33511f/page.txt,1280,2529
+p05e5ceef,B06,Driftwool,product,Consumer product,twin,cut_off_text,pages/p05e5ceef/screenshot.png,pages/p05e5ceef/first_screen.png,pages/p05e5ceef/index.html,pages/p05e5ceef/page.txt,1280,2524
+p4e64ee27,B06,Driftwool,product,Consumer product,variant,harmless,pages/p4e64ee27/screenshot.png,pages/p4e64ee27/first_screen.png,pages/p4e64ee27/index.html,pages/p4e64ee27/page.txt,1280,2559
+p994f1ce4,B07,Centwise,app,Mobile app,clean,none,pages/p994f1ce4/screenshot.png,pages/p994f1ce4/first_screen.png,pages/p994f1ce4/index.html,pages/p994f1ce4/page.txt,1280,2543
+p73bb5fdf,B07,Centwise,app,Mobile app,twin,missing_cta,pages/p73bb5fdf/screenshot.png,pages/p73bb5fdf/first_screen.png,pages/p73bb5fdf/index.html,pages/p73bb5fdf/page.txt,1280,2445
+pd52fe1ff,B07,Centwise,app,Mobile app,twin,hidden_price,pages/pd52fe1ff/screenshot.png,pages/pd52fe1ff/first_screen.png,pages/pd52fe1ff/index.html,pages/pd52fe1ff/page.txt,1280,2587
+pdf30bed1,B07,Centwise,app,Mobile app,twin,contradiction,pages/pdf30bed1/screenshot.png,pages/pdf30bed1/first_screen.png,pages/pdf30bed1/index.html,pages/pdf30bed1/page.txt,1280,2543
+pf0219ac8,B07,Centwise,app,Mobile app,twin,vague_headline,pages/pf0219ac8/screenshot.png,pages/pf0219ac8/first_screen.png,pages/pf0219ac8/index.html,pages/pf0219ac8/page.txt,1280,2543
+p5b32e88c,B07,Centwise,app,Mobile app,twin,typos,pages/p5b32e88c/screenshot.png,pages/p5b32e88c/first_screen.png,pages/p5b32e88c/index.html,pages/p5b32e88c/page.txt,1280,2543
+p112ef1b7,B07,Centwise,app,Mobile app,twin,placeholder_text,pages/p112ef1b7/screenshot.png,pages/p112ef1b7/first_screen.png,pages/p112ef1b7/index.html,pages/p112ef1b7/page.txt,1280,2541
+p65b02870,B07,Centwise,app,Mobile app,twin,low_contrast,pages/p65b02870/screenshot.png,pages/p65b02870/first_screen.png,pages/p65b02870/index.html,pages/p65b02870/page.txt,1280,2543
+p8312a2bf,B07,Centwise,app,Mobile app,twin,broken_image,pages/p8312a2bf/screenshot.png,pages/p8312a2bf/first_screen.png,pages/p8312a2bf/index.html,pages/p8312a2bf/page.txt,1280,2543
+p5d98e560,B07,Centwise,app,Mobile app,twin,blocking_popup,pages/p5d98e560/screenshot.png,pages/p5d98e560/first_screen.png,pages/p5d98e560/index.html,pages/p5d98e560/page.txt,1280,2543
+p87ce44ac,B07,Centwise,app,Mobile app,twin,cut_off_text,pages/p87ce44ac/screenshot.png,pages/p87ce44ac/first_screen.png,pages/p87ce44ac/index.html,pages/p87ce44ac/page.txt,1280,2543
+p64ee5e03,B07,Centwise,app,Mobile app,variant,harmless,pages/p64ee5e03/screenshot.png,pages/p64ee5e03/first_screen.png,pages/p64ee5e03/index.html,pages/p64ee5e03/page.txt,1280,2543
+p444ebfe1,B08,Leafnote,app,Mobile app,clean,none,pages/p444ebfe1/screenshot.png,pages/p444ebfe1/first_screen.png,pages/p444ebfe1/index.html,pages/p444ebfe1/page.txt,1280,2567
+p81231c55,B08,Leafnote,app,Mobile app,twin,missing_cta,pages/p81231c55/screenshot.png,pages/p81231c55/first_screen.png,pages/p81231c55/index.html,pages/p81231c55/page.txt,1280,2469
+p08548dae,B08,Leafnote,app,Mobile app,twin,hidden_price,pages/p08548dae/screenshot.png,pages/p08548dae/first_screen.png,pages/p08548dae/index.html,pages/p08548dae/page.txt,1280,2567
+pe619649f,B08,Leafnote,app,Mobile app,twin,contradiction,pages/pe619649f/screenshot.png,pages/pe619649f/first_screen.png,pages/pe619649f/index.html,pages/pe619649f/page.txt,1280,2567
+p6391dc37,B08,Leafnote,app,Mobile app,twin,vague_headline,pages/p6391dc37/screenshot.png,pages/p6391dc37/first_screen.png,pages/p6391dc37/index.html,pages/p6391dc37/page.txt,1280,2567
+p4ea1e0b1,B08,Leafnote,app,Mobile app,twin,typos,pages/p4ea1e0b1/screenshot.png,pages/p4ea1e0b1/first_screen.png,pages/p4ea1e0b1/index.html,pages/p4ea1e0b1/page.txt,1280,2567
+p5c7018a8,B08,Leafnote,app,Mobile app,twin,placeholder_text,pages/p5c7018a8/screenshot.png,pages/p5c7018a8/first_screen.png,pages/p5c7018a8/index.html,pages/p5c7018a8/page.txt,1280,2567
+pd9b6e422,B08,Leafnote,app,Mobile app,twin,low_contrast,pages/pd9b6e422/screenshot.png,pages/pd9b6e422/first_screen.png,pages/pd9b6e422/index.html,pages/pd9b6e422/page.txt,1280,2567
+p36419d39,B08,Leafnote,app,Mobile app,twin,broken_image,pages/p36419d39/screenshot.png,pages/p36419d39/first_screen.png,pages/p36419d39/index.html,pages/p36419d39/page.txt,1280,2567
+p6fffc67d,B08,Leafnote,app,Mobile app,twin,blocking_popup,pages/p6fffc67d/screenshot.png,pages/p6fffc67d/first_screen.png,pages/p6fffc67d/index.html,pages/p6fffc67d/page.txt,1280,2567
+p938c90a5,B08,Leafnote,app,Mobile app,twin,cut_off_text,pages/p938c90a5/screenshot.png,pages/p938c90a5/first_screen.png,pages/p938c90a5/index.html,pages/p938c90a5/page.txt,1280,2567
+p2fea4fa2,B08,Leafnote,app,Mobile app,variant,harmless,pages/p2fea4fa2/screenshot.png,pages/p2fea4fa2/first_screen.png,pages/p2fea4fa2/index.html,pages/p2fea4fa2/page.txt,1280,2567
+p93ee185d,B09,Sketchbound,centered,Online course,clean,none,pages/p93ee185d/screenshot.png,pages/p93ee185d/first_screen.png,pages/p93ee185d/index.html,pages/p93ee185d/page.txt,1280,2828
+p6a8d077a,B09,Sketchbound,centered,Online course,twin,missing_cta,pages/p6a8d077a/screenshot.png,pages/p6a8d077a/first_screen.png,pages/p6a8d077a/index.html,pages/p6a8d077a/page.txt,1280,2730
+p4a7f4ba0,B09,Sketchbound,centered,Online course,twin,hidden_price,pages/p4a7f4ba0/screenshot.png,pages/p4a7f4ba0/first_screen.png,pages/p4a7f4ba0/index.html,pages/p4a7f4ba0/page.txt,1280,2872
+p31293c96,B09,Sketchbound,centered,Online course,twin,contradiction,pages/p31293c96/screenshot.png,pages/p31293c96/first_screen.png,pages/p31293c96/index.html,pages/p31293c96/page.txt,1280,2828
+p9ce3ede1,B09,Sketchbound,centered,Online course,twin,vague_headline,pages/p9ce3ede1/screenshot.png,pages/p9ce3ede1/first_screen.png,pages/p9ce3ede1/index.html,pages/p9ce3ede1/page.txt,1280,2766
+pbf5e1eaa,B09,Sketchbound,centered,Online course,twin,typos,pages/pbf5e1eaa/screenshot.png,pages/pbf5e1eaa/first_screen.png,pages/pbf5e1eaa/index.html,pages/pbf5e1eaa/page.txt,1280,2828
+pb0be2b5f,B09,Sketchbound,centered,Online course,twin,placeholder_text,pages/pb0be2b5f/screenshot.png,pages/pb0be2b5f/first_screen.png,pages/pb0be2b5f/index.html,pages/pb0be2b5f/page.txt,1280,2852
+p5d5f4086,B09,Sketchbound,centered,Online course,twin,low_contrast,pages/p5d5f4086/screenshot.png,pages/p5d5f4086/first_screen.png,pages/p5d5f4086/index.html,pages/p5d5f4086/page.txt,1280,2828
+p777019f0,B09,Sketchbound,centered,Online course,twin,broken_image,pages/p777019f0/screenshot.png,pages/p777019f0/first_screen.png,pages/p777019f0/index.html,pages/p777019f0/page.txt,1280,2828
+p83e3eb2d,B09,Sketchbound,centered,Online course,twin,blocking_popup,pages/p83e3eb2d/screenshot.png,pages/p83e3eb2d/first_screen.png,pages/p83e3eb2d/index.html,pages/p83e3eb2d/page.txt,1280,2828
+p46feddad,B09,Sketchbound,centered,Online course,twin,cut_off_text,pages/p46feddad/screenshot.png,pages/p46feddad/first_screen.png,pages/p46feddad/index.html,pages/p46feddad/page.txt,1280,2796
+pbc99bd5a,B09,Sketchbound,centered,Online course,variant,harmless,pages/pbc99bd5a/screenshot.png,pages/pbc99bd5a/first_screen.png,pages/pbc99bd5a/index.html,pages/pbc99bd5a/page.txt,1280,2828
+p1b81c2aa,B10,Mopsquad,split,Local service,clean,none,pages/p1b81c2aa/screenshot.png,pages/p1b81c2aa/first_screen.png,pages/p1b81c2aa/index.html,pages/p1b81c2aa/page.txt,1280,2483
+pea0155d8,B10,Mopsquad,split,Local service,twin,missing_cta,pages/pea0155d8/screenshot.png,pages/pea0155d8/first_screen.png,pages/pea0155d8/index.html,pages/pea0155d8/page.txt,1280,2384
+p9e09027c,B10,Mopsquad,split,Local service,twin,hidden_price,pages/p9e09027c/screenshot.png,pages/p9e09027c/first_screen.png,pages/p9e09027c/index.html,pages/p9e09027c/page.txt,1280,2527
+p58c4e6b4,B10,Mopsquad,split,Local service,twin,contradiction,pages/p58c4e6b4/screenshot.png,pages/p58c4e6b4/first_screen.png,pages/p58c4e6b4/index.html,pages/p58c4e6b4/page.txt,1280,2483
+p54fca757,B10,Mopsquad,split,Local service,twin,vague_headline,pages/p54fca757/screenshot.png,pages/p54fca757/first_screen.png,pages/p54fca757/index.html,pages/p54fca757/page.txt,1280,2424
+pc4374e32,B10,Mopsquad,split,Local service,twin,typos,pages/pc4374e32/screenshot.png,pages/pc4374e32/first_screen.png,pages/pc4374e32/index.html,pages/pc4374e32/page.txt,1280,2483
+pc4e970ec,B10,Mopsquad,split,Local service,twin,placeholder_text,pages/pc4e970ec/screenshot.png,pages/pc4e970ec/first_screen.png,pages/pc4e970ec/index.html,pages/pc4e970ec/page.txt,1280,2483
+p5e4475c0,B10,Mopsquad,split,Local service,twin,low_contrast,pages/p5e4475c0/screenshot.png,pages/p5e4475c0/first_screen.png,pages/p5e4475c0/index.html,pages/p5e4475c0/page.txt,1280,2483
+p72938c8b,B10,Mopsquad,split,Local service,twin,broken_image,pages/p72938c8b/screenshot.png,pages/p72938c8b/first_screen.png,pages/p72938c8b/index.html,pages/p72938c8b/page.txt,1280,2483
+pee4182c0,B10,Mopsquad,split,Local service,twin,blocking_popup,pages/pee4182c0/screenshot.png,pages/pee4182c0/first_screen.png,pages/pee4182c0/index.html,pages/pee4182c0/page.txt,1280,2483
+p53fad4ae,B10,Mopsquad,split,Local service,twin,cut_off_text,pages/p53fad4ae/screenshot.png,pages/p53fad4ae/first_screen.png,pages/p53fad4ae/index.html,pages/p53fad4ae/page.txt,1280,2413
+p6572462c,B10,Mopsquad,split,Local service,variant,harmless,pages/p6572462c/screenshot.png,pages/p6572462c/first_screen.png,pages/p6572462c/index.html,pages/p6572462c/page.txt,1280,2483

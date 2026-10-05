@@ -1,0 +1,63 @@
+Page title: Parcelpath · Shipping labels for small online stores
+
+[link] Parcelpath
+[link] How it works
+[link] Pricing
+[link] Integrations
+[link] Log in
+[button] Sign up free
+
+SHIPPING FOR INDEPENDENT ONLINE STORES
+[h1] Print a cheaper shipping label in three clicks
+Parcelpath compares carrier rates for every order, prints the label, and emails tracking to your customer automatically.
+[button] Create a free account
+[button] Compare rates
+No monthly fee on Starter · Pay a small fee per label
+[image] alt="Parcelpath order list with carrier rates and a shipping label"
+
+Shipping 40,000 parcels a week for stores like
+Wren & Wick
+Saltmarsh Goods
+Pebble Paper
+Northfold
+Kiln Supply
+
+[h2] Shipping, minus the spreadsheet
+[h3] Rates side by side
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+[h3] Labels in bulk
+Select fifty orders, print fifty labels. Packing slips come in the same file.
+[h3] Tracking emails, sent for you
+Customers get a tracking link the moment you print, branded with your store's logo.
+
+"We were overpaying on almost every parcel. Parcelpath picks the cheaper carrier for us, and the savings cover the subscription many times over."
+Hana Sato
+Founder, Pebble Paper
+
+[h2] Plans for every stage of your store
+[h3] Starter
+$0/month
+5¢ fee per label
+Up to 200 labels a month
+Email support
+[button] Create a free account
+Most popular
+[h3] Pro
+$25/month
+No per-label fee
+Unlimited labels
+Bulk printing
+[button] Start free trial
+Postage is charged separately at our discounted carrier rates.
+Is there a monthly fee?
+Not on Starter, where you pay 5 cents per label. Pro has a flat monthly fee.
+Which stores do you connect to?
+All the popular store builders, plus a CSV import for everything else.
+
+[h2] Ship your next order for less
+[button] Create a free account
+
+© 2026 Parcelpath Co. · Based in Columbus, Ohio
+[link] Privacy
+[link] Terms
+[link] Contact

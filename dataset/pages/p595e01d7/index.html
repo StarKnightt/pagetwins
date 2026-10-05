@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Northbrew · Cold brew coffee concentrate</title><style>:root{--primary:#7C2D12;--primary-ink:#FFFFFF;--accent:#FCEBDD;--bg:#FFFBF6;--hero-bg:#FFF4E8;--surface:#FFF7EE;--text:#2B1A10;--muted:#6B5243;--border:#EEDCCB;--band-bg:#3B1708;--band-ink:#FFF4E8;--font-head:Georgia, "Times New Roman", serif;--font-body:"Segoe UI", system-ui, sans-serif;--radius:18px;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-body);color:var(--text);background:var(--bg);font-size:16px;line-height:1.55;position:relative}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 40px}
+.nav{background:var(--hero-bg);border-bottom:1px solid var(--border)}
+.nav .wrap{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--font-head);font-weight:700;font-size:20px;letter-spacing:-.01em}
+.nav-links{display:flex;gap:30px;font-size:15px;color:var(--muted)}
+.nav-actions{display:flex;align-items:center;gap:20px;font-size:15px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:calc(var(--radius) * .7);font-weight:600;font-size:16px;padding:14px 24px;border:1.5px solid transparent;white-space:nowrap;line-height:1.2;font-family:var(--font-body)}
+.btn-primary{background:var(--primary);color:var(--primary-ink);box-shadow:0 8px 20px -10px var(--primary)}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--border)}
+.btn-sm{padding:9px 16px;font-size:14px;box-shadow:none}
+.hero{background:var(--hero-bg);padding:72px 0 70px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.tpl-app .hero-grid{grid-template-columns:1.2fr .8fr}
+.tpl-product .hero-grid{grid-template-columns:1fr 1fr}
+.tpl-centered .hero-copy{text-align:center;max-width:840px;margin:0 auto}
+.tpl-centered .hero-visual{margin:50px auto 0;max-width:880px}
+.eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--primary);background:var(--accent);padding:6px 12px;border-radius:999px;margin-bottom:22px}
+.headline{font-family:var(--font-head);font-size:54px;line-height:1.08;letter-spacing:-.02em;font-weight:800;color:var(--text);margin-bottom:20px}
+.tpl-centered .headline{font-size:58px;max-width:780px;margin-left:auto;margin-right:auto}
+.subhead{font-size:19px;line-height:1.6;color:var(--muted);margin-bottom:30px;max-width:560px}
+.tpl-centered .subhead{margin-left:auto;margin-right:auto;max-width:660px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.tpl-centered .hero-ctas{justify-content:center}
+.hero-note{font-size:14px;color:var(--muted)}
+.price-line{display:flex;align-items:baseline;gap:12px;margin-bottom:24px}
+.price-line strong{font-size:34px;font-family:var(--font-head);letter-spacing:-.01em}
+.price-line span{color:var(--muted);font-size:15px}
+.hero-visual img{display:block;width:100%;height:auto;border-radius:var(--radius)}
+.tpl-app .hero-visual img{max-width:400px;margin-left:auto}
+.proof{padding:30px 0;border-bottom:1px solid var(--border);background:var(--bg)}
+.proof .wrap{display:flex;align-items:center;justify-content:center;gap:34px;flex-wrap:wrap}
+.proof-label{font-size:14.5px;color:var(--muted);font-weight:600}
+.logos{display:flex;gap:34px}
+.logos span{font-family:var(--font-head);font-weight:700;font-size:18px;color:var(--muted);opacity:.8;letter-spacing:-.01em}
+.stars{color:#F59E0B;font-size:19px;letter-spacing:3px}
+section.block{padding:64px 0}
+.section-title{font-family:var(--font-head);font-size:34px;line-height:1.2;letter-spacing:-.015em;font-weight:700;text-align:center;margin-bottom:38px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
+.icon{width:40px;height:40px;border-radius:10px;background:var(--accent);color:var(--primary);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-weight:800;font-size:17px}
+.card h3{font-size:18px;margin-bottom:8px;font-family:var(--font-head)}
+.card p{color:var(--muted);font-size:15.5px}
+.testimonial{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.testimonial blockquote{max-width:780px;margin:0 auto;text-align:center;font-family:var(--font-head);font-size:25px;line-height:1.45;font-weight:500}
+.person{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:24px;text-align:left}
+.avatar{width:46px;height:46px;border-radius:50%;background:var(--primary);color:var(--primary-ink);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
+.person strong{display:block;font-size:15px}
+.person span{font-size:14px;color:var(--muted)}
+.tiers{display:grid;gap:22px;justify-content:center}
+.tiers.n2{grid-template-columns:repeat(2,350px)}
+.tiers.n3{grid-template-columns:repeat(3,1fr)}
+.tier{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:30px;position:relative;display:flex;flex-direction:column}
+.tier.popular{border:2px solid var(--primary)}
+.badge{position:absolute;top:-13px;left:28px;background:var(--primary);color:var(--primary-ink);font-size:12px;font-weight:700;padding:4px 11px;border-radius:999px}
+.tier h3{font-size:17px;margin-bottom:10px}
+.price{font-family:var(--font-head);font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.price small{font-size:15px;color:var(--muted);font-weight:500;font-family:var(--font-body);letter-spacing:0;margin-left:6px}
+.tier ul{list-style:none;margin:20px 0 24px;display:grid;gap:10px;font-size:15px;color:var(--muted)}
+.tier li::before{content:"\2713";color:var(--primary);font-weight:800;margin-right:10px}
+.tier .btn{margin-top:auto}
+.pricing-note{text-align:center;color:var(--muted);font-size:14px;margin-top:26px}
+.faq{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 40px;max-width:980px;margin:44px auto 0;padding-top:36px;border-top:1px solid var(--border)}
+.faq dt{font-weight:700;margin-bottom:6px;font-size:16px}
+.faq dd{color:var(--muted);font-size:15.5px}
+.band{background:var(--band-bg);color:var(--band-ink);padding:60px 0;text-align:center}
+.band h2{font-family:var(--font-head);font-size:34px;letter-spacing:-.015em;margin-bottom:24px}
+.band .btn-primary{box-shadow:none}
+.band-ctas{display:flex;gap:12px;justify-content:center}
+.footer{padding:28px 0;font-size:14px;color:var(--muted);background:var(--bg)}
+.footer .wrap{display:flex;justify-content:space-between;align-items:center}
+.footer nav{display:flex;gap:22px}
+.popup-layer{position:absolute;top:0;left:0;right:0;height:800px;background:rgba(10,15,30,.68);display:flex;align-items:center;justify-content:center;z-index:100}
+.popup{background:#fff;color:#111827;width:540px;border-radius:18px;padding:42px 46px;text-align:center;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.popup h3{font-size:27px;line-height:1.25;margin-bottom:10px;font-family:var(--font-head)}
+.popup p{color:#4B5563;margin-bottom:22px;font-size:16px}
+.popup form{display:flex;gap:10px}
+.popup input{flex:1;padding:13px 14px;border:1px solid #D1D5DB;border-radius:10px;font-size:15px;font-family:var(--font-body)}
+.popup .btn{box-shadow:none}
+.popup .close{position:absolute;top:12px;right:18px;font-size:26px;line-height:1;color:#9CA3AF;background:none;border:0}
+.popup .dismiss{display:inline-block;margin-top:16px;font-size:14px;color:#6B7280;text-decoration:underline}
+</style></head><body class="tpl-product"><header class="nav"><div class="wrap"><a href="#" class="logo"><svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#7C2D12"/><ellipse cx="14" cy="14" rx="6.5" ry="9" fill="#FFFFFF" transform="rotate(30 14 14)"/><path d="M11 8 Q16 14 12 20" stroke="#7C2D12" stroke-width="1.8" fill="none"/></svg><span>Northbrew</span></a><nav class="nav-links"><a href="#">Shop</a><a href="#">How to brew</a><a href="#">Reviews</a></nav><div class="nav-actions"><a href="#" class="login">Log in</a><a href="#" class="btn btn-primary btn-sm" data-cta="primary">Shop now</a></div></div></header><main><section class="hero"><div class="wrap"><div class="hero-grid"><div class="hero-visual"><img src="hero.svg" alt="A bottle of Northbrew cold brew concentrate next to a glass of iced coffee" width="520" height="520"></div><div class="hero-copy"><span class="eyebrow">Small-batch cold brew concentrate</span><h1 class="headline">Elevate your everyday</h1><p class="subhead">One 32 oz bottle makes 16 smooth, low-acid iced coffees. Pour a little over ice, add water or milk, and you are done.</p><div class="price-line"><strong>$24</strong><span>per 32 oz bottle</span></div><div class="hero-ctas"><a href="#" class="btn btn-primary" data-cta="primary">Add to cart</a><a href="#" class="btn btn-primary" data-cta="primary">Subscribe and save 15%</a></div><p class="hero-note">Free shipping on orders over $50 · 30-day money-back guarantee</p></div></div></div></section><section class="proof"><div class="wrap"><span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p class="proof-label">Rated 4.8 out of 5 by 3,200 customers</p></div></section><section class="block" id="features"><div class="wrap"><h2 class="section-title">Why people switch to Northbrew</h2><div class="grid3"><div class="card"><div class="icon" aria-hidden="true">1</div><h3>Smooth, never bitter</h3><p>We steep single-origin beans in cold water for 18 hours, which keeps acidity low and flavor rich.</p></div><div class="card"><div class="icon" aria-hidden="true">2</div><h3>Keeps for weeks</h3><p>An opened bottle keeps in the fridge for 3 weeks. Unopened, it lasts 6 months in the pantry.</p></div><div class="card"><div class="icon" aria-hidden="true">3</div><h3>Less than a cafe</h3><p>Each bottle makes 16 drinks, so a glass costs far less than an iced coffee from a cafe.</p></div></div></div></section><section class="block testimonial"><div class="wrap"><blockquote>"I have tried every cold brew in the grocery store. This is the only one I order again every single month."</blockquote><div class="person"><div class="avatar" aria-hidden="true">LM</div><div><strong>Laura Mendez</strong><span>Verified buyer</span></div></div></div></section><section class="block" id="pricing"><div class="wrap"><h2 class="section-title">Choose how you buy</h2><div class="tiers n2"><div class="tier"><h3>One bottle</h3><div class="price">$24</div><ul><li>32 oz, makes 16 drinks</li><li>Ships in 1 to 2 days</li><li>30-day guarantee</li></ul><a href="#" class="btn btn-ghost" data-cta="primary">Add to cart</a></div><div class="tier popular"><span class="badge">Most popular</span><h3>Subscribe</h3><div class="price">$20.40<small>per bottle</small></div><ul><li>Save 15% on every order</li><li>Skip or cancel anytime</li><li>Choose your delivery date</li></ul><a href="#" class="btn btn-primary" data-cta="primary">Subscribe</a></div></div><dl class="faq"><div><dt>How much is shipping?</dt><dd>Shipping is free on orders over $50. Smaller orders ship for a flat $5.95.</dd></div><div><dt>How do I make a drink?</dt><dd>Mix one part concentrate with two parts water or milk over ice.</dd></div></dl></div></section><section class="band"><div class="wrap"><h2>Your morning coffee, sorted</h2><div class="band-ctas"><a href="#" class="btn btn-primary" data-cta="primary">Add to cart</a></div></div></section></main><footer class="footer"><div class="wrap"><span>&copy; 2026 Northbrew Coffee Co. · Roasted in Asheville, North Carolina</span><nav><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></nav></div></footer></body></html>
