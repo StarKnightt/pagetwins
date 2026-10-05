@@ -9,6 +9,14 @@ Deadline: Mon Oct 12, 2026, 12:29 PM IST. Target: benchmark live on Kaggle and p
 - Local pilot on Groq running in the background on 3 of the 10 bases (Groq's free tier allows about 200,000 tokens per model per day): gpt-oss-120b and gpt-oss-20b (text), Qwen 3.8 27B (screenshots and text).
 - Kaggle CLI 2.2.4 is installed in `.venv`, but it has no credentials yet.
 
+## Blocker (Oct 6, 00:25 IST): Kaggle identity verification
+
+- Done: API token works (account `prasenx`); private dataset uploaded and ready at https://www.kaggle.com/datasets/prasenx/pagetwins (all page folders extracted).
+- Blocked: `kaggle b init` / `kaggle b auth` return 403, and `kaggle b t push` fails even for a two-line test task. Opening kaggle.com/benchmarks/tasks/new redirects to Settings with the dialog "To continue, please verify your identity ... Scarce resources such as TPUs and Benchmark Models also require identity verification", served by Persona.
+- Settings shows Phone verification: Verified, Identity verification: not done.
+- **Owner action:** kaggle.com, Settings, Identity verification, **Verify my account**, then **Continue to Persona** (needs a government ID and a smartphone or webcam). This has to be done by the owner in person; I will not touch it.
+- After it shows Verified, tell me and I resume at step 2 below (`kaggle b init`), then push, run, download and benchmark creation. Nothing else needs to change; the task files are ready.
+
 ## What the owner needs to do
 
 1. **Create a Kaggle API token** (the CLI needs it to upload the dataset and push and run tasks):
