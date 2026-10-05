@@ -39,7 +39,8 @@ def main():
     out = ROOT / "kaggle_tasks"
     out.mkdir(exist_ok=True)
     for (task, mode), description in TASKS.items():
-        slug = f"pagetwins-{task}-{mode}"
+        # the slug pagetwins-solo-text is taken by an empty task left by a failed push
+        slug = "pagetwins-solo-textview" if (task, mode) == ("solo", "text") else f"pagetwins-{task}-{mode}"
         body = TEMPLATE.format(title=f"{task} ({mode})", slug=slug, description=description,
                                func=slug.replace("-", "_"), task=task, mode=mode)
         (out / f"{slug}.py").write_text(CORE + body, encoding="utf-8")

@@ -30,7 +30,8 @@ LABELS = {
     "cut_off_text": "Text is cut off or hidden by another element, so it cannot be fully read.",
 }
 LABEL_LIST = "\n".join(f"{k}: {v}" for k, v in LABELS.items())
-MAX_TOKENS = int(os.environ.get("PAGETWINS_MAX_TOKENS", "8192"))
+# Kaggle reserves quota against max_tokens before each call; answers are short JSON (median under 500 tokens).
+MAX_TOKENS = int(os.environ.get("PAGETWINS_MAX_TOKENS", "4096"))
 N_JOBS = int(os.environ.get("PAGETWINS_N_JOBS", "4"))
 # Comma-separated base ids (e.g. "B01") restrict a run for quick local validation; unset means all 10 bases.
 BASES = [b for b in os.environ.get("PAGETWINS_BASES", "").split(",") if b]
@@ -187,6 +188,18 @@ def norm_better(x):
     return "invalid"
 
 
+def _drop_screenshots(chat, page_ids):
+    """Swap screenshots in the stored transcript for their page ids once the model has answered.
+
+    Kaggle stores every transcript; with full-page screenshots embedded, the pair task's run files
+    grow past what a task run can save. The images are in the attached dataset under these ids.
+    """
+    ids = iter(page_ids)
+    for m in chat.messages:
+        if isinstance(m.content, images.ImageContent):
+            m.content = f"[full-page screenshot of page {next(ids, '?')}, file pages/<id>/screenshot.png in the PageTwins dataset]"
+
+
 def _usage(chat):
     try:
         u = chat.usage
@@ -214,6 +227,8 @@ def pair_item(llm, pair_id, kind, category, order, page_a, page_b, expected, mod
             + PAIR_PROMPT.format(input_note=TEXT_INPUT_PAIR, labels=LABEL_LIST)
         )
     raw = llm.prompt(prompt, extra_api_params={"max_tokens": MAX_TOKENS})
+    if mode == "vision":
+        _drop_screenshots(kbench.chats.get_current_chat(), [page_a, page_b])
     ans = parse_json(raw) or {}
     better = norm_better(ans.get("better"))
     problem = norm_label(ans.get("problem")) if better in ("A", "B") else ("none" if better == "same" else "invalid")
@@ -232,6 +247,7 @@ def solo_item(llm, page_id, base_id, role, category, mode) -> dict:
         prompt = SOLO_PROMPT.format(input_note=VISION_INPUT_SOLO, labels=LABEL_LIST)
         raw = llm.prompt(prompt, image=images.from_path(page_file(page_id, "screenshot.png")),
                          extra_api_params={"max_tokens": MAX_TOKENS})
+        _drop_screenshots(kbench.chats.get_current_chat(), [page_id])
     else:
         prompt = (f"<page>\n{page_text(page_id)}\n</page>\n\n"
                   + SOLO_PROMPT.format(input_note=TEXT_INPUT_SOLO, labels=LABEL_LIST))
@@ -406,6 +422,14 @@ def score_solo(records):
     }
 
 
+def refuse_partial(records):
+    """API failures (quota, timeouts) are not the model's answers; a run with many of them is not scored."""
+    missing = sum(1 for r in records if str(r.get("raw", "")).startswith("ERROR"))
+    if missing > 0.02 * len(records):
+        raise RuntimeError(f"{missing} of {len(records)} items got no answer from the API (quota or timeout); "
+                           "not scoring a partial run. Re-run this model later.")
+
+
 def report(metrics, title):
     print(f"== {title}")
     print(json.dumps(metrics, indent=1))
@@ -421,14 +445,27 @@ def save_records(records, name):
 # ## Benchmark tasks
 
 # %%
+def _evaluate_quietly(item, llm, df):
+    """Run every item without rendering each chat into the notebook (hundreds of chats, some with images)."""
+    handler = kbench.config.ui_handler
+    if handler is not None:
+        kbench.events.manager.unbind(handler)
+    try:
+        with kbench.client.enable_cache():
+            return item.evaluate(llm=[llm], evaluation_data=df, n_jobs=N_JOBS, max_attempts=3,
+                                 retry_delay=10, on_failure="continue", timeout=600)
+    finally:
+        if handler is not None:
+            kbench.events.manager.bind(handler)
+
+
 def _run_pairs(llm, mode):
     df = pair_rows(mode)
-    with kbench.client.enable_cache():
-        runs = pair_item.evaluate(llm=[llm], evaluation_data=df, n_jobs=N_JOBS, max_attempts=3,
-                                  retry_delay=10, on_failure="continue", timeout=600)
+    runs = _evaluate_quietly(pair_item, llm, df)
     records = collect(runs, df, ["pair_id", "order"])
-    m = score_pairs(records)
     save_records(records, f"pagetwins_pairs_{mode}_records.csv")
+    refuse_partial(records)
+    m = score_pairs(records)
     report(m, f"PageTwins pairs ({mode})")
     kbench.assertions.assert_true(m["invalid_answers"] <= 0.05 * len(records),
                                   expectation=f"At most 5% unreadable answers (got {m['invalid_answers']} of {len(records)}).")
@@ -441,12 +478,11 @@ def _run_pairs(llm, mode):
 
 def _run_solo(llm, mode):
     df = solo_rows(mode)
-    with kbench.client.enable_cache():
-        runs = solo_item.evaluate(llm=[llm], evaluation_data=df, n_jobs=N_JOBS, max_attempts=3,
-                                  retry_delay=10, on_failure="continue", timeout=600)
+    runs = _evaluate_quietly(solo_item, llm, df)
     records = collect(runs, df, ["page_id"])
-    m = score_solo(records)
     save_records(records, f"pagetwins_solo_{mode}_records.csv")
+    refuse_partial(records)
+    m = score_solo(records)
     report(m, f"PageTwins solo ({mode})")
     kbench.assertions.assert_true(m["invalid_answers"] <= 0.05 * len(records),
                                   expectation=f"At most 5% unreadable answers (got {m['invalid_answers']} of {len(records)}).")
@@ -460,9 +496,9 @@ def _run_solo(llm, mode):
 # ## Main task: solo (text)
 
 # %%
-@kbench.task(name="pagetwins-solo-text", description="Same as the screenshot solo task, but the page is given as its visible text and element roles.")
-def pagetwins_solo_text(llm) -> float:
+@kbench.task(name="pagetwins-solo-textview", description="Same as the screenshot solo task, but the page is given as its visible text and element roles.")
+def pagetwins_solo_textview(llm) -> float:
     return _run_solo(llm, "text")
 
 
-pagetwins_solo_text.run(kbench.llm)
+pagetwins_solo_textview.run(kbench.llm)
