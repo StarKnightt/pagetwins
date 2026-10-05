@@ -97,8 +97,24 @@ Reply with only a JSON object and nothing else:
 {{"problems": ["<label>", ...], "score": <integer from 1 to 10>, "evidence": "<one short sentence about the most serious problem, or none>"}}"""
 
 
+def find_pages_dir():
+    """Folder that holds the per-page folders; uploaded archives can add a nesting level on Kaggle."""
+    first = pd.read_csv(os.path.join(DATA_ROOT, "pages.csv")).page_id.iloc[0]
+    if os.path.isdir(os.path.join(DATA_ROOT, "pages", first)):
+        return os.path.join(DATA_ROOT, "pages")
+    search_roots = [DATA_ROOT, os.path.dirname(DATA_ROOT)]
+    for root in search_roots:
+        hits = glob.glob(os.path.join(root, "**", first, "page.txt"), recursive=True)
+        if hits:
+            return os.path.dirname(os.path.dirname(hits[0]))
+    raise FileNotFoundError(f"Page folders not found under {DATA_ROOT}")
+
+
+PAGES_DIR = find_pages_dir()
+
+
 def page_file(page_id, name):
-    return os.path.join(DATA_ROOT, "pages", page_id, name)
+    return os.path.join(PAGES_DIR, page_id, name)
 
 
 def page_text(page_id):
