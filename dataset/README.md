@@ -38,7 +38,7 @@ the clean page, which makes them a built-in check on text-only graders.
 - `pairs.csv`: one row per pair (`pair_id`, `kind` = defect / control, `category`, `clean_page_id`, `other_page_id`, `text_visible`, `text_identical`, `description`, `verified`, `verification`, `pixel_diff_box`, `pixel_diff_area`).
 - `categories.json`: the label definitions shown to models.
 - `checks.json`: automated DOM measurements per page (primary button count, headline contrast and clipping, image loaded, popup visible, placeholder text, dollar amounts).
-- `pages/<page_id>/`: `index.html`, `hero.svg` (absent on purpose for broken_image twins), `screenshot.png` (1280 px wide, full page), `first_screen.png` (1280 x 800), `page.txt` (visible text with element roles).
+- `pages/{page_id}/`: `index.html`, `hero.svg` (absent on purpose for broken_image twins), `screenshot.png` (1280 px wide, full page), `first_screen.png` (1280 x 800), `page.txt` (visible text with element roles).
 
 ## How the labels were verified
 
@@ -70,3 +70,4 @@ runs two formats on every model, each with screenshots or with the text view:
 
 Data: CC BY 4.0. Code that generated it: MIT. Both by Prasenjit Nayak, 2026.
 Source and harness: https://github.com/StarKnightt/pagetwins
+Benchmark: https://www.kaggle.com/benchmarks/prasenx/pagetwins
