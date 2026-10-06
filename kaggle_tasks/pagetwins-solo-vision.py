@@ -220,7 +220,7 @@ def _usage(chat):
 # Each comparison and each solo grade runs in its own isolated chat.
 
 # %%
-@kbench.task(name="pagetwins-pair-item", store_task=False)
+@kbench.task(name="pagetwins-pair-item", store_task=False, store_run=False)
 def pair_item(llm, pair_id, kind, category, order, page_a, page_b, expected, mode) -> dict:
     if mode == "vision":
         kbench.user.send("Page A:")
@@ -251,7 +251,7 @@ def pair_item(llm, pair_id, kind, category, order, page_a, page_b, expected, mod
     }
 
 
-@kbench.task(name="pagetwins-solo-item", store_task=False)
+@kbench.task(name="pagetwins-solo-item", store_task=False, store_run=False)
 def solo_item(llm, page_id, base_id, role, category, mode) -> dict:
     if mode == "vision":
         prompt = SOLO_PROMPT.format(input_note=VISION_INPUT_SOLO, labels=LABEL_LIST)
