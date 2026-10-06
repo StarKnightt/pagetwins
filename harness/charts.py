@@ -122,6 +122,42 @@ def chart_categories(rows, path, mode, cats, text_visible):
     plt.close(fig)
 
 
+def chart_category_totals(rows, path, cats, text_visible, task="solo"):
+    """All models pooled: share of twins caught per defect, with screenshots and with the text view."""
+    got = index(rows)
+    field = "named_both" if task == "pairs" else "strict"
+    rates = {}
+    for mode in ("vision", "text"):
+        ms = [m for (mo, t, md), m in got.items() if t == task and md == mode]
+        rates[mode] = [sum(m["per_category"][c][field] for m in ms) / max(sum(m["per_category"][c]["n"] for m in ms), 1)
+                       if ms else np.nan for c in cats]
+        rates[mode + "_n"] = len(ms)
+    y = np.arange(len(cats))
+    fig, ax = plt.subplots(figsize=(7.6, 5.0))
+    ax.barh(y - 0.2, rates["vision"], 0.38, color=BLUE, label=f"screenshot ({rates['vision_n']} models)")
+    ax.barh(y + 0.2, rates["text"], 0.38, color=ORANGE, label=f"text view ({rates['text_n']} models)")
+    for yi, v in zip(y - 0.2, rates["vision"]):
+        if not np.isnan(v):
+            ax.text(v + 0.01, yi, f"{v:.0%}", va="center", fontsize=8, color=BLUE)
+    for yi, v in zip(y + 0.2, rates["text"]):
+        if not np.isnan(v):
+            ax.text(v + 0.01, yi, f"{v:.0%}", va="center", fontsize=8, color=ORANGE)
+    ax.set_yticks(y, [CAT_LABEL[c].replace("\n", " ").replace("- ", "") for c in cats], fontsize=9.5)
+    for j, c in enumerate(cats):
+        if c not in text_visible:
+            ax.get_yticklabels()[j].set_color(RED)
+    ax.invert_yaxis()
+    ax.set_xlim(0, 1.08)
+    ax.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
+    what = "single page" if task == "solo" else "pairs"
+    ax.set_title(f"Twins caught per defect, all models pooled ({what} task)\nred: invisible in the text view by construction",
+                 fontsize=10)
+    ax.legend(fontsize=8, frameon=False, loc="lower right")
+    fig.tight_layout()
+    fig.savefig(path, dpi=160)
+    plt.close(fig)
+
+
 def chart_dumbbell(rows, path, pairs_of, labels, title, xlabel):
     """One row per model, two dots (for example screenshot vs text) joined by a line."""
     data = []
@@ -273,6 +309,8 @@ def draw_all(rows, charts_dir, cats, text_visible, results_dir, records_by_key=N
     chart_scores(rows, charts_dir / "kaggle_scores.png")
     chart_categories(rows, charts_dir / "kaggle_categories_vision.png", "vision", cats, text_visible)
     chart_categories(rows, charts_dir / "kaggle_categories_text.png", "text", cats, text_visible)
+    chart_category_totals(rows, charts_dir / "kaggle_category_totals.png", cats, text_visible, "solo")
+    chart_category_totals(rows, charts_dir / "kaggle_category_totals_pairs.png", cats, text_visible, "pairs")
     got = index(rows)
     tv = [c for c in cats if c in text_visible]
 
