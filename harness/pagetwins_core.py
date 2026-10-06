@@ -309,7 +309,7 @@ def solo_rows(mode):
     return df[df.base_id.isin(BASES)] if BASES else df
 
 
-def collect(done, df, key_cols):
+def collect(done, errors, df, key_cols):
     """Turn answered items into records, keeping items that never got an answer as invalid answers."""
     records = []
     for row in df.to_dict("records"):
@@ -319,9 +319,14 @@ def collect(done, df, key_cols):
         else:
             r = {c: row[c] for c in row if c != "mode"}
             r.update(valid=False, better="invalid", problem="invalid", problems=[], score=None,
-                     evidence="", raw="ERROR: no answer (API error or timeout)")
+                     evidence="", raw=f"ERROR: no answer ({errors.get(k, 'API error or timeout')})")
             records.append(r)
     return records
+
+
+def _last_line(message):
+    lines = [x.strip() for x in str(message or "").splitlines() if x.strip()]
+    return lines[-1][:300] if lines else "unknown error"
 
 # %% [markdown]
 # ## Scoring
@@ -431,10 +436,11 @@ def score_solo(records):
 
 def refuse_partial(records):
     """API failures (quota, timeouts) are not the model's answers; a run with many of them is not scored."""
-    missing = sum(1 for r in records if str(r.get("raw", "")).startswith("ERROR"))
-    if missing > 0.02 * len(records):
-        raise RuntimeError(f"{missing} of {len(records)} items got no answer from the API (quota or timeout); "
-                           "not scoring a partial run. Re-run this model later.")
+    missing = [str(r.get("raw", "")) for r in records if str(r.get("raw", "")).startswith("ERROR")]
+    if len(missing) > 0.02 * len(records):
+        common, n = Counter(missing).most_common(1)[0]
+        raise RuntimeError(f"{len(missing)} of {len(records)} items got no answer from the API; not scoring a "
+                           f"partial run. Most common ({n}x): {common[:300]}")
 
 
 def report(metrics, title):
@@ -462,7 +468,7 @@ def _evaluate_quietly(item, llm, df, key_cols):
     handler = kbench.config.ui_handler
     if handler is not None:
         kbench.events.manager.unbind(handler)
-    done = {}
+    done, errors = {}, {}
     try:
         todo = df
         for attempt in range(1 + RETRY_PASSES):
@@ -473,19 +479,21 @@ def _evaluate_quietly(item, llm, df, key_cols):
             for run in runs.runs:
                 if isinstance(run.result, dict):
                     done[tuple(run.result[k] for k in key_cols)] = run.result
+                else:
+                    errors[tuple(run.params.get(k) for k in key_cols)] = _last_line(run.error_message)
             todo = df[[tuple(k) not in done for k in df[key_cols].itertuples(index=False)]]
             if todo.empty:
                 break
     finally:
         if handler is not None:
             kbench.events.manager.bind(handler)
-    return done
+    return done, errors
 
 
 def _run_pairs(llm, mode):
     df = pair_rows(mode)
-    done = _evaluate_quietly(pair_item, llm, df, ["pair_id", "order"])
-    records = collect(done, df, ["pair_id", "order"])
+    done, errors = _evaluate_quietly(pair_item, llm, df, ["pair_id", "order"])
+    records = collect(done, errors, df, ["pair_id", "order"])
     save_records(records, f"pagetwins_pairs_{mode}_records.csv")
     refuse_partial(records)
     m = score_pairs(records)
@@ -501,8 +509,8 @@ def _run_pairs(llm, mode):
 
 def _run_solo(llm, mode):
     df = solo_rows(mode)
-    done = _evaluate_quietly(solo_item, llm, df, ["page_id"])
-    records = collect(done, df, ["page_id"])
+    done, errors = _evaluate_quietly(solo_item, llm, df, ["page_id"])
+    records = collect(done, errors, df, ["page_id"])
     save_records(records, f"pagetwins_solo_{mode}_records.csv")
     refuse_partial(records)
     m = score_solo(records)
