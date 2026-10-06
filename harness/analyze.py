@@ -101,15 +101,19 @@ def load_kaggle(root):
                 print(f"skipping partial run: {slug} {model}")
                 continue
             task, mode = f.stem.split("_")[1:3]
-            groups[(model, task, mode)] = _records(df, task)
+            # scored as the task scored them on Kaggle; the stored raw text is truncated
+            groups[(model, task, mode)] = _records(df, task, reparse=False)
     return groups
 
 
-def _records(df, task):
+def _records(df, task, reparse=True):
     recs = df.where(df.notna(), None).to_dict("records")
     for r in recs:
         if task == "solo" and isinstance(r.get("problems"), str):
             r["problems"] = ast.literal_eval(r["problems"])
+        r["valid"] = bool(r.get("valid"))
+    if not reparse:
+        return recs
     fix = reparse_pair if task == "pairs" else reparse_solo
     return [fix(r) for r in recs]
 

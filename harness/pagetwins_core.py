@@ -131,10 +131,15 @@ def page_text(page_id):
 # anything that cannot be parsed is scored as wrong, never dropped.
 
 # %%
+def answer_text(text):
+    """The reply without any <think> block, which some models put before the JSON."""
+    return re.sub(r"<think>.*?</think>", "", str(text), flags=re.S).strip()
+
+
 def parse_json(text):
     if not isinstance(text, str):
         return None
-    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
+    text = answer_text(text)
     text = re.sub(r"```(?:json)?", "", text)
     starts = [m.start() for m in re.finditer(r"\{", text)]
     for s in starts:
@@ -241,7 +246,7 @@ def pair_item(llm, pair_id, kind, category, order, page_a, page_b, expected, mod
     return {
         "pair_id": pair_id, "kind": kind, "category": category, "order": order, "expected": expected,
         "better": better, "problem": problem, "valid": better != "invalid",
-        "evidence": str(ans.get("evidence", ""))[:300], "raw": str(raw)[:1500],
+        "evidence": str(ans.get("evidence", ""))[:300], "raw": answer_text(raw)[:1500],
         "input_tokens": tin, "output_tokens": tout,
     }
 
@@ -271,7 +276,7 @@ def solo_item(llm, page_id, base_id, role, category, mode) -> dict:
     return {
         "page_id": page_id, "base_id": base_id, "role": role, "category": category,
         "problems": problems, "score": score, "valid": valid,
-        "evidence": str((ans or {}).get("evidence", ""))[:300], "raw": str(raw)[:1500],
+        "evidence": str((ans or {}).get("evidence", ""))[:300], "raw": answer_text(raw)[:1500],
         "input_tokens": tin, "output_tokens": tout,
     }
 
