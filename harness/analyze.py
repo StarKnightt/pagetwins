@@ -301,7 +301,7 @@ def main():
     write_tables(rows, out_dir, title)
     if args.kaggle:
         charts_dir = CHARTS if not args.out else out_dir
-        charts.draw_all(rows, charts_dir, CATS, core_text_visible(), out_dir)
+        charts.draw_all(rows, charts_dir, CATS, core_text_visible(), out_dir, groups)
     else:
         chart_heatmap(rows, CHARTS / f"{tag}_per_category.png")
         chart_pairs_vs_solo(rows, CHARTS / f"{tag}_pairs_vs_solo.png")

@@ -177,7 +177,58 @@ def chart_false_alarms(rows, path):
     plt.close(fig)
 
 
-def facts(rows, cats, text_visible):
+# USD per million input and output tokens. The first three were read from the cost that Kaggle's
+# model proxy reports with each reply; the rest are the providers' list prices (October 2026).
+PRICES = {
+    "gemini-3.7-flash": (0.75, 3.75), "gemini-3.5-flash-lite": (0.30, 2.50), "deepseek-r1-0528": (1.35, 5.40),
+    "claude-sonnet-5-5-default": (2.0, 10.0), "claude-haiku-4-5-20251001": (1.0, 5.0),
+    "gpt-6.1-sol": (2.0, 10.0), "gpt-6-luna": (0.10, 0.50), "grok-4.6": (2.0, 6.0),
+}
+
+
+def run_costs(records_by_key):
+    """Token totals per run, and a cost estimate where the price is known."""
+    def num(v):
+        try:
+            v = float(v)
+        except (TypeError, ValueError):
+            return 0
+        return 0 if np.isnan(v) else int(v)
+
+    out = {}
+    for (model, task, mode), recs in records_by_key.items():
+        tin = sum(num(r.get("input_tokens")) for r in recs)
+        tout = sum(num(r.get("output_tokens")) for r in recs)
+        n = sum(1 for r in recs if num(r.get("input_tokens")))
+        price = PRICES.get(model)
+        out[f"{model}|{task}_{mode}"] = {
+            "items_with_usage": n, "input_tokens": tin, "output_tokens": tout,
+            "input_per_item": round(tin / n) if n else None, "output_per_item": round(tout / n) if n else None,
+            "usd_estimate": round((tin * price[0] + tout * price[1]) / 1e6, 3) if price else None,
+        }
+    return out
+
+
+def control_details(records_by_key):
+    """For each pairs run: how each kind of control pair was answered (both orders 'same' = passed)."""
+    out = {}
+    for (model, task, mode), recs in records_by_key.items():
+        if task != "pairs":
+            continue
+        by = {}
+        for r in recs:
+            if r.get("kind") == "control":
+                by.setdefault((r["pair_id"], r["category"]), []).append(r["better"])
+        kinds = {}
+        for (_, cat), answers in by.items():
+            k = kinds.setdefault(cat, {"pairs": 0, "passed": 0})
+            k["pairs"] += 1
+            k["passed"] += int(len(answers) == 2 and all(a == "same" for a in answers))
+        out[f"{model}|{task}_{mode}"] = kinds
+    return out
+
+
+def facts(rows, cats, text_visible, records_by_key=None):
     """Numbers quoted in the write-up, computed in one place."""
     got = index(rows)
     visual = [c for c in cats if c not in text_visible]
@@ -211,10 +262,13 @@ def facts(rows, cats, text_visible):
             n = sum(m["per_category"][c]["n"] for m in ms)
             per[c] = {"caught": sum(m["per_category"][c][field] for m in ms), "of": n, "models": len(ms)}
         out["categories"][f"{task}_{mode}"] = per
+    if records_by_key:
+        out["costs"] = run_costs(records_by_key)
+        out["controls"] = control_details(records_by_key)
     return out
 
 
-def draw_all(rows, charts_dir, cats, text_visible, results_dir):
+def draw_all(rows, charts_dir, cats, text_visible, results_dir, records_by_key=None):
     cats = [c for c in cats if c in text_visible] + [c for c in cats if c not in text_visible]
     chart_scores(rows, charts_dir / "kaggle_scores.png")
     chart_categories(rows, charts_dir / "kaggle_categories_vision.png", "vision", cats, text_visible)
@@ -240,6 +294,6 @@ def draw_all(rows, charts_dir, cats, text_visible, results_dir):
                    "Screenshots, all 10 defects: comparing two versions vs judging one page",
                    "Defects caught")
     chart_false_alarms(rows, charts_dir / "kaggle_false_alarms.png")
-    f = facts(rows, cats, text_visible)
+    f = facts(rows, cats, text_visible, records_by_key)
     (results_dir / "facts.json").write_text(json.dumps(f, indent=1), encoding="utf-8")
     return f
