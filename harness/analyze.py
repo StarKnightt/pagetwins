@@ -29,6 +29,7 @@ import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 from PIL import Image, ImageDraw  # noqa: E402
 
+import charts  # noqa: E402
 import pagetwins_core as core  # noqa: E402
 
 CATS = list(core.LABELS)
@@ -82,7 +83,7 @@ def load_local(root):
     return groups
 
 
-def load_kaggle(root):
+def load_kaggle(root, keep_partial=False):
     """Records CSVs written by the Kaggle tasks, found under `kaggle b t download` output."""
     # layout: <task slug>/<version>/<model>/<run id>/<file>; use each task's newest version and
     # each model's newest run, and skip runs that stopped early (API errors, not model answers)
@@ -97,7 +98,7 @@ def load_kaggle(root):
         for model, runs in versions[max(versions)].items():
             f = max(runs, key=lambda p: int(p.relative_to(root).parts[3]))
             df = pd.read_csv(f)
-            if df.raw.astype(str).str.startswith("ERROR").sum() > 0.02 * len(df):
+            if df.raw.astype(str).str.startswith("ERROR").sum() > 0.02 * len(df) and not keep_partial:
                 print(f"skipping partial run: {slug} {model}")
                 continue
             task, mode = f.stem.split("_")[1:3]
@@ -284,20 +285,26 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--local", default=str(ROOT / "results" / "local"))
     ap.add_argument("--kaggle", default="")
+    ap.add_argument("--keep-partial", action="store_true", help="chart development only: include stopped runs")
+    ap.add_argument("--out", default="", help="results folder name (default: kaggle or local)")
     args = ap.parse_args()
     CHARTS.mkdir(exist_ok=True)
 
     if args.kaggle:
-        groups, tag, title = load_kaggle(args.kaggle), "kaggle", "PageTwins results on Kaggle"
+        # every item counts, unanswered ones as wrong, exactly as the task scored the run on Kaggle
+        groups, tag, title = load_kaggle(args.kaggle, args.keep_partial), "kaggle", "PageTwins results on Kaggle"
     else:
-        groups, tag, title = load_local(args.local), "local", "PageTwins local pilot (Groq)"
-    groups = common_subset(groups)
+        groups, tag, title = common_subset(load_local(args.local)), "local", "PageTwins local pilot (Groq)"
     rows = summarize(groups)
-    out_dir = ROOT / "results" / tag
+    out_dir = ROOT / "results" / (args.out or tag)
     out_dir.mkdir(parents=True, exist_ok=True)
     write_tables(rows, out_dir, title)
-    chart_heatmap(rows, CHARTS / f"{tag}_per_category.png")
-    chart_pairs_vs_solo(rows, CHARTS / f"{tag}_pairs_vs_solo.png")
+    if args.kaggle:
+        charts_dir = CHARTS if not args.out else out_dir
+        charts.draw_all(rows, charts_dir, CATS, core_text_visible(), out_dir)
+    else:
+        chart_heatmap(rows, CHARTS / f"{tag}_per_category.png")
+        chart_pairs_vs_solo(rows, CHARTS / f"{tag}_pairs_vs_solo.png")
     contact_sheet(CHARTS / "examples.png")
     print((out_dir / "summary.md").read_text(encoding="utf-8"))
 
