@@ -8,6 +8,7 @@ __pycache__/
 kaggle.json
 results/smoke/
 results/logs/
-results/kaggle_raw/
+results/kaggle_raw/*/1/
+results/kaggle_raw/*/2/
 .kbench_cache*/
 NEXT.md

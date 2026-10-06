@@ -6,7 +6,6 @@ page alone?
 
 - Benchmark: https://www.kaggle.com/benchmarks/prasenx/pagetwins
 - Dataset: https://www.kaggle.com/datasets/prasenx/pagetwins
-- Write-up: RESULTS_POST_LINK
 
 ![Six of the ten defects next to the original page](charts/examples.png)
 
@@ -56,11 +55,12 @@ scored, and items that fail are asked again up to two more times first.
 
 ## Results
 
-RESULTS_TABLE
-
-Per-category charts and the full tables are in [`charts/`](charts) and
-[`results/kaggle/summary.md`](results/kaggle/summary.md). Raw answers for every
-run are in `results/kaggle_raw/<task>/<version>/<model>/<run>/*_records.csv`.
+The model runs are in progress on Kaggle (version 3 of each task); the
+leaderboard on the benchmark page fills in as runs finish. When they are done,
+`python harness/analyze.py --kaggle results/kaggle_raw` writes the tables to
+`results/kaggle/summary.md`, the quoted numbers to `results/kaggle/facts.json`
+and the charts to `charts/`. Raw answers for every run are kept in
+`results/kaggle_raw/<task>/<version>/<model>/<run>/*_records.csv`.
 
 ## Layout
 
