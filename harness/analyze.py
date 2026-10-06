@@ -84,18 +84,34 @@ def load_local(root):
 
 def load_kaggle(root):
     """Records CSVs written by the Kaggle tasks, found under `kaggle b t download` output."""
-    groups = {}
+    # layout: <task slug>/<version>/<model>/<run id>/<file>; use each task's newest version and
+    # each model's newest run, and skip runs that stopped early (API errors, not model answers)
+    files = {}
     for f in sorted(Path(root).rglob("pagetwins_*_records.csv")):
-        task, mode = f.stem.split("_")[1:3]
-        model = f.relative_to(root).parts[2] if len(f.relative_to(root).parts) > 3 else f.parent.name
-        df = pd.read_csv(f)
-        recs = df.where(df.notna(), None).to_dict("records")
-        for r in recs:
-            if task == "solo" and isinstance(r.get("problems"), str):
-                r["problems"] = ast.literal_eval(r["problems"])
-        fix = reparse_pair if task == "pairs" else reparse_solo
-        groups[(model, task, mode)] = [fix(r) for r in recs]
+        parts = f.relative_to(root).parts
+        if len(parts) < 5 or not parts[1].isdigit():
+            continue
+        files.setdefault(parts[0], {}).setdefault(int(parts[1]), {}).setdefault(parts[2], []).append(f)
+    groups = {}
+    for slug, versions in files.items():
+        for model, runs in versions[max(versions)].items():
+            f = max(runs, key=lambda p: int(p.relative_to(root).parts[3]))
+            df = pd.read_csv(f)
+            if df.raw.astype(str).str.startswith("ERROR").sum() > 0.02 * len(df):
+                print(f"skipping partial run: {slug} {model}")
+                continue
+            task, mode = f.stem.split("_")[1:3]
+            groups[(model, task, mode)] = _records(df, task)
     return groups
+
+
+def _records(df, task):
+    recs = df.where(df.notna(), None).to_dict("records")
+    for r in recs:
+        if task == "solo" and isinstance(r.get("problems"), str):
+            r["problems"] = ast.literal_eval(r["problems"])
+    fix = reparse_pair if task == "pairs" else reparse_solo
+    return [fix(r) for r in recs]
 
 
 def common_subset(groups):

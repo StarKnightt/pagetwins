@@ -10,6 +10,7 @@ import glob
 import json
 import os
 import re
+import time
 from collections import Counter, defaultdict
 
 import pandas as pd
@@ -30,9 +31,11 @@ LABELS = {
     "cut_off_text": "Text is cut off or hidden by another element, so it cannot be fully read.",
 }
 LABEL_LIST = "\n".join(f"{k}: {v}" for k, v in LABELS.items())
-# Kaggle reserves quota against max_tokens before each call; answers are short JSON (median under 500 tokens).
-MAX_TOKENS = int(os.environ.get("PAGETWINS_MAX_TOKENS", "4096"))
+# Answers are short JSON, but reasoning models can think for several thousand tokens before answering.
+MAX_TOKENS = int(os.environ.get("PAGETWINS_MAX_TOKENS", "8192"))
 N_JOBS = int(os.environ.get("PAGETWINS_N_JOBS", "4"))
+# Extra passes over items whose API call failed (nested evaluations cannot retry by themselves).
+RETRY_PASSES = int(os.environ.get("PAGETWINS_RETRY_PASSES", "2"))
 # Comma-separated base ids (e.g. "B01") restrict a run for quick local validation; unset means all 10 bases.
 BASES = [b for b in os.environ.get("PAGETWINS_BASES", "").split(",") if b]
 
@@ -297,13 +300,8 @@ def solo_rows(mode):
     return df[df.base_id.isin(BASES)] if BASES else df
 
 
-def collect(runs, df, key_cols):
-    """Turn evaluate() runs into records, keeping failed runs as invalid answers."""
-    done = {}
-    for run in runs.runs:
-        res = run.result
-        if isinstance(res, dict):
-            done[tuple(res[k] for k in key_cols)] = res
+def collect(done, df, key_cols):
+    """Turn answered items into records, keeping items that never got an answer as invalid answers."""
     records = []
     for row in df.to_dict("records"):
         k = tuple(row[c] for c in key_cols)
@@ -445,24 +443,40 @@ def save_records(records, name):
 # ## Benchmark tasks
 
 # %%
-def _evaluate_quietly(item, llm, df):
-    """Run every item without rendering each chat into the notebook (hundreds of chats, some with images)."""
+def _evaluate_quietly(item, llm, df, key_cols):
+    """Answer every item without rendering each chat into the notebook (hundreds of chats, some with images).
+
+    Items whose API call failed are asked again, up to RETRY_PASSES more times. No per-item timeout is
+    passed to evaluate(): there it stops the whole evaluation, while the API client already times out
+    and retries single calls.
+    """
     handler = kbench.config.ui_handler
     if handler is not None:
         kbench.events.manager.unbind(handler)
+    done = {}
     try:
-        with kbench.client.enable_cache():
-            return item.evaluate(llm=[llm], evaluation_data=df, n_jobs=N_JOBS, max_attempts=3,
-                                 retry_delay=10, on_failure="continue", timeout=600)
+        todo = df
+        for attempt in range(1 + RETRY_PASSES):
+            if attempt:
+                print(f"{len(todo)} items got no answer; asking again (pass {attempt + 1}).")
+                time.sleep(30)
+            runs = item.evaluate(llm=[llm], evaluation_data=todo, n_jobs=N_JOBS, on_failure="continue")
+            for run in runs.runs:
+                if isinstance(run.result, dict):
+                    done[tuple(run.result[k] for k in key_cols)] = run.result
+            todo = df[[tuple(k) not in done for k in df[key_cols].itertuples(index=False)]]
+            if todo.empty:
+                break
     finally:
         if handler is not None:
             kbench.events.manager.bind(handler)
+    return done
 
 
 def _run_pairs(llm, mode):
     df = pair_rows(mode)
-    runs = _evaluate_quietly(pair_item, llm, df)
-    records = collect(runs, df, ["pair_id", "order"])
+    done = _evaluate_quietly(pair_item, llm, df, ["pair_id", "order"])
+    records = collect(done, df, ["pair_id", "order"])
     save_records(records, f"pagetwins_pairs_{mode}_records.csv")
     refuse_partial(records)
     m = score_pairs(records)
@@ -478,8 +492,8 @@ def _run_pairs(llm, mode):
 
 def _run_solo(llm, mode):
     df = solo_rows(mode)
-    runs = _evaluate_quietly(solo_item, llm, df)
-    records = collect(runs, df, ["page_id"])
+    done = _evaluate_quietly(solo_item, llm, df, ["page_id"])
+    records = collect(done, df, ["page_id"])
     save_records(records, f"pagetwins_solo_{mode}_records.csv")
     refuse_partial(records)
     m = score_solo(records)

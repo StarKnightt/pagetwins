@@ -25,7 +25,7 @@ text), plus an identical copy and a harmlessly changed copy as controls.
 | `pagetwins-pairs-vision` | two full-page screenshots, shown in both orders | 0.5 x defects picked and named in both orders + 0.5 x controls answered "same" in both orders |
 | `pagetwins-pairs-text` | the same pairs as visible text with element roles | same |
 | `pagetwins-solo-vision` | one screenshot | share of twins where the defect is flagged and the clean base page is not |
-| `pagetwins-solo-text` | one page as text | same |
+| `pagetwins-solo-textview` | one page as text | same |
 
 ## Reproduce
 
