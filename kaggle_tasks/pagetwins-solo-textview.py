@@ -229,9 +229,11 @@ def pair_item(llm, pair_id, kind, category, order, page_a, page_b, expected, mod
             f"Page B:\n<page>\n{page_text(page_b)}\n</page>\n\n"
             + PAIR_PROMPT.format(input_note=TEXT_INPUT_PAIR, labels=LABEL_LIST)
         )
-    raw = llm.prompt(prompt, extra_api_params={"max_tokens": MAX_TOKENS})
-    if mode == "vision":
-        _drop_screenshots(kbench.chats.get_current_chat(), [page_a, page_b])
+    try:
+        raw = llm.prompt(prompt, extra_api_params={"max_tokens": MAX_TOKENS})
+    finally:
+        if mode == "vision":
+            _drop_screenshots(kbench.chats.get_current_chat(), [page_a, page_b])
     ans = parse_json(raw) or {}
     better = norm_better(ans.get("better"))
     problem = norm_label(ans.get("problem")) if better in ("A", "B") else ("none" if better == "same" else "invalid")
@@ -248,9 +250,11 @@ def pair_item(llm, pair_id, kind, category, order, page_a, page_b, expected, mod
 def solo_item(llm, page_id, base_id, role, category, mode) -> dict:
     if mode == "vision":
         prompt = SOLO_PROMPT.format(input_note=VISION_INPUT_SOLO, labels=LABEL_LIST)
-        raw = llm.prompt(prompt, image=images.from_path(page_file(page_id, "screenshot.png")),
-                         extra_api_params={"max_tokens": MAX_TOKENS})
-        _drop_screenshots(kbench.chats.get_current_chat(), [page_id])
+        try:
+            raw = llm.prompt(prompt, image=images.from_path(page_file(page_id, "screenshot.png")),
+                             extra_api_params={"max_tokens": MAX_TOKENS})
+        finally:
+            _drop_screenshots(kbench.chats.get_current_chat(), [page_id])
     else:
         prompt = (f"<page>\n{page_text(page_id)}\n</page>\n\n"
                   + SOLO_PROMPT.format(input_note=TEXT_INPUT_SOLO, labels=LABEL_LIST))
