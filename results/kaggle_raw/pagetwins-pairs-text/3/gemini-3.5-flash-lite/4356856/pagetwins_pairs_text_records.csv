@@ -1,0 +1,387 @@
+pair_id,kind,category,order,expected,better,problem,valid,evidence,raw,input_tokens,output_tokens
+B01-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,Page B is missing all the primary call-to-action buttons ('Start free' and 'Start free trial') that are present in Page A.,"{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing all the primary call-to-action buttons ('Start free' and 'Start free trial') that are present in Page A.""}",1519,49
+B01-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks primary call-to-action buttons for starting free trials in the navigation and pricing sections.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks primary call-to-action buttons for starting free trials in the navigation and pricing sections.""}",1519,40
+B01-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,"Page B replaces the prices for the Pro and Studio plans with 'Contact us', hiding the pricing information.","{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the prices for the Pro and Studio plans with 'Contact us', hiding the pricing information.""}",1552,40
+B01-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A lists the Pro and Studio plans as 'Contact us' instead of showing their prices.,"{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A lists the Pro and Studio plans as 'Contact us' instead of showing their prices.""}",1552,38
+B01-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B says 'Free for unlimited clients, forever' right above the pricing section which states the Free plan is limited to 'Up to 3 clients'.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B says 'Free for unlimited clients, forever' right above the pricing section which states the Free plan is limited to 'Up to 3 clients'.""}
+```",1558,54
+B01-contradiction,defect,contradiction,clean_second,B,B,contradiction,True,"Page A says 'Free for unlimited clients, forever' right above pricing that restricts the free plan to 'Up to 3 clients'.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A says 'Free for unlimited clients, forever' right above pricing that restricts the free plan to 'Up to 3 clients'.""}
+```",1558,50
+B01-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B's main headline says 'Welcome to the future of getting things done' instead of stating the product's value.,"```json
+{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline says 'Welcome to the future of getting things done' instead of stating the product's value.""}
+```",1557,51
+B01-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Welcome to the future of getting things done' is vague, while Page B's headline clearly states what the product does.","{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Welcome to the future of getting things done' is vague, while Page B's headline clearly states what the product does.""}",1557,51
+B01-typos,defect,typos,clean_first,A,A,typos,True,Page B has misspelled words in the main headline ('invoces' and 'montsh').,"```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has misspelled words in the main headline ('invoces' and 'montsh').""}
+```",1562,41
+B01-typos,defect,typos,clean_second,B,B,typos,True,"Page A contains misspelled words (""invoces"" and ""montsh"") in the main headline.","{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A contains misspelled words (\""invoces\"" and \""montsh\"") in the main headline.""}",1562,37
+B01-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains leftover 'Lorem ipsum' dummy text under the reminders feature heading.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains leftover 'Lorem ipsum' dummy text under the reminders feature heading.""}
+```",1556,40
+B01-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains leftover 'Lorem ipsum' text under the 'Reminders that sound like you' section.,"```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains leftover 'Lorem ipsum' text under the 'Reminders that sound like you' section.""}
+```",1556,45
+B01-low_contrast,defect,low_contrast,clean_first,A,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1559,29
+B01-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1559,26
+B01-broken_image,defect,broken_image,clean_first,A,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1559,29
+B01-broken_image,defect,broken_image,clean_second,B,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1559,29
+B01-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes an intrusive signup offer dialog covering the content immediately.,"{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes an intrusive signup offer dialog covering the content immediately.""}",1632,32
+B01-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A includes a signup offer dialog that blocks the main content upon opening.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A includes a signup offer dialog that blocks the main content upon opening.""}",1632,34
+B01-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1559,26
+B01-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1559,31
+B01-identical,control,identical,clean_first,same,same,none,True,"Both pages are completely identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are completely identical in content, structure, and text.""}",1559,30
+B01-identical,control,identical,clean_second,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1559,26
+B01-harmless,control,harmless_hue,clean_first,same,same,none,True,Both pages are identical and have no issues.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and have no issues.""}
+```",1559,31
+B01-harmless,control,harmless_hue,clean_second,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1559,26
+B02-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B is missing all the sign-up buttons (""Try it free"" and ""Start free trial"") that are present on Page A.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing all the sign-up buttons (\""Try it free\"" and \""Start free trial\"") that are present on Page A.""}
+```",1460,52
+B02-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks conversion buttons under the pricing plans and at the bottom of the page.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks conversion buttons under the pricing plans and at the bottom of the page.""}",1460,36
+B02-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B replaces the prices with 'Contact us' under both the Starter and Growth plans.,"{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the prices with 'Contact us' under both the Starter and Growth plans.""}",1487,37
+B02-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A says 'Contact us' instead of showing the actual pricing of $29/month and $59/month found in Page B.,"```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A says 'Contact us' instead of showing the actual pricing of $29/month and $59/month found in Page B.""}
+```",1487,54
+B02-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B states '30-day free trial' near the top, but later says 'Every plan starts with a 14-day free trial'.","{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B states '30-day free trial' near the top, but later says 'Every plan starts with a 14-day free trial'.""}",1497,50
+B02-contradiction,defect,contradiction,clean_second,B,B,contradiction,True,"Page A says '30-day free trial' near the top hero button, but '14-day free trial' in the pricing section.","{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A says '30-day free trial' near the top hero button, but '14-day free trial' in the pricing section.""}",1497,49
+B02-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,"Page B's main headline 'Work smarter, not harder' is vague, whereas Page A's headline clearly states what the product does.","{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline 'Work smarter, not harder' is vague, whereas Page A's headline clearly states what the product does.""}",1490,49
+B02-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's main headline 'Work smarter, not harder' is generic and does not clearly state what the product does.","{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's main headline 'Work smarter, not harder' is generic and does not clearly state what the product does.""}",1490,45
+B02-typos,defect,typos,clean_first,A,A,typos,True,"Page B contains spelling mistakes in the main headline ('Biuld', 'staf', 'pubilsh').","{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B contains spelling mistakes in the main headline ('Biuld', 'staf', 'pubilsh').""}",1500,40
+B02-typos,defect,typos,clean_second,B,B,typos,True,"Page A has typos in the main headline: ""Biuld next week's staf rota... pubilsh"".","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has typos in the main headline: \""Biuld next week's staf rota... pubilsh\"".""}
+```",1500,47
+B02-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains unresolved template variables like {{customer_name}} and {{customer_role}} in the testimonial section.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains unresolved template variables like {{customer_name}} and {{customer_role}} in the testimonial section.""}
+```",1498,47
+B02-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains leftover template variables '{{customer_name}}, {{customer_role}}' in the customer testimonial.","{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains leftover template variables '{{customer_name}}, {{customer_role}}' in the customer testimonial.""}",1498,42
+B02-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical in content and structure with no issues present.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure with no issues present.""}",1497,30
+B02-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1497,26
+B02-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1497,26
+B02-broken_image,defect,broken_image,clean_second,B,same,none,True,Both pages are identical and contain no problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no problems.""}",1497,26
+B02-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes an unrequested signup offer dialog overlay at the bottom that covers content.,"{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes an unrequested signup offer dialog overlay at the bottom that covers content.""}",1563,36
+B02-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A includes a signup dialog popup that appears over the main content.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A includes a signup dialog popup that appears over the main content.""}",1563,33
+B02-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical in content and structure with no detectable errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure with no detectable errors.""}",1497,30
+B02-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical in content and structure with no errors found.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure with no errors found.""}",1497,30
+B02-identical,control,identical,clean_first,same,same,none,True,Both pages are identical and have no issues.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and have no issues.""}
+```",1497,31
+B02-identical,control,identical,clean_second,same,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1497,29
+B02-harmless,control,harmless_reorder,clean_first,same,same,none,True,"Both pages contain identical pricing, features, and calls to action with only minor reordering of feature sections.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages contain identical pricing, features, and calls to action with only minor reordering of feature sections.""}",1497,38
+B02-harmless,control,harmless_reorder,clean_second,same,same,none,True,Both pages contain identical content with only a minor reordering of feature subheadings.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages contain identical content with only a minor reordering of feature subheadings.""}",1497,33
+B03-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B is missing all the ""Start for free"" and ""Start free trial"" buttons that are present on Page A.","{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing all the \""Start for free\"" and \""Start free trial\"" buttons that are present on Page A.""}",1565,44
+B03-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks the call-to-action buttons like 'Start for free' that are present in Page B.,"```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks the call-to-action buttons like 'Start for free' that are present in Page B.""}
+```",1565,47
+B03-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,"Page B replaces the prices for the Team and Business plans with ""Contact us"", hiding the pricing information.","{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the prices for the Team and Business plans with \""Contact us\"", hiding the pricing information.""}",1598,40
+B03-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A lists 'Contact us' instead of showing prices for the Team and Business plans.,"```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A lists 'Contact us' instead of showing prices for the Team and Business plans.""}
+```",1598,42
+B03-contradiction,defect,contradiction,clean_first,A,same,none,True,"Both pages are identical except for a minor phrasing detail in the sub-headline regarding the free tier limit, which does not constitute a critical error.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for a minor phrasing detail in the sub-headline regarding the free tier limit, which does not constitute a critical error.""}",1608,46
+B03-contradiction,defect,contradiction,clean_second,B,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1608,31
+B03-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B's main headline says 'The platform for what's next' which fails to state what the product does.,"```json
+{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline says 'The platform for what's next' which fails to state what the product does.""}
+```",1605,50
+B03-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A has a vague main headline ""The platform for what's next"" while Page B clearly states ""Search a week of logs in under a second"".","{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A has a vague main headline \""The platform for what's next\"" while Page B clearly states \""Search a week of logs in under a second\"".""}",1605,53
+B03-typos,defect,typos,clean_first,A,A,typos,True,Page B has misspelled words in the main headline ('Serach' and 'secnod') and body ('indexs').,"{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has misspelled words in the main headline ('Serach' and 'secnod') and body ('indexs').""}",1610,42
+B03-typos,defect,typos,clean_second,B,B,typos,True,Page A has a typo in the main headline ('Serach' instead of 'Search').,"{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has a typo in the main headline ('Serach' instead of 'Search').""}",1610,36
+B03-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains an unrendered template variable '{{company_count}}' instead of the actual number.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains an unrendered template variable '{{company_count}}' instead of the actual number.""}
+```",1606,45
+B03-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains an unrendered template variable {{company_count}} in the social proof section.,"```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains an unrendered template variable \u007b\u007bcompany_count\u007d\u007d in the social proof section.""}
+```",1606,65
+B03-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical and contain no problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no problems.""}",1607,26
+B03-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1607,26
+B03-broken_image,defect,broken_image,clean_first,A,same,none,True,"Both pages are identical in text, structure, and content.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text, structure, and content.""}
+```",1607,34
+B03-broken_image,defect,broken_image,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1607,26
+B03-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes a signup offer dialog overlay that covers the main content right when the page opens.,"{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes a signup offer dialog overlay that covers the main content right when the page opens.""}",1678,38
+B03-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A has a signup offer dialog covering the content when the page opens.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a signup offer dialog covering the content when the page opens.""}",1678,34
+B03-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,"Both pages are identical in text, structure, and content.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text, structure, and content.""}
+```",1607,34
+B03-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1607,26
+B03-identical,control,identical,clean_first,same,same,none,True,"Both pages are identical in text, structure, and elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text, structure, and elements.""}
+```",1607,34
+B03-identical,control,identical,clean_second,same,same,none,True,"Both pages are identical in text, structure, and elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text, structure, and elements.""}
+```",1607,34
+B03-harmless,control,harmless_paraphrase,clean_first,same,same,none,True,"Both pages are identical except for minor, non-problematic phrasing differences in the sub-headline.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for minor, non-problematic phrasing differences in the sub-headline.""}",1609,37
+B03-harmless,control,harmless_paraphrase,clean_second,same,same,none,True,"Both pages are identical except for minor, synonymous wording changes in the sub-headline.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for minor, synonymous wording changes in the sub-headline.""}
+```",1609,39
+B04-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B lacks the primary sign-up buttons found in Page A, such as 'Sign up free' and 'Create a free account'.","{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B lacks the primary sign-up buttons found in Page A, such as 'Sign up free' and 'Create a free account'.""}",1453,47
+B04-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks primary call-to-action buttons like 'Create a free account' that are present in Page B.,"```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks primary call-to-action buttons like 'Create a free account' that are present in Page B.""}
+```",1453,48
+B04-hidden_price,defect,hidden_price,clean_first,A,A,contradiction,True,Page B says 'Contact us' under Pro but later states 'Pro has a flat monthly fee.',"{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B says 'Contact us' under Pro but later states 'Pro has a flat monthly fee.'""}",1485,38
+B04-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A says 'Contact us' instead of showing the $25/month price for the Pro plan under the Pricing section.,"```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A says 'Contact us' instead of showing the $25/month price for the Pro plan under the Pricing section.""}
+```",1485,50
+B04-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,Page B claims 'No fees of any kind · Never pay anything per label' right above the pricing section that lists a 5¢ fee per label.,"```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B claims 'No fees of any kind \u00b7 Never pay anything per label' right above the pricing section that lists a 5\u00a2 fee per label.""}
+```",1490,64
+B04-contradiction,defect,contradiction,clean_second,B,A,contradiction,True,Page B says 'No fees of any kind' in one place and then lists a '$25/month' plan and a '5¢ fee per label' below.,"```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B says 'No fees of any kind' in one place and then lists a '$25/month' plan and a '5\u00a2 fee per label' below.""}
+```",1490,63
+B04-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B uses a vague headline 'Solutions that move your business forward' instead of clearly describing the product like Page A's headline.,"```json
+{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B uses a vague headline 'Solutions that move your business forward' instead of clearly describing the product like Page A's headline.""}
+```",1489,52
+B04-vague_headline,defect,vague_headline,clean_second,B,same,none,True,Both pages are nearly identical with only a minor headline wording variation that does not impact functionality.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are nearly identical with only a minor headline wording variation that does not impact functionality.""}
+```",1489,40
+B04-typos,defect,typos,clean_first,A,A,typos,True,Page B has misspelled words ('cheeper' and 'shiping') in the main H1 headline.,"{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has misspelled words ('cheeper' and 'shiping') in the main H1 headline.""}",1495,39
+B04-typos,defect,typos,clean_second,B,B,typos,True,"Page A has misspelled words in the main heading (""cheeper shiping"" instead of ""cheaper shipping"").","{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has misspelled words in the main heading (\""cheeper shiping\"" instead of \""cheaper shipping\"").""}",1495,41
+B04-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains leftover placeholder text ('Lorem ipsum') under the 'Rates side by side' heading.,"{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains leftover placeholder text ('Lorem ipsum') under the 'Rates side by side' heading.""}",1492,39
+B04-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains 'Lorem ipsum' placeholder text under the 'Rates side by side' heading.,"```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains 'Lorem ipsum' placeholder text under the 'Rates side by side' heading.""}
+```",1492,43
+B04-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical and contain no errors or problematic content.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problematic content.""}",1491,29
+B04-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1491,26
+B04-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1491,31
+B04-broken_image,defect,broken_image,clean_second,B,same,none,True,"Both pages are identical in content, structure, and text.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}
+```",1491,34
+B04-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes an unrequested signup offer dialog overlay covering the page content upon opening.,"```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes an unrequested signup offer dialog overlay covering the page content upon opening.""}
+```",1567,41
+B04-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A displays a signup dialog overlay immediately upon opening that covers the content.,"```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A displays a signup dialog overlay immediately upon opening that covers the content.""}
+```",1567,39
+B04-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1491,26
+B04-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1491,26
+B04-identical,control,identical,clean_first,same,same,none,True,"Both pages are completely identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are completely identical in content, structure, and text.""}",1491,30
+B04-identical,control,identical,clean_second,same,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1491,26
+B04-harmless,control,harmless_hue,clean_first,same,same,none,True,Both pages are completely identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are completely identical in content and structure.""}",1491,27
+B04-harmless,control,harmless_hue,clean_second,same,same,none,True,Both pages are identical and contain no errors or problematic content.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problematic content.""}
+```",1491,34
+B05-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,Page B is completely missing the purchase buttons (such as 'Add to cart' and 'Subscribe') that are present on Page A.,"{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is completely missing the purchase buttons (such as 'Add to cart' and 'Subscribe') that are present on Page A.""}",1494,46
+B05-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks any buttons to add to cart or purchase the product.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks any buttons to add to cart or purchase the product.""}",1494,33
+B05-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,"Page B replaces the explicit product and subscription prices with ""Price at checkout"".","```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the explicit product and subscription prices with \""Price at checkout\"".""}
+```",1521,40
+B05-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A says 'Price at checkout' instead of showing the actual price of $24 like Page B does.,"{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A says 'Price at checkout' instead of showing the actual price of $24 like Page B does.""}",1521,42
+B05-contradiction,defect,contradiction,clean_first,A,same,none,True,Both pages are identical except for a minor shipping threshold detail lower down on the page that does not constitute a major conflicting policy issue.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for a minor shipping threshold detail lower down on the page that does not constitute a major conflicting policy issue.""}
+```",1534,48
+B05-contradiction,defect,contradiction,clean_second,B,same,none,True,Both pages are identical and contain no errors or conflicting information.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or conflicting information.""}
+```",1534,34
+B05-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B's main headline 'Elevate your everyday' is vague compared to Page A's descriptive headline.,"{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline 'Elevate your everyday' is vague compared to Page A's descriptive headline.""}",1530,43
+B05-vague_headline,defect,vague_headline,clean_second,B,same,none,True,"Both pages are identical except for the main headline, and neither headline suffers from the vague_headline issue.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for the main headline, and neither headline suffers from the vague_headline issue.""}",1530,38
+B05-typos,defect,typos,clean_first,A,A,typos,True,"Page B contains spelling errors in the main headline and first paragraph (""strenght"", ""secconds"", ""smoth"").","```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B contains spelling errors in the main headline and first paragraph (\""strenght\"", \""secconds\"", \""smoth\"").""}
+```",1541,49
+B05-typos,defect,typos,clean_second,B,B,typos,True,Page A contains typos in the main headline ('Cafe-strenght' and 'ten secconds').,"{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A contains typos in the main headline ('Cafe-strenght' and 'ten secconds').""}",1541,39
+B05-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains placeholder 'Lorem ipsum' text in the customer review section instead of a real quote.,"{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains placeholder 'Lorem ipsum' text in the customer review section instead of a real quote.""}",1536,39
+B05-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains lorem ipsum placeholder text in the customer review section.,"{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains lorem ipsum placeholder text in the customer review section.""}",1536,32
+B05-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1537,26
+B05-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical and contain no errors or problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problems.""}",1537,28
+B05-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1537,26
+B05-broken_image,defect,broken_image,clean_second,B,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1537,26
+B05-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes a sign-up dialog overlay that covers the main content right away.,"{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes a sign-up dialog overlay that covers the main content right away.""}",1608,36
+B05-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A displays a signup dialog popup immediately over the main content.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A displays a signup dialog popup immediately over the main content.""}",1608,32
+B05-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical and contain all necessary information with no issues.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain all necessary information with no issues.""}
+```",1537,35
+B05-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical and contain no problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no problems.""}",1537,26
+B05-identical,control,identical,clean_first,same,same,none,True,Both pages are identical and contain no problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no problems.""}",1537,26
+B05-identical,control,identical,clean_second,same,same,none,True,Both pages are identical and contain no errors.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}
+```",1537,31
+B05-harmless,control,harmless_reorder,clean_first,same,same,none,True,Both pages contain identical content with only a different order of items in the 'Why people switch to Northbrew' section.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages contain identical content with only a different order of items in the 'Why people switch to Northbrew' section.""}",1537,41
+B05-harmless,control,harmless_reorder,clean_second,same,same,none,True,"Both pages contain identical content, just with a different order of the selling points under the 'Why people switch to Northbrew' section.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages contain identical content, just with a different order of the selling points under the 'Why people switch to Northbrew' section.""}",1537,44
+B06-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B lacks the ""Add to cart"" call-to-action buttons that are present in Page A.","{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B lacks the \""Add to cart\"" call-to-action buttons that are present in Page A.""}",1439,41
+B06-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks any ""Add to cart"" buttons to allow a customer to purchase the hoodie.","{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks any \""Add to cart\"" buttons to allow a customer to purchase the hoodie.""}",1439,38
+B06-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B replaces the prices with 'Price at checkout' under the bundle options.,"```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the prices with 'Price at checkout' under the bundle options.""}
+```",1458,40
+B06-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A says 'Price at checkout' instead of showing the actual price of $98.,"{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A says 'Price at checkout' instead of showing the actual price of $98.""}",1458,38
+B06-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B states 'Free returns within 14 days' near the top, but later states 'Free 60-day returns' and 'within 60 days'.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B states 'Free returns within 14 days' near the top, but later states 'Free 60-day returns' and 'within 60 days'.""}
+```",1475,59
+B06-contradiction,defect,contradiction,clean_second,B,same,none,True,"Both pages are identical in text and structure, with no functional or content issues.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text and structure, with no functional or content issues.""}",1475,33
+B06-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B's main headline says 'Quality you can feel' instead of stating what the product is.,"{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline says 'Quality you can feel' instead of stating what the product is.""}",1468,41
+B06-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's main headline says 'Quality you can feel' which is vague, whereas Page B's headline clearly describes the product.","{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's main headline says 'Quality you can feel' which is vague, whereas Page B's headline clearly describes the product.""}",1468,48
+B06-typos,defect,typos,clean_first,A,A,typos,True,"Page B contains spelling errors in the main headline, such as ""evrey"" and ""long weekned"".","```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B contains spelling errors in the main headline, such as \""evrey\"" and \""long weekned\"".""}
+```",1478,46
+B06-typos,defect,typos,clean_second,B,B,typos,True,Page A has typos in the main headline ('evrey' and 'long weekned').,"{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has typos in the main headline ('evrey' and 'long weekned').""}",1478,36
+B06-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,"Page B contains leftover placeholder text (""Lorem ipsum..."") under the Warm, never sweaty section.","```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains leftover placeholder text (\""Lorem ipsum...\"") under the Warm, never sweaty section.""}
+```",1477,43
+B06-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains leftover 'Lorem ipsum' filler text under the 'Warm, never sweaty' section.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains leftover 'Lorem ipsum' filler text under the 'Warm, never sweaty' section.""}
+```",1477,44
+B06-low_contrast,defect,low_contrast,clean_first,A,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1475,29
+B06-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure with no apparent problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure with no apparent problems.""}",1475,30
+B06-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1475,26
+B06-broken_image,defect,broken_image,clean_second,B,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1475,29
+B06-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes a signup dialog overlay immediately upon opening.,"```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes a signup dialog overlay immediately upon opening.""}
+```",1539,35
+B06-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A has a signup offer dialog covering the content when the page opens.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a signup offer dialog covering the content when the page opens.""}",1539,34
+B06-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1475,26
+B06-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical and have no issues.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and have no issues.""}
+```",1475,31
+B06-identical,control,identical,clean_first,same,same,none,True,Both pages are identical in content and structure with no issues found.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure with no issues found.""}",1475,30
+B06-identical,control,identical,clean_second,same,same,none,True,Both pages are identical and contain no errors or problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problems.""}",1475,28
+B06-harmless,control,harmless_paraphrase,clean_first,same,same,none,True,"Both pages are identical except for minor, synonymous phrasing in the sub-headline (""days"" vs ""days on end"", ""sharp"" vs ""smart"") which does not constitute a critical error.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for minor, synonymous phrasing in the sub-headline (\""days\"" vs \""days on end\"", \""sharp\"" vs \""smart\"") which does not constitute a critical error.""}",1477,56
+B06-harmless,control,harmless_paraphrase,clean_second,same,same,none,True,Both pages are identical in text content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text content and structure.""}",1477,27
+B07-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,Page B completely lacks the download and sign-up buttons found in Page A.,"{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B completely lacks the download and sign-up buttons found in Page A.""}",1361,35
+B07-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks any download or sign-up buttons (CTAs) for the app.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks any download or sign-up buttons (CTAs) for the app.""}",1361,37
+B07-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B replaces the specific Plus plan price of $4.99 a month with unhelpful 'See price in app' text.,"```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the specific Plus plan price of $4.99 a month with unhelpful 'See price in app' text.""}
+```",1403,51
+B07-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A says 'See price in app' under Plus, whereas Page B clearly states 'Centwise Plus is $4.99 a month' and '$4.99/month'.","{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A says 'See price in app' under Plus, whereas Page B clearly states 'Centwise Plus is $4.99 a month' and '$4.99/month'.""}",1403,58
+B07-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B says “Every feature free, forever” right above a pricing section that charges $4.99 a month for Plus.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B says \u201cEvery feature free, forever\u201d right above a pricing section that charges $4.99 a month for Plus.""}
+```",1405,60
+B07-contradiction,defect,contradiction,clean_second,B,A,contradiction,True,Page B says “Free to download · Centwise Plus is $4.99 a month” right above listing a Free plan as $0.,"```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B says \u201cFree to download \u00b7 Centwise Plus is $4.99 a month\u201d right above listing a Free plan as $0.""}
+```",1405,68
+B07-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B's main headline 'Simplify your life' is vague compared to Page A's descriptive headline about planning money together without awkward talks.,"{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline 'Simplify your life' is vague compared to Page A's descriptive headline about planning money together without awkward talks.""}",1406,49
+B07-vague_headline,defect,vague_headline,clean_second,B,same,none,True,"Both pages are nearly identical with only a minor phrasing difference in the H1 headline, neither of which constitutes a serious problem.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are nearly identical with only a minor phrasing difference in the H1 headline, neither of which constitutes a serious problem.""}",1406,42
+B07-typos,defect,typos,clean_first,A,A,typos,True,Page B contains spelling errors in the main headline ('togther' and 'awkard') and subheading ('savigns').,"{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B contains spelling errors in the main headline ('togther' and 'awkard') and subheading ('savigns').""}",1414,42
+B07-typos,defect,typos,clean_second,B,B,typos,True,"Page A has typos in the main headline (""togther"", ""awkard"", ""savigns"") while Page B is spelled correctly.","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has typos in the main headline (\""togther\"", \""awkard\"", \""savigns\"") while Page B is spelled correctly.""}
+```",1414,50
+B07-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains unresolved template variables like {{name}} and {{year}} in the testimonial section.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains unresolved template variables like {{name}} and {{year}} in the testimonial section.""}
+```",1406,43
+B07-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains leftover template variables like {{name}} and {{year}} in the testimonial.,"{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains leftover template variables like {{name}} and {{year}} in the testimonial.""}",1406,37
+B07-low_contrast,defect,low_contrast,clean_first,A,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1411,29
+B07-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical and have no issues.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and have no issues.""}",1411,26
+B07-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical and contain no problems.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no problems.""}",1411,26
+B07-broken_image,defect,broken_image,clean_second,B,same,none,True,Both pages are completely identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are completely identical in content and structure.""}",1411,27
+B07-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes a signup offer dialog overlay that covers the main content right away.,"```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes a signup offer dialog overlay that covers the main content right away.""}
+```",1475,40
+B07-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A opens with an unexpected signup offer dialog overlay covering the main content.,"```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A opens with an unexpected signup offer dialog overlay covering the main content.""}
+```",1475,39
+B07-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1411,26
+B07-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,"Both pages are identical in content, structure, and text.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}",1411,29
+B07-identical,control,identical,clean_first,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1411,26
+B07-identical,control,identical,clean_second,same,same,none,True,Both pages are identical and have no issues.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and have no issues.""}",1411,26
+B07-harmless,control,harmless_hue,clean_first,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1411,26
+B07-harmless,control,harmless_hue,clean_second,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1411,26
+B08-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B lacks download and purchase buttons near the hero section, pricing tiers, and footer.","{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B lacks download and purchase buttons near the hero section, pricing tiers, and footer.""}",1399,37
+B08-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks any call-to-action buttons such as download or get app links to convert users.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks any call-to-action buttons such as download or get app links to convert users.""}",1399,40
+B08-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B replaces the $2.99/month price for Premium with vague 'See price in app' text.,"{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the $2.99/month price for Premium with vague 'See price in app' text.""}",1446,43
+B08-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A says 'See price in app' under Premium instead of stating the actual cost of $2.99/month shown on Page B.,"{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A says 'See price in app' under Premium instead of stating the actual cost of $2.99/month shown on Page B.""}",1446,49
+B08-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B claims it works fully offline under the hero buttons, but later states that Plant ID and Ask a botanist need an internet connection.","{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B claims it works fully offline under the hero buttons, but later states that Plant ID and Ask a botanist need an internet connection.""}",1448,46
+B08-contradiction,defect,contradiction,clean_second,B,same,none,True,"The only difference between the pages is a minor sub-bullet detail ('Works fully offline, no internet needed' vs 'Rated 4.9 by plant lovers'), neither of which introduces a critical flaw.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""The only difference between the pages is a minor sub-bullet detail ('Works fully offline, no internet needed' vs 'Rated 4.9 by plant lovers'), neither of which introduces a critical flaw.""}",1448,58
+B08-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,"Page B's main headline 'Your journey starts here' is vague, while Page A's headline clearly states the product's function.","{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline 'Your journey starts here' is vague, while Page A's headline clearly states the product's function.""}",1444,49
+B08-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,Page A's main headline 'Your journey starts here' is too vague compared to Page B's informative headline.,"{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's main headline 'Your journey starts here' is too vague compared to Page B's informative headline.""}",1444,44
+B08-typos,defect,typos,clean_first,A,A,typos,True,"Page B has typos in the main headline (""evry plant you onw"" and ""identifes"").","{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has typos in the main headline (\""evry plant you onw\"" and \""identifes\"").""}",1452,40
+B08-typos,defect,typos,clean_second,B,B,typos,True,Page A has typos in the main headline ('evry' and 'onw').,"{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has typos in the main headline ('evry' and 'onw').""}",1452,35
+B08-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,"Page B contains leftover placeholder text (""Lorem ipsum..."") under the FAQ section.","```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains leftover placeholder text (\""Lorem ipsum...\"") under the FAQ section.""}
+```",1456,40
+B08-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains leftover 'Lorem ipsum' dummy text under the FAQ question about needing an account.,"{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains leftover 'Lorem ipsum' dummy text under the FAQ question about needing an account.""}",1456,38
+B08-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1449,26
+B08-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical and contain no errors or problematic content.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problematic content.""}",1449,29
+B08-broken_image,defect,broken_image,clean_first,A,same,none,True,"Both pages are identical in text, structure, and content.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in text, structure, and content.""}",1449,29
+B08-broken_image,defect,broken_image,clean_second,B,same,none,True,Both pages are completely identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are completely identical in content and structure.""}",1449,27
+B08-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B immediately displays a signup offer dialog over the content upon opening.,"{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B immediately displays a signup offer dialog over the content upon opening.""}",1518,33
+B08-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A has a signup offer dialog covering the page on load.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a signup offer dialog covering the page on load.""}",1518,32
+B08-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical and contain no errors.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors.""}",1449,26
+B08-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are completely identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are completely identical in content and structure.""}",1449,27
+B08-identical,control,identical,clean_first,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1449,26
+B08-identical,control,identical,clean_second,same,same,none,True,Both pages are identical and contain no errors or problematic content.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problematic content.""}",1449,29
+B08-harmless,control,harmless_reorder,clean_first,same,same,none,True,"Both pages contain identical content, differing only in the internal order of the three feature blocks under 'A plant expert in your pocket'.","{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages contain identical content, differing only in the internal order of the three feature blocks under 'A plant expert in your pocket'.""}",1449,43
+B08-harmless,control,harmless_reorder,clean_second,same,same,none,True,"Both pages are identical except for the reordering of the features list under 'A plant expert in your pocket', which does not impact functionality or clarity.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical except for the reordering of the features list under 'A plant expert in your pocket', which does not impact functionality or clarity.""}
+```",1449,52
+B09-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,Page B is missing all the [button] Enroll / Enroll now call-to-action buttons present in Page A.,"```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing all the [button] Enroll / Enroll now call-to-action buttons present in Page A.""}
+```",1336,48
+B09-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks any 'Enroll' or 'Buy' buttons to allow users to purchase the course.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks any 'Enroll' or 'Buy' buttons to allow users to purchase the course.""}",1336,39
+B09-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B replaces the explicit pricing ($149 and $249) with vague 'Price on request' text.,"```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the explicit pricing ($149 and $249) with vague 'Price on request' text.""}
+```",1357,49
+B09-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A lists the course pricing as 'Price on request' instead of showing the actual prices.,"```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A lists the course pricing as 'Price on request' instead of showing the actual prices.""}
+```",1357,43
+B09-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B claims 'Lifetime access' in the hero section but then says 'All sales final, no refunds' right next to a 30-day refund guarantee further down.","{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B claims 'Lifetime access' in the hero section but then says 'All sales final, no refunds' right next to a 30-day refund guarantee further down.""}",1365,54
+B09-contradiction,defect,contradiction,clean_second,B,B,contradiction,True,"Page A says 'All sales final, no refunds' right before later stating 'Email us within 30 days for a full refund'.","{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A says 'All sales final, no refunds' right before later stating 'Email us within 30 days for a full refund'.""}",1365,46
+B09-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,Page B's main headline is 'Unlock your potential' which is vague and does not say what the product is or does.,"{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline is 'Unlock your potential' which is vague and does not say what the product is or does.""}",1359,46
+B09-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's h1 'Unlock your potential' is too vague, while Page B clearly states 'Learn to draw what you see in six weeks'.","{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's h1 'Unlock your potential' is too vague, while Page B clearly states 'Learn to draw what you see in six weeks'.""}",1359,51
+B09-typos,defect,typos,clean_first,A,A,typos,True,"Page B contains spelling mistakes in the main headline ('Lern' instead of 'Learn', 'weks' instead of 'weeks') and body text ('excercises').","{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B contains spelling mistakes in the main headline ('Lern' instead of 'Learn', 'weks' instead of 'weeks') and body text ('excercises').""}",1367,52
+B09-typos,defect,typos,clean_second,B,B,typos,True,Page A contains misspelled words in the main heading 'Lern to draw what you see in six weks and excercises'.,"{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A contains misspelled words in the main heading 'Lern to draw what you see in six weks and excercises'.""}",1367,43
+B09-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains leftover placeholder text ('Lorem ipsum') under the 'Light and shadow' section.,"{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains leftover placeholder text ('Lorem ipsum') under the 'Light and shadow' section.""}",1373,38
+B09-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains leftover Lorem Ipsum text under the 'Light and shadow' section.,"{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains leftover Lorem Ipsum text under the 'Light and shadow' section.""}",1373,35
+B09-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1365,31
+B09-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1365,31
+B09-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical in content and structure with no issues present.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure with no issues present.""}",1365,30
+B09-broken_image,defect,broken_image,clean_second,B,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1365,26
+B09-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B immediately displays a signup dialog popup over the content upon opening.,"```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B immediately displays a signup dialog popup over the content upon opening.""}
+```",1430,38
+B09-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A immediately shows a signup offer dialog blocking the main content upon opening.,"{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A immediately shows a signup offer dialog blocking the main content upon opening.""}",1430,34
+B09-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1365,26
+B09-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1365,31
+B09-identical,control,identical,clean_first,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1365,26
+B09-identical,control,identical,clean_second,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1365,26
+B09-harmless,control,harmless_paraphrase,clean_first,same,same,none,True,Both pages are identical and contain no errors or conversion-blocking issues.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or conversion-blocking issues.""}",1364,31
+B09-harmless,control,harmless_paraphrase,clean_second,same,same,none,True,Both pages are identical and contain no errors or problematic differences.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or problematic differences.""}",1364,29
+B10-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B removes all the booking buttons (""Book now"", ""Book a cleaning"") that are present on Page A.","{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B removes all the booking buttons (\""Book now\"", \""Book a cleaning\"") that are present on Page A.""}",1452,42
+B10-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,Page A lacks booking buttons under the pricing tiers and throughout the page compared to Page B.,"{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks booking buttons under the pricing tiers and throughout the page compared to Page B.""}",1452,37
+B10-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B replaces the specific price points with 'Request a quote' under the pricing tiers.,"{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B replaces the specific price points with 'Request a quote' under the pricing tiers.""}",1486,37
+B10-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A replaces real prices with 'Request a quote' while Page B shows clear pricing starting from $89.,"{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A replaces real prices with 'Request a quote' while Page B shows clear pricing starting from $89.""}",1486,42
+B10-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B contradicts itself by saying you can reschedule up to 24 hours ahead in the FAQ, but anytime up to an hour before in the features section.","{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B contradicts itself by saying you can reschedule up to 24 hours ahead in the FAQ, but anytime up to an hour before in the features section.""}",1491,50
+B10-contradiction,defect,contradiction,clean_second,B,B,contradiction,True,"Page A says you can cancel 'even an hour before your visit, at no cost' in one section, but later states that later changes cost $25.","{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A says you can cancel 'even an hour before your visit, at no cost' in one section, but later states that later changes cost $25.""}",1491,51
+B10-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,"Page B's main headline 'Experience the difference' does not explain what the product is or does, unlike Page A's clear headline.","{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's main headline 'Experience the difference' does not explain what the product is or does, unlike Page A's clear headline.""}",1486,49
+B10-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's H1 headline 'Experience the difference' is too vague about what the product is or does, whereas Page B clearly states 'A spotless home, booked in 60 seconds'.","{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's H1 headline 'Experience the difference' is too vague about what the product is or does, whereas Page B clearly states 'A spotless home, booked in 60 seconds'.""}",1486,60
+B10-typos,defect,typos,clean_first,A,A,typos,True,"Page B contains misspelled words in the main headline, such as 'spotles' and 'secnods'.","```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B contains misspelled words in the main headline, such as 'spotles' and 'secnods'.""}
+```",1497,45
+B10-typos,defect,typos,clean_second,B,B,typos,True,Page A contains typos in the main headline ('spotles' and 'secnods').,"{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A contains typos in the main headline ('spotles' and 'secnods').""}",1497,36
+B10-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains leftover template text with '{{city}}' under trusted homes.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains leftover template text with '{{city}}' under trusted homes.""}
+```",1495,40
+B10-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,Page A contains the unresolved template variable '{{city}}' in the trust statement.,"{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains the unresolved template variable '{{city}}' in the trust statement.""}",1495,36
+B10-low_contrast,defect,low_contrast,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1493,26
+B10-low_contrast,defect,low_contrast,clean_second,B,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1493,31
+B10-broken_image,defect,broken_image,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1493,26
+B10-broken_image,defect,broken_image,clean_second,B,same,none,True,"Both pages are identical in content, structure, and text.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content, structure, and text.""}
+```",1493,34
+B10-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B includes an uninvited signup offer dialog immediately covering the content when the page opens.,"{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B includes an uninvited signup offer dialog immediately covering the content when the page opens.""}",1562,37
+B10-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,Page A includes a signup offer dialog covering the content when the page opens.,"```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A includes a signup offer dialog covering the content when the page opens.""}
+```",1562,39
+B10-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1493,26
+B10-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1493,31
+B10-identical,control,identical,clean_first,same,same,none,True,Both pages are identical and contain no errors or issues.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical and contain no errors or issues.""}",1493,28
+B10-identical,control,identical,clean_second,same,same,none,True,Both pages are identical in content and structure.,"{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}",1493,26
+B10-harmless,control,harmless_hue,clean_first,same,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1493,31
+B10-harmless,control,harmless_hue,clean_second,same,same,none,True,Both pages are identical in content and structure.,"```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in content and structure.""}
+```",1493,31

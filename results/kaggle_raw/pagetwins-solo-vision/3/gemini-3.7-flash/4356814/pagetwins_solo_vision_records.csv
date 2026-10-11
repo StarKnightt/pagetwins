@@ -1,0 +1,371 @@
+page_id,base_id,role,category,problems,score,valid,evidence,raw,input_tokens,output_tokens
+p1efc40b7,B01,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1394,576
+pd36dc7d2,B01,twin,missing_cta,['missing_cta'],6,True,"There are no buttons or links to sign up, get started, or select a pricing plan anywhere on the page.","```json
+{""problems"": [""missing_cta""], ""score"": 6, ""evidence"": ""There are no buttons or links to sign up, get started, or select a pricing plan anywhere on the page.""}
+```",1416,542
+pecc9be34,B01,twin,hidden_price,['hidden_price'],7,True,The pricing section hides the actual cost of the paid Pro and Studio plans behind 'Contact us'.,"```json
+{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""The pricing section hides the actual cost of the paid Pro and Studio plans behind 'Contact us'.""}
+```",1394,609
+p0d450028,B01,twin,contradiction,['contradiction'],7,True,"The hero section states 'Free for unlimited clients, forever' while the pricing table and FAQ restrict the Free plan to 'Up to 3 clients'.","```json
+{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""The hero section states 'Free for unlimited clients, forever' while the pricing table and FAQ restrict the Free plan to 'Up to 3 clients'.""}
+```",1394,403
+pc7c159fe,B01,twin,vague_headline,['vague_headline'],8,True,The main headline 'Welcome to the future of getting things done' is generic and does not explain what the product actually does.,"```json
+{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Welcome to the future of getting things done' is generic and does not explain what the product actually does.""}
+```",1394,408
+pc82582f2,B01,twin,typos,['typos'],8,True,The main headline contains prominent misspellings with 'invoces' and 'montsh'.,"```json
+{""problems"": [""typos""], ""score"": 8, ""evidence"": ""The main headline contains prominent misspellings with 'invoces' and 'montsh'.""}
+```",1394,353
+p5d4b672c,B01,twin,placeholder_text,['placeholder_text'],7,True,The feature card titled 'Reminders that sound like you' contains Lorem ipsum placeholder text.,"```json
+{""problems"": [""placeholder_text""], ""score"": 7, ""evidence"": ""The feature card titled 'Reminders that sound like you' contains Lorem ipsum placeholder text.""}
+```",1417,712
+p2874ab01,B01,twin,low_contrast,['low_contrast'],4,True,"The main hero headline has extremely low contrast, rendering the light gray text almost invisible against the white background.","```json
+{""problems"": [""low_contrast""], ""score"": 4, ""evidence"": ""The main hero headline has extremely low contrast, rendering the light gray text almost invisible against the white background.""}
+```",1394,527
+pf08edc68,B01,twin,broken_image,['broken_image'],7,True,"The hero image on the right failed to load, displaying only the alt text 'Tallyhawk dashboard showing paid and overdue invoices'.","```json
+{""problems"": [""broken_image""], ""score"": 7, ""evidence"": ""The hero image on the right failed to load, displaying only the alt text 'Tallyhawk dashboard showing paid and overdue invoices'.""}
+```",1394,421
+pd2b936e6,B01,twin,blocking_popup,['blocking_popup'],6,True,A lead-capture popup overlay covers the hero headline and call-to-action buttons.,"```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""A lead-capture popup overlay covers the hero headline and call-to-action buttons.""}
+```",1394,271
+pff5f9f69,B01,twin,cut_off_text,['cut_off_text'],5,True,The second line of the main hero headline ('get paid in days') is cut off and partially hidden.,"```json
+{""problems"": [""cut_off_text""], ""score"": 5, ""evidence"": ""The second line of the main hero headline ('get paid in days') is cut off and partially hidden.""}
+```",1440,536
+pc34ef015,B01,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1394,448
+p9810d579,B02,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1394,516
+p12e14132,B02,twin,missing_cta,['missing_cta'],4,True,"There are no buttons or links to sign up or start a trial anywhere on the page, including the hero, pricing cards, and bottom CTA banner.","```json
+{""problems"": [""missing_cta""], ""score"": 4, ""evidence"": ""There are no buttons or links to sign up or start a trial anywhere on the page, including the hero, pricing cards, and bottom CTA banner.""}
+```",1416,444
+p4190037a,B02,twin,hidden_price,['hidden_price'],8,True,"The pricing section claims the product is 'Priced per location, not per person' but displays 'Contact us' instead of actual prices for both plans.","```json
+{""problems"": [""hidden_price""], ""score"": 8, ""evidence"": ""The pricing section claims the product is 'Priced per location, not per person' but displays 'Contact us' instead of actual prices for both plans.""}
+```",1394,321
+pcbf9c1cc,B02,twin,contradiction,['contradiction'],8,True,The hero section states a '30-day free trial' while the pricing section and FAQ state a '14-day free trial'.,"```json
+{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The hero section states a '30-day free trial' while the pricing section and FAQ state a '14-day free trial'.""}
+```",1394,302
+pe3ba35c3,B02,twin,vague_headline,['vague_headline'],8,True,"The main headline 'Work smarter, not harder' is a generic slogan that does not explain what the product is or does.","```json
+{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Work smarter, not harder' is a generic slogan that does not explain what the product is or does.""}
+```",1440,451
+p363ddf68,B02,twin,typos,['typos'],8,True,"The main hero headline and subheadline contain several noticeable typos including 'Biuld', 'staf', and 'pubilsh'.","```json
+{""problems"": [""typos""], ""score"": 8, ""evidence"": ""The main hero headline and subheadline contain several noticeable typos including 'Biuld', 'staf', and 'pubilsh'.""}
+```",1394,453
+pd615770a,B02,twin,placeholder_text,['placeholder_text'],8,True,"The testimonial attribution displays unpopulated template tags: '{{customer_name}}, {{customer_role}}'.","```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The testimonial attribution displays unpopulated template tags: '{{customer_name}}, {{customer_role}}'.""}
+```",1394,287
+pf311fec4,B02,twin,low_contrast,['low_contrast'],5,True,"The main hero headline has very low contrast against the light background, making it difficult to read.","```json
+{""problems"": [""low_contrast""], ""score"": 5, ""evidence"": ""The main hero headline has very low contrast against the light background, making it difficult to read.""}
+```",1394,480
+p25875516,B02,twin,broken_image,['broken_image'],7,True,The hero product screenshot failed to load and displays raw alt text instead.,"```json
+{""problems"": [""broken_image""], ""score"": 7, ""evidence"": ""The hero product screenshot failed to load and displays raw alt text instead.""}
+```",1394,412
+p7c86f774,B02,twin,blocking_popup,['blocking_popup'],6,True,"A modal newsletter popup overlays and obstructs the hero headline, description, and primary CTA.","```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""A modal newsletter popup overlays and obstructs the hero headline, description, and primary CTA.""}
+```",1394,453
+p971e3764,B02,twin,cut_off_text,['cut_off_text'],6,True,The second line of the main hero headline is cut off horizontally across the bottom.,"```json
+{""problems"": [""cut_off_text""], ""score"": 6, ""evidence"": ""The second line of the main hero headline is cut off horizontally across the bottom.""}
+```",1440,474
+pcc8a3d69,B02,variant,harmless,[],10,True,None,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""None""}
+```",1394,633
+p61dbc346,B03,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1436,451
+pfb084bcc,B03,twin,missing_cta,['missing_cta'],6,True,"There are no buttons or links anywhere on the page to sign up, create an account, or buy a plan.","```json
+{""problems"": [""missing_cta""], ""score"": 6, ""evidence"": ""There are no buttons or links anywhere on the page to sign up, create an account, or buy a plan.""}
+```",1414,765
+p05b1bb20,B03,twin,hidden_price,['hidden_price'],7,True,The pricing section lists 'Contact us' for all paid tiers without showing any actual plan prices.,"```json
+{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""The pricing section lists 'Contact us' for all paid tiers without showing any actual plan prices.""}
+```",1436,767
+pc9b12812,B03,twin,contradiction,['contradiction'],8,True,"The hero section states it is free up to 10 GB of logs per day, whereas the pricing table and FAQ state the free plan includes only 1 GB per day.","```json
+{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The hero section states it is free up to 10 GB of logs per day, whereas the pricing table and FAQ state the free plan includes only 1 GB per day.""}
+```",1436,500
+p330c95aa,B03,twin,vague_headline,['vague_headline'],8,True,The main headline 'The platform for what's next' is completely generic and does not explain what the product is or does.,"```json
+{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'The platform for what's next' is completely generic and does not explain what the product is or does.""}
+```",1436,362
+p22069e09,B03,twin,typos,['typos'],6,True,"The main hero headline contains multiple glaring typos: 'Serach' and 'secnod', plus 'indesx' in the subheadline.","```json
+{""problems"": [""typos""], ""score"": 6, ""evidence"": ""The main hero headline contains multiple glaring typos: 'Serach' and 'secnod', plus 'indesx' in the subheadline.""}
+```",1436,449
+p9bc912ad,B03,twin,placeholder_text,['placeholder_text'],8,True,The social proof bar contains an unresolved template variable '{{company_count}}'.,"```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The social proof bar contains an unresolved template variable '{{company_count}}'.""}
+```",1436,466
+p1642de09,B03,twin,low_contrast,['low_contrast'],6,True,"The main hero headline has extremely low contrast against the dark background, making it difficult to read.","```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The main hero headline has extremely low contrast against the dark background, making it difficult to read.""}
+```",1436,370
+ped3fc0e9,B03,twin,broken_image,['broken_image'],8,True,The product screenshot in the hero section failed to load and displays as a broken image placeholder.,"```json
+{""problems"": [""broken_image""], ""score"": 8, ""evidence"": ""The product screenshot in the hero section failed to load and displays as a broken image placeholder.""}
+```",1436,402
+p95c4bced,B03,twin,blocking_popup,['blocking_popup'],6,True,An email capture modal overlay obscures the main hero headline and content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""An email capture modal overlay obscures the main hero headline and content.""}
+```",1436,306
+p0ed2fa34,B03,twin,cut_off_text,['cut_off_text'],6,True,The second line of the hero headline is sliced off horizontally at the bottom.,"```json
+{""problems"": [""cut_off_text""], ""score"": 6, ""evidence"": ""The second line of the hero headline is sliced off horizontally at the bottom.""}
+```",1414,500
+p70fa2b57,B03,variant,harmless,[],10,True,"The page is well-designed, clear, and contains no visible issues.","```json
+{""problems"": [], ""score"": 10, ""evidence"": ""The page is well-designed, clear, and contains no visible issues.""}
+```",1436,375
+p7d9d32d0,B04,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1436,242
+pc8a28a4a,B04,twin,missing_cta,[],9,True,none,"```json
+{""problems"": [], ""score"": 9, ""evidence"": ""none""}
+```",1414,716
+p2d1aa34d,B04,twin,hidden_price,['hidden_price'],8,True,"The Pro plan claims to have a flat monthly fee in the FAQ, but the actual price is hidden behind 'Contact us'.","```json
+{""problems"": [""hidden_price""], ""score"": 8, ""evidence"": ""The Pro plan claims to have a flat monthly fee in the FAQ, but the actual price is hidden behind 'Contact us'.""}
+```",1436,819
+pc36ea2bf,B04,twin,contradiction,['contradiction'],6,True,"The hero section claims 'No fees of any kind · Never pay anything per label', which directly contradicts the pricing section showing a 5¢ per-label fee on Starter and a $25 monthly subscription on Pro.","```json
+{""problems"": [""contradiction""], ""score"": 6, ""evidence"": ""The hero section claims 'No fees of any kind · Never pay anything per label', which directly contradicts the pricing section showing a 5¢ per-label fee on Starter and a $25 monthly subscription on Pro.""}
+```",1436,416
+p95873658,B04,twin,vague_headline,['vague_headline'],8,True,The main headline 'Solutions that move your business forward' is generic and does not explain what the product does.,"```json
+{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Solutions that move your business forward' is generic and does not explain what the product does.""}
+```",1436,519
+pa94fea72,B04,twin,typos,['typos'],8,True,The main headline contains misspelled words: 'cheeper' instead of 'cheaper' and 'shiping' instead of 'shipping'.,"```json
+{""problems"": [""typos""], ""score"": 8, ""evidence"": ""The main headline contains misspelled words: 'cheeper' instead of 'cheaper' and 'shiping' instead of 'shipping'.""}
+```",1436,238
+p5b3a0432,B04,twin,placeholder_text,['placeholder_text'],7,True,"The first feature card under 'Shipping, minus the spreadsheet' contains Lorem ipsum placeholder text.","```json
+{""problems"": [""placeholder_text""], ""score"": 7, ""evidence"": ""The first feature card under 'Shipping, minus the spreadsheet' contains Lorem ipsum placeholder text.""}
+```",1436,316
+p2180db28,B04,twin,low_contrast,['low_contrast'],6,True,The main hero headline is rendered in an extremely light text color that is very difficult to read against the light background.,"```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The main hero headline is rendered in an extremely light text color that is very difficult to read against the light background.""}
+```",1436,400
+pfb412dd7,B04,twin,broken_image,['broken_image'],7,True,The main hero screenshot below the call-to-action buttons failed to load and shows a broken image icon with alt text.,"```json
+{""problems"": [""broken_image""], ""score"": 7, ""evidence"": ""The main hero screenshot below the call-to-action buttons failed to load and shows a broken image icon with alt text.""}
+```",1436,528
+pbd9d8082,B04,twin,blocking_popup,['blocking_popup'],5,True,A lead-capture popup modal and backdrop overlay block the main headline and hero content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 5, ""evidence"": ""A lead-capture popup modal and backdrop overlay block the main headline and hero content.""}
+```",1436,459
+p50a9d296,B04,twin,cut_off_text,['cut_off_text'],8,True,The second line of the main headline ('three clicks') suffers from line-height overlap and is partially obscured.,"```json
+{""problems"": [""cut_off_text""], ""score"": 8, ""evidence"": ""The second line of the main headline ('three clicks') suffers from line-height overlap and is partially obscured.""}
+```",1436,582
+p05027629,B04,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1436,259
+p7da21266,B05,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,387
+pe466db25,B05,twin,missing_cta,['missing_cta'],4,True,There are no call-to-action buttons or links to purchase the product anywhere in the hero section or pricing cards.,"```json
+{""problems"": [""missing_cta""], ""score"": 4, ""evidence"": ""There are no call-to-action buttons or links to purchase the product anywhere in the hero section or pricing cards.""}
+```",1440,774
+pa381570a,B05,twin,hidden_price,['hidden_price'],7,True,The pricing section lists 'Price at checkout' instead of displaying the actual cost of the product.,"```json
+{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""The pricing section lists 'Price at checkout' instead of displaying the actual cost of the product.""}
+```",1417,326
+pdf9402f9,B05,twin,contradiction,['contradiction'],7,True,"The hero section claims 'Free shipping on every order', but the FAQ states shipping is only free on orders over $50.","```json
+{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""The hero section claims 'Free shipping on every order', but the FAQ states shipping is only free on orders over $50.""}
+```",1417,366
+p595e01d7,B05,twin,vague_headline,['vague_headline'],8,True,The main headline 'Elevate your everyday' is aspirational and does not state what the product is or does.,"```json
+{
+  ""problems"": [
+    ""vague_headline""
+  ],
+  ""score"": 8,
+  ""evidence"": ""The main headline 'Elevate your everyday' is aspirational and does not state what the product is or does.""
+}
+```",1394,1156
+p4d87e542,B05,twin,typos,['typos'],8,True,The main headline contains misspelled words such as 'strenght' and 'secconds'.,"```json
+{""problems"": [""typos""], ""score"": 8, ""evidence"": ""The main headline contains misspelled words such as 'strenght' and 'secconds'.""}
+```",1417,351
+p259f9877,B05,twin,placeholder_text,['placeholder_text'],7,True,The testimonial quote contains placeholder 'Lorem ipsum dolor sit amet...' text.,"```json
+{""problems"": [""placeholder_text""], ""score"": 7, ""evidence"": ""The testimonial quote contains placeholder 'Lorem ipsum dolor sit amet...' text.""}
+```",1417,364
+pd0fb7ebc,B05,twin,low_contrast,['low_contrast'],6,True,"The main hero headline has extremely low contrast against the background, making it very difficult to read.","```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The main hero headline has extremely low contrast against the background, making it very difficult to read.""}
+```",1417,490
+p823538fa,B05,twin,broken_image,['broken_image'],6,True,The hero product image is missing and displays its raw alt text instead.,"```json
+{""problems"": [""broken_image""], ""score"": 6, ""evidence"": ""The hero product image is missing and displays its raw alt text instead.""}
+```",1417,322
+p3ac82f57,B05,twin,blocking_popup,['blocking_popup'],6,True,A promotional discount popup is blocking the main hero headline and content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""A promotional discount popup is blocking the main hero headline and content.""}
+```",1417,428
+p5f7715df,B05,twin,cut_off_text,['cut_off_text'],6,True,The second line of the hero headline is vertically cut off and clipped.,"```json
+{""problems"": [""cut_off_text""], ""score"": 6, ""evidence"": ""The second line of the hero headline is vertically cut off and clipped.""}
+```",1394,605
+p1086b1db,B05,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,555
+pb96036a3,B06,clean,none,[],10,True,None,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""None""}
+```",1417,339
+p9f9728ee,B06,twin,missing_cta,['missing_cta'],5,True,"There is no purchase or 'Add to Cart' button anywhere on the page, including inside the pricing bundle cards and the bottom call-to-action banner.","```json
+{""problems"": [""missing_cta""], ""score"": 5, ""evidence"": ""There is no purchase or 'Add to Cart' button anywhere on the page, including inside the pricing bundle cards and the bottom call-to-action banner.""}
+```",1440,700
+p7be62d2d,B06,twin,hidden_price,['hidden_price'],6,True,The pricing section lists 'Price at checkout' instead of displaying the actual cost of the hoodie bundles.,"```json
+{""problems"": [""hidden_price""], ""score"": 6, ""evidence"": ""The pricing section lists 'Price at checkout' instead of displaying the actual cost of the hoodie bundles.""}
+```",1417,338
+p7dd2c989,B06,twin,contradiction,['contradiction'],8,True,"The hero section states free returns within 14 days, while the pricing table and FAQ state free 60-day returns.","```json
+{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The hero section states free returns within 14 days, while the pricing table and FAQ state free 60-day returns.""}
+```",1417,643
+p959ea250,B06,twin,vague_headline,[],10,True,None,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""None""}
+```",1394,617
+paa3116fe,B06,twin,typos,['typos'],6,True,"The main hero headline and subhead contain several misspellings including 'evrey', 'weekned', and 'pakcs'.","```json
+{""problems"": [""typos""], ""score"": 6, ""evidence"": ""The main hero headline and subhead contain several misspellings including 'evrey', 'weekned', and 'pakcs'.""}
+```",1417,368
+p3c1178c8,B06,twin,placeholder_text,['placeholder_text'],8,True,The third feature card under 'Made for living out of a backpack' contains Lorem Ipsum placeholder text.,"```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The third feature card under 'Made for living out of a backpack' contains Lorem Ipsum placeholder text.""}
+```",1417,724
+pb7a1d6b1,B06,twin,low_contrast,['low_contrast'],6,True,"The main hero headline has extremely low contrast against the light background, making it very difficult to read.","```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The main hero headline has extremely low contrast against the light background, making it very difficult to read.""}
+```",1417,315
+p4284a059,B06,twin,broken_image,['broken_image'],7,True,The main hero image failed to load and displays only its alt text.,"```json
+{""problems"": [""broken_image""], ""score"": 7, ""evidence"": ""The main hero image failed to load and displays only its alt text.""}
+```",1417,359
+p7f33511f,B06,twin,blocking_popup,['blocking_popup'],6,True,A promotional popup overlay covers the hero headline and main product details.,"```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""A promotional popup overlay covers the hero headline and main product details.""}
+```",1417,311
+p05e5ceef,B06,twin,cut_off_text,['cut_off_text'],5,True,The second line of the hero headline is horizontally clipped and cut off.,"```json
+{""problems"": [""cut_off_text""], ""score"": 5, ""evidence"": ""The second line of the hero headline is horizontally clipped and cut off.""}
+```",1394,581
+p4e64ee27,B06,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,378
+p994f1ce4,B07,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,572
+p73bb5fdf,B07,twin,missing_cta,['missing_cta'],4,True,"There are no call-to-action buttons anywhere on the page to sign up, download, or start using the app.","```json
+{""problems"": [""missing_cta""], ""score"": 4, ""evidence"": ""There are no call-to-action buttons anywhere on the page to sign up, download, or start using the app.""}
+```",1440,440
+pd52fe1ff,B07,twin,hidden_price,['hidden_price'],8,True,The pricing card for the paid Plus plan displays 'See price in app' rather than stating what the subscription costs.,"```json
+{""problems"": [""hidden_price""], ""score"": 8, ""evidence"": ""The pricing card for the paid Plus plan displays 'See price in app' rather than stating what the subscription costs.""}
+```",1417,385
+pdf30bed1,B07,twin,contradiction,['contradiction'],6,True,"The hero section states 'Every feature free, forever', which contradicts the pricing section offering a paid Plus tier at $4.99/month with locked features.","```json
+{""problems"": [""contradiction""], ""score"": 6, ""evidence"": ""The hero section states 'Every feature free, forever', which contradicts the pricing section offering a paid Plus tier at $4.99/month with locked features.""}
+```",1417,578
+pf0219ac8,B07,twin,vague_headline,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,482
+p5b32e88c,B07,twin,typos,['typos'],7,True,The main hero headline contains misspellings: 'togther' and 'awkard'.,"```json
+{""problems"": [""typos""], ""score"": 7, ""evidence"": ""The main hero headline contains misspellings: 'togther' and 'awkard'.""}
+```",1417,383
+p112ef1b7,B07,twin,placeholder_text,['placeholder_text'],8,True,"The testimonial displays leftover template placeholders with '{{name}}, using Centwise since {{year}}'.","```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The testimonial displays leftover template placeholders with '{{name}}, using Centwise since {{year}}'.""}
+```",1417,350
+p65b02870,B07,twin,low_contrast,['low_contrast'],6,True,The hero headline 'Plan your money together without the awkward talks' has very low contrast against the background and is difficult to read.,"```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The hero headline 'Plan your money together without the awkward talks' has very low contrast against the background and is difficult to read.""}
+```",1417,381
+p8312a2bf,B07,twin,broken_image,['broken_image'],8,True,The hero product screenshot on the right failed to load and displays its alt text instead.,"```json
+{""problems"": [""broken_image""], ""score"": 8, ""evidence"": ""The hero product screenshot on the right failed to load and displays its alt text instead.""}
+```",1417,411
+p5d98e560,B07,twin,blocking_popup,['blocking_popup'],6,True,A modal popup promoting a budgeting worksheet covers the main headline and hero section content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""A modal popup promoting a budgeting worksheet covers the main headline and hero section content.""}
+```",1417,354
+p87ce44ac,B07,twin,cut_off_text,['cut_off_text'],5,True,The main hero headline is sliced off horizontally on the second line ('together without the').,"```json
+{""problems"": [""cut_off_text""], ""score"": 5, ""evidence"": ""The main hero headline is sliced off horizontally on the second line ('together without the').""}
+```",1417,541
+p64ee5e03,B07,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,290
+p444ebfe1,B08,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,215
+p81231c55,B08,twin,missing_cta,['missing_cta'],4,True,"There are no call-to-action buttons or links to sign up, download, or start across the entire page, including the hero, pricing cards, and bottom banner.","```json
+{""problems"": [""missing_cta""], ""score"": 4, ""evidence"": ""There are no call-to-action buttons or links to sign up, download, or start across the entire page, including the hero, pricing cards, and bottom banner.""}
+```",1440,699
+p08548dae,B08,twin,hidden_price,['hidden_price'],8,True,The Premium pricing tier conceals the cost behind 'See price in app' instead of stating the actual subscription price.,"```json
+{""problems"": [""hidden_price""], ""score"": 8, ""evidence"": ""The Premium pricing tier conceals the cost behind 'See price in app' instead of stating the actual subscription price.""}
+```",1417,478
+pe619649f,B08,twin,contradiction,['contradiction'],8,True,"The hero section states the app 'Works fully offline, no internet needed', which directly contradicts the FAQ stating that Plant ID and Ask a botanist require an internet connection.","```json
+{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The hero section states the app 'Works fully offline, no internet needed', which directly contradicts the FAQ stating that Plant ID and Ask a botanist require an internet connection.""}
+```",1417,575
+p6391dc37,B08,twin,vague_headline,['vague_headline'],8,True,The main headline 'Your journey starts here' is generic and does not explain what the product is or does.,"```json
+{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Your journey starts here' is generic and does not explain what the product is or does.""}
+```",1417,483
+p4ea1e0b1,B08,twin,typos,['typos'],7,True,The main hero headline contains prominent typos with 'evry' and 'onw'.,"```json
+{""problems"": [""typos""], ""score"": 7, ""evidence"": ""The main hero headline contains prominent typos with 'evry' and 'onw'.""}
+```",1417,471
+p5c7018a8,B08,twin,placeholder_text,['placeholder_text'],8,True,The FAQ answer for 'Do I need an account?' contains lorem ipsum placeholder text.,"```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The FAQ answer for 'Do I need an account?' contains lorem ipsum placeholder text.""}
+```",1417,290
+pd9b6e422,B08,twin,low_contrast,['low_contrast'],5,True,The main hero headline 'Know exactly when to water every plant you own' uses very light grey text that is almost invisible against the light background.,"```json
+{""problems"": [""low_contrast""], ""score"": 5, ""evidence"": ""The main hero headline 'Know exactly when to water every plant you own' uses very light grey text that is almost invisible against the light background.""}
+```",1417,469
+p36419d39,B08,twin,broken_image,['broken_image'],7,True,"The hero image on the right failed to load, displaying its alt text 'Leafnote app showing watering reminders for a monstera and a fern'.","```json
+{""problems"": [""broken_image""], ""score"": 7, ""evidence"": ""The hero image on the right failed to load, displaying its alt text 'Leafnote app showing watering reminders for a monstera and a fern'.""}
+```",1417,706
+p6fffc67d,B08,twin,blocking_popup,['blocking_popup'],6,True,A lead capture newsletter modal popup is overlaying and blocking the main hero section content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 6, ""evidence"": ""A lead capture newsletter modal popup is overlaying and blocking the main hero section content.""}
+```",1417,375
+p938c90a5,B08,twin,cut_off_text,['cut_off_text'],5,True,The main hero headline is cut off horizontally across the bottom line of text.,"```json
+{""problems"": [""cut_off_text""], ""score"": 5, ""evidence"": ""The main hero headline is cut off horizontally across the bottom line of text.""}
+```",1417,409
+p2fea4fa2,B08,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1417,181
+p93ee185d,B09,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1414,327
+p6a8d077a,B09,twin,missing_cta,['contradiction'],8,True,"The pricing section is titled 'One price, lifetime access' but presents two different pricing options ($149 and $249).","```json
+{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The pricing section is titled 'One price, lifetime access' but presents two different pricing options ($149 and $249).""}
+```",1392,548
+p4a7f4ba0,B09,twin,hidden_price,['hidden_price'],7,True,Both course options in the pricing section show 'Price on request' instead of displaying actual prices.,"```json
+{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Both course options in the pricing section show 'Price on request' instead of displaying actual prices.""}
+```",1436,381
+p31293c96,B09,twin,contradiction,['contradiction'],6,True,"The hero section states 'All sales final, no refunds' while the FAQ guarantees a full refund within 30 days.","```json
+{""problems"": [""contradiction""], ""score"": 6, ""evidence"": ""The hero section states 'All sales final, no refunds' while the FAQ guarantees a full refund within 30 days.""}
+```",1414,431
+p9ce3ede1,B09,twin,vague_headline,['vague_headline'],8,True,The main headline 'Unlock your potential' is generic and does not explain what the course or product actually is.,"```json
+{
+  ""problems"": [""vague_headline""],
+  ""score"": 8,
+  ""evidence"": ""The main headline 'Unlock your potential' is generic and does not explain what the course or product actually is.""
+}
+```",1414,544
+pbf5e1eaa,B09,twin,typos,['typos'],6,True,The main headline contains obvious spelling errors ('Lern' and 'weks').,"```json
+{""problems"": [""typos""], ""score"": 6, ""evidence"": ""The main headline contains obvious spelling errors ('Lern' and 'weks').""}
+```",1414,384
+pb0be2b5f,B09,twin,placeholder_text,['placeholder_text'],8,True,The 'Light and shadow' curriculum card contains leftover Lorem ipsum placeholder text.,"```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The 'Light and shadow' curriculum card contains leftover Lorem ipsum placeholder text.""}
+```",1414,496
+p5d5f4086,B09,twin,low_contrast,['low_contrast'],6,True,"The main hero headline is rendered in an extremely faint, low-contrast color against the light background, making it very difficult to read.","```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The main hero headline is rendered in an extremely faint, low-contrast color against the light background, making it very difficult to read.""}
+```",1414,339
+p777019f0,B09,twin,broken_image,['broken_image'],6,True,"The main hero image failed to load, leaving broken image alt text visible in a large empty area.","```json
+{""problems"": [""broken_image""], ""score"": 6, ""evidence"": ""The main hero image failed to load, leaving broken image alt text visible in a large empty area.""}
+```",1414,618
+p83e3eb2d,B09,twin,blocking_popup,['blocking_popup'],5,True,A lead-capture popup modal covers the hero section and dims the page content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 5, ""evidence"": ""A lead-capture popup modal covers the hero section and dims the page content.""}
+```",1414,280
+p46feddad,B09,twin,cut_off_text,['cut_off_text'],6,True,The second line of the main hero headline ('see in six weeks') is vertically cut off at the bottom.,"```json
+{""problems"": [""cut_off_text""], ""score"": 6, ""evidence"": ""The second line of the main hero headline ('see in six weeks') is vertically cut off at the bottom.""}
+```",1414,454
+pbc99bd5a,B09,variant,harmless,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1414,565
+p1b81c2aa,B10,clean,none,[],10,True,none,"```json
+{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+```",1440,589
+pea0155d8,B10,twin,missing_cta,['missing_cta'],6,True,"There is no primary call-to-action button to book, sign up, or purchase a cleaning service anywhere on the page.","```json
+{""problems"": [""missing_cta""], ""score"": 6, ""evidence"": ""There is no primary call-to-action button to book, sign up, or purchase a cleaning service anywhere on the page.""}
+```",1416,583
+p9e09027c,B10,twin,hidden_price,['hidden_price'],7,True,"Under the section titled 'Clear prices, no surprises', all tiers show 'Request a quote' without listing any actual prices.","```json
+{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Under the section titled 'Clear prices, no surprises', all tiers show 'Request a quote' without listing any actual prices.""}
+```",1417,482
+p58c4e6b4,B10,twin,contradiction,['contradiction'],7,True,"Feature #3 states cancellation is free even an hour before the visit, but the FAQ states cancellation is only free up to 24 hours prior with late changes costing $25.","```json
+{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""Feature #3 states cancellation is free even an hour before the visit, but the FAQ states cancellation is only free up to 24 hours prior with late changes costing $25.""}
+```",1440,436
+p54fca757,B10,twin,vague_headline,['vague_headline'],8,True,The main headline 'Experience the difference' is vague and does not describe the cleaning service without reading the surrounding text.,"```json
+{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Experience the difference' is vague and does not describe the cleaning service without reading the surrounding text.""}
+```",1440,499
+pc4374e32,B10,twin,typos,['typos'],8,True,"The main hero headline has misspelled words: ""spotles"" and ""secnods"".","```json
+{""problems"": [""typos""], ""score"": 8, ""evidence"": ""The main hero headline has misspelled words: \""spotles\"" and \""secnods\"".""}
+```",1440,448
+pc4e970ec,B10,twin,placeholder_text,['placeholder_text'],8,True,"The social proof bar contains an unpopulated template variable: 'Trusted by 3,000 homes across {{city}}'.","```json
+{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The social proof bar contains an unpopulated template variable: 'Trusted by 3,000 homes across {{city}}'.""}
+```",1440,446
+p5e4475c0,B10,twin,low_contrast,['low_contrast'],6,True,"The main hero headline 'A spotless home, booked in 60 seconds' has very low contrast against the light background, making it hard to read.","```json
+{""problems"": [""low_contrast""], ""score"": 6, ""evidence"": ""The main hero headline 'A spotless home, booked in 60 seconds' has very low contrast against the light background, making it hard to read.""}
+```",1440,603
+p72938c8b,B10,twin,broken_image,['broken_image'],8,True,"An image in the hero section failed to load, displaying its alt text 'Mopsquad booking card next to a house illustration'.","```json
+{""problems"": [""broken_image""], ""score"": 8, ""evidence"": ""An image in the hero section failed to load, displaying its alt text 'Mopsquad booking card next to a house illustration'.""}
+```",1440,604
+pee4182c0,B10,twin,blocking_popup,['blocking_popup'],7,True,A promotional discount popup dialog overlays and obscures the hero section headline and content.,"```json
+{""problems"": [""blocking_popup""], ""score"": 7, ""evidence"": ""A promotional discount popup dialog overlays and obscures the hero section headline and content.""}
+```",1440,492
+p53fad4ae,B10,twin,cut_off_text,['cut_off_text'],6,True,The second line of the hero headline is horizontally cut off and cannot be fully read.,"```json
+{""problems"": [""cut_off_text""], ""score"": 6, ""evidence"": ""The second line of the hero headline is horizontally cut off and cannot be fully read.""}
+```",1416,544
+p6572462c,B10,variant,harmless,[],10,True,"The page is well-designed with clear messaging, transparent pricing, and functional call-to-action buttons.","```json
+{""problems"": [], ""score"": 10, ""evidence"": ""The page is well-designed with clear messaging, transparent pricing, and functional call-to-action buttons.""}
+```",1440,571

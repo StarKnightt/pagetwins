@@ -1,0 +1,29 @@
+{
+  "task_name": "pagetwins-pairs-text",
+  "source": "pagetwins-pairs-text",
+  "trial_name": "pagetwins-pairs-text-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "qwen/qwen3-235b-a22b-instruct-2507"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.685
+    }
+  },
+  "started_at": "2026-10-07T14:15:59.584544Z",
+  "finished_at": "2026-10-07T21:06:42.342346Z"
+}

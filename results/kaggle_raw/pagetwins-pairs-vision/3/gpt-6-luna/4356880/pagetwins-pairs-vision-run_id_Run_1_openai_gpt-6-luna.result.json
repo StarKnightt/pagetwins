@@ -1,0 +1,29 @@
+{
+  "task_name": "pagetwins-pairs-vision",
+  "source": "pagetwins-pairs-vision",
+  "trial_name": "pagetwins-pairs-vision-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "openai/gpt-6-luna"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.965
+    }
+  },
+  "started_at": "2026-10-07T13:49:55.922841Z",
+  "finished_at": "2026-10-07T13:52:18.679398Z"
+}

@@ -1,0 +1,269 @@
+page_id,base_id,role,category,problems,score,valid,evidence,raw,input_tokens,output_tokens
+p1efc40b7,B01,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+
+Explanation:
+- No problems were found:
+  - CTA buttons (""Start free"", ""Start free trial"") appear 5 times
+  - Pricing is explicit ($0/$12/$29 per month in USD)
+  - No contradictory claims found
+  - Headline clearly states invoicing and payment acceleration
+  - No typos detected in major headlines/text
+  - No placeholder text (all content appears finalized)
+  - Contrast and image issues can't be verified from text-only
+  - No popup or layout issues described in the content
+- Score 10: Page contains all required information, clear pricing, strong CTAs, testimonials, and FAQ without any detectable launch-blocking issues.",895,1908
+pd36dc7d2,B01,twin,missing_cta,['missing_cta'],6,True,The page lacks a direct sign-up button despite advertising a free plan and paid options.,"{""problems"": [""missing_cta""], ""score"": 6, ""evidence"": ""The page lacks a direct sign-up button despite advertising a free plan and paid options.""}
+
+Explanation:
+- **missing_cta**: The page contains no ""Sign up"", ""Get started"", or ""Choose plan"" button. The only interactive element is ""See how it works"" (which typically explains features rather than enabling sign-up) and ""Log in"" (for existing users). The pricing section lists plans without any enrollment buttons.
+- Other issues (hidden_price, contradiction, etc.) are absent:
+  - Prices are clearly stated ($0/$12/$29).
+  - No contradictory claims or typos detected.
+  - All text appears finalized (no placeholders).
+  - Visual/rendering issues (contrast, images, popups) cannot be assessed from text-only input.
+  
+**Score rationale**: The absence of a sign-up CTA significantly hinders conversion potential, but the page is otherwise complete with clear value propositions, pricing, and testimonials. A score of 6 reflects this critical gap in an otherwise launch-ready page.",855,2452
+pecc9be34,B01,twin,hidden_price,['hidden_price'],7,True,Pro and Studio plan prices are hidden behind 'Contact us' instead of being displayed,"{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Pro and Studio plan prices are hidden behind 'Contact us' instead of being displayed""}",892,1346
+p0d450028,B01,twin,contradiction,['contradiction'],7,True,"The top banner claims 'Free for unlimited clients, forever' but the Free pricing plan clearly states 'Up to 3 clients'.","{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""The top banner claims 'Free for unlimited clients, forever' but the Free pricing plan clearly states 'Up to 3 clients'.""}",894,1270
+pc7c159fe,B01,twin,vague_headline,['vague_headline'],9,True,The main headline 'Welcome to the future of getting things done' does not mention invoicing or core functionality.,"{""problems"": [""vague_headline""], ""score"": 9, ""evidence"": ""The main headline 'Welcome to the future of getting things done' does not mention invoicing or core functionality.""}",893,864
+pc82582f2,B01,twin,typos,['typos'],7,True,"The main headline contains misspelled words: 'invoces' (invoices) and 'montsh' (months), and the subheading has 'remiders' (reminders).","{""problems"": [""typos""], ""score"": 7, ""evidence"": ""The main headline contains misspelled words: 'invoces' (invoices) and 'montsh' (months), and the subheading has 'remiders' (reminders).""}",899,1792
+p5d4b672c,B01,twin,placeholder_text,['placeholder_text'],6,True,Placeholder text 'Lorem ipsum' remains in the feature description section.,"{""problems"": [""placeholder_text""], ""score"": 6, ""evidence"": ""Placeholder text 'Lorem ipsum' remains in the feature description section.""}",897,1235
+p2874ab01,B01,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",895,1776
+pf08edc68,B01,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",895,1317
+pd2b936e6,B01,twin,blocking_popup,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",961,2199
+pff5f9f69,B01,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",895,1272
+pc34ef015,B01,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",895,1366
+p9810d579,B02,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",850,906
+p12e14132,B02,twin,missing_cta,['missing_cta'],7,True,No sign-up button or link exists despite mentioning a 14-day free trial,"{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""No sign-up button or link exists despite mentioning a 14-day free trial""
+}",813,1928
+p4190037a,B02,twin,hidden_price,['hidden_price'],6,True,The pricing section states 'Contact us' instead of displaying actual costs for Starter and Growth plans.,"{""problems"": [""hidden_price""], ""score"": 6, ""evidence"": ""The pricing section states 'Contact us' instead of displaying actual costs for Starter and Growth plans.""}",844,1574
+pcbf9c1cc,B02,twin,contradiction,['contradiction'],7,True,Top banner states '30-day free trial' but pricing section says '14-day free trial',"{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""Top banner states '30-day free trial' but pricing section says '14-day free trial'""}",850,810
+pe3ba35c3,B02,twin,vague_headline,['vague_headline'],9,True,"The main headline 'Work smarter, not harder' does not describe the product's scheduling function.","{""problems"": [""vague_headline""], ""score"": 9, ""evidence"": ""The main headline 'Work smarter, not harder' does not describe the product's scheduling function.""}",844,1770
+p363ddf68,B02,twin,typos,['typos'],6,True,"The main headline contains multiple spelling errors ('Biuld', 'staf', 'pubilsh').","{""problems"": [""typos""], ""score"": 6, ""evidence"": ""The main headline contains multiple spelling errors ('Biuld', 'staf', 'pubilsh').""}",854,1489
+pd615770a,B02,twin,placeholder_text,['placeholder_text'],7,True,"Testimonial placeholder text '{{customer_name}}, {{customer_role}}' appears in customer quote","{""problems"": [""placeholder_text""], ""score"": 7, ""evidence"": ""Testimonial placeholder text '{{customer_name}}, {{customer_role}}' appears in customer quote""}",847,1232
+pf311fec4,B02,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",850,1822
+p25875516,B02,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",850,1213
+p7c86f774,B02,twin,blocking_popup,['blocking_popup'],8,True,"A 'Signup offer' popup appears on page load, blocking main content.","{""problems"": [""blocking_popup""], ""score"": 8, ""evidence"": ""A 'Signup offer' popup appears on page load, blocking main content.""}",910,2065
+p971e3764,B02,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",850,1486
+pcc8a3d69,B02,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",850,904
+p61dbc346,B03,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",892,1918
+pfb084bcc,B03,twin,missing_cta,"['contradiction', 'missing_cta']",5,True,Headline claims one week search capability but free plan only retains logs for three days.,"{
+  ""problems"": [""missing_cta"", ""contradiction""],
+  ""score"": 5,
+  ""evidence"": ""Headline claims one week search capability but free plan only retains logs for three days.""
+}",850,1163
+p05b1bb20,B03,twin,hidden_price,['hidden_price'],7,True,Paid plan pricing requires contacting sales (not listed on page),"{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Paid plan pricing requires contacting sales (not listed on page)""}",888,3643
+pc9b12812,B03,twin,contradiction,['contradiction'],6,True,The top banner claims free plan includes 10 GB/day while pricing table shows only 1 GB/day.,"{""problems"": [""contradiction""], ""score"": 6, ""evidence"": ""The top banner claims free plan includes 10 GB/day while pricing table shows only 1 GB/day.""}",892,971
+p330c95aa,B03,twin,vague_headline,['vague_headline'],8,True,The main headline 'The platform for what's next' does not clearly convey the product's purpose without relying on supporting text.,"{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'The platform for what's next' does not clearly convey the product's purpose without relying on supporting text.""}",889,1720
+p22069e09,B03,twin,typos,['typos'],7,True,The main headline contains two spelling errors: 'Serach' instead of 'Search' and 'secnod' instead of 'second'.,"{""problems"": [""typos""], ""score"": 7, ""evidence"": ""The main headline contains two spelling errors: 'Serach' instead of 'Search' and 'secnod' instead of 'second'.""}",895,1598
+p9bc912ad,B03,twin,placeholder_text,['placeholder_text'],8,True,Placeholder text '{{company_count}}' found in customer testimonials section.,"{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""Placeholder text '{{company_count}}' found in customer testimonials section.""}",892,1465
+p1642de09,B03,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",892,1216
+ped3fc0e9,B03,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+
+### Explanation:
+- **missing_cta**: Not present. Multiple CTAs exist (""Start for free"", ""Start free trial"").
+- **hidden_price**: Not present. Pricing is clearly stated ($0, $49, $199/month).
+- **contradiction**: Not present. Claims are consistent (e.g., free plan retention matches FAQ explanation).
+- **vague_headline**: Not present. Headline clearly states the product's function (""Search a week of logs in under a second"").
+- **typos**: No spelling errors detected in prominent text.
+- **placeholder_text**: None found (e.g., no ""Lorem ipsum"" or template placeholders).
+- **low_contrast**: Cannot evaluate without visual design information.
+- **broken_image**: Not indicated; alt text is provided.
+- **blocking_popup**: No popup described in the content.
+- **cut_off_text**: Cannot verify without layout rendering.  
+The page is well-structured with clear value propositions, pricing, and CTAs, warranting a score of 10.",892,2034
+p95c4bced,B03,twin,blocking_popup,['blocking_popup'],8,True,A signup dialog covers the main content when the page opens.,"{""problems"": [""blocking_popup""], ""score"": 8, ""evidence"": ""A signup dialog covers the main content when the page opens.""}",958,2674
+p0ed2fa34,B03,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",892,1134
+p70fa2b57,B03,variant,harmless,['contradiction'],8,True,The headline claims 'Search a week of logs' but the Free plan only offers 3-day retention.,"{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The headline claims 'Search a week of logs' but the Free plan only offers 3-day retention.""}",894,1478
+p7d9d32d0,B04,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",854,1177
+pc8a28a4a,B04,twin,missing_cta,['missing_cta'],7,True,No sign-up button in pricing/plans section where users decide to purchase,"{""problems"": [""missing_cta""], ""score"": 7, ""evidence"": ""No sign-up button in pricing/plans section where users decide to purchase""}",816,3011
+p2d1aa34d,B04,twin,hidden_price,['hidden_price'],9,True,Pro plan pricing requires contacting sales,"{""problems"": [""hidden_price""], ""score"": 9, ""evidence"": ""Pro plan pricing requires contacting sales""}",851,2427
+pc36ea2bf,B04,twin,contradiction,['contradiction'],4,True,The top claim 'Never pay anything per label' contradicts the Starter plan's 5¢ per label fee.,"{""problems"": [""contradiction""], ""score"": 4, ""evidence"": ""The top claim 'Never pay anything per label' contradicts the Starter plan's 5¢ per label fee.""}",853,1421
+p95873658,B04,twin,vague_headline,['vague_headline'],8,True,Main headline 'Solutions that move your business forward' does not clearly state what the product is or does.,"{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""Main headline 'Solutions that move your business forward' does not clearly state what the product is or does.""}",852,1373
+pa94fea72,B04,twin,typos,['typos'],7,True,Headline has misspelled words: 'cheeper' and 'shiping'.,"{""problems"": [""typos""], ""score"": 7, ""evidence"": ""Headline has misspelled words: 'cheeper' and 'shiping'.""}",858,1016
+p5b3a0432,B04,twin,placeholder_text,['placeholder_text'],7,True,Placeholder text 'Lorem ipsum dolor sit amet...' appears in the 'Rates side by side' feature description,"{""problems"": [""placeholder_text""], ""score"": 7, ""evidence"": ""Placeholder text 'Lorem ipsum dolor sit amet...' appears in the 'Rates side by side' feature description""}",862,1078
+p2180db28,B04,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",854,1212
+pfb412dd7,B04,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",854,1422
+pbd9d8082,B04,twin,blocking_popup,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",922,2474
+p50a9d296,B04,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",854,1541
+p05027629,B04,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+
+Explanation:  
+- No `missing_cta`: Multiple sign-up buttons exist (""Sign up free"", ""Create a free account"").  
+- No `hidden_price`: Pricing is clearly stated for Starter ($0/month + 5¢/label) and Pro ($25/month).  
+- No `contradiction`: Claims about fees/features are consistent (e.g., Starter has no monthly fee but per-label charges).  
+- No `vague_headline`: The main headline ""Print a cheaper shipping label in three clicks"" clearly states the product's purpose.  
+- No `typos`: All prominent text (headings, buttons, testimonials) is correctly spelled.  
+- No `placeholder_text`: All content is specific to the product (no generic placeholders).  
+- `low_contrast`/`broken_image`/`cut_off_text`/`blocking_popup` cannot be evaluated as styling/layout isn't provided.  
+The page is well-structured with clear CTAs, pricing, features, and testimonials, warranting a readiness score of 10.",854,1893
+p7da21266,B05,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",863,968
+pe466db25,B05,twin,missing_cta,['missing_cta'],7,True,No purchase button appears despite displaying product options,"{""problems"": [""missing_cta""], ""score"": 7, ""evidence"": ""No purchase button appears despite displaying product options""}",822,1604
+pa381570a,B05,twin,hidden_price,['hidden_price'],7,True,"Product prices are not displayed, only referenced as 'Price at checkout' in both purchase options.","{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Product prices are not displayed, only referenced as 'Price at checkout' in both purchase options.""}",852,1716
+pdf9402f9,B05,twin,contradiction,['contradiction'],7,True,The banner claims 'Free shipping on every order' but the FAQ states shipping costs $5.95 for orders under $50.,"{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""The banner claims 'Free shipping on every order' but the FAQ states shipping costs $5.95 for orders under $50.""}",861,973
+p595e01d7,B05,twin,vague_headline,['vague_headline'],8,True,The main headline 'Elevate your everyday' lacks clear product context.,"{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Elevate your everyday' lacks clear product context.""}",856,1205
+p4d87e542,B05,twin,typos,['typos'],8,True,"Misspellings in prominent text: 'strenght' (should be 'strength'), 'secconds' (should be 'seconds'), and 'smoth' (should be 'smooth').","{""problems"": [""typos""], ""score"": 8, ""evidence"": ""Misspellings in prominent text: 'strenght' (should be 'strength'), 'secconds' (should be 'seconds'), and 'smoth' (should be 'smooth').""}",867,1395
+p259f9877,B05,twin,placeholder_text,['placeholder_text'],7,True,Placeholder text 'Lorem ipsum dolor sit amet...' remains visible in the customer review section,"{""problems"": [""placeholder_text""], ""score"": 7, ""evidence"": ""Placeholder text 'Lorem ipsum dolor sit amet...' remains visible in the customer review section""}",869,1057
+pd0fb7ebc,B05,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",863,1544
+p823538fa,B05,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}
+
+Explanation:
+- No problems were found in the provided text:
+  - **missing_cta**: Multiple CTAs exist (""Shop now"", ""Add to cart"", ""Subscribe"").
+  - **hidden_price**: Prices are clearly stated ($24 per bottle, $20.40 subscription).
+  - **contradiction**: All claims align (bottle size, servings, pricing, shipping details).
+  - **vague_headline**: Main headline explicitly states the product (""cold brew concentrate"") and benefit (""cafe-strength cold brew at home"").
+  - **typos**: No spelling errors in prominent text (e.g., ""Cafe-strength"", ""concentrate"").
+  - **placeholder_text**: No template placeholders visible.
+  - **low_contrast/broken_image/blocking_popup/cut_off_text**: These require visual/layout analysis (not detectable in text-only format).
+
+The page includes complete product information, clear pricing, CTAs, benefits, and social proof, indicating readiness for launch.",863,1478
+p3ac82f57,B05,twin,blocking_popup,"['placeholder_text', 'typos']",8,True,"Subscription price has a missing space ('$20.40per bottle'), and email placeholder text 'you@example.com' remains visible.","{
+  ""problems"": [""typos"", ""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Subscription price has a missing space ('$20.40per bottle'), and email placeholder text 'you@example.com' remains visible.""
+}",928,2719
+p5f7715df,B05,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",863,1255
+p1086b1db,B05,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",863,1431
+pb96036a3,B06,clean,none,['typos'],9,True,Bundle price has a typo: '$176for two' lacks space after dollar amount.,"{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""Bundle price has a typo: '$176for two' lacks space after dollar amount.""
+}",861,2579
+p9f9728ee,B06,twin,missing_cta,['typos'],9,True,Bundle price displays '$176for two' without proper spacing.,"{""problems"": [""typos""], ""score"": 9, ""evidence"": ""Bundle price displays '$176for two' without proper spacing.""}",824,1657
+p7be62d2d,B06,twin,hidden_price,['hidden_price'],8,True,The price is hidden and only referenced as 'Price at checkout' without displaying actual costs,"{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The price is hidden and only referenced as 'Price at checkout' without displaying actual costs""
+}",846,888
+p7dd2c989,B06,twin,contradiction,['contradiction'],8,True,The header states 'Free returns within 14 days' while the FAQ says 'Return any unworn hoodie within 60 days',"{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The header states 'Free returns within 14 days' while the FAQ says 'Return any unworn hoodie within 60 days'""}
+
+Explanation:
+- **Contradiction found**: The header banner claims ""Free returns within 14 days"", but the FAQ section states ""Return any unworn hoodie within 60 days"". These conflicting policies cannot both be true simultaneously.
+- **No other issues**: 
+  - CTAs exist (""Add to cart"", ""Shop the hoodie"").
+  - Prices are clearly stated ($98, $176).
+  - Headline clearly describes the product (""One merino hoodie for every flight, hike and long weekend"").
+  - No typos, placeholder text, or visual issues detectable in text-only format.
+- **Score 8/10**: The page is otherwise launch-ready with clear value proposition, pricing, and CTAs, but the policy contradiction requires urgent resolution to avoid customer confusion.",861,938
+p959ea250,B06,twin,vague_headline,['vague_headline'],9,True,The main headline (h1) 'Quality you can feel' does not clearly state the product or its purpose.,"{""problems"": [""vague_headline""], ""score"": 9, ""evidence"": ""The main headline (h1) 'Quality you can feel' does not clearly state the product or its purpose.""}",852,1603
+paa3116fe,B06,twin,typos,['typos'],7,True,"Headline and subheadline contain spelling errors: 'evrey' for 'every', 'weekned' for 'weekend', and 'pakcs' for 'packs'.","{
+  ""problems"": [""typos""],
+  ""score"": 7,
+  ""evidence"": ""Headline and subheadline contain spelling errors: 'evrey' for 'every', 'weekned' for 'weekend', and 'pakcs' for 'packs'.""
+}",864,2008
+p3c1178c8,B06,twin,placeholder_text,['placeholder_text'],6,True,"The feature description 'Warm, never sweaty' uses placeholder 'Lorem ipsum' text instead of real content.","{""problems"": [""placeholder_text""], ""score"": 6, ""evidence"": ""The feature description 'Warm, never sweaty' uses placeholder 'Lorem ipsum' text instead of real content.""}",869,1166
+pb7a1d6b1,B06,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",861,1016
+p4284a059,B06,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",861,773
+p7f33511f,B06,twin,blocking_popup,"['blocking_popup', 'placeholder_text']",8,True,"A dialog popup blocks content on page load, and placeholder text 'you@example.com' remains visible.","{
+  ""problems"": [""placeholder_text"", ""blocking_popup""],
+  ""score"": 8,
+  ""evidence"": ""A dialog popup blocks content on page load, and placeholder text 'you@example.com' remains visible.""
+}",923,1630
+p05e5ceef,B06,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",861,985
+p4e64ee27,B06,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",863,900
+p994f1ce4,B07,clean,none,['contradiction'],8,True,"The feature 'Goals you build together' is advertised without indicating it requires the paid plan, but the free plan does not include savings goals.","{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""The feature 'Goals you build together' is advertised without indicating it requires the paid plan, but the free plan does not include savings goals.""}",805,1748
+p73bb5fdf,B07,twin,missing_cta,['missing_cta'],5,True,"The page lacks any button or link for new users to sign up, download, or start using the service.","{
+  ""problems"": [""missing_cta""],
+  ""score"": 5,
+  ""evidence"": ""The page lacks any button or link for new users to sign up, download, or start using the service.""
+}",755,1529
+pd52fe1ff,B07,twin,hidden_price,['hidden_price'],8,True,"The Plus plan pricing requires app download to see costs ('See price in app'), hiding critical purchase information.","{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Plus plan pricing requires app download to see costs ('See price in app'), hiding critical purchase information.""
+}",800,1186
+pdf30bed1,B07,twin,contradiction,['contradiction'],7,True,"The header claims 'Every feature free, forever' but the Plus plan requires payment for features like unlimited accounts and savings goals.","{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""The header claims 'Every feature free, forever' but the Plus plan requires payment for features like unlimited accounts and savings goals.""}",800,1055
+pf0219ac8,B07,twin,vague_headline,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",800,1160
+p5b32e88c,B07,twin,typos,"['contradiction', 'typos']",5,True,"The main section claims savings goal tracking is included, but the pricing shows it's restricted to the paid plan.","{
+  ""problems"": [""typos"", ""contradiction""],
+  ""score"": 5,
+  ""evidence"": ""The main section claims savings goal tracking is included, but the pricing shows it's restricted to the paid plan.""
+}",809,3671
+p112ef1b7,B07,twin,placeholder_text,['placeholder_text'],8,True,Testimonial contains unedited template placeholders {{name}} and {{year}},"{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""Testimonial contains unedited template placeholders {{name}} and {{year}}""}
+
+### Explanation:
+- **placeholder_text**: The testimonial quote includes ""{{name}}"" and ""{{year}}"", which are template placeholders left unreplaced.
+- **Other checks**:
+  - **CTA buttons** exist (""Download for iPhone"", ""Get it on Android"", etc.).
+  - **Pricing** is clearly stated multiple times (""$4.99/month"").
+  - **No contradictions** in messaging.
+  - **Headline** explicitly states the purpose (""Plan your money together without the awkward talks"").
+  - **No typos** in visible text.
+  - **Low contrast, broken images, popups, or cut-off text** cannot be verified without visual/layout information.
+- **Score**: 8/10 because the placeholder text is the only notable flaw; the page is otherwise ready with clear CTAs, pricing, and value propositions.",801,991
+p65b02870,B07,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",805,1773
+p8312a2bf,B07,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",805,1259
+p5d98e560,B07,twin,blocking_popup,"['blocking_popup', 'placeholder_text']",8,True,Placeholder text 'you@example.com' is visible in the email field of the signup popup.,"{""problems"": [""placeholder_text"", ""blocking_popup""], ""score"": 8, ""evidence"": ""Placeholder text 'you@example.com' is visible in the email field of the signup popup.""}",864,2064
+p87ce44ac,B07,twin,cut_off_text,['contradiction'],8,True,Feature section promotes 'Goals you build together' as a core feature but it's only available in the paid Plus plan.,"{""problems"": [""contradiction""], ""score"": 8, ""evidence"": ""Feature section promotes 'Goals you build together' as a core feature but it's only available in the paid Plus plan.""}",805,2276
+p64ee5e03,B07,variant,harmless,['contradiction'],7,True,"Headline claims the app tracks savings goals, but this feature is only available in the paid Plus plan","{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""Headline claims the app tracks savings goals, but this feature is only available in the paid Plus plan""}",805,1387
+p444ebfe1,B08,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",823,1874
+p81231c55,B08,twin,missing_cta,['missing_cta'],5,True,The page lacks a prominent call-to-action button for signing up or starting free trial.,"{""problems"": [""missing_cta""], ""score"": 5, ""evidence"": ""The page lacks a prominent call-to-action button for signing up or starting free trial.""}",773,1872
+p08548dae,B08,twin,hidden_price,['hidden_price'],7,True,"Premium plan pricing is not disclosed on the page, requiring users to download the app to see the cost.","{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Premium plan pricing is not disclosed on the page, requiring users to download the app to see the cost.""}",822,1115
+pe619649f,B08,twin,contradiction,['contradiction'],6,True,"Main section claims 'Works fully offline, no internet needed' but FAQ states 'Plant ID and Ask a botanist need an internet connection'","{""problems"": [""contradiction""], ""score"": 6, ""evidence"": ""Main section claims 'Works fully offline, no internet needed' but FAQ states 'Plant ID and Ask a botanist need an internet connection'""}",822,858
+p6391dc37,B08,twin,vague_headline,['vague_headline'],8,True,The main headline 'Your journey starts here' is vague and doesn't explain the product's purpose.,"{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Your journey starts here' is vague and doesn't explain the product's purpose.""}",818,2290
+p4ea1e0b1,B08,twin,typos,['typos'],8,True,Sub-headline contains misspelled words: 'evry' and 'onw',"{""problems"": [""typos""], ""score"": 8, ""evidence"": ""Sub-headline contains misspelled words: 'evry' and 'onw'""}",827,1177
+p5c7018a8,B08,twin,placeholder_text,['placeholder_text'],7,True,Placeholder text 'Lorem ipsum' appears in the FAQ section.,"{
+  ""problems"": [""placeholder_text""],
+  ""score"": 7,
+  ""evidence"": ""Placeholder text 'Lorem ipsum' appears in the FAQ section.""
+}",836,880
+pd9b6e422,B08,twin,low_contrast,"['contradiction', 'hidden_price']",7,True,Contradiction between 'every plant you own' headline and 5-plant free limit,"{""problems"": [""hidden_price"", ""contradiction""], ""score"": 7, ""evidence"": ""Contradiction between 'every plant you own' headline and 5-plant free limit""}
+
+**Explanation:**
+- **hidden_price**: The Premium plan pricing (""$2.99/month"") appears only in the **second** pricing section but is missing from the **initial headline/CTA area** where users first see download buttons. This violates pricing transparency expectations for conversion-focused pages.
+  
+- **contradiction**: The main headline claims ""Know exactly when to water **every plant you own**"" (emphasis added), but the free tier limits users to 5 plants. This creates a logical conflict since users with >5 plants cannot track ""every"" plant without paying.
+
+**No other issues found**:
+- CTA buttons exist throughout (""Get the app"", download options).
+- Headline clearly states the product's purpose.
+- No typos, placeholders, or layout issues detectable in text.
+- Pricing is *eventually* disclosed (hence score 7), but should be near primary CTAs. The contradiction requires headline rewording to align with the freemium model.",823,1838
+p36419d39,B08,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",823,1446
+p6fffc67d,B08,twin,blocking_popup,['placeholder_text'],8,True,The dialog's email input contains placeholder text 'you@example.com',"{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The dialog's email input contains placeholder text 'you@example.com'""}",888,1824
+p938c90a5,B08,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",823,966
+p2fea4fa2,B08,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",823,1352
+p93ee185d,B09,clean,none,['hidden_price'],1,True,"Prices are listed as '$149one-time' and '$249one-time' without space between amount and 'one-time', causing ambiguity","{""problems"": [""hidden_price""], ""score"": 1, ""evidence"": ""Prices are listed as '$149one-time' and '$249one-time' without space between amount and 'one-time', causing ambiguity""}",782,1322
+p6a8d077a,B09,twin,missing_cta,['missing_cta'],3,True,No purchase button or sign-up link exists despite listing paid plans,"{""problems"": [""missing_cta""], ""score"": 3, ""evidence"": ""No purchase button or sign-up link exists despite listing paid plans""}",748,1780
+p4a7f4ba0,B09,twin,hidden_price,['hidden_price'],6,True,"Price is listed as 'on request' instead of showing actual costs, which may deter potential customers","{""problems"": [""hidden_price""], ""score"": 6, ""evidence"": ""Price is listed as 'on request' instead of showing actual costs, which may deter potential customers""}",780,1059
+p31293c96,B09,twin,contradiction,['contradiction'],7,True,"Refund policy: 'All sales final, no refunds' at the top contradicts 'full refund within 30 days' in pricing section","{""problems"": [""contradiction""], ""score"": 7, ""evidence"": ""Refund policy: 'All sales final, no refunds' at the top contradicts 'full refund within 30 days' in pricing section""}",785,1025
+p9ce3ede1,B09,twin,vague_headline,['vague_headline'],8,True,The main headline 'Unlock your potential' doesn't specify what the product is or does,"{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'Unlock your potential' doesn't specify what the product is or does""}",777,1135
+pbf5e1eaa,B09,twin,typos,['typos'],7,True,Main headline contains typos: 'Lern' instead of 'Learn' and 'weks' instead of 'weeks'.,"{
+  ""problems"": [""typos""],
+  ""score"": 7,
+  ""evidence"": ""Main headline contains typos: 'Lern' instead of 'Learn' and 'weks' instead of 'weeks'.""
+}",785,1637
+pb0be2b5f,B09,twin,placeholder_text,['placeholder_text'],4,True,The 'Light and shadow' description contains placeholder 'Lorem ipsum' text.,"{""problems"": [""placeholder_text""], ""score"": 4, ""evidence"": ""The 'Light and shadow' description contains placeholder 'Lorem ipsum' text.""}",796,1673
+p5d5f4086,B09,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",782,1614
+p777019f0,B09,twin,broken_image,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",782,1135
+p83e3eb2d,B09,twin,blocking_popup,"['blocking_popup', 'placeholder_text']",8,True,The signup dialog uses placeholder email text and blocks content on page load.,"{""problems"": [""placeholder_text"", ""blocking_popup""], ""score"": 8, ""evidence"": ""The signup dialog uses placeholder email text and blocks content on page load.""}",843,2363
+p46feddad,B09,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",782,1311
+pbc99bd5a,B09,variant,harmless,['typos'],8,True,"Pricing section has '$149one-time' without space between amount and text, requiring correction","{""problems"": [""typos""], ""score"": 8, ""evidence"": ""Pricing section has '$149one-time' without space between amount and text, requiring correction""}",780,1182
+p1b81c2aa,B10,clean,none,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",846,1275
+pea0155d8,B10,twin,missing_cta,['missing_cta'],5,True,The page lacks a clear call-to-action button for booking or signing up for cleaning services.,"{""problems"": [""missing_cta""], ""score"": 5, ""evidence"": ""The page lacks a clear call-to-action button for booking or signing up for cleaning services.""}",805,2026
+p9e09027c,B10,twin,hidden_price,['hidden_price'],7,True,Prices are not disclosed; sections show 'Request a quote' instead of actual costs.,"{""problems"": [""hidden_price""], ""score"": 7, ""evidence"": ""Prices are not disclosed; sections show 'Request a quote' instead of actual costs.""}",844,1122
+p58c4e6b4,B10,twin,contradiction,['contradiction'],7,True,"The 'Reschedule in a tap' section claims cancellations are free even an hour before, but the FAQ states late changes cost $25.","{
+  ""problems"": [""contradiction""],
+  ""score"": 7,
+  ""evidence"": ""The 'Reschedule in a tap' section claims cancellations are free even an hour before, but the FAQ states late changes cost $25.""
+}",845,943
+p54fca757,B10,twin,vague_headline,"['typos', 'vague_headline']",8,True,"The main headline 'Experience the difference' fails to communicate the core service (home cleaning), and pricing sections contain typos like '$89per visit' without spaces.","{""problems"": [""vague_headline"", ""typos""], ""score"": 8, ""evidence"": ""The main headline 'Experience the difference' fails to communicate the core service (home cleaning), and pricing sections contain typos like '$89per visit' without spaces.""}",839,2144
+pc4374e32,B10,twin,typos,['typos'],6,True,The main headline contains spelling errors: 'spotles' and 'secnods'.,"{
+  ""problems"": [""typos""],
+  ""score"": 6,
+  ""evidence"": ""The main headline contains spelling errors: 'spotles' and 'secnods'.""
+}",850,2009
+pc4e970ec,B10,twin,placeholder_text,['placeholder_text'],8,True,"The placeholder '{{city}}' appears in 'Trusted by 3,000 homes across {{city}}'","{""problems"": [""placeholder_text""], ""score"": 8, ""evidence"": ""The placeholder '{{city}}' appears in 'Trusted by 3,000 homes across {{city}}'""}",847,1066
+p5e4475c0,B10,twin,low_contrast,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",846,1012
+p72938c8b,B10,twin,broken_image,['vague_headline'],8,True,"The main headline 'A spotless home, booked in 60 seconds' doesn't explicitly mention home cleaning services","{""problems"": [""vague_headline""], ""score"": 8, ""evidence"": ""The main headline 'A spotless home, booked in 60 seconds' doesn't explicitly mention home cleaning services""}",846,1567
+pee4182c0,B10,twin,blocking_popup,"['blocking_popup', 'placeholder_text']",8,True,"A popup with placeholder text blocks content on page load, risking user frustration.","{
+  ""problems"": [""placeholder_text"", ""blocking_popup""],
+  ""score"": 8,
+  ""evidence"": ""A popup with placeholder text blocks content on page load, risking user frustration.""
+}",909,2052
+p53fad4ae,B10,twin,cut_off_text,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",846,1362
+p6572462c,B10,variant,harmless,[],10,True,none,"{""problems"": [], ""score"": 10, ""evidence"": ""none""}",846,1177

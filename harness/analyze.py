@@ -108,7 +108,7 @@ def load_kaggle(root, keep_partial=False):
 
 
 def _records(df, task, reparse=True):
-    recs = df.where(df.notna(), None).to_dict("records")
+    recs = df.astype(object).where(df.notna(), None).to_dict("records")
     for r in recs:
         if task == "solo" and isinstance(r.get("problems"), str):
             r["problems"] = ast.literal_eval(r["problems"])

@@ -55,12 +55,44 @@ scored, and items that fail are asked again up to two more times first.
 
 ## Results
 
-The model runs are in progress on Kaggle (version 3 of each task); the
-leaderboard on the benchmark page fills in as runs finish. When they are done,
-`python harness/analyze.py --kaggle results/kaggle_raw` writes the tables to
-`results/kaggle/summary.md`, the quoted numbers to `results/kaggle/facts.json`
-and the charts to `charts/`. Raw answers for every run are kept in
-`results/kaggle_raw/<task>/<version>/<model>/<run>/*_records.csv`.
+34 runs on Kaggle (version 3 of each task, October 7 to 10, 2026): seven
+vision-capable models on all four tasks and three text-only models on the two
+text tasks.
+
+![Kaggle task scores for every model](charts/kaggle_scores.png)
+
+- With screenshots, the strongest models barely need the original page: Claude
+  Sonnet 5.5 caught 98% of defects judging a page alone and 100% with the
+  original next to it (GPT-6.1 Sol 98% and 96%, Gemini 3.7 Flash 96% and 98%).
+- A screenshot is not a superset of the text. On the seven defects visible in
+  both views, the same seven models tie (82.9% from screenshots, 82.2% from
+  text, single page), but typos are caught far more often from text (69 of 70
+  vs 51 of 70) and blocking popups far more often from screenshots (70 of 70 vs
+  40 of 70).
+- Images help strong models and hurt weak ones on the same defects: Sonnet 5.5
+  97% vs 90% (screenshot vs text), Claude Haiku 4.5 46% vs 64%.
+- Small models struggle with harmless changes in pairs: Gemini 3.5 Flash-Lite
+  and Claude Haiku 4.5 each called only 1 of 10 harmless pairs "same" in both
+  orders, and Haiku picked the second screenshot 62% of the time.
+- Not run: Grok 4.6 (Kaggle's model proxy answered "model not found" for every
+  xAI model from October 7 to 11) and gpt-oss-120b (hit the notebook time limit
+  twice).
+
+| Chart | |
+|---|---|
+| [`kaggle_pairs_vs_solo.png`](charts/kaggle_pairs_vs_solo.png) | comparing two versions vs judging one page (screenshots) |
+| [`kaggle_seeing_vs_reading.png`](charts/kaggle_seeing_vs_reading.png) | screenshot vs text view on the defects visible in both |
+| [`kaggle_category_totals.png`](charts/kaggle_category_totals.png), [`kaggle_category_totals_pairs.png`](charts/kaggle_category_totals_pairs.png) | defects caught per category, all models pooled |
+| [`kaggle_categories_vision.png`](charts/kaggle_categories_vision.png), [`kaggle_categories_text.png`](charts/kaggle_categories_text.png) | per model and category |
+| [`kaggle_false_alarms.png`](charts/kaggle_false_alarms.png) | clean pages flagged on the single-page task |
+
+`python harness/analyze.py --kaggle results/kaggle_raw` rebuilds the tables in
+`results/kaggle/summary.md`, the quoted numbers in `results/kaggle/facts.json`
+and the charts in `charts/`. Raw answers for every run are in
+`results/kaggle_raw/<task>/<version>/<model>/<run>/*_records.csv`. Every score
+matches the one Kaggle recorded for the run. Kaggle returned the GPT-6.1 Sol
+pairs-vision run in a newer file format, so its score and checks are copied to
+`run_summary.json` next to its records.
 
 ## Layout
 
@@ -94,7 +126,8 @@ python harness/analyze.py --kaggle results/kaggle_raw
 
 - The pages are synthetic and have one defect each; real pages have many overlapping issues.
 - 10 base designs means 10 samples per defect category per model, so per-category numbers are coarse.
-- English only, desktop width only, one prompt wording.
+- English only, desktop width only, one prompt wording, one run per model.
+- The pairs-text task tops out at 70% of defects caught (three defects are invisible in text), and four models reach it.
 - A grade from a model is not a conversion rate.
 
 ## License

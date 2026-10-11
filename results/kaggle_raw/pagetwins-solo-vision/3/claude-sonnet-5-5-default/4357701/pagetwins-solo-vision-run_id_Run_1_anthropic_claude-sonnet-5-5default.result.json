@@ -1,0 +1,29 @@
+{
+  "task_name": "pagetwins-solo-vision",
+  "source": "pagetwins-solo-vision",
+  "trial_name": "pagetwins-solo-vision-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "anthropic/claude-sonnet-5-5@default"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.98
+    }
+  },
+  "started_at": "2026-10-07T14:22:33.241086Z",
+  "finished_at": "2026-10-07T14:24:25.213696Z"
+}

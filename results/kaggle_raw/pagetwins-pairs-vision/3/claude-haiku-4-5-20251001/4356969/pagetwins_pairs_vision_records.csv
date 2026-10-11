@@ -1,0 +1,765 @@
+pair_id,kind,category,order,expected,better,problem,valid,evidence,raw,input_tokens,output_tokens
+B01-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B is missing the 'Start free' button that appears prominently in the hero section of Page A, making it harder for users to immediately begin their free trial.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing the 'Start free' button that appears prominently in the hero section of Page A, making it harder for users to immediately begin their free trial.""}
+```",3561,63
+B01-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks a clear CTA button in the hero section, while Page B includes 'Start free trial' and 'Start free' buttons prominently placed to guide users toward conversion.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks a clear CTA button in the hero section, while Page B includes 'Start free trial' and 'Start free' buttons prominently placed to guide users toward conversion.""}
+```",3561,67
+B01-hidden_price,defect,hidden_price,clean_first,A,A,other,True,"Page B replaces specific pricing ($12/month and $29/month) with vague 'Contact us' text, removing transparency about costs that Page A clearly displays.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B replaces specific pricing ($12/month and $29/month) with vague 'Contact us' text, removing transparency about costs that Page A clearly displays.""}
+```",3535,61
+B01-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A shows 'Contact us' instead of actual prices for the Pro ($12/month) and Studio ($29/month) plans that are clearly displayed in Page B.,"```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'Contact us' instead of actual prices for the Pro ($12/month) and Studio ($29/month) plans that are clearly displayed in Page B.""}
+```",3535,63
+B01-contradiction,defect,contradiction,clean_first,A,B,contradiction,True,"Page A states 'Free for up to 3 clients - No credit card needed' while Page B states 'Free for unlimited clients, forever - No credit card needed', creating contradictory claims about the free plan's client limit.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A states 'Free for up to 3 clients - No credit card needed' while Page B states 'Free for unlimited clients, forever - No credit card needed', creating contradictory claims about the free plan's client limit.""}
+```",3535,75
+B01-contradiction,defect,contradiction,clean_second,B,A,cut_off_text,True,"Page B's subheadline under the main CTA reads 'Free for up to 3 clients - No credit card needed' while Page A reads 'Free for unlimited clients, forever - No credit card needed', and the word 'unlimited' appears to be cut off or missing in Page B's version.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""Page B's subheadline under the main CTA reads 'Free for up to 3 clients - No credit card needed' while Page A reads 'Free for unlimited clients, forever - No credit card needed', and the word 'unlimited' appears to be cut off or missing in Page B's version.""}
+```",3535,96
+B01-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,"Page B's headline 'Welcome to the future of getting things done' is generic and doesn't convey what the product does, whereas Page A's headline 'Send invoices that get paid in days, not months' clearly describes the core value proposition.","```json
+{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's headline 'Welcome to the future of getting things done' is generic and doesn't convey what the product does, whereas Page A's headline 'Send invoices that get paid in days, not months' clearly describes the core value proposition.""}
+```",3535,81
+B01-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Welcome to the future of getting things done' is generic and doesn't clearly communicate what the product does, while Page B's headline 'Send invoices that get paid in days, not months' directly describes the core value proposition.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Welcome to the future of getting things done' is generic and doesn't clearly communicate what the product does, while Page B's headline 'Send invoices that get paid in days, not months' directly describes the core value proposition.""}
+```",3535,81
+B01-typos,defect,typos,clean_first,A,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visible elements.""}
+```",3535,53
+B01-typos,defect,typos,clean_second,B,same,none,True,"Both pages are visually identical with no apparent differences in layout, text, CTAs, pricing, images, or any other elements that would affect conversions or user trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are visually identical with no apparent differences in layout, text, CTAs, pricing, images, or any other elements that would affect conversions or user trust.""}
+```",3535,60
+B01-placeholder_text,defect,placeholder_text,clean_first,A,B,placeholder_text,True,"Page A contains 'Lorem ipsum' placeholder text in the 'Reminders that sound like you' section, while Page B has actual descriptive copy in that same location.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains 'Lorem ipsum' placeholder text in the 'Reminders that sound like you' section, while Page B has actual descriptive copy in that same location.""}
+```",3563,64
+B01-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains Lorem ipsum placeholder text in the 'Reminders that sound like you' section, while Page B has actual descriptive content about the feature.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains Lorem ipsum placeholder text in the 'Reminders that sound like you' section, while Page B has actual descriptive content about the feature.""}
+```",3563,60
+B01-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'Send invoices that get paid in days, not months' is displayed in a very light gray color that is difficult to read against the white background, whereas Page A displays it in bold black text with strong contrast.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'Send invoices that get paid in days, not months' is displayed in a very light gray color that is difficult to read against the white background, whereas Page A displays it in bold black text with strong contrast.""}
+```",3535,79
+B01-low_contrast,defect,low_contrast,clean_second,B,same,none,True,"Both pages are identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other elements that would affect sign-ups, sales, or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other elements that would affect sign-ups, sales, or trust.""}
+```",3535,63
+B01-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a placeholder image with alt text 'Tallyhawk dashboard showing paid and overdue invoices' instead of the actual invoice dashboard screenshot that appears in Page A.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a placeholder image with alt text 'Tallyhawk dashboard showing paid and overdue invoices' instead of the actual invoice dashboard screenshot that appears in Page A.""}
+```",3535,64
+B01-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes a visual mockup of the product interface in the hero section, which demonstrates the actual value and functionality of Tallyhawk, whereas Page A only shows a generic dashboard image that doesn't clearly illustrate what the product does.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes a visual mockup of the product interface in the hero section, which demonstrates the actual value and functionality of Tallyhawk, whereas Page A only shows a generic dashboard image that doesn't clearly illustrate what the product does.""}
+```",3535,74
+B01-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has a modal popup requesting an email address that covers the main content, while Page A displays the full page without obstruction.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a modal popup requesting an email address that covers the main content, while Page A displays the full page without obstruction.""}
+```",3535,54
+B01-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup overlay requesting an email address for invoice templates that blocks the main content when the page opens, while Page B does not have this blocking popup.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup overlay requesting an email address for invoice templates that blocks the main content when the page opens, while Page B does not have this blocking popup.""}
+```",3535,61
+B01-cut_off_text,defect,cut_off_text,clean_first,A,B,cut_off_text,True,"In Page A, the main headline 'Send invoices that get paid in days, not months' is partially cut off at the bottom, with 'not months' being obscured or incomplete in the visible text.","```json
+{""better"": ""B"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page A, the main headline 'Send invoices that get paid in days, not months' is partially cut off at the bottom, with 'not months' being obscured or incomplete in the visible text.""}
+```",3561,74
+B01-cut_off_text,defect,cut_off_text,clean_second,B,B,other,True,"Page A's main headline 'Send invoices that get paid in days' is cut off and incomplete, reading as 'Send invoices that get paid in days' while Page B shows the complete, more impactful headline 'Send invoices that get paid in days, not months' which better communicates the value proposition.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A's main headline 'Send invoices that get paid in days' is cut off and incomplete, reading as 'Send invoices that get paid in days' while Page B shows the complete, more impactful headline 'Send invoices that get paid in days, not months' which better communicates the value proposition.""}
+```",3561,94
+B01-identical,control,identical,clean_first,same,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other elements that would affect conversions or user experience.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other elements that would affect conversions or user experience.""}
+```",3535,60
+B01-identical,control,identical,clean_second,same,same,none,True,"Both pages appear to be identical with no discernible differences in layout, content, typography, CTAs, pricing, images, or any other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear to be identical with no discernible differences in layout, content, typography, CTAs, pricing, images, or any other visible elements.""}
+```",3535,57
+B01-harmless,control,harmless_hue,clean_first,same,B,other,True,"Page A has a blue 'Start free trial' button while Page B has a teal/dark cyan button that better matches the brand's secondary color scheme used throughout the pricing section and other UI elements, creating better visual consistency and brand coherence.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A has a blue 'Start free trial' button while Page B has a teal/dark cyan button that better matches the brand's secondary color scheme used throughout the pricing section and other UI elements, creating better visual consistency and brand coherence.""}
+```",3535,76
+B01-harmless,control,harmless_hue,clean_second,same,B,other,True,"Page A uses a teal/blue color scheme while Page B uses a purple/indigo color scheme; Page B's purple branding is more modern and cohesive throughout all interactive elements (buttons, badges, avatars) compared to Page A's inconsistent teal styling.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A uses a teal/blue color scheme while Page B uses a purple/indigo color scheme; Page B's purple branding is more modern and cohesive throughout all interactive elements (buttons, badges, avatars) compared to Page A's inconsistent teal styling.""}
+```",3535,83
+B02-missing_cta,defect,missing_cta,clean_first,A,B,missing_cta,True,Page A has a 'Try Shiftwell free' button in the hero section that is missing from Page B's hero section.,"```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A has a 'Try Shiftwell free' button in the hero section that is missing from Page B's hero section.""}
+```",3561,56
+B02-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A has no clear call-to-action button in the hero section, while Page B includes a prominent 'Try Shiftwell free' button next to the demo link.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A has no clear call-to-action button in the hero section, while Page B includes a prominent 'Try Shiftwell free' button next to the demo link.""}
+```",3561,66
+B02-hidden_price,defect,hidden_price,clean_first,A,A,missing_cta,True,"Page B replaces the '$29/month' and '$59/month' pricing with 'Contact us' text, removing the clear pricing information and conversion path that Page A displays.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B replaces the '$29/month' and '$59/month' pricing with 'Contact us' text, removing the clear pricing information and conversion path that Page A displays.""}
+```",3535,66
+B02-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A shows 'Contact us' without pricing information in the pricing cards, while Page B displays '$29/month per location' and '$59/month per location' making the cost transparent.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'Contact us' without pricing information in the pricing cards, while Page B displays '$29/month per location' and '$59/month per location' making the cost transparent.""}
+```",3535,67
+B02-contradiction,defect,contradiction,clean_first,A,A,other,True,"Page B states '30-day free trial' in the hero section while the FAQ states 'Every plan starts with a 14-day free trial', creating a contradiction about the trial length.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B states '30-day free trial' in the hero section while the FAQ states 'Every plan starts with a 14-day free trial', creating a contradiction about the trial length.""}
+```",3535,65
+B02-contradiction,defect,contradiction,clean_second,B,B,other,True,"Page A states '30-day free trial · No credit card needed' while Page B states '14-day free trial · No credit card needed', creating inconsistency in the trial length offered.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A states '30-day free trial · No credit card needed' while Page B states '14-day free trial · No credit card needed', creating inconsistency in the trial length offered.""}
+```",3535,66
+B02-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,"Page A's headline 'Build next week's staff rota in 10 minutes' is more specific and benefit-focused than Page B's 'Work smarter, not harder' which is generic and could apply to many products.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Build next week's staff rota in 10 minutes' is more specific and benefit-focused than Page B's 'Work smarter, not harder' which is generic and could apply to many products.""}
+```",3561,77
+B02-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Work smarter, not harder' is generic and doesn't clearly describe what the product does, while Page B's headline 'Build next week's staff rota in 10 minutes' clearly states the specific functionality and benefit.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Work smarter, not harder' is generic and doesn't clearly describe what the product does, while Page B's headline 'Build next week's staff rota in 10 minutes' clearly states the specific functionality and benefit.""}
+```",3561,81
+B02-typos,defect,typos,clean_first,A,same,none,True,"Page A and Page B are identical in layout, content, messaging, CTAs, pricing, and all visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Page A and Page B are identical in layout, content, messaging, CTAs, pricing, and all visual elements.""}
+```",3535,49
+B02-typos,defect,typos,clean_second,B,same,none,True,"Both pages are identical with no discernible differences in layout, content, pricing, CTAs, or any other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, pricing, CTAs, or any other visible elements.""}
+```",3535,51
+B02-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,"Page B shows '{{customer_name}}, {{customer_role}}' as placeholder text in the testimonial attribution instead of the actual customer name 'Marco Bellini' and role 'Owner, Little Fig Cafe' that appears in Page A.","```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B shows '{{customer_name}}, {{customer_role}}' as placeholder text in the testimonial attribution instead of the actual customer name 'Marco Bellini' and role 'Owner, Little Fig Cafe' that appears in Page A.""}
+```",3535,81
+B02-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A shows '{{customer_name}}, {{customer_role}}' as placeholder text in the testimonial attribution, while Page B displays the actual customer name 'Marco Bellini' and title 'Owner, Little Fig Cafe'.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A shows '{{customer_name}}, {{customer_role}}' as placeholder text in the testimonial attribution, while Page B displays the actual customer name 'Marco Bellini' and title 'Owner, Little Fig Cafe'.""}
+```",3535,78
+B02-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'Build next week's staff rota in 10 minutes' appears faded/grayed out compared to Page A, making it harder to read and reducing visual hierarchy impact.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'Build next week's staff rota in 10 minutes' appears faded/grayed out compared to Page A, making it harder to read and reducing visual hierarchy impact.""}
+```",3535,72
+B02-low_contrast,defect,low_contrast,clean_second,B,B,typos,True,"Page A has 'rota' in the main headline which should be 'roster' or similar term, while Page B correctly uses 'staff rota' as a proper scheduling term; additionally Page A's headline text appears lighter/grayed out making it less prominent than Page B's bold black text.","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has 'rota' in the main headline which should be 'roster' or similar term, while Page B correctly uses 'staff rota' as a proper scheduling term; additionally Page A's headline text appears lighter/grayed out making it less prominent than Page B's bold black text.""}
+```",3535,90
+B02-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image placeholder where the weekly schedule screenshot should be displayed on the right side of the hero section.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image placeholder where the weekly schedule screenshot should be displayed on the right side of the hero section.""}
+```",3535,51
+B02-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes a visual mockup of the actual scheduling interface in the hero section, which better demonstrates the product's value and functionality compared to Page A's generic stock image.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes a visual mockup of the actual scheduling interface in the hero section, which better demonstrates the product's value and functionality compared to Page A's generic stock image.""}
+```",3535,60
+B02-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has a modal popup requesting email subscription that covers the main content, while Page A displays the full page without obstruction.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a modal popup requesting email subscription that covers the main content, while Page A displays the full page without obstruction.""}
+```",3535,53
+B02-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup for 'Weekly scheduling tips for owners' that blocks the main content when the page opens, while Page B does not have this popup.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup for 'Weekly scheduling tips for owners' that blocks the main content when the page opens, while Page B does not have this popup.""}
+```",3535,61
+B02-cut_off_text,defect,cut_off_text,clean_first,A,same,none,True,"Both pages are functionally identical with the same layout, content, pricing, CTAs, and visual hierarchy. No significant differences that would impact conversions or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are functionally identical with the same layout, content, pricing, CTAs, and visual hierarchy. No significant differences that would impact conversions or trust.""}
+```",3561,58
+B02-cut_off_text,defect,cut_off_text,clean_second,B,same,none,True,"Both pages are nearly identical in layout, content, messaging, CTAs, pricing, and overall design. The minor visual differences in the scheduling grid display do not materially affect conversion or user experience.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are nearly identical in layout, content, messaging, CTAs, pricing, and overall design. The minor visual differences in the scheduling grid display do not materially affect conversion or user experience.""}
+```",3561,65
+B02-identical,control,identical,clean_first,same,same,none,True,"Both pages are identical with no visible differences in layout, text, CTAs, pricing, images, or any other elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no visible differences in layout, text, CTAs, pricing, images, or any other elements.""}
+```",3535,50
+B02-identical,control,identical,clean_second,same,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or visual elements.""}
+```",3535,51
+B02-harmless,control,harmless_reorder,clean_first,same,B,other,True,"Page A presents the three features in order 1-Drag-and-drop rota, 2-Shift swaps, 3-Labor cost, while Page B reorders them as 1-Labor cost, 2-Shift swaps, 3-Drag-and-drop rota, which better prioritizes the most valuable/differentiating feature (labor cost visibility) first in the benefits section.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A presents the three features in order 1-Drag-and-drop rota, 2-Shift swaps, 3-Labor cost, while Page B reorders them as 1-Labor cost, 2-Shift swaps, 3-Drag-and-drop rota, which better prioritizes the most valuable/differentiating feature (labor cost visibility) first in the benefits section.""}
+```",3535,115
+B02-harmless,control,harmless_reorder,clean_second,same,B,other,True,"Page A has the three feature sections in the order: Labor cost (1), Shift swaps (2), Drag-and-drop (3), while Page B reorders them as Drag-and-drop (1), Shift swaps (2), Labor cost (3), which presents features in a more logical progression from core functionality to analytics.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A has the three feature sections in the order: Labor cost (1), Shift swaps (2), Drag-and-drop (3), while Page B reorders them as Drag-and-drop (1), Shift swaps (2), Labor cost (3), which presents features in a more logical progression from core functionality to analytics.""}
+```",3535,99
+B03-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B is missing the prominent 'Start for free' button that appears in the top navigation area of Page A, making it harder for users to begin their sign-up journey immediately.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing the prominent 'Start for free' button that appears in the top navigation area of Page A, making it harder for users to begin their sign-up journey immediately.""}
+```",3311,66
+B03-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks a prominent 'Start for free' call-to-action button in the header and above the pricing section, while Page B includes these CTAs in both locations.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks a prominent 'Start for free' call-to-action button in the header and above the pricing section, while Page B includes these CTAs in both locations.""}
+```",3311,65
+B03-hidden_price,defect,hidden_price,clean_first,A,A,other,True,"Page B replaces the pricing ($49/month and $199/month) with 'Contact us' text, removing critical pricing information that helps users understand the cost before engaging.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B replaces the pricing ($49/month and $199/month) with 'Contact us' text, removing critical pricing information that helps users understand the cost before engaging.""}
+```",3255,62
+B03-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A shows 'Contact us' instead of pricing for the Team and Business plans, while Page B displays the actual prices ($49/month and $199/month) making it clear what customers would pay.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'Contact us' instead of pricing for the Team and Business plans, while Page B displays the actual prices ($49/month and $199/month) making it clear what customers would pay.""}
+```",3255,70
+B03-contradiction,defect,contradiction,clean_first,A,A,other,True,"Page B states 'Free up to 10 GB of logs per day' in the hero section while Page A states 'Free up to 1 GB of logs per day', creating an inconsistency with the pricing table below that shows the Free plan includes '1 GB GB per day' on both pages.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B states 'Free up to 10 GB of logs per day' in the hero section while Page A states 'Free up to 1 GB of logs per day', creating an inconsistency with the pricing table below that shows the Free plan includes '1 GB GB per day' on both pages.""}
+```",3255,92
+B03-contradiction,defect,contradiction,clean_second,B,A,contradiction,True,"Page B states 'Free up to 1 GB of logs per day' in the Free tier, contradicting the earlier claim of '10 GB of logs per day' shown in Page A's subheading text.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B states 'Free up to 1 GB of logs per day' in the Free tier, contradicting the earlier claim of '10 GB of logs per day' shown in Page A's subheading text.""}
+```",3255,72
+B03-vague_headline,defect,vague_headline,clean_first,A,A,vague_headline,True,"Page B's headline 'The platform for what's next' is vague and doesn't clearly communicate what the product does, while Page A's headline 'Search a week of logs in under a second' clearly describes the core value proposition.","```json
+{""better"": ""A"", ""problem"": ""vague_headline"", ""evidence"": ""Page B's headline 'The platform for what's next' is vague and doesn't clearly communicate what the product does, while Page A's headline 'Search a week of logs in under a second' clearly describes the core value proposition.""}
+```",3255,78
+B03-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'The platform for what's next' is vague and doesn't clearly explain what the product does, while Page B's headline 'Search a week of logs in under a second' immediately communicates the core value proposition of the log search product.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'The platform for what's next' is vague and doesn't clearly explain what the product does, while Page B's headline 'Search a week of logs in under a second' immediately communicates the core value proposition of the log search product.""}
+```",3255,84
+B03-typos,defect,typos,clean_first,A,A,typos,True,Page B has a typo in the subtitle where it says 'and alerts you in Slack when error rates jump' instead of 'and alerts you in Slack when error rates jump' - the grammar is incorrect compared to Page A which reads 'and alerts you in Slack when error rates jump.',"```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has a typo in the subtitle where it says 'and alerts you in Slack when error rates jump' instead of 'and alerts you in Slack when error rates jump' - the grammar is incorrect compared to Page A which reads 'and alerts you in Slack when error rates jump.'""
+}
+```
+
+Wait, let me re-examine more carefully.
+
+```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear nearly identical in layout, content, CTA placement, pricing information, and all visible text elements.""}
+```",3255,149
+B03-typos,defect,typos,clean_second,B,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, images, or any other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, images, or any other visible elements.""}
+```",3255,55
+B03-placeholder_text,defect,placeholder_text,clean_first,A,B,other,True,"Page A states 'Engineering teams at 1,400 companies ship with Logpipe' but Page B says 'Engineering teams at [company_count] companies ship with Logpipe', indicating Page A contains placeholder text that should have been replaced with the actual count.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A states 'Engineering teams at 1,400 companies ship with Logpipe' but Page B says 'Engineering teams at [company_count] companies ship with Logpipe', indicating Page A contains placeholder text that should have been replaced with the actual count.""}
+```",3255,84
+B03-placeholder_text,defect,placeholder_text,clean_second,B,B,other,True,"Page A states 'Engineering teams at [company.count] companies ship with Logpine' while Page B states 'Engineering teams at 1,400 companies ship with Logpine' - Page A has a placeholder variable that wasn't populated, whereas Page B has the actual concrete number.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A states 'Engineering teams at [company.count] companies ship with Logpine' while Page B states 'Engineering teams at 1,400 companies ship with Logpine' - Page A has a placeholder variable that wasn't populated, whereas Page B has the actual concrete number.""}
+```",3255,89
+B03-low_contrast,defect,low_contrast,clean_first,A,same,none,True,"Both pages are identical in layout, content, typography, CTAs, pricing information, and all visual elements. There are no discernible differences between Page A and Page B.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, typography, CTAs, pricing information, and all visual elements. There are no discernible differences between Page A and Page B.""}
+```",3255,61
+B03-low_contrast,defect,low_contrast,clean_second,B,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or visual elements.""}
+```",3255,51
+B03-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image icon with alt text 'Logpine search results showing error logs grouped by service' where Page A displays the actual search results visualization with logs and chart.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image icon with alt text 'Logpine search results showing error logs grouped by service' where Page A displays the actual search results visualization with logs and chart.""}
+```",3255,66
+B03-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes an interactive search results preview/demo showing the product in action, which builds trust and demonstrates value, while Page A only shows a placeholder image, making Page B more persuasive for conversions.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes an interactive search results preview/demo showing the product in action, which builds trust and demonstrates value, while Page A only shows a placeholder image, making Page B more persuasive for conversions.""}
+```",3255,68
+B03-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has a modal popup overlay requesting an email address that blocks access to the main content when the page loads, while Page A displays the full content immediately.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a modal popup overlay requesting an email address that blocks access to the main content when the page loads, while Page A displays the full content immediately.""}
+```",3255,59
+B03-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup for 'Free download: the incident response checklist' that covers the main content when the page loads, while Page B does not have this blocking popup.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup for 'Free download: the incident response checklist' that covers the main content when the page loads, while Page B does not have this blocking popup.""}
+```",3255,65
+B03-cut_off_text,defect,cut_off_text,clean_first,A,A,cut_off_text,True,"In Page B, the main headline 'Search a week of logs in under a second' has the second line partially obscured/cut off with dashes, making it difficult to read the complete headline.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page B, the main headline 'Search a week of logs in under a second' has the second line partially obscured/cut off with dashes, making it difficult to read the complete headline.""}
+```",3311,71
+B03-cut_off_text,defect,cut_off_text,clean_second,B,B,typos,True,"Page A's main headline reads 'Search a week of logs in ----dy a second' with dashes replacing text, while Page B correctly displays 'Search a week of logs in under a second'","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A's main headline reads 'Search a week of logs in ----dy a second' with dashes replacing text, while Page B correctly displays 'Search a week of logs in under a second'""}
+```",3311,69
+B03-identical,control,identical,clean_first,same,same,none,True,"Both pages appear identical with no discernible differences in layout, content, CTAs, pricing, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, CTAs, pricing, or visual elements.""}
+```",3255,49
+B03-identical,control,identical,clean_second,same,same,none,True,"Both Page A and Page B appear identical with no discernible differences in layout, content, typography, or functionality.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both Page A and Page B appear identical with no discernible differences in layout, content, typography, or functionality.""}
+```",3255,49
+B03-harmless,control,harmless_paraphrase,clean_first,same,B,contradiction,True,"Page A states Logpine 'alerts you in Slack when error rates jump' but Page B states it 'pings you in Slack when error rates spike' - these describe the same feature with different verbs, but more critically, Page A says 'collects logs' and 'alerts' while Page B says 'gathers logs' and 'pings', creat","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A states Logpine 'alerts you in Slack when error rates jump' but Page B states it 'pings you in Slack when error rates spike' - these describe the same feature with different verbs, but more critically, Page A says 'collects logs' and 'alerts' while Page B says 'gathers logs' and 'pings', creating inconsistency in the value proposition messaging between versions.""}
+```
+
+Wait, let me reconsider. Looking more carefully:
+
+Page A: ""Logpine collects logs from your servers and containers, indexes every field, and alerts you in Slack when error rates jump.""
+
+Page B: ""Logpine gathers the logs from your servers and containers, indexes each field, and pings you in Slack when error rates spike.""
+
+These are minor wording variations, not a true contradiction. Let me look for actual problems.
+
+```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are nearly identical with only minor wording variations ('collects' vs 'gathers', 'alerts' vs 'pings', 'every field' vs 'each field') that do not constitute material differences affecting sign-ups, sales, or trust.""}
+```",3255,301
+B03-harmless,control,harmless_paraphrase,clean_second,same,B,contradiction,True,"Page A says Logpine 'pings you in Slack when error rates spike' while Page B says it 'alerts you in Slack when error rates jump' - but more importantly, Page A's description says 'pings' which is less precise than Page B's 'alerts,' and Page A uses 'spike' while describing the same feature as 'jump'","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A says Logpine 'pings you in Slack when error rates spike' while Page B says it 'alerts you in Slack when error rates jump' - but more importantly, Page A's description says 'pings' which is less precise than Page B's 'alerts,' and Page A uses 'spike' while describing the same feature as 'jump' in Page B, creating inconsistency in how the core feature is described.""}
+```
+
+Wait, let me reconsider. Looking more carefully at the two pages:
+
+Page A: ""and pings you in Slack when error rates spike""
+Page B: ""and alerts you in Slack when error rates jump""
+
+These are actually just minor word choice differences in the same sentence, not a true contradiction. Let me look for other differences...
+
+The pages appear nearly identical. The only visible difference is in the descriptor text below the main headline - ""spike"" vs ""jump"" - which is a trivial stylistic choice, not a meaningful problem.
+
+```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are functionally identical with only minor word choice differences ('spike' vs 'jump') that do not affect functionality, clarity, or conversion.""}
+```",3255,296
+B04-missing_cta,defect,missing_cta,clean_first,A,B,missing_cta,True,"Page A has a 'Sign up free' button in the top navigation that is removed in Page B, eliminating an early conversion opportunity for users.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A has a 'Sign up free' button in the top navigation that is removed in Page B, eliminating an early conversion opportunity for users.""}
+```",3311,59
+B04-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks a clear call-to-action button in the hero section, while Page B includes 'Create a free account' and 'Compare rates' buttons prominently below the headline.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks a clear call-to-action button in the hero section, while Page B includes 'Create a free account' and 'Compare rates' buttons prominently below the headline.""}
+```",3311,68
+B04-hidden_price,defect,hidden_price,clean_first,A,A,other,True,"Page B shows 'Contact us' as the Pro plan pricing instead of '$25/month', making the pricing unclear and replacing a clear CTA with vague text.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B shows 'Contact us' as the Pro plan pricing instead of '$25/month', making the pricing unclear and replacing a clear CTA with vague text.""}
+```",3255,60
+B04-hidden_price,defect,hidden_price,clean_second,B,B,contradiction,True,"Page A states 'No monthly fee on Starter' but also says 'Pay a small fee per label', while Page B clarifies the Pro plan costs $25/month, removing the ambiguity about pricing structure.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A states 'No monthly fee on Starter' but also says 'Pay a small fee per label', while Page B clarifies the Pro plan costs $25/month, removing the ambiguity about pricing structure.""}
+```",3255,72
+B04-contradiction,defect,contradiction,clean_first,A,B,contradiction,True,"Page A claims 'No monthly fee on Starter - Pay a small fee per label' while the Starter plan shows '$0 /month', creating confusion about whether there are fees; Page B correctly states 'No fees of any kind - Never pay anything per label' which aligns with the $0 pricing.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A claims 'No monthly fee on Starter - Pay a small fee per label' while the Starter plan shows '$0 /month', creating confusion about whether there are fees; Page B correctly states 'No fees of any kind - Never pay anything per label' which aligns with the $0 pricing.""}
+```",3255,92
+B04-contradiction,defect,contradiction,clean_second,B,B,contradiction,True,"Page A states 'No fees of any kind - Never pay anything per label' but the pricing section shows a $0/month Starter plan with '$4 fee per label', creating a direct contradiction about fees.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A states 'No fees of any kind - Never pay anything per label' but the pricing section shows a $0/month Starter plan with '$4 fee per label', creating a direct contradiction about fees.""}
+```",3255,70
+B04-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,"Page A's headline 'Print a cheaper shipping label in three clicks' clearly states what the product does, while Page B's headline 'Solutions that move your business forward' is generic and does not communicate the specific value proposition or what the product is.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Print a cheaper shipping label in three clicks' clearly states what the product does, while Page B's headline 'Solutions that move your business forward' is generic and does not communicate the specific value proposition or what the product is.""}
+```",3255,80
+B04-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Solutions that move your business forward' is generic and doesn't clearly describe what the product does, while Page B's headline 'Print a cheaper shipping label in three clicks' is specific and action-oriented.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Solutions that move your business forward' is generic and doesn't clearly describe what the product does, while Page B's headline 'Print a cheaper shipping label in three clicks' is specific and action-oriented.""}
+```",3255,76
+B04-typos,defect,typos,clean_first,A,same,none,True,"Both pages are identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visual elements.""}
+```",3255,53
+B04-typos,defect,typos,clean_second,B,same,none,True,"Both pages appear to be identical with no visible differences in layout, content, images, text, buttons, or styling.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear to be identical with no visible differences in layout, content, images, text, buttons, or styling.""}
+```",3255,49
+B04-placeholder_text,defect,placeholder_text,clean_first,A,B,placeholder_text,True,"Page A contains 'Lorem ipsum' placeholder text in the 'Rates side by side' section (#1), whereas Page B has actual descriptive content in that same section.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains 'Lorem ipsum' placeholder text in the 'Rates side by side' section (#1), whereas Page B has actual descriptive content in that same section.""}
+```",3255,64
+B04-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains Lorem ipsum placeholder text in the 'Rates side by side' section (#1), which should not appear on a live landing page.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains Lorem ipsum placeholder text in the 'Rates side by side' section (#1), which should not appear on a live landing page.""}
+```",3255,58
+B04-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'Print a cheaper shipping label in three clicks' appears significantly faded/grayed out compared to Page A, making it harder to read and reducing visual impact.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'Print a cheaper shipping label in three clicks' appears significantly faded/grayed out compared to Page A, making it harder to read and reducing visual impact.""}
+```",3255,68
+B04-low_contrast,defect,low_contrast,clean_second,B,B,low_contrast,True,"Page A has a light gray heading 'Print a cheaper shipping label in three clicks' that is difficult to read against the light background, while Page B uses black text for the same heading making it clearly readable.","```json
+{""better"": ""B"", ""problem"": ""low_contrast"", ""evidence"": ""Page A has a light gray heading 'Print a cheaper shipping label in three clicks' that is difficult to read against the light background, while Page B uses black text for the same heading making it clearly readable.""}
+```",3255,70
+B04-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image placeholder where Page A displays a functional illustration of the order list with carrier rates and shipping label.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image placeholder where Page A displays a functional illustration of the order list with carrier rates and shipping label.""}
+```",3255,52
+B04-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes a visual mockup demonstrating the actual product interface and workflow (order selection and shipping label), while Page A only shows placeholder text imagery, making Page B more credible and better illustrating the value proposition.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes a visual mockup demonstrating the actual product interface and workflow (order selection and shipping label), while Page A only shows placeholder text imagery, making Page B more credible and better illustrating the value proposition.""}
+```",3255,70
+B04-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has a modal popup overlaying the main content that appears when the page loads, blocking access to the primary headline and content.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a modal popup overlaying the main content that appears when the page loads, blocking access to the primary headline and content.""}
+```",3255,54
+B04-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup overlay requesting an email address that blocks the main content when the page opens, while Page B does not have this blocking element.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup overlay requesting an email address that blocks the main content when the page opens, while Page B does not have this blocking element.""}
+```",3255,58
+B04-cut_off_text,defect,cut_off_text,clean_first,A,A,cut_off_text,True,"Page B's main headline is cut off mid-word, showing 'three clicks' split across lines with 'three' visible but the word appears incomplete or awkwardly broken compared to Page A's complete headline.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""Page B's main headline is cut off mid-word, showing 'three clicks' split across lines with 'three' visible but the word appears incomplete or awkwardly broken compared to Page A's complete headline.""}
+```",3255,74
+B04-cut_off_text,defect,cut_off_text,clean_second,B,B,typos,True,"Page A's headline says 'Print a cheaper shipping label in three clicks' with incomplete text 'three clicks' appearing on a second line, while Page B completes the headline properly as 'Print a cheaper shipping label in three clicks'.","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A's headline says 'Print a cheaper shipping label in three clicks' with incomplete text 'three clicks' appearing on a second line, while Page B completes the headline properly as 'Print a cheaper shipping label in three clicks'.""}
+```",3255,76
+B04-identical,control,identical,clean_first,same,same,none,True,"Both pages appear identical with no visible differences in layout, content, typography, CTAs, pricing, images, or any other elements that would affect sign-ups, sales, or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no visible differences in layout, content, typography, CTAs, pricing, images, or any other elements that would affect sign-ups, sales, or trust.""}
+```",3255,63
+B04-identical,control,identical,clean_second,same,same,none,True,"Both pages are identical in layout, content, messaging, CTAs, pricing, and design - no differences that would impact sign-ups, sales, or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, messaging, CTAs, pricing, and design - no differences that would impact sign-ups, sales, or trust.""}
+```",3255,58
+B04-harmless,control,harmless_hue,clean_first,same,B,other,True,"Page A uses blue as the primary brand color while Page B uses a burgundy/maroon color that is more consistent with the updated branding shown in the logo and accent elements, creating a more cohesive visual identity.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A uses blue as the primary brand color while Page B uses a burgundy/maroon color that is more consistent with the updated branding shown in the logo and accent elements, creating a more cohesive visual identity.""}
+```",3255,71
+B04-harmless,control,harmless_hue,clean_second,same,B,other,True,"Page A uses a burgundy/maroon color scheme with inconsistent button styling (the 'Buy and print label' button uses maroon while primary CTAs use different colors), while Page B maintains a consistent blue color scheme throughout all buttons and UI elements, creating better visual coherence and brand","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A uses a burgundy/maroon color scheme with inconsistent button styling (the 'Buy and print label' button uses maroon while primary CTAs use different colors), while Page B maintains a consistent blue color scheme throughout all buttons and UI elements, creating better visual coherence and brand consistency.""}
+```",3255,87
+B05-missing_cta,defect,missing_cta,clean_first,A,B,other,True,"Page A has a 'Shop now' button in the top navigation that is missing from Page B, creating inconsistency in the header navigation elements and potentially confusing users about how to access the shop.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A has a 'Shop now' button in the top navigation that is missing from Page B, creating inconsistency in the header navigation elements and potentially confusing users about how to access the shop.""}
+```",3589,67
+B05-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks clear call-to-action buttons in the main product section, while Page B includes prominent 'Add to cart' and 'Subscribe and save 15%' buttons near the price.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks clear call-to-action buttons in the main product section, while Page B includes prominent 'Add to cart' and 'Subscribe and save 15%' buttons near the price.""}
+```",3589,70
+B05-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,"Page B shows 'Price at checkout' instead of the actual prices ($24 for one bottle, $20.40 per bottle for subscription) that are clearly displayed in Page A.","```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B shows 'Price at checkout' instead of the actual prices ($24 for one bottle, $20.40 per bottle for subscription) that are clearly displayed in Page A.""}
+```",3591,66
+B05-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A does not display any price information in the 'Choose how you buy' section, while Page B clearly shows $24 for one bottle and $20.40 per bottle for the subscription option.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A does not display any price information in the 'Choose how you buy' section, while Page B clearly shows $24 for one bottle and $20.40 per bottle for the subscription option.""}
+```",3591,70
+B05-contradiction,defect,contradiction,clean_first,A,A,other,True,Page B changes 'Free shipping on orders over $50' to 'Free shipping on every order' which is a material claim change that could indicate a pricing or policy inconsistency that needs verification before launch.,"```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B changes 'Free shipping on orders over $50' to 'Free shipping on every order' which is a material claim change that could indicate a pricing or policy inconsistency that needs verification before launch.""}
+```",3591,69
+B05-contradiction,defect,contradiction,clean_second,B,same,none,True,"Both pages are identical in layout, content, typography, pricing, CTAs, and all other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, typography, pricing, CTAs, and all other visible elements.""}
+```",3591,47
+B05-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,"Page A's headline 'Cafe-strength cold brew at home, in ten seconds' is more specific and benefit-driven than Page B's generic 'Elevate your everyday' which doesn't clearly communicate what the product does.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Cafe-strength cold brew at home, in ten seconds' is more specific and benefit-driven than Page B's generic 'Elevate your everyday' which doesn't clearly communicate what the product does.""}
+```",3591,77
+B05-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Elevate your everyday' is vague and doesn't clearly communicate what the product is or does, while Page B's headline 'Cafe-strength cold brew at home, in ten seconds' clearly describes the product and its key benefit.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Elevate your everyday' is vague and doesn't clearly communicate what the product is or does, while Page B's headline 'Cafe-strength cold brew at home, in ten seconds' clearly describes the product and its key benefit.""}
+```",3591,84
+B05-typos,defect,typos,clean_first,A,B,typos,True,Page A has 'seccconds' in the headline while Page B correctly spells it as 'seconds',"```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A has 'seccconds' in the headline while Page B correctly spells it as 'seconds'""}
+```",3591,50
+B05-typos,defect,typos,clean_second,B,same,none,True,"Both pages are identical in layout, content, CTAs, pricing, imagery, and all other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, CTAs, pricing, imagery, and all other visible elements.""}
+```",3591,47
+B05-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains Lorem ipsum placeholder text in the customer testimonial quote instead of an actual customer review.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains Lorem ipsum placeholder text in the customer testimonial quote instead of an actual customer review.""}
+```",3591,47
+B05-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains Lorem ipsum placeholder text in the customer testimonial section, while Page B has a real customer quote.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains Lorem ipsum placeholder text in the customer testimonial section, while Page B has a real customer quote.""}
+```",3591,50
+B05-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'Cafe-strength cold brew at home, in ten seconds' is displayed in a very light gray color that is difficult to read against the beige/cream background, whereas Page A has the same headline in dark text with much better contrast.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'Cafe-strength cold brew at home, in ten seconds' is displayed in a very light gray color that is difficult to read against the beige/cream background, whereas Page A has the same headline in dark text with much better contrast.""}
+```",3591,85
+B05-low_contrast,defect,low_contrast,clean_second,B,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, imagery, pricing, CTAs, or any other visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, imagery, pricing, CTAs, or any other visual elements.""}
+```",3591,55
+B05-broken_image,defect,broken_image,clean_first,A,A,placeholder_text,True,"Page B has a visible caption or alt-text label ""A bottle of Northbrew cold brew concentrate next to a glass of iced coffee"" appearing above the product image, which appears to be leftover template or accessibility text that should not be visible to users.","```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B has a visible caption or alt-text label \""A bottle of Northbrew cold brew concentrate next to a glass of iced coffee\"" appearing above the product image, which appears to be leftover template or accessibility text that should not be visible to users.""}
+```",3591,82
+B05-broken_image,defect,broken_image,clean_second,B,B,missing_cta,True,"Page A shows only a photo caption/alt text in the image area, while Page B displays an actual product illustration showing the bottle and prepared drink, which is a key visual element for understanding the product.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A shows only a photo caption/alt text in the image area, while Page B displays an actual product illustration showing the bottle and prepared drink, which is a key visual element for understanding the product.""}
+```",3591,69
+B05-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,Page B has a popup overlay asking for email and offering a discount code that covers the main product information when the page initially loads.,"```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a popup overlay asking for email and offering a discount code that covers the main product information when the page initially loads.""}
+```",3591,53
+B05-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A displays a popup overlay with an email signup form that covers the main product content when the page opens, while Page B shows the full product information without any blocking popup.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A displays a popup overlay with an email signup form that covers the main product content when the page opens, while Page B shows the full product information without any blocking popup.""}
+```",3591,62
+B05-cut_off_text,defect,cut_off_text,clean_first,A,A,cut_off_text,True,"In Page B, the main headline 'Cafe-strength cold brew at home, in ten seconds' is cut off mid-word with 'brew at home, in' appearing on separate lines with text overlap, making it partially unreadable.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page B, the main headline 'Cafe-strength cold brew at home, in ten seconds' is cut off mid-word with 'brew at home, in' appearing on separate lines with text overlap, making it partially unreadable.""}
+```",3591,81
+B05-cut_off_text,defect,cut_off_text,clean_second,B,B,cut_off_text,True,"Page A's main headline is incomplete, cutting off mid-sentence as 'Cafe-strength cold brew at home, in' while Page B shows the complete headline 'Cafe-strength cold brew at home, in ten seconds'","```json
+{""better"": ""B"", ""problem"": ""cut_off_text"", ""evidence"": ""Page A's main headline is incomplete, cutting off mid-sentence as 'Cafe-strength cold brew at home, in' while Page B shows the complete headline 'Cafe-strength cold brew at home, in ten seconds'""}
+```",3591,78
+B05-identical,control,identical,clean_first,same,same,none,True,"Both pages are identical in layout, content, functionality, and design with no discernible differences that would impact sign-ups, sales, or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, functionality, and design with no discernible differences that would impact sign-ups, sales, or trust.""}
+```",3591,56
+B05-identical,control,identical,clean_second,same,same,none,True,"Both pages are identical with no discernible differences in layout, content, pricing, CTAs, or any other elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, pricing, CTAs, or any other elements.""}
+```",3591,50
+B05-harmless,control,harmless_reorder,clean_first,same,B,other,True,"Page A lists the three benefits in order 1-Smooth/never bitter, 2-Keeps for weeks, 3-Less than a cafe, while Page B reorders them to 1-Less than a cafe, 2-Keeps for weeks, 3-Smooth/never bitter, with the value proposition (cost) moved to first position for better persuasive impact.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A lists the three benefits in order 1-Smooth/never bitter, 2-Keeps for weeks, 3-Less than a cafe, while Page B reorders them to 1-Less than a cafe, 2-Keeps for weeks, 3-Smooth/never bitter, with the value proposition (cost) moved to first position for better persuasive impact.""}
+```",3591,108
+B05-harmless,control,harmless_reorder,clean_second,same,B,other,True,"Page A lists the three value propositions in order 1-Less than a cafe, 2-Keeps for weeks, 3-Smooth never bitter, while Page B reorders them to 1-Smooth never bitter, 2-Keeps for weeks, 3-Less than a cafe, which is a more persuasive sequence that leads with the quality benefit before the practical an","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A lists the three value propositions in order 1-Less than a cafe, 2-Keeps for weeks, 3-Smooth never bitter, while Page B reorders them to 1-Smooth never bitter, 2-Keeps for weeks, 3-Less than a cafe, which is a more persuasive sequence that leads with the quality benefit before the practical and economic benefits.""}
+```",3591,111
+B06-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B removes the 'Add to cart' button from the main product section at the top, leaving only a 'Find my size' link, while Page A has a prominent 'Add to cart' button for immediate purchase.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B removes the 'Add to cart' button from the main product section at the top, leaving only a 'Find my size' link, while Page A has a prominent 'Add to cart' button for immediate purchase.""}
+```",3589,76
+B06-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks an 'Add to cart' button in the main product section, while Page B includes prominent 'Add to cart' buttons for both bundle options.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks an 'Add to cart' button in the main product section, while Page B includes prominent 'Add to cart' buttons for both bundle options.""}
+```",3589,62
+B06-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,"Page B shows 'Price at checkout' instead of the actual $98 price that appears in Page A, hiding the cost from potential customers before they add to cart.","```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B shows 'Price at checkout' instead of the actual $98 price that appears in Page A, hiding the cost from potential customers before they add to cart.""}
+```",3591,62
+B06-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,Page A does not display the price ($98) or color/size options that Page B clearly shows in the product details section.,"```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A does not display the price ($98) or color/size options that Page B clearly shows in the product details section.""}
+```",3591,53
+B06-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B states 'Free returns within 14 days' in the top section but 'Free 60-day returns' in the bundle section, while Page A consistently states '60 days' throughout.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B states 'Free returns within 14 days' in the top section but 'Free 60-day returns' in the bundle section, while Page A consistently states '60 days' throughout.""}
+```",3591,69
+B06-contradiction,defect,contradiction,clean_second,B,same,none,True,"Both pages appear identical with no discernible differences in layout, content, pricing, CTAs, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, pricing, CTAs, or visual elements.""}
+```",3591,49
+B06-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,"Page A's headline 'One merino hoodie for every flight, hike and long weekend' is vague about the product's key benefit, while Page B's headline 'Quality you can feel' more directly emphasizes the quality aspect that differentiates the product.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'One merino hoodie for every flight, hike and long weekend' is vague about the product's key benefit, while Page B's headline 'Quality you can feel' more directly emphasizes the quality aspect that differentiates the product.""}
+```",3591,85
+B06-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Quality you can feel' is vague and doesn't clearly communicate what the product is, while Page B's headline 'One merino hoodie for every flight, hike and long weekend' clearly states the product and its use cases.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Quality you can feel' is vague and doesn't clearly communicate what the product is, while Page B's headline 'One merino hoodie for every flight, hike and long weekend' clearly states the product and its use cases.""}
+```",3591,83
+B06-typos,defect,typos,clean_first,A,same,none,True,"Both pages are identical with no discernible differences in layout, content, CTAs, pricing, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, CTAs, pricing, or visual elements.""}
+```",3591,49
+B06-typos,defect,typos,clean_second,B,same,none,True,"Page A and Page B are identical - no visible differences in layout, content, typography, buttons, pricing, images, or any other elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Page A and Page B are identical - no visible differences in layout, content, typography, buttons, pricing, images, or any other elements.""}
+```",3591,54
+B06-placeholder_text,defect,placeholder_text,clean_first,A,B,placeholder_text,True,"Page A's feature section 3 contains placeholder text ('Merino regulates temperature, so you stay warm on a cold place and cool on a sunny trail') while Page B has actual descriptive content ('Lorem ipsum dolor sit amet...' which is standard placeholder text used during development that should not be","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A's feature section 3 contains placeholder text ('Merino regulates temperature, so you stay warm on a cold place and cool on a sunny trail') while Page B has actual descriptive content ('Lorem ipsum dolor sit amet...' which is standard placeholder text used during development that should not be visible on a launched page). Actually, upon closer inspection, Page B also has placeholder text in section 3, so both have this issue - however, Page A's text reads more naturally. Reviewing more carefully, the key difference is that Page B's section 3 explicitly shows Lorem ipsum placeholder text, which is a clear development artifact that should not appear on a live page.""}
+```
+
+Wait, let me reconsider. Looking at both pages again:
+
+Page A, section 3: ""Merino regulates temperature, so you stay warm on a cold place and cool on a sunny trail.""
+
+Page B, section 3: ""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.""
+
+Page B has obvious Lorem ipsum placeholder text that was not replaced with actual content.
+
+```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B's third feature section contains Lorem ipsum placeholder text instead of actual product description content.""}
+```",3591,316
+B06-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...' placeholder text in the third feature box, while Page B has actual descriptive text about temperature regulation.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...' placeholder text in the third feature box, while Page B has actual descriptive text about temperature regulation.""}
+```",3591,74
+B06-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'One merino hoodie for every flight, hike and long weekend' appears in light gray text that is difficult to read against the light background, whereas Page A displays it in dark text with proper contrast.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'One merino hoodie for every flight, hike and long weekend' appears in light gray text that is difficult to read against the light background, whereas Page A displays it in dark text with proper contrast.""}
+```",3591,78
+B06-low_contrast,defect,low_contrast,clean_second,B,same,none,True,"Both Page A and Page B appear identical with no discernible differences in layout, content, pricing, CTAs, or any other elements that would affect user experience or conversions.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both Page A and Page B appear identical with no discernible differences in layout, content, pricing, CTAs, or any other elements that would affect user experience or conversions.""}
+```",3591,62
+B06-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image placeholder on the left side where Page A displays a properly rendered product photo of the hoodie with its packing pouch detail.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image placeholder on the left side where Page A displays a properly rendered product photo of the hoodie with its packing pouch detail.""}
+```",3591,59
+B06-broken_image,defect,broken_image,clean_second,B,B,broken_image,True,Page A shows a placeholder image with alt text 'Driftwool travel hoodie in charcoal with its packing pouch' while Page B displays the actual product photograph of the hoodie with the packing pouch detail highlighted.,"```json
+{""better"": ""B"", ""problem"": ""broken_image"", ""evidence"": ""Page A shows a placeholder image with alt text 'Driftwool travel hoodie in charcoal with its packing pouch' while Page B displays the actual product photograph of the hoodie with the packing pouch detail highlighted.""}
+```",3591,78
+B06-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has an email signup popup overlay that appears on page load and blocks the main content, while Page A displays the full content immediately without any blocking elements.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has an email signup popup overlay that appears on page load and blocks the main content, while Page A displays the full content immediately without any blocking elements.""}
+```",3591,59
+B06-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a popup overlay covering the main product content when the page opens, while Page B shows the full page without any blocking elements.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a popup overlay covering the main product content when the page opens, while Page B shows the full page without any blocking elements.""}
+```",3591,55
+B06-cut_off_text,defect,cut_off_text,clean_first,A,A,cut_off_text,True,"In Page B, the main headline 'One merino hoodie for every flight, hike and long weekend' is partially obscured with text appearing cut off or overlapped in the right column.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page B, the main headline 'One merino hoodie for every flight, hike and long weekend' is partially obscured with text appearing cut off or overlapped in the right column.""}
+```",3591,70
+B06-cut_off_text,defect,cut_off_text,clean_second,B,B,cut_off_text,True,"Page A's headline is incomplete/cut off mid-word ('for desert flight hike' appears truncated), while Page B displays the full complete headline 'for every flight, hike and long weekend'","```json
+{""better"": ""B"", ""problem"": ""cut_off_text"", ""evidence"": ""Page A's headline is incomplete/cut off mid-word ('for desert flight hike' appears truncated), while Page B displays the full complete headline 'for every flight, hike and long weekend'""}
+```",3591,72
+B06-identical,control,identical,clean_first,same,same,none,True,"Both pages are identical in layout, content, CTAs, pricing, and all visual elements, so there are no differences to evaluate.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, CTAs, pricing, and all visual elements, so there are no differences to evaluate.""}
+```",3591,52
+B06-identical,control,identical,clean_second,same,same,none,True,"Both pages appear identical with no discernible differences in layout, content, CTAs, pricing, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, CTAs, pricing, or visual elements.""}
+```",3591,49
+B06-harmless,control,harmless_paraphrase,clean_first,same,B,cut_off_text,True,"In Page A, the product description says 'packs into its own pocket, and looks sharp enough for dinner' but in Page B it says 'folds into its own pocket, and looks smart enough for dinner' - Page A uses 'packs' which is inconsistent with the 'Packs into its own pocket' feature description below, whil","```json
+{""better"": ""B"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page A, the product description says 'packs into its own pocket, and looks sharp enough for dinner' but in Page B it says 'folds into its own pocket, and looks smart enough for dinner' - Page A uses 'packs' which is inconsistent with the 'Packs into its own pocket' feature description below, while Page B correctly uses 'folds' throughout for consistency.""}
+```",3591,118
+B06-harmless,control,harmless_paraphrase,clean_second,same,B,cut_off_text,True,"In Page A, the product description text 'Soft 17.5-micron merino that stays fresh for days on end,' is cut off mid-sentence, whereas Page B displays the complete text 'Soft 17.5-micron merino that stays fresh for days, packs into its own pocket, and looks sharp enough for dinner.'","```json
+{""better"": ""B"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page A, the product description text 'Soft 17.5-micron merino that stays fresh for days on end,' is cut off mid-sentence, whereas Page B displays the complete text 'Soft 17.5-micron merino that stays fresh for days, packs into its own pocket, and looks sharp enough for dinner.'""}
+```",3591,105
+B07-missing_cta,defect,missing_cta,clean_first,A,B,missing_cta,True,"Page A has two prominent download buttons at the top ('Download for iPhone' and 'Get it on Android'), while Page B removed these buttons and only shows 'Log in' in the header, eliminating the primary call-to-action for new users to get the app.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A has two prominent download buttons at the top ('Download for iPhone' and 'Get it on Android'), while Page B removed these buttons and only shows 'Log in' in the header, eliminating the primary call-to-action for new users to get the app.""}
+```",3589,86
+B07-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks prominent download/app store buttons in the hero section, while Page B includes 'Download for iPhone' and 'Get it on Android' buttons that drive immediate action.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks prominent download/app store buttons in the hero section, while Page B includes 'Download for iPhone' and 'Get it on Android' buttons that drive immediate action.""}
+```",3589,66
+B07-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B shows 'See price in app' instead of the actual price ($4.99/month) that is clearly displayed in Page A's Plus pricing tier.,"```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B shows 'See price in app' instead of the actual price ($4.99/month) that is clearly displayed in Page A's Plus pricing tier.""}
+```",3591,61
+B07-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A shows 'See price in app' for the Plus plan pricing, while Page B clearly displays '$4.99 /month', making the pricing transparent to potential customers before download.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'See price in app' for the Plus plan pricing, while Page B clearly displays '$4.99 /month', making the pricing transparent to potential customers before download.""}
+```",3591,66
+B07-contradiction,defect,contradiction,clean_first,A,B,contradiction,True,"Page A claims 'Free to download - Centwise Plus is $4.99 a month' but Page B states 'Free to download - Every feature free, forever' which directly contradicts the pricing model shown on both pages.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A claims 'Free to download - Centwise Plus is $4.99 a month' but Page B states 'Free to download - Every feature free, forever' which directly contradicts the pricing model shown on both pages.""}
+```",3591,75
+B07-contradiction,defect,contradiction,clean_second,B,A,contradiction,True,"Page B states 'Free to download - Centwise Plus is $4.99 a month' in the hero section, which contradicts the pricing section below that presents Plus as an optional upgrade, creating confusion about whether the app itself costs money.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B states 'Free to download - Centwise Plus is $4.99 a month' in the hero section, which contradicts the pricing section below that presents Plus as an optional upgrade, creating confusion about whether the app itself costs money.""}
+```",3591,77
+B07-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,"Page A's headline 'Plan your money together without the awkward talks' is more specific and benefit-driven than Page B's generic 'Simplify your life', which could apply to any product.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Plan your money together without the awkward talks' is more specific and benefit-driven than Page B's generic 'Simplify your life', which could apply to any product.""}
+```",3591,71
+B07-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Simplify your life' is generic and doesn't communicate what the product does, while Page B's headline 'Plan your money together without the awkward talks' clearly describes the product's purpose and value proposition.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Simplify your life' is generic and doesn't communicate what the product does, while Page B's headline 'Plan your money together without the awkward talks' clearly describes the product's purpose and value proposition.""}
+```",3591,78
+B07-typos,defect,typos,clean_first,A,same,none,True,"Both pages are identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visible elements.""}
+```",3591,53
+B07-typos,defect,typos,clean_second,B,same,none,True,"Both pages appear identical with no discernible differences in layout, content, messaging, CTAs, pricing, or visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, messaging, CTAs, pricing, or visual elements.""}
+```",3591,51
+B07-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,"Page B contains placeholder text '{{name}}, using Centwise since {{year}}' in the testimonial section, whereas Page A shows a complete real testimonial 'Aisha and Daniel Brooks Using Centwise since 2024'","```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains placeholder text '{{name}}, using Centwise since {{year}}' in the testimonial section, whereas Page A shows a complete real testimonial 'Aisha and Daniel Brooks Using Centwise since 2024'""}
+```",3591,78
+B07-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A shows '{{name}}, using Centwise since {{year}}' which is unsubstituted template text in the testimonial, while Page B correctly displays 'Aisha and Daniel Brooks' and 'Using Centwise since 2024'.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A shows '{{name}}, using Centwise since {{year}}' which is unsubstituted template text in the testimonial, while Page B correctly displays 'Aisha and Daniel Brooks' and 'Using Centwise since 2024'.""}
+```",3591,83
+B07-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'Plan your money together without the awkward talks' appears in a very light gray color that is difficult to read against the white background, whereas Page A has this text in dark black for clear readability.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'Plan your money together without the awkward talks' appears in a very light gray color that is difficult to read against the white background, whereas Page A has this text in dark black for clear readability.""}
+```",3591,77
+B07-low_contrast,defect,low_contrast,clean_second,B,B,low_contrast,True,"In Page A, the main headline 'Plan your money together without the awkward talks' uses light gray text that is difficult to read against the light background, whereas Page B uses bold black text with much better contrast.","```json
+{""better"": ""B"", ""problem"": ""low_contrast"", ""evidence"": ""In Page A, the main headline 'Plan your money together without the awkward talks' uses light gray text that is difficult to read against the light background, whereas Page B uses bold black text with much better contrast.""}
+```",3591,72
+B07-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image placeholder with alt text 'Centwise app screen showing a shared monthly budget and a savings goal' instead of the actual phone mockup displayed in Page A.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image placeholder with alt text 'Centwise app screen showing a shared monthly budget and a savings goal' instead of the actual phone mockup displayed in Page A.""}
+```",3591,66
+B07-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes a concrete visual example of the app interface showing budget tracking and spending breakdown, which provides social proof of functionality and builds trust, while Page A only uses generic descriptive text without demonstrating the actual product experience.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes a concrete visual example of the app interface showing budget tracking and spending breakdown, which provides social proof of functionality and builds trust, while Page A only uses generic descriptive text without demonstrating the actual product experience.""}
+```",3591,70
+B07-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B displays a modal popup for 'Free couples budgeting worksheet' that covers and obscures the main content when the page loads, while Page A has no such blocking element.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B displays a modal popup for 'Free couples budgeting worksheet' that covers and obscures the main content when the page loads, while Page A has no such blocking element.""}
+```",3591,65
+B07-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup for 'Free couples budgeting worksheet' overlaying the main content when the page opens, while Page B has no popup blocking the view.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup for 'Free couples budgeting worksheet' overlaying the main content when the page opens, while Page B has no popup blocking the view.""}
+```",3591,63
+B07-cut_off_text,defect,cut_off_text,clean_first,A,A,cut_off_text,True,"In Page B, the main headline 'Plan your money together without the awkward talks' is cut off and incomplete, missing the bottom portion of the text.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page B, the main headline 'Plan your money together without the awkward talks' is cut off and incomplete, missing the bottom portion of the text.""}
+```",3591,62
+B07-cut_off_text,defect,cut_off_text,clean_second,B,B,vague_headline,True,"Page A's headline 'Plan your money together with the' is incomplete and cuts off mid-sentence, while Page B completes it with 'Plan your money together without the awkward talks'","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Plan your money together with the' is incomplete and cuts off mid-sentence, while Page B completes it with 'Plan your money together without the awkward talks'""}
+```",3591,69
+B07-identical,control,identical,clean_first,same,same,none,True,"Both pages are identical with no discernible differences in layout, content, pricing, CTAs, or any other elements that would affect sign-ups, sales, or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, pricing, CTAs, or any other elements that would affect sign-ups, sales, or trust.""}
+```",3591,61
+B07-identical,control,identical,clean_second,same,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other elements.""}
+```",3591,52
+B07-harmless,control,harmless_hue,clean_first,same,same,none,True,"Both pages are functionally identical with only cosmetic color scheme differences (purple in A vs. orange/rust in B), with no problems affecting sign-ups, sales, or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are functionally identical with only cosmetic color scheme differences (purple in A vs. orange/rust in B), with no problems affecting sign-ups, sales, or trust.""}
+```",3591,63
+B07-harmless,control,harmless_hue,clean_second,same,same,none,True,"Both pages are functionally identical in layout, content, and messaging. The only difference is the color scheme (orange/red in Page A vs. purple in Page B), which is a branding choice rather than a usability or trust issue.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are functionally identical in layout, content, and messaging. The only difference is the color scheme (orange/red in Page A vs. purple in Page B), which is a branding choice rather than a usability or trust issue.""}
+```",3591,75
+B08-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B is missing the 'Get the app' button in the top navigation header that appears in Page A, removing a primary call-to-action for new users.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B is missing the 'Get the app' button in the top navigation header that appears in Page A, removing a primary call-to-action for new users.""}
+```",3563,63
+B08-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks prominent download buttons in the hero section, while Page B includes 'Download for iPhone' and 'Get it on Android' buttons that guide users to take immediate action.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks prominent download buttons in the hero section, while Page B includes 'Download for iPhone' and 'Get it on Android' buttons that guide users to take immediate action.""}
+```",3563,66
+B08-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,"Page B shows 'See price in app' instead of the actual premium price of '$2.99/month' that is displayed in Page A, hiding the cost information from potential customers.","```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B shows 'See price in app' instead of the actual premium price of '$2.99/month' that is displayed in Page A, hiding the cost information from potential customers.""}
+```",3591,66
+B08-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A shows 'See price in app' for the Premium tier without displaying any price, while Page B clearly shows '$2.99 /month' for the same Premium plan.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'See price in app' for the Premium tier without displaying any price, while Page B clearly shows '$2.99 /month' for the same Premium plan.""}
+```",3591,65
+B08-contradiction,defect,contradiction,clean_first,A,B,contradiction,True,"Page A claims 'Free for up to 5 plants - Rated 4.9 by plant lovers' but Page B says 'Free for up to 5 plants - Works fully offline, no internet needed', creating conflicting claims about what the free tier includes.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A claims 'Free for up to 5 plants - Rated 4.9 by plant lovers' but Page B says 'Free for up to 5 plants - Works fully offline, no internet needed', creating conflicting claims about what the free tier includes.""}
+```",3591,84
+B08-contradiction,defect,contradiction,clean_second,B,A,other,True,"Page B changes 'Works fully offline, no internet needed' to 'Rated 4.9 by plant lovers' which removes important functional information about offline capability that Page A correctly emphasizes.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B changes 'Works fully offline, no internet needed' to 'Rated 4.9 by plant lovers' which removes important functional information about offline capability that Page A correctly emphasizes.""}
+```",3591,67
+B08-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,Page A's headline 'Know exactly when to water every plant you own' is more specific and benefit-focused than Page B's generic 'Your journey starts here',"```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Know exactly when to water every plant you own' is more specific and benefit-focused than Page B's generic 'Your journey starts here'""}
+```",3591,63
+B08-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Your journey starts here' is generic and doesn't communicate what the product does, while Page B's headline 'Know exactly when to water every plant you own' clearly states the core value proposition.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Your journey starts here' is generic and doesn't communicate what the product does, while Page B's headline 'Know exactly when to water every plant you own' clearly states the core value proposition.""}
+```",3591,74
+B08-typos,defect,typos,clean_first,A,A,typos,True,Page B has 'onw' instead of 'own' in the main headline ('Know exactly when to water every plant you onw'),"```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has 'onw' instead of 'own' in the main headline ('Know exactly when to water every plant you onw')""}
+```",3591,56
+B08-typos,defect,typos,clean_second,B,B,typos,True,"Page A's headline says 'Know exactly when to water every plant you onw' with 'onw' instead of 'own', while Page B correctly spells it as 'own'.","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A's headline says 'Know exactly when to water every plant you onw' with 'onw' instead of 'own', while Page B correctly spells it as 'own'.""}
+```",3591,68
+B08-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,Page B contains Lorem ipsum placeholder text in the 'Do I need an account?' section instead of actual product information like Page A has.,"```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B contains Lorem ipsum placeholder text in the 'Do I need an account?' section instead of actual product information like Page A has.""}
+```",3591,55
+B08-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains 'Lorem ipsum' placeholder text in the 'Do I need an account?' section, while Page B has actual content explaining users can start without signing up and add an account later to sync devices.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains 'Lorem ipsum' placeholder text in the 'Do I need an account?' section, while Page B has actual content explaining users can start without signing up and add an account later to sync devices.""}
+```",3591,71
+B08-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,"In Page B, the main headline 'Know exactly when to water every plant you own' appears in a much lighter gray color making it significantly harder to read compared to the bold black text in Page A.","```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""In Page B, the main headline 'Know exactly when to water every plant you own' appears in a much lighter gray color making it significantly harder to read compared to the bold black text in Page A.""}
+```",3591,69
+B08-low_contrast,defect,low_contrast,clean_second,B,same,none,True,"Both pages are identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other elements.""}
+```",3591,52
+B08-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B has a broken image placeholder in the hero section where Page A displays the phone mockup showing the app interface.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B has a broken image placeholder in the hero section where Page A displays the phone mockup showing the app interface.""}
+```",3591,51
+B08-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes a mockup of the app's actual interface showing the watering reminders feature in action, which provides concrete proof of the product's main value proposition, while Page A only has a generic image that doesn't demonstrate the core functionality.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes a mockup of the app's actual interface showing the watering reminders feature in action, which provides concrete proof of the product's main value proposition, while Page A only has a generic image that doesn't demonstrate the core functionality.""}
+```",3591,75
+B08-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has a modal popup overlay ('12 houseplants that are hard to kill') covering the main content when the page loads, blocking user interaction with the primary content.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a modal popup overlay ('12 houseplants that are hard to kill') covering the main content when the page loads, blocking user interaction with the primary content.""}
+```",3591,63
+B08-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup overlaying the main content asking for an email to send a guide, which blocks the user's view of the page content when it first loads.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup overlaying the main content asking for an email to send a guide, which blocks the user's view of the page content when it first loads.""}
+```",3591,62
+B08-cut_off_text,defect,cut_off_text,clean_first,A,A,cut_off_text,True,"In Page B, the main headline is cut off mid-word showing 'Know exactly when to water every plant you' without the word 'own' visible on the first screen, whereas Page A displays the complete headline 'Know exactly when to water every plant you own'.","```json
+{""better"": ""A"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page B, the main headline is cut off mid-word showing 'Know exactly when to water every plant you' without the word 'own' visible on the first screen, whereas Page A displays the complete headline 'Know exactly when to water every plant you own'.""}
+```",3591,86
+B08-cut_off_text,defect,cut_off_text,clean_second,B,B,vague_headline,True,"Page A's headline 'Know exactly when to water every plant you' is cut off and incomplete, while Page B completes it as 'Know exactly when to water every plant you own'","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Know exactly when to water every plant you' is cut off and incomplete, while Page B completes it as 'Know exactly when to water every plant you own'""}
+```",3591,68
+B08-identical,control,identical,clean_first,same,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visible elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, or any other visible elements.""}
+```",3591,53
+B08-identical,control,identical,clean_second,same,same,none,True,"Both pages are identical with no discernible differences in layout, content, CTA buttons, pricing, images, or text.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, CTA buttons, pricing, images, or text.""}
+```",3591,51
+B08-harmless,control,harmless_reorder,clean_first,same,B,other,True,"In Page A, the three feature cards are ordered as 'Identify any plant' (1), 'Reminders that adapt' (2), 'Ask a botanist' (3), but Page B reorders them as 'Ask a botanist' (1), 'Reminders that adapt' (2), 'Identify any plant' (3), which better prioritizes the unique 'Ask a botanist' differentiator as","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""In Page A, the three feature cards are ordered as 'Identify any plant' (1), 'Reminders that adapt' (2), 'Ask a botanist' (3), but Page B reorders them as 'Ask a botanist' (1), 'Reminders that adapt' (2), 'Identify any plant' (3), which better prioritizes the unique 'Ask a botanist' differentiator as the first feature rather than burying it last.""}
+```",3591,132
+B08-harmless,control,harmless_reorder,clean_second,same,B,other,True,"Page A has the three feature boxes in the order 'Ask a botanist', 'Reminders that adapt', 'Identify any plant', while Page B reorders them to 'Identify any plant', 'Reminders that adapt', 'Ask a botanist' - placing the most compelling unique feature (plant identification via camera) first instead of","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A has the three feature boxes in the order 'Ask a botanist', 'Reminders that adapt', 'Identify any plant', while Page B reorders them to 'Identify any plant', 'Reminders that adapt', 'Ask a botanist' - placing the most compelling unique feature (plant identification via camera) first instead of last improves conversion psychology.""}
+```",3591,108
+B09-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B removes the prominent 'Enroll now' button from the hero section, leaving only a 'Watch a free lesson' link, which reduces the primary conversion opportunity.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B removes the prominent 'Enroll now' button from the hero section, leaving only a 'Watch a free lesson' link, which reduces the primary conversion opportunity.""}
+```",3423,65
+B09-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks a prominent 'Enroll now' call-to-action button in the hero section, while Page B has one positioned prominently above the fold near the headline.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks a prominent 'Enroll now' call-to-action button in the hero section, while Page B has one positioned prominently above the fold near the headline.""}
+```",3423,66
+B09-hidden_price,defect,hidden_price,clean_first,A,A,hidden_price,True,Page B shows 'Price on request' for both course options instead of displaying the actual prices ($149 and $249) that are clearly shown on Page A.,"```json
+{""better"": ""A"", ""problem"": ""hidden_price"", ""evidence"": ""Page B shows 'Price on request' for both course options instead of displaying the actual prices ($149 and $249) that are clearly shown on Page A.""}
+```",3311,61
+B09-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A shows 'Price on request' for both pricing tiers, while Page B displays actual prices ($149 and $249), making it significantly more transparent and conversion-friendly.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'Price on request' for both pricing tiers, while Page B displays actual prices ($149 and $249), making it significantly more transparent and conversion-friendly.""}
+```",3311,65
+B09-contradiction,defect,contradiction,clean_first,A,A,contradiction,True,"Page B states 'All sales final, no refunds' while Page A states '30-day refund', creating contradictory refund policies in the subheading under the main CTA.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B states 'All sales final, no refunds' while Page A states '30-day refund', creating contradictory refund policies in the subheading under the main CTA.""}
+```",3367,67
+B09-contradiction,defect,contradiction,clean_second,B,A,contradiction,True,"Page B claims '30-day refund' under the hero section while the pricing section states 'All sales final, no refunds', creating a direct contradiction about the refund policy.","```json
+{""better"": ""A"", ""problem"": ""contradiction"", ""evidence"": ""Page B claims '30-day refund' under the hero section while the pricing section states 'All sales final, no refunds', creating a direct contradiction about the refund policy.""}
+```",3367,64
+B09-vague_headline,defect,vague_headline,clean_first,A,B,vague_headline,True,"Page A's headline 'Learn to draw what you see in six weeks' is more specific about the course duration and outcome, while Page B's 'Unlock your potential' is generic and doesn't clearly convey what the product is or does.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Learn to draw what you see in six weeks' is more specific about the course duration and outcome, while Page B's 'Unlock your potential' is generic and doesn't clearly convey what the product is or does.""}
+```",3367,80
+B09-vague_headline,defect,vague_headline,clean_second,B,B,vague_headline,True,"Page A's headline 'Unlock your potential' is generic and doesn't specify what the course teaches, while Page B's headline 'Learn to draw what you see in six weeks' clearly describes the product and its benefit.","```json
+{""better"": ""B"", ""problem"": ""vague_headline"", ""evidence"": ""Page A's headline 'Unlock your potential' is generic and doesn't specify what the course teaches, while Page B's headline 'Learn to draw what you see in six weeks' clearly describes the product and its benefit.""}
+```",3367,75
+B09-typos,defect,typos,clean_first,A,A,typos,True,Page B has 'Lern' instead of 'Learn' in the main headline 'Lern to draw what you see in six weeks',"```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B has 'Lern' instead of 'Learn' in the main headline 'Lern to draw what you see in six weeks'""}
+```",3367,59
+B09-typos,defect,typos,clean_second,B,B,typos,True,"Page A's headline reads 'Lern to draw what you see in six weeks' with 'Lern' misspelled, while Page B correctly spells it as 'Learn to draw what you see in six weeks'","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A's headline reads 'Lern to draw what you see in six weeks' with 'Lern' misspelled, while Page B correctly spells it as 'Learn to draw what you see in six weeks'""}
+```",3367,76
+B09-placeholder_text,defect,placeholder_text,clean_first,A,B,placeholder_text,True,"Page A's section 2 'Light and shadow' contains the actual course description, while Page B's section 2 contains Lorem ipsum placeholder text that should have been replaced with real content.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A's section 2 'Light and shadow' contains the actual course description, while Page B's section 2 contains Lorem ipsum placeholder text that should have been replaced with real content.""}
+```",3367,67
+B09-placeholder_text,defect,placeholder_text,clean_second,B,B,placeholder_text,True,"Page A contains 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' in the Light and shadow section, which is placeholder text that should have been replaced with actual course content description.","```json
+{""better"": ""B"", ""problem"": ""placeholder_text"", ""evidence"": ""Page A contains 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' in the Light and shadow section, which is placeholder text that should have been replaced with actual course content description.""}
+```",3367,87
+B09-low_contrast,defect,low_contrast,clean_first,A,A,low_contrast,True,Page B's main headline 'Learn to draw what you see in six weeks' is displayed in very light gray text that is significantly harder to read compared to the dark black text in Page A.,"```json
+{""better"": ""A"", ""problem"": ""low_contrast"", ""evidence"": ""Page B's main headline 'Learn to draw what you see in six weeks' is displayed in very light gray text that is significantly harder to read compared to the dark black text in Page A.""}
+```",3367,67
+B09-low_contrast,defect,low_contrast,clean_second,B,B,low_contrast,True,"The main headline 'Learn to draw what you see in six weeks' in Page A uses light gray text that is difficult to read against the light background, while Page B uses dark/black text that is clearly legible.","```json
+{""better"": ""B"", ""problem"": ""low_contrast"", ""evidence"": ""The main headline 'Learn to draw what you see in six weeks' in Page A uses light gray text that is difficult to read against the light background, while Page B uses dark/black text that is clearly legible.""}
+```",3367,73
+B09-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image placeholder where the illustrative drawing of the coffee cup and face should be displayed in the hero section.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image placeholder where the illustrative drawing of the coffee cup and face should be displayed in the hero section.""}
+```",3367,53
+B09-broken_image,defect,broken_image,clean_second,B,B,broken_image,True,"Page A shows a placeholder text description 'Open sketchbook with pencil drawings of a coffee cup and a face' instead of an actual image, while Page B displays the actual illustrated image of the sketchbook with drawings and pencil.","```json
+{""better"": ""B"", ""problem"": ""broken_image"", ""evidence"": ""Page A shows a placeholder text description 'Open sketchbook with pencil drawings of a coffee cup and a face' instead of an actual image, while Page B displays the actual illustrated image of the sketchbook with drawings and pencil.""}
+```",3367,77
+B09-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B displays a modal popup overlay ('Get 3 free drawing lessons') that covers the main content when the page loads, whereas Page A shows the full landing page without obstruction.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B displays a modal popup overlay ('Get 3 free drawing lessons') that covers the main content when the page loads, whereas Page A shows the full landing page without obstruction.""}
+```",3367,65
+B09-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a modal popup requesting an email address that blocks the main content when the page opens, while Page B displays the full page content immediately without any blocking overlay.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a modal popup requesting an email address that blocks the main content when the page opens, while Page B displays the full page content immediately without any blocking overlay.""}
+```",3367,61
+B09-cut_off_text,defect,cut_off_text,clean_first,A,B,typos,True,"Page A's main headline reads 'Learn to draw what you see in six weeks' but the subheading says 'A 6 WEEK ONLINE DRAWING COURSE' creating an inconsistency, while Page B correctly aligns both to say 'six weeks' in the headline.","```json
+{""better"": ""B"", ""problem"": ""typos"", ""evidence"": ""Page A's main headline reads 'Learn to draw what you see in six weeks' but the subheading says 'A 6 WEEK ONLINE DRAWING COURSE' creating an inconsistency, while Page B correctly aligns both to say 'six weeks' in the headline.""}
+```",3367,89
+B09-cut_off_text,defect,cut_off_text,clean_second,B,B,contradiction,True,Page A's headline says 'Learn to draw what you see in six weeks' but the course is described as 'A 6 WEEK ONLINE DRAWING COURSE' - the headline is incomplete/cut off showing only 'see in city weeks' instead of the full text visible in Page B.,"```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A's headline says 'Learn to draw what you see in six weeks' but the course is described as 'A 6 WEEK ONLINE DRAWING COURSE' - the headline is incomplete/cut off showing only 'see in city weeks' instead of the full text visible in Page B.""}
+```",3367,90
+B09-identical,control,identical,clean_first,same,same,none,True,"Both Page A and Page B appear to be identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both Page A and Page B appear to be identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other visual elements.""}
+```",3367,59
+B09-identical,control,identical,clean_second,same,same,none,True,"Both pages are identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, typography, pricing, CTAs, or any other visual elements.""}
+```",3367,53
+B09-harmless,control,harmless_paraphrase,clean_first,same,B,contradiction,True,"Page A says 'wobbly lines' while Page B says 'shaky lines' in the descriptive text below the headline, creating inconsistent messaging about the starting point of the course.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A says 'wobbly lines' while Page B says 'shaky lines' in the descriptive text below the headline, creating inconsistent messaging about the starting point of the course.""}
+```",3367,66
+B09-harmless,control,harmless_paraphrase,clean_second,same,A,typos,True,"Page B says 'wobbly lines' in the subtitle while Page A correctly says 'shaky lines', which is more accurate and professional.","```json
+{""better"": ""A"", ""problem"": ""typos"", ""evidence"": ""Page B says 'wobbly lines' in the subtitle while Page A correctly says 'shaky lines', which is more accurate and professional.""}
+```",3367,57
+B10-missing_cta,defect,missing_cta,clean_first,A,A,missing_cta,True,"Page B removes the prominent 'Book a cleaning' button from the hero section, replacing it with only a 'See what is included' link, which significantly reduces conversion opportunity at the critical entry point.","```json
+{""better"": ""A"", ""problem"": ""missing_cta"", ""evidence"": ""Page B removes the prominent 'Book a cleaning' button from the hero section, replacing it with only a 'See what is included' link, which significantly reduces conversion opportunity at the critical entry point.""}
+```",3561,70
+B10-missing_cta,defect,missing_cta,clean_second,B,B,missing_cta,True,"Page A lacks a prominent 'Book a cleaning' call-to-action button in the hero section, while Page B includes a blue 'Book a cleaning' button below the headline, making it easier for users to take action immediately.","```json
+{""better"": ""B"", ""problem"": ""missing_cta"", ""evidence"": ""Page A lacks a prominent 'Book a cleaning' call-to-action button in the hero section, while Page B includes a blue 'Book a cleaning' button below the headline, making it easier for users to take action immediately.""}
+```",3561,77
+B10-hidden_price,defect,hidden_price,clean_first,A,A,other,True,"Page B replaces concrete pricing ($89, $129, $169) with vague 'Request a quote' headings, which reduces transparency and creates friction in the conversion funnel by requiring extra steps before customers can see costs.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B replaces concrete pricing ($89, $129, $169) with vague 'Request a quote' headings, which reduces transparency and creates friction in the conversion funnel by requiring extra steps before customers can see costs.""}
+```",3563,73
+B10-hidden_price,defect,hidden_price,clean_second,B,B,hidden_price,True,"Page A shows 'Get a quote in 60 seconds' without displaying actual prices, while Page B displays clear pricing ($89, $129, $169) in the pricing section.","```json
+{""better"": ""B"", ""problem"": ""hidden_price"", ""evidence"": ""Page A shows 'Get a quote in 60 seconds' without displaying actual prices, while Page B displays clear pricing ($89, $129, $169) in the pricing section.""}
+```",3563,66
+B10-contradiction,defect,contradiction,clean_first,A,B,contradiction,True,"Page A states 'Move or skip a visit up to 24 hours ahead at no cost' while Page B states 'Cancel anytime, even an hour before your visit, at no cost' - these describe different cancellation policies that cannot both be true for the same service.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A states 'Move or skip a visit up to 24 hours ahead at no cost' while Page B states 'Cancel anytime, even an hour before your visit, at no cost' - these describe different cancellation policies that cannot both be true for the same service.""}
+```",3535,84
+B10-contradiction,defect,contradiction,clean_second,B,B,contradiction,True,"Page A states 'Cancel anytime, even an hour before your visit. at no cost.' in section 3, but the FAQ says 'Yes, free of charge up to 24 hours before your visit. Later changes cost $25.' - these cannot both be true.","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A states 'Cancel anytime, even an hour before your visit. at no cost.' in section 3, but the FAQ says 'Yes, free of charge up to 24 hours before your visit. Later changes cost $25.' - these cannot both be true.""}
+```",3535,84
+B10-vague_headline,defect,vague_headline,clean_first,A,same,none,True,"Both pages are nearly identical with only minor cosmetic differences (headline wording: 'A spotless home, booked in 60 seconds' vs 'Experience the difference') that do not affect functionality, trust, pricing clarity, or conversion elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are nearly identical with only minor cosmetic differences (headline wording: 'A spotless home, booked in 60 seconds' vs 'Experience the difference') that do not affect functionality, trust, pricing clarity, or conversion elements.""}
+```",3561,78
+B10-vague_headline,defect,vague_headline,clean_second,B,B,other,True,"Page A's headline 'Experience the difference' is vague about what the service is, while Page B's headline 'A spotless home, booked in 60 seconds' clearly communicates the product and key benefit.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A's headline 'Experience the difference' is vague about what the service is, while Page B's headline 'A spotless home, booked in 60 seconds' clearly communicates the product and key benefit.""}
+```",3561,73
+B10-typos,defect,typos,clean_first,A,same,none,True,"Both pages are identical with no discernible differences in layout, content, CTAs, pricing, images, or text.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical with no discernible differences in layout, content, CTAs, pricing, images, or text.""}
+```",3535,50
+B10-typos,defect,typos,clean_second,B,same,none,True,"Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, images, or any other visual elements.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no discernible differences in layout, content, typography, CTAs, pricing, images, or any other visual elements.""}
+```",3535,55
+B10-placeholder_text,defect,placeholder_text,clean_first,A,A,placeholder_text,True,"Page B shows 'Trusted by 3,000 homes across {{city}}' with the {{city}} placeholder text not filled in, while Page A correctly shows 'Trusted by 3,000 homes across Austin'","```json
+{""better"": ""A"", ""problem"": ""placeholder_text"", ""evidence"": ""Page B shows 'Trusted by 3,000 homes across {{city}}' with the {{city}} placeholder text not filled in, while Page A correctly shows 'Trusted by 3,000 homes across Austin'""}
+```",3535,76
+B10-placeholder_text,defect,placeholder_text,clean_second,B,A,other,True,"Page B changes 'Trusted by 3,000 homes across {{city}}' to 'Trusted by 3,000 homes across Austin' which removes the personalization/dynamic content capability that Page A maintains, reducing the page's reusability and localization flexibility.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B changes 'Trusted by 3,000 homes across {{city}}' to 'Trusted by 3,000 homes across Austin' which removes the personalization/dynamic content capability that Page A maintains, reducing the page's reusability and localization flexibility.""}
+```",3535,85
+B10-low_contrast,defect,low_contrast,clean_first,A,same,none,True,"Both Page A and Page B appear identical with no visible differences in layout, content, typography, CTAs, pricing, images, or any other elements that would affect user conversion or trust.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both Page A and Page B appear identical with no visible differences in layout, content, typography, CTAs, pricing, images, or any other elements that would affect user conversion or trust.""}
+```",3535,63
+B10-low_contrast,defect,low_contrast,clean_second,B,same,none,True,"Both pages are identical in layout, content, typography, and all visual elements. There are no discernible differences between Page A and Page B.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages are identical in layout, content, typography, and all visual elements. There are no discernible differences between Page A and Page B.""}
+```",3535,55
+B10-broken_image,defect,broken_image,clean_first,A,A,broken_image,True,Page B shows a broken image placeholder with alt text 'Mopsquad booking card next to a house illustration' in the hero section where Page A displays a fully rendered booking card illustration.,"```json
+{""better"": ""A"", ""problem"": ""broken_image"", ""evidence"": ""Page B shows a broken image placeholder with alt text 'Mopsquad booking card next to a house illustration' in the hero section where Page A displays a fully rendered booking card illustration.""}
+```",3535,67
+B10-broken_image,defect,broken_image,clean_second,B,B,other,True,"Page B includes a visual confirmation card showing a booked cleaning appointment (Friday, 9:00 AM with team members Rosa and Lee), which demonstrates the product in action and builds trust, while Page A only shows a generic house illustration.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page B includes a visual confirmation card showing a booked cleaning appointment (Friday, 9:00 AM with team members Rosa and Lee), which demonstrates the product in action and builds trust, while Page A only shows a generic house illustration.""}
+```",3535,74
+B10-blocking_popup,defect,blocking_popup,clean_first,A,A,blocking_popup,True,"Page B has a modal popup overlay requesting an email address that blocks the main content when the page loads, while Page A displays the full content without obstruction.","```json
+{""better"": ""A"", ""problem"": ""blocking_popup"", ""evidence"": ""Page B has a modal popup overlay requesting an email address that blocks the main content when the page loads, while Page A displays the full content without obstruction.""}
+```",3535,59
+B10-blocking_popup,defect,blocking_popup,clean_second,B,B,blocking_popup,True,"Page A has a promotional popup overlay ('Get $20 off your first cleaning') that blocks the main content when the page opens, while Page B does not have this blocking element.","```json
+{""better"": ""B"", ""problem"": ""blocking_popup"", ""evidence"": ""Page A has a promotional popup overlay ('Get $20 off your first cleaning') that blocks the main content when the page opens, while Page B does not have this blocking element.""}
+```",3535,64
+B10-cut_off_text,defect,cut_off_text,clean_first,A,B,cut_off_text,True,"In Page A, the main headline 'A spotless home, booked in 60 seconds' is cut off mid-word at 'booked in 60' on the visible portion, whereas Page B shows the complete headline text properly formatted.","```json
+{""better"": ""B"", ""problem"": ""cut_off_text"", ""evidence"": ""In Page A, the main headline 'A spotless home, booked in 60 seconds' is cut off mid-word at 'booked in 60' on the visible portion, whereas Page B shows the complete headline text properly formatted.""}
+```",3561,82
+B10-cut_off_text,defect,cut_off_text,clean_second,B,B,contradiction,True,"Page A's headline says 'booked in 60' but the subheading says 'Pick a time, tell us about your home, and a vetted, insured cleaner arrives with supplies. The same team comes every visit' without mentioning the 60-second booking claim, while Page B's headline 'booked in 60 seconds' is directly suppor","```json
+{""better"": ""B"", ""problem"": ""contradiction"", ""evidence"": ""Page A's headline says 'booked in 60' but the subheading says 'Pick a time, tell us about your home, and a vetted, insured cleaner arrives with supplies. The same team comes every visit' without mentioning the 60-second booking claim, while Page B's headline 'booked in 60 seconds' is directly supported by the process description.""}
+```",3561,110
+B10-identical,control,identical,clean_first,same,same,none,True,"Both pages appear identical with no visible differences in layout, content, pricing, CTAs, images, or text.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Both pages appear identical with no visible differences in layout, content, pricing, CTAs, images, or text.""}
+```",3535,48
+B10-identical,control,identical,clean_second,same,same,none,True,"Page A and Page B are identical in layout, content, messaging, CTAs, pricing, and all visual elements. There are no discernible differences between the two versions.","```json
+{""better"": ""same"", ""problem"": ""none"", ""evidence"": ""Page A and Page B are identical in layout, content, messaging, CTAs, pricing, and all visual elements. There are no discernible differences between the two versions.""}
+```",3535,61
+B10-harmless,control,harmless_hue,clean_first,same,B,other,True,"Page A uses blue as the primary brand color while Page B uses green/teal, and Page B's green color scheme provides better visual consistency with the house illustration's roof and the overall aesthetic of a cleaning/environmental service brand.","```json
+{""better"": ""B"", ""problem"": ""other"", ""evidence"": ""Page A uses blue as the primary brand color while Page B uses green/teal, and Page B's green color scheme provides better visual consistency with the house illustration's roof and the overall aesthetic of a cleaning/environmental service brand.""}
+```",3535,72
+B10-harmless,control,harmless_hue,clean_second,same,A,other,True,"Page B uses a blue color scheme throughout (logo, buttons, house roof, footer) which creates brand inconsistency and appears unfinished compared to Page A's cohesive green branding that matches the Mopsquad brand identity shown in the logo.","```json
+{""better"": ""A"", ""problem"": ""other"", ""evidence"": ""Page B uses a blue color scheme throughout (logo, buttons, house roof, footer) which creates brand inconsistency and appears unfinished compared to Page A's cohesive green branding that matches the Mopsquad brand identity shown in the logo.""}
+```",3535,80

@@ -1,0 +1,25 @@
+{
+ "note": "Kaggle returned this run as a .run.json (no .result.json); these fields are copied from it unchanged.",
+ "task": "pagetwins-pairs-vision",
+ "task_version": 3,
+ "run_id": 4629098,
+ "model": "openai/gpt-6.1-sol",
+ "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+ "startTime": "2026-10-10T16:25:19.340418Z",
+ "endTime": "2026-10-10T16:27:30.540418Z",
+ "score": 0.98,
+ "assertions": [
+  {
+   "expectation": "At most 5% unreadable answers (got 0 of 240).",
+   "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED"
+  },
+  {
+   "expectation": "Says 'same' for every identical pair in both orders (got 100%).",
+   "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED"
+  },
+  {
+   "expectation": "Finds and names at least half of the 100 defects in both orders (got 96%).",
+   "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED"
+  }
+ ]
+}

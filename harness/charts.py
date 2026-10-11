@@ -152,7 +152,7 @@ def chart_category_totals(rows, path, cats, text_visible, task="solo"):
     what = "single page" if task == "solo" else "pairs"
     ax.set_title(f"Twins caught per defect, all models pooled ({what} task)\nred: invisible in the text view by construction",
                  fontsize=10)
-    ax.legend(fontsize=8, frameon=False, loc="lower right")
+    ax.legend(fontsize=8, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.07), ncol=2)
     fig.tight_layout()
     fig.savefig(path, dpi=160)
     plt.close(fig)
@@ -189,25 +189,26 @@ def chart_dumbbell(rows, path, pairs_of, labels, title, xlabel):
 
 def chart_false_alarms(rows, path):
     got = index(rows)
-    fig, ax = plt.subplots(figsize=(7.6, 5.2))
-    for mode, color, marker in (("vision", BLUE, "o"), ("text", ORANGE, "s")):
-        for mo in model_order(rows):
+    models = model_order(rows)
+    y = np.arange(len(models))
+    fig, ax = plt.subplots(figsize=(7.6, 0.5 * len(models) + 1.6))
+    for mode, color, off, label in (("vision", BLUE, -0.2, "screenshot"), ("text", ORANGE, 0.2, "text view")):
+        for i, mo in enumerate(models):
             m = got.get((mo, "solo", mode))
             if not m:
+                ax.text(0.003, i + off, "not run", va="center", fontsize=7.5, color=GREY)
                 continue
-            x, y = m["strict_detection_rate"], m["clean_pages_with_any_flag"]
-            ax.scatter([x], [y], color=color, marker=marker, s=55, zorder=2)
-            ax.annotate(name(mo), (x, y), textcoords="offset points", xytext=(5, 4), fontsize=7.5, color=color)
-    ax.scatter([], [], color=BLUE, marker="o", label="screenshot")
-    ax.scatter([], [], color=ORANGE, marker="s", label="text view")
-    ax.set_xlim(-0.03, 1.03)
-    ax.set_ylim(-0.03, 1.03)
+            v = m["clean_pages_with_any_flag"]
+            n = m["clean_pages"]
+            ax.barh(i + off, v, 0.38, color=color, label=label if i == 0 else None)
+            ax.text(v + 0.005, i + off, f"{round(v * n)} of {n}", va="center", fontsize=7.5, color=color)
+    ax.set_yticks(y, [name(m) for m in models], fontsize=9.5)
+    ax.invert_yaxis()
+    ax.set_xlim(0, 0.4)
     ax.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-    ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-    ax.set_xlabel("Twins caught (defect flagged, original not flagged for it)", fontsize=9)
-    ax.set_ylabel("Clean pages flagged with at least one problem", fontsize=9)
-    ax.set_title("Single-page task: catching defects vs crying wolf (bottom right is best)", fontsize=10)
-    ax.legend(fontsize=8, frameon=False)
+    ax.set_xlabel("Clean pages (originals and harmless variants) flagged with at least one problem", fontsize=9)
+    ax.set_title("Single-page task: false alarms on pages with nothing wrong (lower is better)", fontsize=10)
+    ax.legend(fontsize=8, frameon=False, loc="lower right")
     fig.tight_layout()
     fig.savefig(path, dpi=160)
     plt.close(fig)

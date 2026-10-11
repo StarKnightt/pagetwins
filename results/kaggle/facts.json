@@ -1,0 +1,1352 @@
+{
+ "models": {
+  "claude-sonnet-5-5-default": {
+   "name": "Claude Sonnet 5.5",
+   "pairs_vision": {
+    "score": 1.0,
+    "caught": 1.0,
+    "caught_text_visible": 1.0,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 1.0,
+    "one_order_only": 0.0,
+    "said_same_both": 0.0,
+    "wrong_labels": {}
+   },
+   "solo_vision": {
+    "score": 0.98,
+    "caught": 0.98,
+    "caught_text_visible": 0.9714,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "clean_flagged": 0.0,
+    "flagged": 0.98,
+    "score_drop": 0.9898,
+    "mean_score_clean": 9.0,
+    "mean_score_twin": 5.582,
+    "false_flags": {}
+   },
+   "pairs_text": {
+    "score": 0.85,
+    "caught": 0.7,
+    "caught_text_visible": 1.0,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 0.7,
+    "one_order_only": 0.0,
+    "said_same_both": 0.3,
+    "wrong_labels": {}
+   },
+   "solo_text": {
+    "score": 0.63,
+    "caught": 0.63,
+    "caught_text_visible": 0.9,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.0,
+    "flagged": 0.63,
+    "score_drop": 0.67,
+    "mean_score_clean": 9.05,
+    "mean_score_twin": 7.35,
+    "false_flags": {}
+   }
+  },
+  "gpt-6.1-sol": {
+   "name": "GPT-6.1 Sol",
+   "pairs_vision": {
+    "score": 0.98,
+    "caught": 0.96,
+    "caught_text_visible": 0.9429,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.4974,
+    "picked_both": 0.96,
+    "one_order_only": 0.01,
+    "said_same_both": 0.03,
+    "wrong_labels": {}
+   },
+   "solo_vision": {
+    "score": 0.98,
+    "caught": 0.98,
+    "caught_text_visible": 0.9714,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "clean_flagged": 0.0,
+    "flagged": 0.98,
+    "score_drop": 0.98,
+    "mean_score_clean": 10.0,
+    "mean_score_twin": 7.47,
+    "false_flags": {}
+   },
+   "pairs_text": {
+    "score": 0.85,
+    "caught": 0.7,
+    "caught_text_visible": 1.0,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 0.7,
+    "one_order_only": 0.0,
+    "said_same_both": 0.3,
+    "wrong_labels": {}
+   },
+   "solo_text": {
+    "score": 0.61,
+    "caught": 0.61,
+    "caught_text_visible": 0.8714,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.05,
+    "flagged": 0.61,
+    "score_drop": 0.65,
+    "mean_score_clean": 9.95,
+    "mean_score_twin": 8.57,
+    "false_flags": {
+     "typos": 1
+    }
+   }
+  },
+  "gemma-4-31b-it": {
+   "name": "Gemma 4 31B",
+   "pairs_vision": {
+    "score": 0.95,
+    "caught": 0.95,
+    "caught_text_visible": 0.9714,
+    "caught_visual_only": 0.9,
+    "invalid": 0,
+    "controls": 0.95,
+    "identical": 1.0,
+    "harmless": 0.9,
+    "share_A": 0.505,
+    "picked_both": 0.99,
+    "one_order_only": 0.01,
+    "said_same_both": 0.0,
+    "wrong_labels": {
+     "typos": 2,
+     "placeholder_text": 1,
+     "contradiction": 1
+    }
+   },
+   "solo_vision": {
+    "score": 0.93,
+    "caught": 0.93,
+    "caught_text_visible": 0.9714,
+    "caught_visual_only": 0.8333,
+    "invalid": 0,
+    "clean_flagged": 0.05,
+    "flagged": 0.93,
+    "score_drop": 0.94,
+    "mean_score_clean": 9.9,
+    "mean_score_twin": 6.98,
+    "false_flags": {
+     "contradiction": 1
+    }
+   },
+   "pairs_text": {
+    "score": 0.85,
+    "caught": 0.7,
+    "caught_text_visible": 1.0,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 0.7,
+    "one_order_only": 0.0,
+    "said_same_both": 0.3,
+    "wrong_labels": {}
+   },
+   "solo_text": {
+    "score": 0.67,
+    "caught": 0.67,
+    "caught_text_visible": 0.9571,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.05,
+    "flagged": 0.67,
+    "score_drop": 0.69,
+    "mean_score_clean": 9.9,
+    "mean_score_twin": 8.17,
+    "false_flags": {
+     "contradiction": 1,
+     "typos": 1
+    }
+   }
+  },
+  "gemini-3.7-flash": {
+   "name": "Gemini 3.7 Flash",
+   "pairs_vision": {
+    "score": 0.99,
+    "caught": 0.98,
+    "caught_text_visible": 0.9714,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5025,
+    "picked_both": 0.99,
+    "one_order_only": 0.01,
+    "said_same_both": 0.0,
+    "wrong_labels": {
+     "contradiction": 1
+    }
+   },
+   "solo_vision": {
+    "score": 0.96,
+    "caught": 0.96,
+    "caught_text_visible": 0.9429,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "clean_flagged": 0.0,
+    "flagged": 0.96,
+    "score_drop": 0.98,
+    "mean_score_clean": 10.0,
+    "mean_score_twin": 6.77,
+    "false_flags": {}
+   },
+   "pairs_text": {
+    "score": 0.8,
+    "caught": 0.6,
+    "caught_text_visible": 0.8571,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 0.61,
+    "one_order_only": 0.0,
+    "said_same_both": 0.39,
+    "wrong_labels": {
+     "contradiction": 1
+    }
+   },
+   "solo_text": {
+    "score": 0.56,
+    "caught": 0.56,
+    "caught_text_visible": 0.8,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.0,
+    "flagged": 0.56,
+    "score_drop": 0.56,
+    "mean_score_clean": 10.0,
+    "mean_score_twin": 8.45,
+    "false_flags": {}
+   }
+  },
+  "gpt-6-luna": {
+   "name": "GPT-6 Luna",
+   "pairs_vision": {
+    "score": 0.965,
+    "caught": 0.93,
+    "caught_text_visible": 0.9,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 0.93,
+    "one_order_only": 0.02,
+    "said_same_both": 0.05,
+    "wrong_labels": {}
+   },
+   "solo_vision": {
+    "score": 0.89,
+    "caught": 0.89,
+    "caught_text_visible": 0.8429,
+    "caught_visual_only": 1.0,
+    "invalid": 0,
+    "clean_flagged": 0.0,
+    "flagged": 0.89,
+    "score_drop": 0.91,
+    "mean_score_clean": 10.0,
+    "mean_score_twin": 7.51,
+    "false_flags": {}
+   },
+   "pairs_text": {
+    "score": 0.84,
+    "caught": 0.68,
+    "caught_text_visible": 0.9714,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5072,
+    "picked_both": 0.68,
+    "one_order_only": 0.02,
+    "said_same_both": 0.3,
+    "wrong_labels": {}
+   },
+   "solo_text": {
+    "score": 0.58,
+    "caught": 0.58,
+    "caught_text_visible": 0.8286,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.05,
+    "flagged": 0.59,
+    "score_drop": 0.6,
+    "mean_score_clean": 9.85,
+    "mean_score_twin": 8.49,
+    "false_flags": {
+     "typos": 1
+    }
+   }
+  },
+  "gemini-3.5-flash-lite": {
+   "name": "Gemini 3.5 Flash-Lite",
+   "pairs_vision": {
+    "score": 0.635,
+    "caught": 0.72,
+    "caught_text_visible": 0.7857,
+    "caught_visual_only": 0.5667,
+    "invalid": 0,
+    "controls": 0.55,
+    "identical": 1.0,
+    "harmless": 0.1,
+    "share_A": 0.5025,
+    "picked_both": 0.79,
+    "one_order_only": 0.1,
+    "said_same_both": 0.04,
+    "wrong_labels": {
+     "typos": 4,
+     "vague_headline": 2,
+     "other": 1,
+     "placeholder_text": 2,
+     "contradiction": 1
+    }
+   },
+   "solo_vision": {
+    "score": 0.63,
+    "caught": 0.63,
+    "caught_text_visible": 0.6429,
+    "caught_visual_only": 0.6,
+    "invalid": 0,
+    "clean_flagged": 0.05,
+    "flagged": 0.64,
+    "score_drop": 0.64,
+    "mean_score_clean": 9.95,
+    "mean_score_twin": 8.3,
+    "false_flags": {
+     "typos": 1
+    }
+   },
+   "pairs_text": {
+    "score": 0.8,
+    "caught": 0.6,
+    "caught_text_visible": 0.8571,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5344,
+    "picked_both": 0.61,
+    "one_order_only": 0.07,
+    "said_same_both": 0.32,
+    "wrong_labels": {
+     "contradiction": 1
+    }
+   },
+   "solo_text": {
+    "score": 0.53,
+    "caught": 0.53,
+    "caught_text_visible": 0.7571,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.1,
+    "flagged": 0.54,
+    "score_drop": 0.53,
+    "mean_score_clean": 9.8,
+    "mean_score_twin": 8.74,
+    "false_flags": {
+     "contradiction": 2
+    }
+   }
+  },
+  "claude-haiku-4-5-20251001": {
+   "name": "Claude Haiku 4.5",
+   "pairs_vision": {
+    "score": 0.455,
+    "caught": 0.36,
+    "caught_text_visible": 0.4143,
+    "caught_visual_only": 0.2333,
+    "invalid": 0,
+    "controls": 0.55,
+    "identical": 1.0,
+    "harmless": 0.1,
+    "share_A": 0.3822,
+    "picked_both": 0.55,
+    "one_order_only": 0.32,
+    "said_same_both": 0.09,
+    "wrong_labels": {
+     "other": 18,
+     "missing_cta": 2,
+     "typos": 3,
+     "contradiction": 3,
+     "placeholder_text": 1,
+     "vague_headline": 2
+    }
+   },
+   "solo_vision": {
+    "score": 0.37,
+    "caught": 0.37,
+    "caught_text_visible": 0.4571,
+    "caught_visual_only": 0.1667,
+    "invalid": 0,
+    "clean_flagged": 0.1,
+    "flagged": 0.38,
+    "score_drop": 0.22,
+    "mean_score_clean": 8.9,
+    "mean_score_twin": 8.6,
+    "false_flags": {
+     "contradiction": 2
+    }
+   },
+   "pairs_text": {
+    "score": 0.605,
+    "caught": 0.51,
+    "caught_text_visible": 0.7286,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 0.7,
+    "identical": 1.0,
+    "harmless": 0.4,
+    "share_A": 0.5658,
+    "picked_both": 0.55,
+    "one_order_only": 0.11,
+    "said_same_both": 0.3,
+    "wrong_labels": {
+     "other": 6
+    }
+   },
+   "solo_text": {
+    "score": 0.45,
+    "caught": 0.45,
+    "caught_text_visible": 0.6429,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.1,
+    "flagged": 0.46,
+    "score_drop": 0.34,
+    "mean_score_clean": 8.9,
+    "mean_score_twin": 8.41,
+    "false_flags": {
+     "contradiction": 2
+    }
+   }
+  },
+  "glm-5": {
+   "name": "GLM-5",
+   "pairs_text": {
+    "score": 0.85,
+    "caught": 0.7,
+    "caught_text_visible": 1.0,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 1.0,
+    "identical": 1.0,
+    "harmless": 1.0,
+    "share_A": 0.5,
+    "picked_both": 0.7,
+    "one_order_only": 0.0,
+    "said_same_both": 0.3,
+    "wrong_labels": {}
+   },
+   "solo_text": {
+    "score": 0.53,
+    "caught": 0.53,
+    "caught_text_visible": 0.7571,
+    "caught_visual_only": 0.0,
+    "invalid": 2,
+    "clean_flagged": 0.2,
+    "flagged": 0.54,
+    "score_drop": 0.602,
+    "mean_score_clean": 9.6,
+    "mean_score_twin": 7.551,
+    "false_flags": {
+     "contradiction": 4
+    }
+   }
+  },
+  "deepseek-r1-0528": {
+   "name": "DeepSeek-R1",
+   "pairs_text": {
+    "score": 0.745,
+    "caught": 0.69,
+    "caught_text_visible": 0.9857,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "controls": 0.8,
+    "identical": 1.0,
+    "harmless": 0.6,
+    "share_A": 0.5,
+    "picked_both": 0.69,
+    "one_order_only": 0.01,
+    "said_same_both": 0.3,
+    "wrong_labels": {}
+   },
+   "solo_text": {
+    "score": 0.61,
+    "caught": 0.61,
+    "caught_text_visible": 0.8714,
+    "caught_visual_only": 0.0,
+    "invalid": 0,
+    "clean_flagged": 0.3,
+    "flagged": 0.64,
+    "score_drop": 0.57,
+    "mean_score_clean": 9.05,
+    "mean_score_twin": 7.95,
+    "false_flags": {
+     "contradiction": 3,
+     "typos": 2,
+     "hidden_price": 1
+    }
+   }
+  },
+  "qwen3-235b-a22b-instruct-2507": {
+   "name": "Qwen 3 235B",
+   "pairs_text": {
+    "score": 0.685,
+    "caught": 0.52,
+    "caught_text_visible": 0.7429,
+    "caught_visual_only": 0.0,
+    "invalid": 2,
+    "controls": 0.85,
+    "identical": 1.0,
+    "harmless": 0.7,
+    "share_A": 0.4685,
+    "picked_both": 0.52,
+    "one_order_only": 0.1,
+    "said_same_both": 0.29,
+    "wrong_labels": {
+     "other": 3
+    }
+   },
+   "solo_text": {
+    "score": 0.37,
+    "caught": 0.37,
+    "caught_text_visible": 0.5286,
+    "caught_visual_only": 0.0,
+    "invalid": 1,
+    "clean_flagged": 0.0,
+    "flagged": 0.37,
+    "score_drop": 0.3939,
+    "mean_score_clean": 10.0,
+    "mean_score_twin": 8.828,
+    "false_flags": {}
+   }
+  }
+ },
+ "categories": {
+  "pairs_vision": {
+   "missing_cta": {
+    "caught": 66,
+    "of": 70,
+    "models": 7
+   },
+   "hidden_price": {
+    "caught": 60,
+    "of": 70,
+    "models": 7
+   },
+   "contradiction": {
+    "caught": 51,
+    "of": 70,
+    "models": 7
+   },
+   "vague_headline": {
+    "caught": 59,
+    "of": 70,
+    "models": 7
+   },
+   "typos": {
+    "caught": 51,
+    "of": 70,
+    "models": 7
+   },
+   "placeholder_text": {
+    "caught": 62,
+    "of": 70,
+    "models": 7
+   },
+   "blocking_popup": {
+    "caught": 70,
+    "of": 70,
+    "models": 7
+   },
+   "low_contrast": {
+    "caught": 52,
+    "of": 70,
+    "models": 7
+   },
+   "broken_image": {
+    "caught": 62,
+    "of": 70,
+    "models": 7
+   },
+   "cut_off_text": {
+    "caught": 57,
+    "of": 70,
+    "models": 7
+   }
+  },
+  "solo_vision": {
+   "missing_cta": {
+    "caught": 55,
+    "of": 70,
+    "models": 7
+   },
+   "hidden_price": {
+    "caught": 67,
+    "of": 70,
+    "models": 7
+   },
+   "contradiction": {
+    "caught": 49,
+    "of": 70,
+    "models": 7
+   },
+   "vague_headline": {
+    "caught": 47,
+    "of": 70,
+    "models": 7
+   },
+   "typos": {
+    "caught": 51,
+    "of": 70,
+    "models": 7
+   },
+   "placeholder_text": {
+    "caught": 67,
+    "of": 70,
+    "models": 7
+   },
+   "blocking_popup": {
+    "caught": 70,
+    "of": 70,
+    "models": 7
+   },
+   "low_contrast": {
+    "caught": 49,
+    "of": 70,
+    "models": 7
+   },
+   "broken_image": {
+    "caught": 56,
+    "of": 70,
+    "models": 7
+   },
+   "cut_off_text": {
+    "caught": 63,
+    "of": 70,
+    "models": 7
+   }
+  },
+  "pairs_text": {
+   "missing_cta": {
+    "caught": 98,
+    "of": 100,
+    "models": 10
+   },
+   "hidden_price": {
+    "caught": 97,
+    "of": 100,
+    "models": 10
+   },
+   "contradiction": {
+    "caught": 82,
+    "of": 100,
+    "models": 10
+   },
+   "vague_headline": {
+    "caught": 94,
+    "of": 100,
+    "models": 10
+   },
+   "typos": {
+    "caught": 100,
+    "of": 100,
+    "models": 10
+   },
+   "placeholder_text": {
+    "caught": 99,
+    "of": 100,
+    "models": 10
+   },
+   "blocking_popup": {
+    "caught": 70,
+    "of": 100,
+    "models": 10
+   },
+   "low_contrast": {
+    "caught": 0,
+    "of": 100,
+    "models": 10
+   },
+   "broken_image": {
+    "caught": 0,
+    "of": 100,
+    "models": 10
+   },
+   "cut_off_text": {
+    "caught": 0,
+    "of": 100,
+    "models": 10
+   }
+  },
+  "solo_text": {
+   "missing_cta": {
+    "caught": 75,
+    "of": 100,
+    "models": 10
+   },
+   "hidden_price": {
+    "caught": 94,
+    "of": 100,
+    "models": 10
+   },
+   "contradiction": {
+    "caught": 80,
+    "of": 100,
+    "models": 10
+   },
+   "vague_headline": {
+    "caught": 58,
+    "of": 100,
+    "models": 10
+   },
+   "typos": {
+    "caught": 98,
+    "of": 100,
+    "models": 10
+   },
+   "placeholder_text": {
+    "caught": 99,
+    "of": 100,
+    "models": 10
+   },
+   "blocking_popup": {
+    "caught": 50,
+    "of": 100,
+    "models": 10
+   },
+   "low_contrast": {
+    "caught": 0,
+    "of": 100,
+    "models": 10
+   },
+   "broken_image": {
+    "caught": 0,
+    "of": 100,
+    "models": 10
+   },
+   "cut_off_text": {
+    "caught": 0,
+    "of": 100,
+    "models": 10
+   }
+  }
+ },
+ "costs": {
+  "claude-haiku-4-5-20251001|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 379090,
+   "output_tokens": 15301,
+   "input_per_item": 1580,
+   "output_per_item": 64,
+   "usd_estimate": 0.456
+  },
+  "claude-sonnet-5-5-default|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 506382,
+   "output_tokens": 20283,
+   "input_per_item": 2110,
+   "output_per_item": 85,
+   "usd_estimate": 1.216
+  },
+  "deepseek-r1-0528|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 341004,
+   "output_tokens": 163773,
+   "input_per_item": 1421,
+   "output_per_item": 682,
+   "usd_estimate": 1.345
+  },
+  "gemini-3.5-flash-lite|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 357564,
+   "output_tokens": 9021,
+   "input_per_item": 1490,
+   "output_per_item": 38,
+   "usd_estimate": 0.13
+  },
+  "gemini-3.7-flash|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 357564,
+   "output_tokens": 84315,
+   "input_per_item": 1490,
+   "output_per_item": 351,
+   "usd_estimate": 0.584
+  },
+  "gemma-4-31b-it|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 357564,
+   "output_tokens": 161724,
+   "input_per_item": 1490,
+   "output_per_item": 674,
+   "usd_estimate": null
+  },
+  "glm-5|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 337704,
+   "output_tokens": 421679,
+   "input_per_item": 1407,
+   "output_per_item": 1757,
+   "usd_estimate": null
+  },
+  "gpt-6-luna|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 334912,
+   "output_tokens": 20449,
+   "input_per_item": 1395,
+   "output_per_item": 85,
+   "usd_estimate": 0.044
+  },
+  "gpt-6.1-sol|pairs_text": {
+   "items_with_usage": 240,
+   "input_tokens": 334912,
+   "output_tokens": 9607,
+   "input_per_item": 1395,
+   "output_per_item": 40,
+   "usd_estimate": 0.766
+  },
+  "qwen3-235b-a22b-instruct-2507|pairs_text": {
+   "items_with_usage": 237,
+   "input_tokens": 340192,
+   "output_tokens": 10184,
+   "input_per_item": 1435,
+   "output_per_item": 43,
+   "usd_estimate": null
+  },
+  "claude-haiku-4-5-20251001|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 837100,
+   "output_tokens": 17243,
+   "input_per_item": 3488,
+   "output_per_item": 72,
+   "usd_estimate": 0.923
+  },
+  "claude-sonnet-5-5-default|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 2084852,
+   "output_tokens": 26879,
+   "input_per_item": 8687,
+   "output_per_item": 112,
+   "usd_estimate": 4.438
+  },
+  "gemini-3.5-flash-lite|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 625192,
+   "output_tokens": 10546,
+   "input_per_item": 2605,
+   "output_per_item": 44,
+   "usd_estimate": 0.214
+  },
+  "gemini-3.7-flash|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 625192,
+   "output_tokens": 64106,
+   "input_per_item": 2605,
+   "output_per_item": 267,
+   "usd_estimate": 0.709
+  },
+  "gemma-4-31b-it|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 229440,
+   "output_tokens": 123945,
+   "input_per_item": 956,
+   "output_per_item": 516,
+   "usd_estimate": null
+  },
+  "gpt-6-luna|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 2006784,
+   "output_tokens": 25431,
+   "input_per_item": 8362,
+   "output_per_item": 106,
+   "usd_estimate": 0.213
+  },
+  "gpt-6.1-sol|pairs_vision": {
+   "items_with_usage": 240,
+   "input_tokens": 2006784,
+   "output_tokens": 10579,
+   "input_per_item": 8362,
+   "output_per_item": 44,
+   "usd_estimate": 4.119
+  },
+  "claude-haiku-4-5-20251001|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 112493,
+   "output_tokens": 8998,
+   "input_per_item": 937,
+   "output_per_item": 75,
+   "usd_estimate": 0.157
+  },
+  "claude-sonnet-5-5-default|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 149919,
+   "output_tokens": 35545,
+   "input_per_item": 1249,
+   "output_per_item": 296,
+   "usd_estimate": 0.655
+  },
+  "deepseek-r1-0528|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 101850,
+   "output_tokens": 183125,
+   "input_per_item": 849,
+   "output_per_item": 1526,
+   "usd_estimate": 1.126
+  },
+  "gemini-3.5-flash-lite|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 106218,
+   "output_tokens": 4082,
+   "input_per_item": 885,
+   "output_per_item": 34,
+   "usd_estimate": 0.042
+  },
+  "gemini-3.7-flash|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 106218,
+   "output_tokens": 52689,
+   "input_per_item": 885,
+   "output_per_item": 439,
+   "usd_estimate": 0.277
+  },
+  "gemma-4-31b-it|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 106218,
+   "output_tokens": 106959,
+   "input_per_item": 885,
+   "output_per_item": 891,
+   "usd_estimate": null
+  },
+  "glm-5|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 100572,
+   "output_tokens": 263702,
+   "input_per_item": 838,
+   "output_per_item": 2198,
+   "usd_estimate": null
+  },
+  "gpt-6-luna|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 99992,
+   "output_tokens": 21615,
+   "input_per_item": 833,
+   "output_per_item": 180,
+   "usd_estimate": 0.021
+  },
+  "gpt-6.1-sol|solo_text": {
+   "items_with_usage": 120,
+   "input_tokens": 99992,
+   "output_tokens": 8849,
+   "input_per_item": 833,
+   "output_per_item": 74,
+   "usd_estimate": 0.288
+  },
+  "qwen3-235b-a22b-instruct-2507|solo_text": {
+   "items_with_usage": 118,
+   "input_tokens": 100892,
+   "output_tokens": 4103,
+   "input_per_item": 855,
+   "output_per_item": 35,
+   "usd_estimate": null
+  },
+  "claude-haiku-4-5-20251001|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 224294,
+   "output_tokens": 8996,
+   "input_per_item": 1869,
+   "output_per_item": 75,
+   "usd_estimate": 0.269
+  },
+  "claude-sonnet-5-5-default|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 540562,
+   "output_tokens": 41665,
+   "input_per_item": 4505,
+   "output_per_item": 347,
+   "usd_estimate": 1.498
+  },
+  "gemini-3.5-flash-lite|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 170252,
+   "output_tokens": 4039,
+   "input_per_item": 1419,
+   "output_per_item": 34,
+   "usd_estimate": 0.061
+  },
+  "gemini-3.7-flash|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 170252,
+   "output_tokens": 56218,
+   "input_per_item": 1419,
+   "output_per_item": 468,
+   "usd_estimate": 0.339
+  },
+  "gemma-4-31b-it|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 71280,
+   "output_tokens": 106953,
+   "input_per_item": 594,
+   "output_per_item": 891,
+   "usd_estimate": null
+  },
+  "gpt-6-luna|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 513504,
+   "output_tokens": 24953,
+   "input_per_item": 4279,
+   "output_per_item": 208,
+   "usd_estimate": 0.064
+  },
+  "gpt-6.1-sol|solo_vision": {
+   "items_with_usage": 120,
+   "input_tokens": 513504,
+   "output_tokens": 9573,
+   "input_per_item": 4279,
+   "output_per_item": 80,
+   "usd_estimate": 1.123
+  }
+ },
+ "controls": {
+  "claude-haiku-4-5-20251001|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 0
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 0
+   }
+  },
+  "claude-sonnet-5-5-default|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "deepseek-r1-0528|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 1
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 1
+   }
+  },
+  "gemini-3.5-flash-lite|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gemini-3.7-flash|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gemma-4-31b-it|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "glm-5|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gpt-6-luna|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gpt-6.1-sol|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "qwen3-235b-a22b-instruct-2507|pairs_text": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 2
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 1
+   }
+  },
+  "claude-haiku-4-5-20251001|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 1
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 0
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 0
+   }
+  },
+  "claude-sonnet-5-5-default|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gemini-3.5-flash-lite|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 0
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 0
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 1
+   }
+  },
+  "gemini-3.7-flash|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gemma-4-31b-it|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 2
+   }
+  },
+  "gpt-6-luna|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  },
+  "gpt-6.1-sol|pairs_vision": {
+   "identical": {
+    "pairs": 10,
+    "passed": 10
+   },
+   "harmless_hue": {
+    "pairs": 4,
+    "passed": 4
+   },
+   "harmless_reorder": {
+    "pairs": 3,
+    "passed": 3
+   },
+   "harmless_paraphrase": {
+    "pairs": 3,
+    "passed": 3
+   }
+  }
+ }
+}

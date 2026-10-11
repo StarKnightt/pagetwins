@@ -1,0 +1,837 @@
+page_id,base_id,role,category,problems,score,valid,evidence,raw,input_tokens,output_tokens
+p1efc40b7,B01,clean,none,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional presentation. Minor consideration: the free plan limit of 3 clients could be more prominently highlighted in comparison, but this is not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional presentation. Minor consideration: the free plan limit of 3 clients could be more prominently highlighted in comparison, but this is not a blocking issue.""
+}
+```",1891,82
+pd36dc7d2,B01,twin,missing_cta,['missing_cta'],7,True,"The page lacks a prominent call-to-action button or link to sign up, start a free trial, or begin using the service, which is essential for conversion.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""The page lacks a prominent call-to-action button or link to sign up, start a free trial, or begin using the service, which is essential for conversion.""
+}
+```",1917,70
+pecc9be34,B01,twin,hidden_price,['hidden_price'],8,True,"The Pro and Studio pricing plans show 'Contact us' instead of displaying actual prices, making it impossible for visitors to understand the cost of paid tiers.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Pro and Studio pricing plans show 'Contact us' instead of displaying actual prices, making it impossible for visitors to understand the cost of paid tiers.""
+}
+```",1891,67
+p0d450028,B01,twin,contradiction,[],9,True,"The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor consideration: the free plan limit could be more prominently displayed in the comparison table.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor consideration: the free plan limit could be more prominently displayed in the comparison table.""
+}
+```",1891,71
+pc7c159fe,B01,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, pricing information, no typos, good contrast, and all images loading properly. Minor consideration: the free plan section could be slightly more prominent.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, no typos, good contrast, and all images loading properly. Minor consideration: the free plan section could be slightly more prominent.""
+}
+```",1891,71
+pc82582f2,B01,twin,typos,[],9,True,"Page is well-designed with clear CTAs, visible pricing, no typos, and good contrast. Minor: the free plan could be slightly more prominent in the pricing comparison.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing, no typos, and good contrast. Minor: the free plan could be slightly more prominent in the pricing comparison.""
+}
+```",1891,67
+p5d4b672c,B01,twin,placeholder_text,['placeholder_text'],9,True,"Lorem ipsum placeholder text is visible in the 'Reminders that sound like you' section under step 2, which should contain actual product description.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 9,
+  ""evidence"": ""Lorem ipsum placeholder text is visible in the 'Reminders that sound like you' section under step 2, which should contain actual product description.""
+}
+```",1919,66
+p2874ab01,B01,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor room for improvement in micro-copy optimization.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor room for improvement in micro-copy optimization.""
+}
+```",1891,63
+pf08edc68,B01,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor room for improvement in headline specificity.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor room for improvement in headline specificity.""
+}
+```",1891,62
+pd2b936e6,B01,twin,blocking_popup,['blocking_popup'],9,True,"A modal dialog for 'Get 10 free invoice templates' is overlaying the main content when the page loads, blocking the user's view of the page.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A modal dialog for 'Get 10 free invoice templates' is overlaying the main content when the page loads, blocking the user's view of the page.""
+}
+```",1891,69
+pff5f9f69,B01,twin,cut_off_text,['cut_off_text'],9,True,"The main headline 'Send invoices that get paid in days' is cut off mid-word at 'get paid in days' in the hero section, with the full text not visible without scrolling.","```json
+{
+  ""problems"": [""cut_off_text""],
+  ""score"": 9,
+  ""evidence"": ""The main headline 'Send invoices that get paid in days' is cut off mid-word at 'get paid in days' in the hero section, with the full text not visible without scrolling.""
+}
+```",1917,80
+pc34ef015,B01,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, visible pricing, and no apparent technical issues. Minor room for improvement in visual hierarchy but overall launch-ready.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, and no apparent technical issues. Minor room for improvement in visual hierarchy but overall launch-ready.""
+}
+```",1891,64
+p9810d579,B02,clean,none,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is readable. Minor note: the page could benefit from slightly more specific language in the main headline to explicitly mention 'staff scheduling software' but this is not a critical issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is readable. Minor note: the page could benefit from slightly more specific language in the main headline to explicitly mention 'staff scheduling software' but this is not a critical issue.""
+}
+```",1891,88
+p12e14132,B02,twin,missing_cta,['missing_cta'],7,True,"While pricing is clearly displayed and the page is well-designed, there is no visible sign-up, start trial, or purchase button to convert visitors into customers.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""While pricing is clearly displayed and the page is well-designed, there is no visible sign-up, start trial, or purchase button to convert visitors into customers.""
+}
+```",1917,69
+p4190037a,B02,twin,hidden_price,['hidden_price'],8,True,The pricing section shows 'Starter' and 'Growth' plans with only 'Contact us' buttons instead of displaying actual prices.,"```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The pricing section shows 'Starter' and 'Growth' plans with only 'Contact us' buttons instead of displaying actual prices.""
+}
+```",1891,64
+pcbf9c1cc,B02,twin,contradiction,[],9,True,"Page is well-designed with clear CTAs, visible pricing, no contradictions, descriptive headlines, and no technical issues. Minor: the quote attribution could be slightly larger, but this is negligible.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing, no contradictions, descriptive headlines, and no technical issues. Minor: the quote attribution could be slightly larger, but this is negligible.""
+}
+```",1891,73
+pe3ba35c3,B02,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no apparent technical issues. Minor: the 'Most popular' badge could be slightly more prominent, but this is not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no apparent technical issues. Minor: the 'Most popular' badge could be slightly more prominent, but this is not a blocking issue.""
+}
+```",1917,74
+p363ddf68,B02,twin,typos,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional layout. Minor: the word 'staf' appears to be a typo for 'staff' in the subheading 'Build next week's staf rota in 10 minutes' but this is a very minor issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional layout. Minor: the word 'staf' appears to be a typo for 'staff' in the subheading 'Build next week's staf rota in 10 minutes' but this is a very minor issue.""
+}
+```",1891,102
+pd615770a,B02,twin,placeholder_text,['placeholder_text'],8,True,"Placeholder text '{{customer_name}}, {{customer_role}}' is visible in the customer testimonial section, which should contain actual customer information.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Placeholder text '{{customer_name}}, {{customer_role}}' is visible in the customer testimonial section, which should contain actual customer information.""
+}
+```",1891,67
+pf311fec4,B02,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional layout. Minor: the phrase 'labor cost this week' in the scheduling demo could be slightly clearer, but this is a very minor issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional layout. Minor: the phrase 'labor cost this week' in the scheduling demo could be slightly clearer, but this is a very minor issue.""
+}
+```",1891,82
+p25875516,B02,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all images loading properly. Minor: the phrase 'staff rota' in the headline could be slightly more descriptive for first-time visitors unfamiliar with the term, but it is industry-appropriate.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all images loading properly. Minor: the phrase 'staff rota' in the headline could be slightly more descriptive for first-time visitors unfamiliar with the term, but it is industry-appropriate.""
+}
+```",1891,96
+p7c86f774,B02,twin,blocking_popup,['blocking_popup'],9,True,"A modal popup for 'Weekly scheduling tips for owners' is overlaying the main content when the page loads, blocking the user's view of the hero section and primary call-to-action.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A modal popup for 'Weekly scheduling tips for owners' is overlaying the main content when the page loads, blocking the user's view of the hero section and primary call-to-action.""
+}
+```",1891,75
+p971e3764,B02,twin,cut_off_text,[],9,True,"The page is well-designed with clear CTAs, pricing displayed, no contradictions, specific headlines about staff scheduling, and no visible typos, placeholder text, contrast issues, broken images, popups, or cut-off text.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing displayed, no contradictions, specific headlines about staff scheduling, and no visible typos, placeholder text, contrast issues, broken images, popups, or cut-off text.""
+}
+```",1917,79
+pcc8a3d69,B02,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no apparent technical issues. Minor consideration: the phrase 'Build next week's staff rota in 10 minutes' could be slightly more specific about what product this is, but it is adequately clear from context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no apparent technical issues. Minor consideration: the phrase 'Build next week's staff rota in 10 minutes' could be slightly more specific about what product this is, but it is adequately clear from context.""
+}
+```",1891,91
+p61dbc346,B03,clean,none,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and complete content. Minor deductions for extremely high performance claims that may need substantiation.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and complete content. Minor deductions for extremely high performance claims that may need substantiation.""
+}
+```",1751,70
+pfb084bcc,B03,twin,missing_cta,[],9,True,"The page is well-designed with clear CTAs (Search button, pricing plans with sign-up options), visible pricing ($0, $49, $199/month), no contradictions, clear headlines, no typos, no placeholder text, good contrast, no broken images, no popups, and no cut-off text. Minor: could have a more prominent","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs (Search button, pricing plans with sign-up options), visible pricing ($0, $49, $199/month), no contradictions, clear headlines, no typos, no placeholder text, good contrast, no broken images, no popups, and no cut-off text. Minor: could have a more prominent top-level CTA button.""
+}
+```",1807,113
+p05b1bb20,B03,twin,hidden_price,[],9,True,"Page is well-designed with clear CTAs, pricing information, and no visible technical issues. Minor consideration: the 'Team' plan shows 'Contact us' instead of a price, which is standard for enterprise tiers.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing information, and no visible technical issues. Minor consideration: the 'Team' plan shows 'Contact us' instead of a price, which is standard for enterprise tiers.""
+}
+```",1751,78
+pc9b12812,B03,twin,contradiction,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all elements properly loaded. Minor refinement opportunities exist but no launch-blocking issues detected.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all elements properly loaded. Minor refinement opportunities exist but no launch-blocking issues detected.""
+}
+```",1751,71
+p330c95aa,B03,twin,vague_headline,[],9,True,"Page is well-designed with clear CTAs, visible pricing, no contradictions, descriptive headlines, and no apparent typos or technical issues. Minor spacing could be optimized but nothing blocking launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing, no contradictions, descriptive headlines, and no apparent typos or technical issues. Minor spacing could be optimized but nothing blocking launch.""
+}
+```",1751,72
+p22069e09,B03,twin,typos,[],9,True,"The page is well-designed with clear CTAs, visible pricing, accurate information, and no technical issues detected.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, accurate information, and no technical issues detected.""
+}
+```",1751,54
+p9bc912ad,B03,twin,placeholder_text,[],9,True,"The page is well-designed with clear CTAs, visible pricing, proper contrast, and no apparent typos or broken elements. Minor: the 'Most popular' badge positioning could be slightly more prominent, but this is not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, proper contrast, and no apparent typos or broken elements. Minor: the 'Most popular' badge positioning could be slightly more prominent, but this is not a blocking issue.""
+}
+```",1751,81
+p1642de09,B03,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, visible pricing, proper contrast, and no obvious errors. Minor consideration: the 'Most popular' label on the Team plan could be slightly more prominent, but this is a minor UX suggestion rather than a launch-blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, proper contrast, and no obvious errors. Minor consideration: the 'Most popular' label on the Team plan could be slightly more prominent, but this is a minor UX suggestion rather than a launch-blocking issue.""
+}
+```",1751,89
+ped3fc0e9,B03,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, accurate content, and good contrast. No significant issues detected.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, accurate content, and good contrast. No significant issues detected.""
+}
+```",1751,57
+p95c4bced,B03,twin,blocking_popup,['blocking_popup'],9,True,"A modal popup for 'Free download: the incident response checklist' is overlaying the main content when the page loads, blocking access to the core page content.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A modal popup for 'Free download: the incident response checklist' is overlaying the main content when the page loads, blocking access to the core page content.""
+}
+```",1751,69
+p0ed2fa34,B03,twin,cut_off_text,"['cut_off_text', 'vague_headline']",7,True,The main headline 'Search a week of logs in ----dy-s second' appears to have cut-off text where it should read something like 'Search a week of logs in under a second' based on context.,"```json
+{
+  ""problems"": [""vague_headline"", ""cut_off_text""],
+  ""score"": 7,
+  ""evidence"": ""The main headline 'Search a week of logs in ----dy-s second' appears to have cut-off text where it should read something like 'Search a week of logs in under a second' based on context.""
+}
+```",1807,90
+p70fa2b57,B03,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional presentation. Minor spacing considerations could be optimized but nothing blocks launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and professional presentation. Minor spacing considerations could be optimized but nothing blocks launch.""
+}
+```",1751,65
+p7d9d32d0,B04,clean,none,['contradiction'],8,True,"The Starter plan states '$0/month' but also mentions '$4 fee per label', which contradicts the claim of no monthly fee; additionally, the FAQ states 'Not on Starter, where you pay 5 cents per label' creating further inconsistency about pricing structure.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan states '$0/month' but also mentions '$4 fee per label', which contradicts the claim of no monthly fee; additionally, the FAQ states 'Not on Starter, where you pay 5 cents per label' creating further inconsistency about pricing structure.""
+}
+```",1751,94
+pc8a28a4a,B04,twin,missing_cta,['contradiction'],8,True,"The page states 'No monthly fee on Starter - Pay a small fee per label' but the Starter plan shows '$0/month' with '5¢ fee per label', which contradicts the claim of no monthly fee while having a per-label fee structure.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter - Pay a small fee per label' but the Starter plan shows '$0/month' with '5¢ fee per label', which contradicts the claim of no monthly fee while having a per-label fee structure.""
+}
+```",1807,91
+p2d1aa34d,B04,twin,hidden_price,['hidden_price'],8,True,"The Pro plan pricing is not disclosed - only 'Contact us' is shown, while the Starter plan at $0/month is clearly stated.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Pro plan pricing is not disclosed - only 'Contact us' is shown, while the Starter plan at $0/month is clearly stated.""
+}
+```",1751,66
+pc36ea2bf,B04,twin,contradiction,['contradiction'],8,True,"The Starter plan claims '$0/month' but also states 'No per-label fee' and lists features, which contradicts the later FAQ section stating 'Not on Starter, where you pay 5 cents per label' - these cannot both be true.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan claims '$0/month' but also states 'No per-label fee' and lists features, which contradicts the later FAQ section stating 'Not on Starter, where you pay 5 cents per label' - these cannot both be true.""
+}
+```",1751,90
+p95873658,B04,twin,vague_headline,['contradiction'],8,True,The Starter plan claims '$0/month' but also states 'No monthly fee on Starter: where you pay 5 cents per label' which contradicts the $0 claim and creates confusion about actual costs.,"```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan claims '$0/month' but also states 'No monthly fee on Starter: where you pay 5 cents per label' which contradicts the $0 claim and creates confusion about actual costs.""
+}
+```",1751,80
+pa94fea72,B04,twin,typos,['contradiction'],8,True,"The Starter plan states '$0/month' with 'No monthly fee on Starter' in the FAQ, but also claims 'Pay a small fee per label' in the header and '$4 fee per label' in the plan details, which are contradictory statements about cost.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan states '$0/month' with 'No monthly fee on Starter' in the FAQ, but also claims 'Pay a small fee per label' in the header and '$4 fee per label' in the plan details, which are contradictory statements about cost.""
+}
+```",1751,94
+p5b3a0432,B04,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum placeholder text is visible in the 'Rates side by side' section under the three-step process, which should be replaced with actual content before launch.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text is visible in the 'Rates side by side' section under the three-step process, which should be replaced with actual content before launch.""
+}
+```",1751,69
+p2180db28,B04,twin,low_contrast,['contradiction'],8,True,"The Starter plan claims '$0/month' but also states 'No monthly fee on Starter: where you pay 5 cents per label' and 'Up to 200 labels a month', which contradicts the zero-cost claim since users will pay per label used.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan claims '$0/month' but also states 'No monthly fee on Starter: where you pay 5 cents per label' and 'Up to 200 labels a month', which contradicts the zero-cost claim since users will pay per label used.""
+}
+```",1751,93
+pfb412dd7,B04,twin,broken_image,['contradiction'],8,True,"The Starter plan states '$0/month' with a '$4 fee per label' charge, but also claims 'No monthly fee on Starter' in the FAQ section, creating contradictory messaging about pricing.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan states '$0/month' with a '$4 fee per label' charge, but also claims 'No monthly fee on Starter' in the FAQ section, creating contradictory messaging about pricing.""
+}
+```",1751,79
+pbd9d8082,B04,twin,blocking_popup,['blocking_popup'],8,True,"A modal popup for 'The 2026 shipping rate cheat sheet' appears on page load, blocking the main content and requiring user interaction to dismiss or proceed.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 8,
+  ""evidence"": ""A modal popup for 'The 2026 shipping rate cheat sheet' appears on page load, blocking the main content and requiring user interaction to dismiss or proceed.""
+}
+```",1751,70
+p50a9d296,B04,twin,cut_off_text,['cut_off_text'],9,True,"The main headline 'Print a cheaper shipping label in three clicks' appears to be cut off, with 'three clicks' partially hidden or wrapped awkwardly on the next line.","```json
+{
+  ""problems"": [""cut_off_text""],
+  ""score"": 9,
+  ""evidence"": ""The main headline 'Print a cheaper shipping label in three clicks' appears to be cut off, with 'three clicks' partially hidden or wrapped awkwardly on the next line.""
+}
+```",1751,75
+p05027629,B04,variant,harmless,['contradiction'],8,True,The Starter plan claims '$0/month' but also states 'No monthly fee on Starter: where you pay 5 cents per label' which contradicts the zero cost claim - there is a per-label fee.,"```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The Starter plan claims '$0/month' but also states 'No monthly fee on Starter: where you pay 5 cents per label' which contradicts the zero cost claim - there is a per-label fee.""
+}
+```",1751,81
+p7da21266,B05,clean,none,[],9,True,"Page is well-designed with clear CTAs, pricing, product information, and no technical issues detected. Minor room for improvement in visual hierarchy.","```json
+{""problems"": [], ""score"": 9, ""evidence"": ""Page is well-designed with clear CTAs, pricing, product information, and no technical issues detected. Minor room for improvement in visual hierarchy.""}
+```",1919,52
+pe466db25,B05,twin,missing_cta,[],9,True,"The page is well-designed with clear CTAs (One bottle and Subscribe buttons), transparent pricing ($24 and $20.40), no contradictions, clear headline, no typos, no placeholder text, good contrast, all images loaded, no popups, and no cut-off text. Minor deduction for not being absolutely perfect.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs (One bottle and Subscribe buttons), transparent pricing ($24 and $20.40), no contradictions, clear headline, no typos, no placeholder text, good contrast, all images loaded, no popups, and no cut-off text. Minor deduction for not being absolutely perfect.""
+}
+```",1917,101
+pa381570a,B05,twin,hidden_price,['hidden_price'],8,True,The actual price per bottle is never displayed on the page; only 'Price at checkout' is shown without revealing the cost.,"```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The actual price per bottle is never displayed on the page; only 'Price at checkout' is shown without revealing the cost.""
+}
+```",1919,61
+pdf9402f9,B05,twin,contradiction,[],9,True,"The page is well-designed with clear CTAs, pricing information, product benefits, customer testimonials, and no obvious technical issues. Minor room for improvement in visual hierarchy or messaging clarity, but overall launch-ready.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, product benefits, customer testimonials, and no obvious technical issues. Minor room for improvement in visual hierarchy or messaging clarity, but overall launch-ready.""
+}
+```",1919,75
+p595e01d7,B05,twin,vague_headline,['contradiction'],8,True,"The product description states 'One 32 oz bottle makes 16 smooth, low-acid iced coffees' but the pricing section claims 'Each bottle makes 16 drinks, so a glass costs far less than an iced coffee from a cafe' - these cannot both be true as one specifies iced coffees while the other says generic drin","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The product description states 'One 32 oz bottle makes 16 smooth, low-acid iced coffees' but the pricing section claims 'Each bottle makes 16 drinks, so a glass costs far less than an iced coffee from a cafe' - these cannot both be true as one specifies iced coffees while the other says generic drinks.""
+}
+```",1919,110
+p4d87e542,B05,twin,typos,['typos'],9,True,The headline contains 'secconds' instead of 'seconds' in 'in ten secconds',"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The headline contains 'secconds' instead of 'seconds' in 'in ten secconds'""
+}
+```",1919,58
+p259f9877,B05,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum placeholder text is visible in the customer testimonial section, which should contain real customer feedback before launch.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text is visible in the customer testimonial section, which should contain real customer feedback before launch.""
+}
+```",1919,57
+pd0fb7ebc,B05,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, pricing information, product benefits, and customer testimonials. Minor room for improvement in visual hierarchy or copy refinement, but no critical issues detected.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, product benefits, and customer testimonials. Minor room for improvement in visual hierarchy or copy refinement, but no critical issues detected.""
+}
+```",1919,71
+p823538fa,B05,twin,broken_image,[],9,True,"Page is well-designed with clear CTAs, pricing, product information, and no technical issues detected. Minor consideration: the headline could be slightly more specific about 'cold brew concentrate' upfront, but it's clear from context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing, product information, and no technical issues detected. Minor consideration: the headline could be slightly more specific about 'cold brew concentrate' upfront, but it's clear from context.""
+}
+```",1919,79
+p3ac82f57,B05,twin,blocking_popup,['blocking_popup'],9,True,A popup modal titled 'Wait! Take 10% off your first order' is blocking the main product content when the page loads.,"```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A popup modal titled 'Wait! Take 10% off your first order' is blocking the main product content when the page loads.""
+}
+```",1919,63
+p5f7715df,B05,twin,cut_off_text,['cut_off_text'],9,True,"The main headline 'Cafe-strength cold brew at home, in' appears to be cut off mid-sentence, with the completion of the text not visible.","```json
+{
+  ""problems"": [""cut_off_text""],
+  ""score"": 9,
+  ""evidence"": ""The main headline 'Cafe-strength cold brew at home, in' appears to be cut off mid-sentence, with the completion of the text not visible.""
+}
+```",1919,71
+p1086b1db,B05,variant,harmless,[],9,True,"Page is well-designed with clear CTAs, pricing, product benefits, and customer testimonials. Minor: the subscription pricing could be slightly more prominent in the initial hero section.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing, product benefits, and customer testimonials. Minor: the subscription pricing could be slightly more prominent in the initial hero section.""
+}
+```",1919,67
+pb96036a3,B06,clean,none,[],9,True,"The page is well-designed with clear CTAs, visible pricing, product information, and no technical issues detected. Minor: the 'Two hoodies' bundle could be slightly more prominent in the initial view, but this is a minor UX consideration rather than a launch-blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, product information, and no technical issues detected. Minor: the 'Two hoodies' bundle could be slightly more prominent in the initial view, but this is a minor UX consideration rather than a launch-blocking issue.""
+}
+```",1919,90
+p9f9728ee,B06,twin,missing_cta,[],9,True,"The page is well-designed with clear CTAs (Find my size button, bundle options), visible pricing ($98, $176), strong headline identifying the product, and no technical issues detected.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs (Find my size button, bundle options), visible pricing ($98, $176), strong headline identifying the product, and no technical issues detected.""
+}
+```",1917,70
+p7be62d2d,B06,twin,hidden_price,['hidden_price'],8,True,"The exact prices are not displayed on the page, only placeholder text saying 'Price at checkout' in the bundle selection section.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The exact prices are not displayed on the page, only placeholder text saying 'Price at checkout' in the bundle selection section.""
+}
+```",1919,61
+p7dd2c989,B06,twin,contradiction,[],9,True,"The page is well-designed and functional with clear CTAs, pricing, product description, and no technical issues. Minor room for improvement in visual hierarchy or additional social proof.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed and functional with clear CTAs, pricing, product description, and no technical issues. Minor room for improvement in visual hierarchy or additional social proof.""
+}
+```",1919,66
+p959ea250,B06,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, pricing, product details, and testimonials. All elements load properly with good contrast and no apparent typos or placeholder text.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing, product details, and testimonials. All elements load properly with good contrast and no apparent typos or placeholder text.""
+}
+```",1919,67
+paa3116fe,B06,twin,typos,[],9,True,"The page is well-designed with clear CTAs, visible pricing, product information, and no apparent technical issues. Minor consideration: the two-hoodie bundle shows '$176 for two' which could be marginally clearer, but it's not misleading.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, product information, and no apparent technical issues. Minor consideration: the two-hoodie bundle shows '$176 for two' which could be marginally clearer, but it's not misleading.""
+}
+```",1919,85
+p3c1178c8,B06,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum placeholder text appears in the third feature section under 'Warm, never sweaty' description.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text appears in the third feature section under 'Warm, never sweaty' description.""
+}
+```",1919,57
+pb7a1d6b1,B06,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, visible pricing, good contrast, and no technical issues. Minor: the headline 'One merino hoodie for every flight, hike and long weekend' could be slightly more direct about what the product is, though it's clear from context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, good contrast, and no technical issues. Minor: the headline 'One merino hoodie for every flight, hike and long weekend' could be slightly more direct about what the product is, though it's clear from context.""
+}
+```",1919,92
+p4284a059,B06,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, proper imagery, and no technical issues. Minor spacing or font refinements could push it to 10, but it is ready to launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, proper imagery, and no technical issues. Minor spacing or font refinements could push it to 10, but it is ready to launch.""
+}
+```",1919,73
+p7f33511f,B06,twin,blocking_popup,['blocking_popup'],9,True,"A popup modal for 'Free shipping on your first order' is blocking the main product content when the page loads, preventing users from immediately viewing and interacting with the product.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A popup modal for 'Free shipping on your first order' is blocking the main product content when the page loads, preventing users from immediately viewing and interacting with the product.""
+}
+```",1919,71
+p05e5ceef,B06,twin,cut_off_text,"['cut_off_text', 'vague_headline']",7,True,"The main headline 'One merino hoodie for desert flight hike' appears to be cut off or incomplete, making it unclear what the product actually does or its full value proposition.","```json
+{
+  ""problems"": [""vague_headline"", ""cut_off_text""],
+  ""score"": 7,
+  ""evidence"": ""The main headline 'One merino hoodie for desert flight hike' appears to be cut off or incomplete, making it unclear what the product actually does or its full value proposition.""
+}
+```",1919,81
+p4e64ee27,B06,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, and all content is readable. Minor consideration: the 'Pack lighter on your next trip' section at the bottom could be clearer about what action it prompts.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, and all content is readable. Minor consideration: the 'Pack lighter on your next trip' section at the bottom could be clearer about what action it prompts.""
+}
+```",1919,83
+p994f1ce4,B07,clean,none,[],9,True,"Page is well-designed with clear CTAs, pricing transparency, and no technical issues. Minor room for improvement in messaging specificity.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing transparency, and no technical issues. Minor room for improvement in messaging specificity.""
+}
+```",1919,58
+p73bb5fdf,B07,twin,missing_cta,['missing_cta'],7,True,"There is no prominent sign-up, download, or call-to-action button visible on the page to allow users to actually start using Centwise.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""There is no prominent sign-up, download, or call-to-action button visible on the page to allow users to actually start using Centwise.""
+}
+```",1917,68
+pd52fe1ff,B07,twin,hidden_price,['hidden_price'],8,True,The Plus plan pricing is hidden behind 'See price in app' and 'Try Plus free' without displaying actual costs on the landing page.,"```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Plus plan pricing is hidden behind 'See price in app' and 'Try Plus free' without displaying actual costs on the landing page.""
+}
+```",1919,65
+pdf30bed1,B07,twin,contradiction,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no visible technical issues. Minor consideration: the free tier shows '2 linked accounts' while Plus shows 'Unlimited accounts,' which could be slightly more explicit about upgrade benefits.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no visible technical issues. Minor consideration: the free tier shows '2 linked accounts' while Plus shows 'Unlimited accounts,' which could be slightly more explicit about upgrade benefits.""
+}
+```",1919,83
+pf0219ac8,B07,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no obvious technical issues. Minor consideration: the free plan details could be slightly more prominent compared to the Plus plan.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no obvious technical issues. Minor consideration: the free plan details could be slightly more prominent compared to the Plus plan.""
+}
+```",1919,69
+p5b32e88c,B07,twin,typos,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no technical issues. Minor room for improvement in headline specificity, but overall launch-ready.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no technical issues. Minor room for improvement in headline specificity, but overall launch-ready.""
+}
+```",1919,65
+p112ef1b7,B07,twin,placeholder_text,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is legible. Minor: the free tier description could be slightly more prominent, but this is not a critical issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is legible. Minor: the free tier description could be slightly more prominent, but this is not a critical issue.""
+}
+```",1919,76
+p65b02870,B07,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, visible pricing ($4.99/month for Plus), no contradictions, good contrast, and all elements properly loaded. Minor: The free tier could be more explicitly highlighted as a starting point.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing ($4.99/month for Plus), no contradictions, good contrast, and all elements properly loaded. Minor: The free tier could be more explicitly highlighted as a starting point.""
+}
+```",1919,81
+p8312a2bf,B07,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, good contrast, and no apparent technical issues. Minor consideration: the Plus plan pricing ($4.99/month) could be more prominently featured in the main headline, but this is a very minor point.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, good contrast, and no apparent technical issues. Minor consideration: the Plus plan pricing ($4.99/month) could be more prominently featured in the main headline, but this is a very minor point.""
+}
+```",1919,87
+p5d98e560,B07,twin,blocking_popup,['blocking_popup'],9,True,"A modal popup for the 'Free couples budgeting worksheet' is overlaying the main content when the page loads, blocking the user's view of the headline and key information.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A modal popup for the 'Free couples budgeting worksheet' is overlaying the main content when the page loads, blocking the user's view of the headline and key information.""
+}
+```",1919,72
+p87ce44ac,B07,twin,cut_off_text,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no technical issues. Minor consideration: the headline 'Plan your money' could be slightly more specific, but it's adequately descriptive in context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no technical issues. Minor consideration: the headline 'Plan your money' could be slightly more specific, but it's adequately descriptive in context.""
+}
+```",1919,77
+p64ee5e03,B07,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, pricing information, and no apparent technical issues. Minor: the pricing section could be slightly more prominent, but all essential information is present and accessible.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing information, and no apparent technical issues. Minor: the pricing section could be slightly more prominent, but all essential information is present and accessible.""
+}
+```",1919,71
+p444ebfe1,B08,clean,none,[],9,True,"Page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor: the premium plan price could be more prominent in the initial hero section.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor: the premium plan price could be more prominent in the initial hero section.""
+}
+```",1919,68
+p81231c55,B08,twin,missing_cta,['missing_cta'],7,True,"There is no visible 'Sign Up', 'Get Started', or 'Try Free' button/link to initiate the user journey, despite having pricing and feature information displayed.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""There is no visible 'Sign Up', 'Get Started', or 'Try Free' button/link to initiate the user journey, despite having pricing and feature information displayed.""
+}
+```",1891,74
+p08548dae,B08,twin,hidden_price,['hidden_price'],8,True,The Premium plan pricing is hidden behind 'See price in app' text instead of displaying the actual cost on the landing page.,"```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Premium plan pricing is hidden behind 'See price in app' text instead of displaying the actual cost on the landing page.""
+}
+```",1919,61
+pe619649f,B08,twin,contradiction,[],9,True,"Page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is readable. Minor: could emphasize the free tier more prominently in initial hero section.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is readable. Minor: could emphasize the free tier more prominently in initial hero section.""
+}
+```",1919,70
+p6391dc37,B08,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor consideration: the free tier could be slightly more prominent in the pricing section.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor consideration: the free tier could be slightly more prominent in the pricing section.""
+}
+```",1919,69
+p4ea1e0b1,B08,twin,typos,[],9,True,"The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no apparent technical issues. Minor room for improvement in messaging specificity but overall launch-ready.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no apparent technical issues. Minor room for improvement in messaging specificity but overall launch-ready.""
+}
+```",1919,68
+p5c7018a8,B08,twin,placeholder_text,['placeholder_text'],8,True,Lorem ipsum placeholder text appears in the FAQ section under 'Do I need an account?' which should be replaced with actual content before launch.,"```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text appears in the FAQ section under 'Do I need an account?' which should be replaced with actual content before launch.""
+}
+```",1919,63
+pd9b6e422,B08,twin,low_contrast,[],9,True,"Page is well-designed with clear CTAs, pricing information, and no obvious technical issues. Minor: the headline 'Know exactly when to water every plant you own' could be slightly more explicit about the app nature, but it's clear enough in context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing information, and no obvious technical issues. Minor: the headline 'Know exactly when to water every plant you own' could be slightly more explicit about the app nature, but it's clear enough in context.""
+}
+```",1919,84
+p36419d39,B08,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, and no technical issues. Minor consideration: the headline could more explicitly state it's an app, though 'plant care' context is clear.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, and no technical issues. Minor consideration: the headline could more explicitly state it's an app, though 'plant care' context is clear.""
+}
+```",1919,74
+p6fffc67d,B08,twin,blocking_popup,['blocking_popup'],8,True,"A modal popup for '12 houseplants that are hard to kill' appears on page load, blocking access to the main content until dismissed.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 8,
+  ""evidence"": ""A modal popup for '12 houseplants that are hard to kill' appears on page load, blocking access to the main content until dismissed.""
+}
+```",1919,65
+p938c90a5,B08,twin,cut_off_text,[],9,True,"Page is well-designed with clear CTAs, pricing visible, no contradictions, and all text readable. Minor: the headline 'Know exactly when to water every plant you' appears cut off mid-sentence in the visible portion, though it continues below.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing visible, no contradictions, and all text readable. Minor: the headline 'Know exactly when to water every plant you' appears cut off mid-sentence in the visible portion, though it continues below.""
+}
+```",1919,84
+p2fea4fa2,B08,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, visible pricing, and no obvious technical issues. Minor consideration: the free tier limit of 5 plants could be more prominently displayed in the comparison section, but this is not a critical flaw.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, and no obvious technical issues. Minor consideration: the free tier limit of 5 plants could be more prominently displayed in the comparison section, but this is not a critical flaw.""
+}
+```",1919,83
+p93ee185d,B09,clean,none,[],9,True,"Page is well-designed with clear CTAs, visible pricing ($149 and $249), no contradictions, specific headline about learning to draw, and all elements load properly. Minor: could be more specific about what 'drawing' entails in the main headline.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing ($149 and $249), no contradictions, specific headline about learning to draw, and all elements load properly. Minor: could be more specific about what 'drawing' entails in the main headline.""
+}
+```",1807,86
+p6a8d077a,B09,twin,missing_cta,['missing_cta'],6,True,"While pricing is clearly displayed, there is no visible button or link to actually purchase or enroll in either course option shown on the page.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 6,
+  ""evidence"": ""While pricing is clearly displayed, there is no visible button or link to actually purchase or enroll in either course option shown on the page.""
+}
+```",1863,64
+p4a7f4ba0,B09,twin,hidden_price,['hidden_price'],8,True,"The pricing section states 'Price on request' for both the Course and Course + feedback options, leaving potential customers unable to see actual costs before enrollment.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The pricing section states 'Price on request' for both the Course and Course + feedback options, leaving potential customers unable to see actual costs before enrollment.""
+}
+```",1751,66
+p31293c96,B09,twin,contradiction,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and proper functionality. Minor: the headline could be slightly more specific about drawing skills, but it's clear enough in context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and proper functionality. Minor: the headline could be slightly more specific about drawing skills, but it's clear enough in context.""
+}
+```",1807,74
+p9ce3ede1,B09,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, and good contrast. All elements load properly and the messaging is coherent.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, and good contrast. All elements load properly and the messaging is coherent.""
+}
+```",1807,64
+pbf5e1eaa,B09,twin,typos,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all elements properly loaded. Minor: the headline could be slightly more specific about 'drawing' as the core skill.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all elements properly loaded. Minor: the headline could be slightly more specific about 'drawing' as the core skill.""
+}
+```",1807,77
+pb0be2b5f,B09,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum placeholder text is visible in the 'Light and shadow' section under 'What you will learn', which should be replaced with actual course content descriptions.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text is visible in the 'Light and shadow' section under 'What you will learn', which should be replaced with actual course content descriptions.""
+}
+```",1807,68
+p5d5f4086,B09,twin,low_contrast,[],9,True,"Page is well-designed with clear CTAs, pricing visible, no typos or technical issues detected. Minor: the main headline 'Learn to draw what you see in six weeks' could be slightly more descriptive about it being an online course, but it's adequately clear from context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing visible, no typos or technical issues detected. Minor: the main headline 'Learn to draw what you see in six weeks' could be slightly more descriptive about it being an online course, but it's adequately clear from context.""
+}
+```",1807,91
+p777019f0,B09,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, descriptive headlines, and all elements loading properly. Minor room for improvement in visual hierarchy or copy refinement.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, descriptive headlines, and all elements loading properly. Minor room for improvement in visual hierarchy or copy refinement.""
+}
+```",1807,71
+p83e3eb2d,B09,twin,blocking_popup,['blocking_popup'],9,True,"A modal popup for 'Get 3 free drawing lessons' appears when the page loads, blocking the main content and requiring user interaction to dismiss.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A modal popup for 'Get 3 free drawing lessons' appears when the page loads, blocking the main content and requiring user interaction to dismiss.""
+}
+```",1807,66
+p46feddad,B09,twin,cut_off_text,[],9,True,"The page is well-designed with clear CTAs, visible pricing, and no technical issues. Minor consideration: the headline 'Learn to draw what you see in six weeks' could be slightly more specific about the course format, but it's sufficiently clear.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, and no technical issues. Minor consideration: the headline 'Learn to draw what you see in six weeks' could be slightly more specific about the course format, but it's sufficiently clear.""
+}
+```",1807,84
+pbc99bd5a,B09,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, visible pricing, and no apparent technical issues. Minor consideration: the headline could be slightly more specific about the drawing technique focus, but it effectively communicates the value proposition.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, and no apparent technical issues. Minor consideration: the headline could be slightly more specific about the drawing technique focus, but it effectively communicates the value proposition.""
+}
+```",1807,76
+p1b81c2aa,B10,clean,none,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is readable. Minor: the headline could be marginally more specific about 'home cleaning' but it's sufficiently clear in context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no contradictions, and all text is readable. Minor: the headline could be marginally more specific about 'home cleaning' but it's sufficiently clear in context.""
+}
+```",1891,80
+pea0155d8,B10,twin,missing_cta,['missing_cta'],7,True,"There is no visible button or link to book a cleaning, sign up, or start the service - only a 'Log in' link in the top right, which assumes users already have an account.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""There is no visible button or link to book a cleaning, sign up, or start the service - only a 'Log in' link in the top right, which assumes users already have an account.""
+}
+```",1917,77
+p9e09027c,B10,twin,hidden_price,[],9,True,"The page is well-designed with clear CTAs, visible pricing tiers, no typos, good contrast, and all images loading properly. Minor consideration: pricing shows only service duration and features, not actual dollar amounts, but this appears intentional as quotes are requested per home.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing tiers, no typos, good contrast, and all images loading properly. Minor consideration: pricing shows only service duration and features, not actual dollar amounts, but this appears intentional as quotes are requested per home.""
+}
+```",1919,88
+p58c4e6b4,B10,twin,contradiction,[],9,True,"Page is well-designed with clear CTAs, pricing, and no visible technical issues. Minor: the 'Book now' button in top-right is slightly redundant with multiple 'Book a cleaning' buttons below, but this is not a critical flaw.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing, and no visible technical issues. Minor: the 'Book now' button in top-right is slightly redundant with multiple 'Book a cleaning' buttons below, but this is not a critical flaw.""
+}
+```",1891,86
+p54fca757,B10,twin,vague_headline,[],9,True,"The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor: the testimonial quote could be more specific about which services were used.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, consistent messaging, and no technical issues. Minor: the testimonial quote could be more specific about which services were used.""
+}
+```",1917,69
+pc4374e32,B10,twin,typos,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, and all content properly displayed. Minor: 'secnonds' appears to be a typo in the headline ('A spotles home, booked in 60 secnonds' should be 'seconds'), but upon closer inspection it reads 'seconds' correctly.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, and all content properly displayed. Minor: 'secnonds' appears to be a typo in the headline ('A spotles home, booked in 60 secnonds' should be 'seconds'), but upon closer inspection it reads 'seconds' correctly.""
+}
+```",1891,106
+pc4e970ec,B10,twin,placeholder_text,[],9,True,"The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all images loaded properly. Minor areas for optimization exist but nothing blocking launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, visible pricing, no typos, good contrast, and all images loaded properly. Minor areas for optimization exist but nothing blocking launch.""
+}
+```",1891,68
+p5e4475c0,B10,twin,low_contrast,[],9,True,"Page is well-designed with clear CTAs, visible pricing, no contradictions, and professional copy. Minor consideration: the hero image on the right could be slightly larger for better visual impact, but this does not constitute a critical issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, visible pricing, no contradictions, and professional copy. Minor consideration: the hero image on the right could be slightly larger for better visual impact, but this does not constitute a critical issue.""
+}
+```",1891,79
+p72938c8b,B10,twin,broken_image,[],9,True,"The page is well-designed with clear CTAs, transparent pricing, consistent messaging, and no technical issues. Minor refinement opportunities exist but nothing blocking launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, transparent pricing, consistent messaging, and no technical issues. Minor refinement opportunities exist but nothing blocking launch.""
+}
+```",1891,63
+pee4182c0,B10,twin,blocking_popup,['blocking_popup'],9,True,"A modal popup offering '$20 off your first cleaning' is blocking the main content when the page loads, preventing users from immediately engaging with the landing page.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A modal popup offering '$20 off your first cleaning' is blocking the main content when the page loads, preventing users from immediately engaging with the landing page.""
+}
+```",1891,67
+p53fad4ae,B10,twin,cut_off_text,[],9,True,"The page is well-designed with clear CTAs, transparent pricing, no typos, good contrast, and all images loaded properly. Minor opportunity: the headline could be slightly more explicit about 'home cleaning service' but it's clear enough in context.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, transparent pricing, no typos, good contrast, and all images loaded properly. Minor opportunity: the headline could be slightly more explicit about 'home cleaning service' but it's clear enough in context.""
+}
+```",1917,83
+p6572462c,B10,variant,harmless,[],9,True,"The page is well-designed with clear CTAs, transparent pricing, no typos, and good contrast throughout. All elements load properly and the messaging is consistent.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, transparent pricing, no typos, and good contrast throughout. All elements load properly and the messaging is consistent.""
+}
+```",1891,64

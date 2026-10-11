@@ -1,0 +1,29 @@
+{
+  "task_name": "pagetwins-solo-textview",
+  "source": "pagetwins-solo-textview",
+  "trial_name": "pagetwins-solo-textview-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "qwen/qwen3-235b-a22b-instruct-2507"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.37
+    }
+  },
+  "started_at": "2026-10-07T14:12:48.921940Z",
+  "finished_at": "2026-10-07T16:57:53.485925Z"
+}

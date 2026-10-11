@@ -1,0 +1,831 @@
+page_id,base_id,role,category,problems,score,valid,evidence,raw,input_tokens,output_tokens
+p1efc40b7,B01,clean,none,[],9,True,"The page is well-structured with clear CTAs, pricing information, and value proposition. Minor: the Free plan button text says 'Start free' while Pro and Studio say 'Start free trial', creating slight inconsistency in messaging.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and value proposition. Minor: the Free plan button text says 'Start free' while Pro and Studio say 'Start free trial', creating slight inconsistency in messaging.""
+}
+```",983,81
+pd36dc7d2,B01,twin,missing_cta,['missing_cta'],7,True,"The page lacks a clear sign-up or start button in the main call-to-action area; only a 'See how it works' button and pricing tiers are present, but no button to actually begin using the service.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""The page lacks a clear sign-up or start button in the main call-to-action area; only a 'See how it works' button and pricing tiers are present, but no button to actually begin using the service.""
+}
+```",943,84
+pecc9be34,B01,twin,hidden_price,['hidden_price'],8,True,"The Pro and Studio plans show 'Contact us' instead of actual pricing, leaving potential customers unable to compare costs.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Pro and Studio plans show 'Contact us' instead of actual pricing, leaving potential customers unable to compare costs.""
+}
+```",977,59
+p0d450028,B01,twin,contradiction,[],9,True,"Page is well-structured with clear CTAs, pricing, and product value proposition. Minor: the Pro plan is marked 'Most popular' but lacks a visual indicator of why it's recommended relative to pricing tiers.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, and product value proposition. Minor: the Pro plan is marked 'Most popular' but lacks a visual indicator of why it's recommended relative to pricing tiers.""
+}
+```",981,76
+pc7c159fe,B01,twin,vague_headline,[],9,True,"Page is well-structured with clear CTAs, pricing transparency, and no detected issues from the checklist. Minor consideration: the main headline 'Welcome to the future of getting things done' is slightly vague about the specific product (invoicing), though the subtitle clarifies it immediately.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing transparency, and no detected issues from the checklist. Minor consideration: the main headline 'Welcome to the future of getting things done' is slightly vague about the specific product (invoicing), though the subtitle clarifies it immediately.""
+}
+```",980,90
+pc82582f2,B01,twin,typos,['typos'],9,True,"The main headline contains 'montsh' instead of 'months' in 'Send invoces that get paid in days, not montsh'.","```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains 'montsh' instead of 'months' in 'Send invoces that get paid in days, not montsh'.""
+}
+```",984,66
+p5d4b672c,B01,twin,placeholder_text,['placeholder_text'],8,True,The 'Reminders that sound like you' section contains Lorem ipsum placeholder text instead of actual feature description.,"```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""The 'Reminders that sound like you' section contains Lorem ipsum placeholder text instead of actual feature description.""
+}
+```",991,58
+p2874ab01,B01,twin,low_contrast,[],9,True,"Page is well-structured with clear CTAs, pricing transparency, and no apparent technical issues; minor: the Free plan button text says 'Start free' while Pro/Studio say 'Start free trial' which creates slight inconsistency in messaging.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing transparency, and no apparent technical issues; minor: the Free plan button text says 'Start free' while Pro/Studio say 'Start free trial' which creates slight inconsistency in messaging.""
+}
+```",983,83
+pf08edc68,B01,twin,broken_image,[],9,True,"Page is well-structured with clear CTAs, pricing information, and no apparent design or content issues; only minor consideration is that the image alt text could be more descriptive of the actual visual content.","```json
+{""problems"": [], ""score"": 9, ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and no apparent design or content issues; only minor consideration is that the image alt text could be more descriptive of the actual visual content.""}
+```",983,64
+pd2b936e6,B01,twin,blocking_popup,[],9,True,"Page is well-structured with clear CTAs, pricing, value proposition, and no obvious technical issues. Minor note: the signup dialog that appears on load could be considered slightly intrusive but is dismissible.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, value proposition, and no obvious technical issues. Minor note: the signup dialog that appears on load could be considered slightly intrusive but is dismissible.""
+}
+```",1058,73
+pff5f9f69,B01,twin,cut_off_text,[],9,True,"Page is well-structured with clear CTAs, pricing, and value proposition. Minor: the Free plan pricing could be slightly more prominent, but it is clearly stated.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, and value proposition. Minor: the Free plan pricing could be slightly more prominent, but it is clearly stated.""
+}
+```",983,65
+pc34ef015,B01,variant,harmless,[],9,True,"The page is well-structured with clear CTAs, transparent pricing, and no obvious technical issues. Minor consideration: the Free plan button text says 'Start free' while Pro and Studio say 'Start free trial', creating slight inconsistency in messaging.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, transparent pricing, and no obvious technical issues. Minor consideration: the Free plan button text says 'Start free' while Pro and Studio say 'Start free trial', creating slight inconsistency in messaging.""
+}
+```",983,84
+p9810d579,B02,clean,none,[],9,True,"Page is well-structured with clear CTAs, pricing displayed, no contradictions, and professional copy. Minor: the FAQ section could be more prominent, but all essential elements are present and functional.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing displayed, no contradictions, and professional copy. Minor: the FAQ section could be more prominent, but all essential elements are present and functional.""
+}
+```",936,71
+p12e14132,B02,twin,missing_cta,['missing_cta'],7,True,The page has a 'Watch a 2-minute demo' button and mentions a '14-day free trial' but lacks a clear call-to-action button to actually start the trial or sign up.,"```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""The page has a 'Watch a 2-minute demo' button and mentions a '14-day free trial' but lacks a clear call-to-action button to actually start the trial or sign up.""
+}
+```",895,80
+p4190037a,B02,twin,hidden_price,['hidden_price'],8,True,"The pricing section shows plan names (Starter, Growth) with 'Contact us' instead of displaying actual prices, making it impossible for visitors to understand the cost before starting a trial.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The pricing section shows plan names (Starter, Growth) with 'Contact us' instead of displaying actual prices, making it impossible for visitors to understand the cost before starting a trial.""
+}
+```",928,73
+pcbf9c1cc,B02,twin,contradiction,['contradiction'],8,True,"The page states '30-day free trial' in the hero section but later claims 'Every plan starts with a 14-day free trial' in the FAQ, creating conflicting information about trial length.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states '30-day free trial' in the hero section but later claims 'Every plan starts with a 14-day free trial' in the FAQ, creating conflicting information about trial length.""
+}
+```",936,76
+pe3ba35c3,B02,twin,vague_headline,[],9,True,"The page is well-structured with clear CTAs, transparent pricing, no typos, and good content hierarchy. Minor: the FAQ section could be more prominent, but this is not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, transparent pricing, no typos, and good content hierarchy. Minor: the FAQ section could be more prominent, but this is not a blocking issue.""
+}
+```",930,72
+p363ddf68,B02,twin,typos,['typos'],9,True,"The main headline contains 'Biuld' instead of 'Build' and 'staf rota' instead of 'staff rota', plus 'pubilsh' instead of 'publish' in the subheading.","```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains 'Biuld' instead of 'Build' and 'staf rota' instead of 'staff rota', plus 'pubilsh' instead of 'publish' in the subheading.""
+}
+```",942,86
+pd615770a,B02,twin,placeholder_text,['placeholder_text'],8,True,"The customer testimonial contains placeholder text '{{customer_name}}, {{customer_role}}' that should be replaced with actual customer information before launch.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""The customer testimonial contains placeholder text '{{customer_name}}, {{customer_role}}' that should be replaced with actual customer information before launch.""
+}
+```",936,66
+pf311fec4,B02,twin,low_contrast,[],9,True,"Page is well-designed with clear CTAs, pricing, value propositions, and no detectable issues from the checklist. Minor: could benefit from more specific feature descriptions in the Growth plan section.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing, value propositions, and no detectable issues from the checklist. Minor: could benefit from more specific feature descriptions in the Growth plan section.""
+}
+```",936,72
+p25875516,B02,twin,broken_image,[],9,True,"The page is well-structured with clear CTAs, pricing information, and no apparent typos or technical issues. Minor: the FAQ section could be more prominent to preempt common objections.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and no apparent typos or technical issues. Minor: the FAQ section could be more prominent to preempt common objections.""
+}
+```",936,71
+p7c86f774,B02,twin,blocking_popup,['blocking_popup'],8,True,"A signup dialog box appears on page load, which may obstruct the user's initial view of the landing page content.","```json
+{""problems"": [""blocking_popup""], ""score"": 8, ""evidence"": ""A signup dialog box appears on page load, which may obstruct the user's initial view of the landing page content.""}
+```",1003,51
+p971e3764,B02,twin,cut_off_text,[],9,True,"Page is well-structured with clear CTAs, pricing information, and no apparent errors. Minor deduction for not including specific feature comparisons between plans.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and no apparent errors. Minor deduction for not including specific feature comparisons between plans.""
+}
+```",936,62
+pcc8a3d69,B02,variant,harmless,[],9,True,"Page is well-structured with clear CTAs, pricing information, and no obvious errors. Minor: the copyright year (2026) appears to be in the future, which is unusual but not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and no obvious errors. Minor: the copyright year (2026) appears to be in the future, which is unusual but not a blocking issue.""
+}
+```",936,74
+p61dbc346,B03,clean,none,[],9,True,"Page is well-structured with clear CTAs, pricing information, and value proposition. Minor consideration: the 'Free' plan pricing could be more explicitly highlighted as $0/month in the header, though it is stated in the pricing section.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and value proposition. Minor consideration: the 'Free' plan pricing could be more explicitly highlighted as $0/month in the header, though it is stated in the pricing section.""
+}
+```",993,81
+pfb084bcc,B03,twin,missing_cta,['missing_cta'],7,True,"The page lacks a clear sign-up or start button, only offering a 'Read the docs' button and a 'Log in' link, with no obvious way for new users to begin using Logpine.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""The page lacks a clear sign-up or start button, only offering a 'Read the docs' button and a 'Log in' link, with no obvious way for new users to begin using Logpine.""
+}
+```",951,82
+p05b1bb20,B03,twin,hidden_price,['hidden_price'],8,True,"The pricing section shows plan names and features but omits the actual monthly costs for the Team and Business plans, only stating 'Contact us'.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The pricing section shows plan names and features but omits the actual monthly costs for the Team and Business plans, only stating 'Contact us'.""
+}
+```",985,65
+pc9b12812,B03,twin,contradiction,[],9,True,"Page is well-structured with clear CTAs, pricing information, and value proposition. Minor: the testimonial attribution could be more prominent, but no blocking issues detected.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and value proposition. Minor: the testimonial attribution could be more prominent, but no blocking issues detected.""
+}
+```",993,65
+p330c95aa,B03,twin,vague_headline,[],9,True,"The page is well-structured with clear CTAs, pricing information, and value propositions, though the main headline 'The platform for what's next' could be slightly more specific about the product category.","```json
+{""problems"": [], ""score"": 9, ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and value propositions, though the main headline 'The platform for what's next' could be slightly more specific about the product category.""}
+```",990,65
+p22069e09,B03,twin,typos,['typos'],9,True,The main headline contains a typo: 'Serach' should be 'Search'.,"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains a typo: 'Serach' should be 'Search'.""
+}
+```",998,55
+p9bc912ad,B03,twin,placeholder_text,['placeholder_text'],8,True,The text '{{company_count}}' is visible placeholder template text that should be replaced with an actual number before launch.,"```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""The text '{{company_count}}' is visible placeholder template text that should be replaced with an actual number before launch.""
+}
+```",993,60
+p1642de09,B03,twin,low_contrast,[],9,True,"The page is well-structured with clear CTAs, transparent pricing, and no obvious defects, though the copyright year of 2026 may be a minor oversight.","```json
+{""problems"": [], ""score"": 9, ""evidence"": ""The page is well-structured with clear CTAs, transparent pricing, and no obvious defects, though the copyright year of 2026 may be a minor oversight.""}
+```",993,58
+ped3fc0e9,B03,twin,broken_image,[],9,True,"Page is well-structured with clear CTAs, pricing information, and value proposition. Minor: the FAQ answer about EU storage could be more prominent, but this is not a launch-blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and value proposition. Minor: the FAQ answer about EU storage could be more prominent, but this is not a launch-blocking issue.""
+}
+```",993,71
+p95c4bced,B03,twin,blocking_popup,[],9,True,"Page is well-structured with clear CTAs, pricing information, and no detected issues from the checklist. Minor consideration: the blocking popup dialog for the incident response checklist could slightly impede user experience on first load, though it has a dismiss option.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and no detected issues from the checklist. Minor consideration: the blocking popup dialog for the incident response checklist could slightly impede user experience on first load, though it has a dismiss option.""
+}
+```",1068,83
+p0ed2fa34,B03,twin,cut_off_text,[],9,True,"Page is well-structured with clear CTAs, pricing transparency, and no obvious errors. Minor note: The year in footer is '2026' which may be a typo, but this is not in the critical issues list provided.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing transparency, and no obvious errors. Minor note: The year in footer is '2026' which may be a typo, but this is not in the critical issues list provided.""
+}
+```",993,79
+p70fa2b57,B03,variant,harmless,[],9,True,"Page is well-structured with clear CTAs, pricing transparency, and no apparent technical issues; only minor observation is that the footer copyright year (2026) may be a placeholder but does not impact launch readiness.","```json
+{""problems"": [], ""score"": 9, ""evidence"": ""Page is well-structured with clear CTAs, pricing transparency, and no apparent technical issues; only minor observation is that the footer copyright year (2026) may be a placeholder but does not impact launch readiness.""}
+```",995,67
+p7d9d32d0,B04,clean,none,['contradiction'],8,True,"The page states 'No monthly fee on Starter' in the hero section, but the Starter plan details show '$0/month' which is technically accurate but the phrasing 'No monthly fee on Starter · Pay a small fee per label' in the hero creates potential confusion when comparing to Pro's '$25/month' structure.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter' in the hero section, but the Starter plan details show '$0/month' which is technically accurate but the phrasing 'No monthly fee on Starter · Pay a small fee per label' in the hero creates potential confusion when comparing to Pro's '$25/month' structure.""
+}
+```",946,105
+pc8a28a4a,B04,twin,missing_cta,['missing_cta'],6,True,"There is a 'Compare rates' button but no clear sign-up, start free trial, or purchase call-to-action to actually begin using the service.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 6,
+  ""evidence"": ""There is a 'Compare rates' button but no clear sign-up, start free trial, or purchase call-to-action to actually begin using the service.""
+}
+```",908,70
+p2d1aa34d,B04,twin,hidden_price,['hidden_price'],8,True,The Pro plan pricing is not disclosed - it only says 'Contact us' and 'Contact sales for pricing' without any price range or clarity on costs.,"```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Pro plan pricing is not disclosed - it only says 'Contact us' and 'Contact sales for pricing' without any price range or clarity on costs.""
+}
+```",940,68
+pc36ea2bf,B04,twin,contradiction,['contradiction'],8,True,"The page claims 'No fees of any kind · Never pay anything per label' but then lists the Starter plan with a '5¢ fee per label', which directly contradicts the initial promise.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page claims 'No fees of any kind · Never pay anything per label' but then lists the Starter plan with a '5¢ fee per label', which directly contradicts the initial promise.""
+}
+```",944,76
+p95873658,B04,twin,vague_headline,['contradiction'],8,True,"The page states 'No monthly fee on Starter' in the hero section but the FAQ asks 'Is there a monthly fee?' with answer 'Not on Starter, where you pay 5 cents per label. Pro has a flat monthly fee.' - this creates redundancy but not a true contradiction since both statements are consistent; however, ","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter' in the hero section but the FAQ asks 'Is there a monthly fee?' with answer 'Not on Starter, where you pay 5 cents per label. Pro has a flat monthly fee.' - this creates redundancy but not a true contradiction since both statements are consistent; however, the pricing structure could be clearer that the 5¢ fee IS a cost despite saying 'no monthly fee.'""
+}
+```",944,132
+pa94fea72,B04,twin,typos,['typos'],8,True,The main headline contains 'cheeper' instead of 'cheaper': 'Print a cheeper shiping label in three clicks' (also 'shiping' should be 'shipping').,"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 8,
+  ""evidence"": ""The main headline contains 'cheeper' instead of 'cheaper': 'Print a cheeper shiping label in three clicks' (also 'shiping' should be 'shipping').""
+}
+```",950,76
+p5b3a0432,B04,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum dolor sit amet placeholder text appears in the 'Rates side by side' section under the 'Shipping, minus the spreadsheet' heading.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum dolor sit amet placeholder text appears in the 'Rates side by side' section under the 'Shipping, minus the spreadsheet' heading.""
+}
+```",960,68
+p2180db28,B04,twin,low_contrast,['contradiction'],8,True,"The page states 'No monthly fee on Starter' in the hero section but later shows Pro plan at '$25/month', creating confusion about whether there are any monthly fees at all.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter' in the hero section but later shows Pro plan at '$25/month', creating confusion about whether there are any monthly fees at all.""
+}
+```",946,72
+pfb412dd7,B04,twin,broken_image,['contradiction'],8,True,"The page states 'No monthly fee on Starter' in the hero section but then lists 'Starter $0/month' with '5¢ fee per label' in the pricing section, which is technically accurate but the phrasing in the hero could be clearer about the per-label fee structure.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter' in the hero section but then lists 'Starter $0/month' with '5¢ fee per label' in the pricing section, which is technically accurate but the phrasing in the hero could be clearer about the per-label fee structure.""
+}
+```",946,100
+pbd9d8082,B04,twin,blocking_popup,['hidden_price'],8,True,"The Pro plan price is stated as $25/month, but the Starter plan only shows a per-label fee (5¢) without clarifying if there are any additional costs beyond that, creating slight ambiguity about total pricing structure.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Pro plan price is stated as $25/month, but the Starter plan only shows a per-label fee (5¢) without clarifying if there are any additional costs beyond that, creating slight ambiguity about total pricing structure.""
+}
+```",1025,86
+p50a9d296,B04,twin,cut_off_text,['contradiction'],8,True,"The page states 'No monthly fee on Starter' in the hero section but the pricing table shows 'Pro $25/month' suggesting Pro has a monthly fee, which contradicts the implication that only Starter has no monthly fee when the FAQ clarifies both plans' fee structures.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter' in the hero section but the pricing table shows 'Pro $25/month' suggesting Pro has a monthly fee, which contradicts the implication that only Starter has no monthly fee when the FAQ clarifies both plans' fee structures.""
+}
+```",946,94
+p05027629,B04,variant,harmless,['contradiction'],8,True,"The page states 'No monthly fee on Starter' in the hero section but the Starter plan clearly shows '$0/month' which is not a contradiction, however the Pro plan shows '$25/month' with 'No per-label fee' while Starter has '5¢ fee per label' - this is consistent pricing, not contradictory. Actually, r","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'No monthly fee on Starter' in the hero section but the Starter plan clearly shows '$0/month' which is not a contradiction, however the Pro plan shows '$25/month' with 'No per-label fee' while Starter has '5¢ fee per label' - this is consistent pricing, not contradictory. Actually, re-reading: there is no real contradiction present.""
+}
+```
+
+Wait, let me reconsider. Upon careful review:
+
+```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""No significant problems detected. The page has clear CTAs (multiple 'Create a free account' and 'Start free trial' buttons), pricing is clearly displayed ($0/month Starter with 5¢ per label, $25/month Pro), the headline clearly states the product and benefit, and all information appears complete and consistent.""
+}
+```",946,236
+p7da21266,B05,clean,none,[],9,True,"The page is well-structured with clear CTAs, pricing, product benefits, and social proof. Minor consideration: the footer copyright year is 2026, which may be unintentional, but this is not among the specified problems to check.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing, product benefits, and social proof. Minor consideration: the footer copyright year is 2026, which may be unintentional, but this is not among the specified problems to check.""
+}
+```",949,82
+pe466db25,B05,twin,missing_cta,[],9,True,"The page is well-designed with clear pricing, CTAs, product benefits, and customer proof. The only minor issue is that the main CTA button text is not explicitly shown in the provided markup, though the pricing and purchase options are clearly presented.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear pricing, CTAs, product benefits, and customer proof. The only minor issue is that the main CTA button text is not explicitly shown in the provided markup, though the pricing and purchase options are clearly presented.""
+}
+```",907,82
+pa381570a,B05,twin,hidden_price,['hidden_price'],8,True,The page shows 'Price at checkout' multiple times but never displays actual prices for either the one-time purchase or subscription option.,"```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The page shows 'Price at checkout' multiple times but never displays actual prices for either the one-time purchase or subscription option.""
+}
+```",937,62
+pdf9402f9,B05,twin,contradiction,[],9,True,"The page is well-designed with clear CTAs, pricing, product benefits, and customer social proof. The only minor consideration is that the copyright year (2026) appears to be a future date, which is unusual but likely intentional placeholder content that should be updated at launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing, product benefits, and customer social proof. The only minor consideration is that the copyright year (2026) appears to be a future date, which is unusual but likely intentional placeholder content that should be updated at launch.""
+}
+```",946,88
+p595e01d7,B05,twin,vague_headline,[],9,True,"Page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor: the footer year shows '2026' which may be a placeholder, but this is not critical to launch readiness.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor: the footer year shows '2026' which may be a placeholder, but this is not critical to launch readiness.""
+}
+```",942,77
+p4d87e542,B05,twin,typos,['typos'],9,True,The main headline contains 'secconds' instead of 'seconds' and the subheading has 'smoth' instead of 'smooth'.,"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains 'secconds' instead of 'seconds' and the subheading has 'smoth' instead of 'smooth'.""
+}
+```",953,68
+p259f9877,B05,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum placeholder text appears in the customer testimonial section, which should contain a real customer quote.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text appears in the customer testimonial section, which should contain a real customer quote.""
+}
+```",960,55
+pd0fb7ebc,B05,twin,low_contrast,[],9,True,"Page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor: the footer copyright year (2026) appears to be a placeholder, but this is not prominent enough to block launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor: the footer copyright year (2026) appears to be a placeholder, but this is not prominent enough to block launch.""
+}
+```",949,77
+p823538fa,B05,twin,broken_image,[],9,True,"Page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor consideration: the FAQ section could be more prominently positioned, but this does not prevent launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor consideration: the FAQ section could be more prominently positioned, but this does not prevent launch.""
+}
+```",949,71
+p3ac82f57,B05,twin,blocking_popup,[],9,True,"The page is well-designed with clear CTAs, pricing, product information, and customer social proof. Minor consideration: the popup dialog appears on page load which could be perceived as slightly intrusive, but it has a close button and 'No thanks' option, so it's not severely blocking.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing, product information, and customer social proof. Minor consideration: the popup dialog appears on page load which could be perceived as slightly intrusive, but it has a close button and 'No thanks' option, so it's not severely blocking.""
+}
+```",1021,92
+p5f7715df,B05,twin,cut_off_text,[],9,True,"The page is well-structured with clear pricing, multiple CTAs, product benefits, and social proof. Minor consideration: the footer copyright year is 2026, which may be a placeholder that should be updated to the current year.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear pricing, multiple CTAs, product benefits, and social proof. Minor consideration: the footer copyright year is 2026, which may be a placeholder that should be updated to the current year.""
+}
+```",949,78
+p1086b1db,B05,variant,harmless,[],9,True,"The page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor consideration: the footer copyright year (2026) appears to be a future date that may need verification.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor consideration: the footer copyright year (2026) appears to be a future date that may need verification.""
+}
+```",949,74
+pb96036a3,B06,clean,none,[],9,True,"The page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor: the copyright year (2026) appears to be a placeholder, but this is not a critical launch blocker.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing, product benefits, and customer social proof. Minor: the copyright year (2026) appears to be a placeholder, but this is not a critical launch blocker.""
+}
+```",949,77
+p9f9728ee,B06,twin,missing_cta,['missing_cta'],7,True,The page lacks a prominent 'Add to Cart' or 'Buy Now' button; only a 'Find my size' button exists which appears to be for sizing information rather than purchase completion.,"```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""The page lacks a prominent 'Add to Cart' or 'Buy Now' button; only a 'Find my size' button exists which appears to be for sizing information rather than purchase completion.""
+}
+```",912,77
+p7be62d2d,B06,twin,hidden_price,['hidden_price'],8,True,"The page shows 'Price at checkout' multiple times instead of displaying actual product prices, which prevents customers from knowing costs before committing to purchase.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The page shows 'Price at checkout' multiple times instead of displaying actual product prices, which prevents customers from knowing costs before committing to purchase.""
+}
+```",933,65
+p7dd2c989,B06,twin,contradiction,['contradiction'],8,True,"The page states 'Free returns within 14 days' in one location but 'Free 60-day returns' in the bundle section, creating conflicting return policy information.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'Free returns within 14 days' in one location but 'Free 60-day returns' in the bundle section, creating conflicting return policy information.""
+}
+```",949,71
+p959ea250,B06,twin,vague_headline,[],9,True,"The page is well-structured with clear CTAs, pricing, product benefits, and social proof. Minor improvement: the main headline 'Quality you can feel' is somewhat generic and could more explicitly mention 'merino hoodie,' though the subheading clarifies the product.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing, product benefits, and social proof. Minor improvement: the main headline 'Quality you can feel' is somewhat generic and could more explicitly mention 'merino hoodie,' though the subheading clarifies the product.""
+}
+```",939,89
+paa3116fe,B06,twin,typos,['typos'],9,True,"The main headline contains 'evrey' instead of 'every' and 'pakcs' instead of 'packs', and 'weekned' instead of 'weekend'.","```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains 'evrey' instead of 'every' and 'pakcs' instead of 'packs', and 'weekned' instead of 'weekend'.""
+}
+```",951,75
+p3c1178c8,B06,twin,placeholder_text,['placeholder_text'],8,True,"Lorem ipsum placeholder text appears in the 'Warm, never sweaty' feature description instead of actual product information.","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text appears in the 'Warm, never sweaty' feature description instead of actual product information.""
+}
+```",961,59
+pb7a1d6b1,B06,twin,low_contrast,[],9,True,"Page is well-structured with clear CTAs, pricing, product benefits, and social proof. Minor opportunity: the main headline could be slightly more specific about the merino material upfront, though it's mentioned immediately after.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, product benefits, and social proof. Minor opportunity: the main headline could be slightly more specific about the merino material upfront, though it's mentioned immediately after.""
+}
+```",949,76
+p4284a059,B06,twin,broken_image,[],9,True,"Page is well-structured with clear CTAs, pricing, product benefits, and social proof; minor opportunity to clarify bundle savings calculation.","```json
+{""problems"": [], ""score"": 9, ""evidence"": ""Page is well-structured with clear CTAs, pricing, product benefits, and social proof; minor opportunity to clarify bundle savings calculation.""}
+```",949,51
+p7f33511f,B06,twin,blocking_popup,['blocking_popup'],8,True,"A signup dialog overlay appears when the page loads, which could block user access to main content and interrupt the shopping experience.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 8,
+  ""evidence"": ""A signup dialog overlay appears when the page loads, which could block user access to main content and interrupt the shopping experience.""
+}
+```",1018,59
+p05e5ceef,B06,twin,cut_off_text,[],9,True,"Page is well-structured with clear CTAs, pricing, product benefits, and customer proof. Minor: the FAQ section could be more prominent, and the 'Pack lighter on your next trip' section at the bottom lacks context about what action it prompts.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, product benefits, and customer proof. Minor: the FAQ section could be more prominent, and the 'Pack lighter on your next trip' section at the bottom lacks context about what action it prompts.""
+}
+```",949,84
+p4e64ee27,B06,variant,harmless,[],9,True,"Page is well-constructed with clear pricing, multiple CTAs, and no obvious errors; only minor consideration is the two-hoodie bundle price could be more explicitly highlighted as savings.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-constructed with clear pricing, multiple CTAs, and no obvious errors; only minor consideration is the two-hoodie bundle price could be more explicitly highlighted as savings.""
+}
+```",951,68
+p994f1ce4,B07,clean,none,[],9,True,"Page is well-structured with clear CTAs, transparent pricing, and no apparent issues. Minor consideration: the copyright year is 2026 which may need updating depending on current date.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, transparent pricing, and no apparent issues. Minor consideration: the copyright year is 2026 which may need updating depending on current date.""
+}
+```",877,69
+p73bb5fdf,B07,twin,missing_cta,['missing_cta'],6,True,"The page lacks a clear call-to-action button or link for users to download the app or sign up, only mentioning 'Free to download' as text without a clickable element.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 6,
+  ""evidence"": ""The page lacks a clear call-to-action button or link for users to download the app or sign up, only mentioning 'Free to download' as text without a clickable element.""
+}
+```",827,76
+pd52fe1ff,B07,twin,hidden_price,['hidden_price'],8,True,"The Plus plan pricing is hidden behind 'See price in app' instead of being displayed on the landing page, making it impossible for visitors to make an informed decision before downloading.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Plus plan pricing is hidden behind 'See price in app' instead of being displayed on the landing page, making it impossible for visitors to make an informed decision before downloading.""
+}
+```",872,71
+pdf30bed1,B07,twin,contradiction,[],8,True,"The page is well-structured with clear CTAs, pricing transparency, and no visible technical issues. Minor consideration: the 'Try Plus free' button could be more prominent as a conversion point, but this is not a critical problem.","```json
+{
+  ""problems"": [],
+  ""score"": 8,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing transparency, and no visible technical issues. Minor consideration: the 'Try Plus free' button could be more prominent as a conversion point, but this is not a critical problem.""
+}
+```",870,79
+pf0219ac8,B07,twin,vague_headline,[],9,True,"The page is well-structured with clear CTAs, pricing information, and no obvious errors. Minor consideration: the copyright year (2026) appears to be a placeholder, but this is not prominent enough to be a launch blocker.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and no obvious errors. Minor consideration: the copyright year (2026) appears to be a placeholder, but this is not prominent enough to be a launch blocker.""
+}
+```",873,79
+p5b32e88c,B07,twin,typos,['typos'],9,True,The main headline contains 'togther' which should be 'together'.,"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains 'togther' which should be 'together'.""
+}
+```",879,51
+p112ef1b7,B07,twin,placeholder_text,['placeholder_text'],8,True,The testimonial quote contains placeholder text {{name}} and {{year}} that should be replaced with actual user information before launch.,"```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""The testimonial quote contains placeholder text {{name}} and {{year}} that should be replaced with actual user information before launch.""
+}
+```",874,60
+p65b02870,B07,twin,low_contrast,[],9,True,"The page is well-designed with clear CTAs, pricing transparency, and no major usability issues. Minor consideration: the copyright year (2026) appears to be a future date that should be verified.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-designed with clear CTAs, pricing transparency, and no major usability issues. Minor consideration: the copyright year (2026) appears to be a future date that should be verified.""
+}
+```",877,73
+p8312a2bf,B07,twin,broken_image,[],9,True,"The page is well-structured with clear CTAs, pricing transparency, and no obvious technical issues. Minor room for improvement in conversion optimization details.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing transparency, and no obvious technical issues. Minor room for improvement in conversion optimization details.""
+}
+```",877,60
+p5d98e560,B07,twin,blocking_popup,[],9,True,"The page is well-structured with clear CTAs, pricing information, and no obvious technical issues. Minor deduction for the popup dialog that appears on load, which could be considered slightly blocking, though it has a close button.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and no obvious technical issues. Minor deduction for the popup dialog that appears on load, which could be considered slightly blocking, though it has a close button.""
+}
+```",945,77
+p87ce44ac,B07,twin,cut_off_text,[],9,True,"Page is well-designed with clear CTAs, pricing transparency, and no critical issues detected. Minor consideration: the copyright year (2026) appears to be in the future, which may be a typo, but this is not severe enough to block launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing transparency, and no critical issues detected. Minor consideration: the copyright year (2026) appears to be in the future, which may be a typo, but this is not severe enough to block launch.""
+}
+```",877,84
+p64ee5e03,B07,variant,harmless,[],9,True,"The page is well-structured with clear CTAs, transparent pricing, and no obvious errors. Minor consideration: the copyright year shows 2026 which may be a placeholder, but this is not critical for launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, transparent pricing, and no obvious errors. Minor consideration: the copyright year shows 2026 which may be a placeholder, but this is not critical for launch.""
+}
+```",877,75
+p444ebfe1,B08,clean,none,[],9,True,"Page is well-structured with clear CTAs, pricing information, and no apparent technical issues. Minor consideration: the copyright year is 2026, which is in the future and should be corrected to 2024 or 2025 depending on current date, but this is not among the specified problems to check.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing information, and no apparent technical issues. Minor consideration: the copyright year is 2026, which is in the future and should be corrected to 2024 or 2025 depending on current date, but this is not among the specified problems to check.""
+}
+```",912,97
+p81231c55,B08,twin,missing_cta,['missing_cta'],6,True,"The page lacks any visible button or link to sign up, download, or start using Leafnote, which is critical for conversion on a landing page.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 6,
+  ""evidence"": ""The page lacks any visible button or link to sign up, download, or start using Leafnote, which is critical for conversion on a landing page.""
+}
+```",862,68
+p08548dae,B08,twin,hidden_price,['hidden_price'],8,True,"The Premium plan shows 'See price in app' instead of displaying the actual price on the landing page, which is poor for transparency and conversion optimization.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 8,
+  ""evidence"": ""The Premium plan shows 'See price in app' instead of displaying the actual price on the landing page, which is poor for transparency and conversion optimization.""
+}
+```",910,66
+pe619649f,B08,twin,contradiction,[],9,True,"Page is well-structured with clear CTAs, pricing, and value proposition. Minor: copyright year is 2026 which may be a typo, but this is in the footer and not critical to launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, and value proposition. Minor: copyright year is 2026 which may be a typo, but this is in the footer and not critical to launch.""
+}
+```",909,75
+p6391dc37,B08,twin,vague_headline,[],9,True,"Page is well-structured with clear CTAs, pricing transparency, and no technical issues detected. Minor consideration: the copyright year is 2026 which may need verification depending on current date.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing transparency, and no technical issues detected. Minor consideration: the copyright year is 2026 which may need verification depending on current date.""
+}
+```",907,70
+p4ea1e0b1,B08,twin,typos,['typos'],9,True,The h1 headline contains 'evry' instead of 'every' in 'Know exactly when to water evry plant you onw' (should be 'own').,"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The h1 headline contains 'evry' instead of 'every' in 'Know exactly when to water evry plant you onw' (should be 'own').""
+}
+```",916,74
+p5c7018a8,B08,twin,placeholder_text,['placeholder_text'],8,True,Lorem ipsum placeholder text appears in the FAQ section where a real answer should be provided for 'Do I need an account?',"```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text appears in the FAQ section where a real answer should be provided for 'Do I need an account?'""
+}
+```",931,61
+pd9b6e422,B08,twin,low_contrast,[],9,True,"The page is well-structured with clear CTAs, pricing transparency, and no obvious issues. Minor consideration: the copyright year is 2026 which may need updating depending on current date.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing transparency, and no obvious issues. Minor consideration: the copyright year is 2026 which may need updating depending on current date.""
+}
+```",912,70
+p36419d39,B08,twin,broken_image,[],9,True,"Page is well-designed with clear CTAs, pricing information, and no obvious errors. Minor consideration: the copyright year is 2026, which may be intentional or could be a typo depending on current date.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-designed with clear CTAs, pricing information, and no obvious errors. Minor consideration: the copyright year is 2026, which may be intentional or could be a typo depending on current date.""
+}
+```",912,76
+p6fffc67d,B08,twin,blocking_popup,[],9,True,"The page is well-structured with clear CTAs, pricing information, and no obvious errors, though the signup dialog popup that appears on load could be considered slightly intrusive to the initial user experience.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and no obvious errors, though the signup dialog popup that appears on load could be considered slightly intrusive to the initial user experience.""
+}
+```",986,71
+p938c90a5,B08,twin,cut_off_text,[],9,True,"The page is well-structured with clear CTAs, pricing transparency, and no obvious errors. Minor: the copyright year is 2026 which may be unintentional, but this is not among the specified problems to check.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing transparency, and no obvious errors. Minor: the copyright year is 2026 which may be unintentional, but this is not among the specified problems to check.""
+}
+```",912,79
+p2fea4fa2,B08,variant,harmless,[],9,True,"Page is well-structured with clear CTAs, pricing transparency, and no obvious errors. Minor consideration: the copyright year shows 2026 which may be a typo, but this is in the footer and not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing transparency, and no obvious errors. Minor consideration: the copyright year shows 2026 which may be a typo, but this is in the footer and not a blocking issue.""
+}
+```",912,79
+p93ee185d,B09,clean,none,[],9,True,"The page is well-structured with clear CTAs, pricing, value proposition, and social proof. The only minor consideration is that the main headline could be slightly more specific about drawing skills, but it is clear enough.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing, value proposition, and social proof. The only minor consideration is that the main headline could be slightly more specific about drawing skills, but it is clear enough.""
+}
+```",876,75
+p6a8d077a,B09,twin,missing_cta,['missing_cta'],6,True,"The page has pricing and a 'Watch a free lesson' button, but lacks a clear call-to-action button to purchase either the $149 Course or $249 Course + feedback plan.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 6,
+  ""evidence"": ""The page has pricing and a 'Watch a free lesson' button, but lacks a clear call-to-action button to purchase either the $149 Course or $249 Course + feedback plan.""
+}
+```",837,78
+p4a7f4ba0,B09,twin,hidden_price,['hidden_price'],7,True,"Both pricing tiers display 'Price on request' instead of actual costs, making it impossible for visitors to understand the investment required before enrolling.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 7,
+  ""evidence"": ""Both pricing tiers display 'Price on request' instead of actual costs, making it impossible for visitors to understand the investment required before enrolling.""
+}
+```",872,65
+p31293c96,B09,twin,contradiction,['contradiction'],8,True,"The page states 'All sales final, no refunds' near the top but later says 'Email us within 30 days for a full refund, no questions asked,' which directly contradicts the refund policy.","```json
+{
+  ""problems"": [""contradiction""],
+  ""score"": 8,
+  ""evidence"": ""The page states 'All sales final, no refunds' near the top but later says 'Email us within 30 days for a full refund, no questions asked,' which directly contradicts the refund policy.""
+}
+```",877,80
+p9ce3ede1,B09,twin,vague_headline,[],9,True,"The page is well-structured with clear CTAs, pricing information, and value proposition. Minor note: the copyright year shows 2026 which may be unintentional, but this is not in the provided checklist of issues to evaluate.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and value proposition. Minor note: the copyright year shows 2026 which may be unintentional, but this is not in the provided checklist of issues to evaluate.""
+}
+```",871,82
+pbf5e1eaa,B09,twin,typos,['typos'],7,True,"The main headline contains multiple spelling errors: 'Lern' instead of 'Learn', 'weks' instead of 'weeks', and 'excercises' instead of 'exercises', which undermines credibility before users even see the pricing.","```json
+{
+  ""problems"": [
+    ""typos"",
+    ""typos"",
+    ""typos""
+  ],
+  ""score"": 7,
+  ""evidence"": ""The main headline contains multiple spelling errors: 'Lern' instead of 'Learn', 'weks' instead of 'weeks', and 'excercises' instead of 'exercises', which undermines credibility before users even see the pricing.""
+}
+```",881,108
+pb0be2b5f,B09,twin,placeholder_text,['placeholder_text'],8,True,Lorem ipsum placeholder text appears in the 'Light and shadow' section description instead of actual course content.,"```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""Lorem ipsum placeholder text appears in the 'Light and shadow' section description instead of actual course content.""
+}
+```",894,56
+p5d5f4086,B09,twin,low_contrast,[],9,True,"The page is well-structured with clear CTAs, pricing information, and value proposition. Minor observation: the copyright year is 2026, which may be unintentional, but does not block launch.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and value proposition. Minor observation: the copyright year is 2026, which may be unintentional, but does not block launch.""
+}
+```",876,74
+p777019f0,B09,twin,broken_image,[],9,True,"The page is well-structured with clear CTAs, visible pricing, no contradictions, and professional copy. Minor: the copyright year is 2026 which appears to be a future date, but this is not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, visible pricing, no contradictions, and professional copy. Minor: the copyright year is 2026 which appears to be a future date, but this is not a blocking issue.""
+}
+```",876,79
+p83e3eb2d,B09,twin,blocking_popup,[],9,True,"The page is well-structured with clear CTAs, pricing information, and value proposition. Minor consideration: the popup dialog appears on page load which could be considered slightly blocking, but it includes a dismissal option and is not overly intrusive.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and value proposition. Minor consideration: the popup dialog appears on page load which could be considered slightly blocking, but it includes a dismissal option and is not overly intrusive.""
+}
+```",948,81
+p46feddad,B09,twin,cut_off_text,[],9,True,"Page is well-structured with clear CTAs, pricing, value proposition, and social proof. Only minor consideration: the copyright year is 2026, which is in the future and should be verified as intentional.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, value proposition, and social proof. Only minor consideration: the copyright year is 2026, which is in the future and should be verified as intentional.""
+}
+```",876,75
+pbc99bd5a,B09,variant,harmless,[],9,True,"The page is well-structured with clear CTAs, pricing information, and value proposition. Minor consideration: the 30-day refund policy could be more prominently displayed as it's a strong trust signal.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and value proposition. Minor consideration: the 30-day refund policy could be more prominently displayed as it's a strong trust signal.""
+}
+```",875,74
+p1b81c2aa,B10,clean,none,[],9,True,"Page is well-structured with clear CTAs, pricing, and value propositions. Minor: the FAQ could be more prominent, but overall launch-ready.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, and value propositions. Minor: the FAQ could be more prominent, but overall launch-ready.""
+}
+```",930,63
+pea0155d8,B10,twin,missing_cta,['missing_cta'],7,True,"The page lacks a primary call-to-action button to sign up or book a cleaning service; while 'See what is included' exists, there is no clear 'Book now' or 'Sign up' button to convert visitors into customers.","```json
+{
+  ""problems"": [""missing_cta""],
+  ""score"": 7,
+  ""evidence"": ""The page lacks a primary call-to-action button to sign up or book a cleaning service; while 'See what is included' exists, there is no clear 'Book now' or 'Sign up' button to convert visitors into customers.""
+}
+```",889,88
+p9e09027c,B10,twin,hidden_price,['hidden_price'],7,True,"The pricing section shows three service tiers but never displays actual prices—only 'Request a quote' buttons, which requires users to enter information before seeing costs.","```json
+{
+  ""problems"": [""hidden_price""],
+  ""score"": 7,
+  ""evidence"": ""The pricing section shows three service tiers but never displays actual prices—only 'Request a quote' buttons, which requires users to enter information before seeing costs.""
+}
+```",927,68
+p58c4e6b4,B10,twin,contradiction,[],9,True,"The page is well-structured with clear CTAs, visible pricing, consistent messaging, and no apparent technical issues. Minor consideration: the FAQ section could be slightly more prominent, but this is not a launch-blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, visible pricing, consistent messaging, and no apparent technical issues. Minor consideration: the FAQ section could be slightly more prominent, but this is not a launch-blocking issue.""
+}
+```",929,76
+p54fca757,B10,twin,vague_headline,[],9,True,"Page is well-structured with clear CTAs, pricing, and value propositions. Minor consideration: the main headline 'Experience the difference' is somewhat generic, though the supporting text clearly explains the service.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, and value propositions. Minor consideration: the main headline 'Experience the difference' is somewhat generic, though the supporting text clearly explains the service.""
+}
+```",921,73
+pc4374e32,B10,twin,typos,['typos'],9,True,The main headline contains 'spotles' which should be 'spotless'.,"```json
+{
+  ""problems"": [""typos""],
+  ""score"": 9,
+  ""evidence"": ""The main headline contains 'spotles' which should be 'spotless'.""
+}
+```",932,52
+pc4e970ec,B10,twin,placeholder_text,['placeholder_text'],8,True,"The text 'Trusted by 3,000 homes across {{city}}' contains a template placeholder that should be replaced with the actual city name (Austin).","```json
+{
+  ""problems"": [""placeholder_text""],
+  ""score"": 8,
+  ""evidence"": ""The text 'Trusted by 3,000 homes across {{city}}' contains a template placeholder that should be replaced with the actual city name (Austin).""
+}
+```",932,70
+p5e4475c0,B10,twin,low_contrast,[],9,True,"Page is well-structured with clear CTAs, transparent pricing, and no significant issues detected. Minor: The FAQ could be more prominent, but this is not a blocking problem.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, transparent pricing, and no significant issues detected. Minor: The FAQ could be more prominent, but this is not a blocking problem.""
+}
+```",930,67
+p72938c8b,B10,twin,broken_image,[],9,True,"Page is well-structured with clear CTAs, transparent pricing, and no major issues detected. Minor note: the image alt text could be more descriptive, but the image itself appears to load correctly based on the provided markup.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, transparent pricing, and no major issues detected. Minor note: the image alt text could be more descriptive, but the image itself appears to load correctly based on the provided markup.""
+}
+```",930,77
+pee4182c0,B10,twin,blocking_popup,['blocking_popup'],9,True,"A signup offer dialog appears to open automatically when the page loads, potentially blocking the main content and user experience.","```json
+{
+  ""problems"": [""blocking_popup""],
+  ""score"": 9,
+  ""evidence"": ""A signup offer dialog appears to open automatically when the page loads, potentially blocking the main content and user experience.""
+}
+```",1002,57
+p53fad4ae,B10,twin,cut_off_text,[],9,True,"Page is well-structured with clear CTAs, pricing, and value proposition. Minor: The FAQ section could be more prominent, but this is not a critical issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""Page is well-structured with clear CTAs, pricing, and value proposition. Minor: The FAQ section could be more prominent, but this is not a critical issue.""
+}
+```",930,65
+p6572462c,B10,variant,harmless,[],9,True,"The page is well-structured with clear CTAs, pricing information, and product description. Minor consideration: the FAQ could be more prominent, but this is not a blocking issue.","```json
+{
+  ""problems"": [],
+  ""score"": 9,
+  ""evidence"": ""The page is well-structured with clear CTAs, pricing information, and product description. Minor consideration: the FAQ could be more prominent, but this is not a blocking issue.""
+}
+```",930,67
