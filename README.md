@@ -57,7 +57,7 @@ scored, and items that fail are asked again up to two more times first.
 
 34 runs on Kaggle (version 3 of each task, October 7 to 10, 2026): seven
 vision-capable models on all four tasks and three text-only models on the two
-text tasks.
+text tasks. Write-up: [PageTwins on DEV](https://dev.to/starknight/pagetwins-i-planted-one-defect-on-100-landing-pages-which-ai-graders-noticed-57b0).
 
 ![Kaggle task scores for every model](charts/kaggle_scores.png)
 
